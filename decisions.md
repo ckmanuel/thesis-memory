@@ -27,6 +27,21 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-09-08 — Thesis binaries backed up via force-add (one-off)
+- **Context:** User uploaded thesis draft files (`003_ThesisProposal
+  (4).docx` ~349 KB and `007_CompiledResult (4).xlsx` ~35 KB) and
+  asked to push them to the memory repo for backup.
+- **Decision:** Force-add the binaries with `git add -f`, overriding
+  the default `.gitignore` block on `*.docx` / `*.xlsx`. One-off,
+  acceptable for a single snapshot of important work.
+- **Rationale:** The README explicitly warns that binary pushes bloat
+  git history and slow future clones. For a one-time backup of ~384 KB
+  total, the cost is negligible. The user explicitly asked for backup,
+  and the work is significant (thesis).
+- **Forward guidance:** For repeated thesis revisions, prefer Git LFS
+  or a separate dedicated backup repo. Don't make force-add a habit.
+- **Status:** active
+
 ## 2026-09-08 — Retrieval tools: prune, index, embeddings
 - **Context:** As `chat_history/` grows, finding what was said in past
   sessions becomes a grep problem. Three layers added to address

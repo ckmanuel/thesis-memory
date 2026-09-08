@@ -69,10 +69,12 @@ CI also warns on push when memory files change without a transcript
 update. Doesn't block, but makes the failure visible.
 
 ## Current Focus
-- New Claude mobile-app session started 2026-09-08. User re-pasted the
-  full opening prompt (with literal PAT again — see Open Threads).
-  Repo cloned, existing memory read, session transcript created.
-  Awaiting user's actual task for this session.
+- Thesis backup pushed 2026-09-08. Two files in `thesis/`: proposal
+  draft (`.docx`, ~349 KB) and compiled results (`.xlsx`, ~35 KB).
+  Force-added past `.gitignore`. Project tracked in `projects.md`.
+- Topic, field, institution, supervisor still unknown — capture next.
+- New Claude mobile-app session also started 2026-09-08. Concurrent
+  with this GLM session. Both sessions operating on the same repo.
 
 ## Open Threads
 - `preferences.md` still has unfilled sections: Tooling & Environment,
@@ -82,19 +84,31 @@ update. Doesn't block, but makes the failure visible.
   blocker since we're staying in one repo.
 - **Recurring pattern: PAT pasted in plaintext at session start.**
   Now observed in at least three sessions (claude-app-mobile-9f3a2c,
-  the 2026-09-08 auto-* session, and this 2026-09-08 Claude
-  mobile-app session). The opening prompt template supports `$GH_PAT`
-  env var reference, but the user keeps pasting the literal token
-  instead. Each occurrence is a live credential exposed in chat logs.
-  Told the user this session to rotate the token after use. Consider
-  making the env-var option the only documented path in the README
-  opening prompt, since the plaintext option keeps getting used
-  despite the alternative existing.
+  the 2026-09-08 auto-* session, and this 2026-09-08 Claude mobile-app
+  session). The opening prompt template supports `$GH_PAT` env var
+  reference, but the user keeps pasting the literal token instead.
+  Each occurrence is a live credential exposed in chat logs.
+  Recommend rotation after the session. Consider making the env-var
+  option the only documented path in the README opening prompt, since
+  the plaintext option keeps getting used despite the alternative.
+- **Thesis metadata gap.** We have the files but no context: what
+  field, what institution, what stage (proposal vs. final draft),
+  who the supervisor is, what the timeline is. Capture when user
+  shares.
+- **Concurrent sessions on the same repo.** 2026-09-08 had two
+  sessions running simultaneously (GLM on chat.z.ai + Claude on
+  mobile app). Future sessions should run `sync_before_work.sh`
+  before any memory file edit to avoid rebase conflicts.
 
 ## Recently Completed
 _(Capped at 5 entries. Older items live in `decisions.md` and the
 verbatim transcript at `chat_history/`.)_
 
+- 2026-09-08 — Thesis backup pushed. Two files force-added to
+  `thesis/`: proposal draft (`.docx` ~349 KB) and compiled results
+  (`.xlsx` ~35 KB). Project added to `projects.md`. Decision logged
+  in `decisions.md` with forward guidance on Git LFS for repeated
+  revisions.
 - 2026-09-08 — Fixed `begin_exchange.sh` "Illegal number: 0" bug.
   Root cause: `grep -c` prints "0" and exits 1 on zero matches; the
   `|| echo 0` fallback fired anyway and duplicated the output to
