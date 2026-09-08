@@ -43,19 +43,6 @@ Go to [github.com/settings/tokens](https://github.com/settings/tokens)
 - Click "Generate token"
 - **Copy the token immediately.** You won't see it again.
 
-### 3. (Recommended) Store the PAT in an env var
-
-Don't paste the token into chat prompts. Store it in your shell:
-
-```sh
-echo 'export GH_PAT="github_pat_YOUR_TOKEN_HERE"' >> ~/.bashrc
-# or ~/.zshrc on macOS
-source ~/.bashrc
-```
-
-Now you can reference `$GH_PAT` in any command or prompt without the
-literal token appearing in chat logs, shell history, or git config.
-
 ### 4. Clone the repo and install the pre-commit hook
 
 ```sh
