@@ -34,11 +34,9 @@ Entry template:
   without colliding with old ones.
 - **Decision:** Two file classes in `thesis/`:
   1. **Preedit** — the original uploaded file, preserved unchanged:
-     `003_ThesisProposal_Preedit.docx`, `007_CompiledResult_Preedit.xlsx`.
-     Set once, never modified.
+     `003_ThesisProposal_Preedit.docx`. Set once, never modified.
   2. **Draft_###** — the current working revision:
-     `003_ThesisProposal_Draft_001.docx`,
-     `007_CompiledResult_Draft_001.xlsx`. Three-digit zero-padded
+     `003_ThesisProposal_Draft_001.docx`. Three-digit zero-padded
      counter.
 - **Version bump rule:** when a new revision is pushed, the previous
   `Draft_NNN` is removed and replaced by `Draft_(NNN+1)`. We do NOT
@@ -48,10 +46,18 @@ Entry template:
   - Exception: if the user explicitly asks to keep an old draft,
     preserve it with a date suffix, e.g. `Draft_001_2026-09-15.docx`.
 - **Counter starts at:** 001 (current draft, applied 2026-09-08).
-- **Rationale:** Avoids filename proliferation. Each push has exactly
-  one preedit + one current draft per file. Git history provides the
-  diff trail between drafts. Three-digit padding keeps lexical sort
-  correct up to 999 versions.
+- **Push rule (revised 2026-09-08 after user feedback):** Only push
+  files that have been revised. If a file was not touched in this
+  session (e.g., the xlsx coding sheet when only the docx was
+  edited), do NOT push a Preedit or Draft copy of it. The original
+  is already preserved in git history from the first session's
+  backup push. Adding byte-identical Preedit + Draft copies to the
+  working tree just bloats the repo without adding signal.
+- **Rationale:** Avoids filename proliferation. Each push has
+  exactly one preedit + one current draft per file that was
+  actually revised. Git history provides the diff trail between
+  drafts and preserves untouched files from the initial backup.
+  Three-digit padding keeps lexical sort correct up to 999 versions.
 - **Status:** active.
 
 ## 2026-09-08 — Thesis binaries backed up via force-add (one-off)

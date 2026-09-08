@@ -100,6 +100,9 @@ update. Doesn't block, but makes the failure visible.
 _(Capped at 5 entries. Older items live in `decisions.md` and the
 verbatim transcript at `chat_history/`.)_
 
+- 2026-09-08 — Removed redundant xlsx copies from `thesis/` and
+  `download/`. Push rule tightened: only push files that were
+  actually revised (see `decisions.md`).
 - 2026-09-08 — Renamed thesis files to `_Preedit` / `_Draft_001`
   convention. Versioning scheme logged in `decisions.md`. Updated
   `projects.md` and `context.md`.
