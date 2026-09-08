@@ -69,10 +69,14 @@ CI also warns on push when memory files change without a transcript
 update. Doesn't block, but makes the failure visible.
 
 ## Current Focus
-- Thesis revisions in progress. Current draft: `Draft_001` (8 critique-
-  driven edits applied 2026-09-08). Preedit preserved separately. See
-  `projects.md` for file inventory, `decisions.md` for versioning
-  convention.
+- New session `auto-1788872698-9bc8ca` (Claude on claude.ai, 2026-09-08).
+  Repository loaded from `ckmanuel/thesis-memory`. Pre-commit hook
+  installed. Token stripped from `.git/config`; ephemeral credential
+  helper reads from `$GH_PAT` env var at push time.
+- Thesis revisions still in progress. Current draft: `Draft_001`
+  (8 critique-driven edits applied 2026-09-08). Preedit preserved
+  separately. See `projects.md` for file inventory, `decisions.md`
+  for versioning convention.
 - Awaiting user's next instruction (further edits? push? new task?).
 
 ## Open Threads
@@ -82,8 +86,9 @@ update. Doesn't block, but makes the failure visible.
 - The PAT cannot create new repos (no Administration scope). Not a
   blocker since we're staying in one repo.
 - **Recurring pattern: PAT pasted in plaintext at session start.**
-  Now observed in at least three sessions (claude-app-mobile-9f3a2c,
-  the 2026-09-08 auto-* session, and this 2026-09-08 Claude mobile-app
+  Now observed in at least four sessions (claude-app-mobile-9f3a2c,
+  the first 2026-09-08 auto-* session, the 2026-09-08 Claude mobile-app
+  session, and this 2026-09-08 auto-1788872698-9bc8ca Claude.ai
   session). The opening prompt template supports `$GH_PAT` env var
   reference, but the user keeps pasting the literal token instead.
   Each occurrence is a live credential exposed in chat logs.
@@ -100,6 +105,10 @@ update. Doesn't block, but makes the failure visible.
 _(Capped at 5 entries. Older items live in `decisions.md` and the
 verbatim transcript at `chat_history/`.)_
 
+- 2026-09-08 — Session `auto-1788872698-9bc8ca` opened. Token stripped
+  from `.git/config`; ephemeral credential helper installed (reads
+  from `$GH_PAT` env var). Pre-commit hook reinstalled on fresh clone.
+  Context and Open Threads updated.
 - 2026-09-08 — Restored `007_CompiledResult_Preedit.xlsx` after
   incorrect removal. Push rule in `decisions.md` corrected:
   Preedit (original) is always preserved for every uploaded file;
@@ -113,28 +122,6 @@ verbatim transcript at `chat_history/`.)_
   Edits address stats underpowered vs typology claims, single-coder
   reliability on functional findings, "pro forma hedging" construct
   overreach, and missing expert-abstract comparison corpus.
-- 2026-09-08 — Thesis backup pushed. Two files force-added to
-  `thesis/`: proposal draft (`.docx` ~349 KB) and compiled results
-  (`.xlsx` ~35 KB). Project added to `projects.md`.
-- 2026-09-08 — Fixed `begin_exchange.sh` "Illegal number: 0" bug.
-  Root cause: `grep -c` prints "0" and exits 1 on zero matches; the
-  `|| echo 0` fallback fired anyway and duplicated the output to
-  "0\n0", breaking arithmetic. Fixed with `|| true` + `${EXISTING:-0}`.
-  Verified against a clean fresh-transcript case.
-- 2026-09-08 — Transcript enforcement: pre_commit_transcript_check.py
-  blocks commits when memory files change without transcript update.
-  begin_exchange.sh appends placeholder exchange entry. CI warning
-  tightened. context.md workflow updated to append user message at
-  start of response. install_hooks.sh now calls both scanners.
-  Implemented on both repos.
-- 2026-09-08 — Critique round 4 hardening: prune uses git commit date,
-  embeddings warns on non-conforming transcripts, PATH false-positive
-  regex fixed, update_index uses first user + last assistant, MIT
-  LICENSE added, RETRIEVAL.md added, 16-test suite, CI INDEX.md
-  staleness check, README "Files outside the repo" section.
-- 2026-09-08 — Retrieval tools: prune_chat_history.sh, update_index.py,
-  embeddings.py. Tested on 3 transcripts. INDEX.md generated.
-- 2026-09-08 — Clean-slate fork `ckmanuel/ai-mem2` set up.
 
 ## Blockers
 _None._
