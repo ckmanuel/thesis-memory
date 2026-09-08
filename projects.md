@@ -17,12 +17,22 @@ progresses. When a project is finished, move it to the "Archived" section.
   abstracts, Hyland (1998) taxonomy.
 - **Stack:** Word (.docx) for proposal draft, Excel (.xlsx) for
   compiled coding results. Manual coding via Google Sheets.
-- **Repo / Links:** Files backed up at `thesis/` in this memory repo.
-  Source uploads at `/home/z/my-project/upload/`.
+- **Repo / Links:** Files at `thesis/` in this memory repo.
+  - `003_ThesisProposal_Preedit.docx` — original uploaded version,
+    preserved unchanged.
+  - `003_ThesisProposal_Draft_001.docx` — current revised draft
+    (8 critique-driven edits applied 2026-09-08; see
+    `decisions.md` for versioning convention).
+  - `007_CompiledResult_Preedit.xlsx` — original compiled coding
+    sheet, preserved unchanged.
+  - `007_CompiledResult_Draft_001.xlsx` — current draft (identical
+    to Preedit as of 2026-09-08; establishes baseline for future
+    revisions).
+  - Source uploads at `/home/z/my-project/upload/`.
 - **Author:** Chryz Kean F. Manuel (user). Defense target October 2026.
 - **Notes:**
-  - First backup pushed 2026-09-08: `003_ThesisProposal (4).docx`
-    (~349 KB) and `007_CompiledResult (4).xlsx` (~35 KB).
+  - First backup pushed 2026-09-08. Files renamed 2026-09-08 to
+    `_Preedit` / `_Draft_001` convention (see `decisions.md`).
   - Binaries force-added (`git add -f`) — `.gitignore` blocks `*.docx`
     and `*.xlsx` by default. One-off acceptable; for repeated
     revisions, consider Git LFS or a separate backup repo.

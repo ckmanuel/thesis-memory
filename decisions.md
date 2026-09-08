@@ -27,6 +27,33 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-09-08 — Thesis file versioning convention
+- **Context:** Thesis revisions will accumulate over time. Need a
+  naming convention that distinguishes the original pre-edit version
+  from subsequent draft revisions, and that supports future versions
+  without colliding with old ones.
+- **Decision:** Two file classes in `thesis/`:
+  1. **Preedit** — the original uploaded file, preserved unchanged:
+     `003_ThesisProposal_Preedit.docx`, `007_CompiledResult_Preedit.xlsx`.
+     Set once, never modified.
+  2. **Draft_###** — the current working revision:
+     `003_ThesisProposal_Draft_001.docx`,
+     `007_CompiledResult_Draft_001.xlsx`. Three-digit zero-padded
+     counter.
+- **Version bump rule:** when a new revision is pushed, the previous
+  `Draft_NNN` is removed and replaced by `Draft_(NNN+1)`. We do NOT
+  accumulate `Draft_001.docx`, `Draft_002.docx`, etc. in the same
+  commit — git history serves that role. Only the current draft
+  lives in the working tree.
+  - Exception: if the user explicitly asks to keep an old draft,
+    preserve it with a date suffix, e.g. `Draft_001_2026-09-15.docx`.
+- **Counter starts at:** 001 (current draft, applied 2026-09-08).
+- **Rationale:** Avoids filename proliferation. Each push has exactly
+  one preedit + one current draft per file. Git history provides the
+  diff trail between drafts. Three-digit padding keeps lexical sort
+  correct up to 999 versions.
+- **Status:** active.
+
 ## 2026-09-08 — Thesis binaries backed up via force-add (one-off)
 - **Context:** User uploaded thesis draft files (`003_ThesisProposal
   (4).docx` ~349 KB and `007_CompiledResult (4).xlsx` ~35 KB) and

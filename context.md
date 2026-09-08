@@ -69,12 +69,11 @@ CI also warns on push when memory files change without a transcript
 update. Doesn't block, but makes the failure visible.
 
 ## Current Focus
-- Thesis backup pushed 2026-09-08. Two files in `thesis/`: proposal
-  draft (`.docx`, ~349 KB) and compiled results (`.xlsx`, ~35 KB).
-  Force-added past `.gitignore`. Project tracked in `projects.md`.
-- Topic, field, institution, supervisor still unknown — capture next.
-- New Claude mobile-app session also started 2026-09-08. Concurrent
-  with this GLM session. Both sessions operating on the same repo.
+- Thesis revisions in progress. Current draft: `Draft_001` (8 critique-
+  driven edits applied 2026-09-08). Preedit preserved separately. See
+  `projects.md` for file inventory, `decisions.md` for versioning
+  convention.
+- Awaiting user's next instruction (further edits? push? new task?).
 
 ## Open Threads
 - `preferences.md` still has unfilled sections: Tooling & Environment,
@@ -91,24 +90,26 @@ update. Doesn't block, but makes the failure visible.
   Recommend rotation after the session. Consider making the env-var
   option the only documented path in the README opening prompt, since
   the plaintext option keeps getting used despite the alternative.
-- **Thesis metadata gap.** We have the files but no context: what
-  field, what institution, what stage (proposal vs. final draft),
-  who the supervisor is, what the timeline is. Capture when user
-  shares.
-- **Concurrent sessions on the same repo.** 2026-09-08 had two
-  sessions running simultaneously (GLM on chat.z.ai + Claude on
-  mobile app). Future sessions should run `sync_before_work.sh`
-  before any memory file edit to avoid rebase conflicts.
+- **Recommendations section in thesis may need revisiting.** Once
+  findings were downgraded to exploratory (Draft_001), the
+  discipline-specific revision checklist in Table 6 is built on the
+  typology that was just softened. Flag for user; revise in Draft_002
+  if user requests.
 
 ## Recently Completed
 _(Capped at 5 entries. Older items live in `decisions.md` and the
 verbatim transcript at `chat_history/`.)_
 
+- 2026-09-08 — Renamed thesis files to `_Preedit` / `_Draft_001`
+  convention. Versioning scheme logged in `decisions.md`. Updated
+  `projects.md` and `context.md`.
+- 2026-09-08 — Applied 8 critique-driven edits to thesis docx.
+  Edits address stats underpowered vs typology claims, single-coder
+  reliability on functional findings, "pro forma hedging" construct
+  overreach, and missing expert-abstract comparison corpus.
 - 2026-09-08 — Thesis backup pushed. Two files force-added to
   `thesis/`: proposal draft (`.docx` ~349 KB) and compiled results
-  (`.xlsx` ~35 KB). Project added to `projects.md`. Decision logged
-  in `decisions.md` with forward guidance on Git LFS for repeated
-  revisions.
+  (`.xlsx` ~35 KB). Project added to `projects.md`.
 - 2026-09-08 — Fixed `begin_exchange.sh` "Illegal number: 0" bug.
   Root cause: `grep -c` prints "0" and exits 1 on zero matches; the
   `|| echo 0` fallback fired anyway and duplicated the output to
