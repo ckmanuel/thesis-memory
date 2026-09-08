@@ -10,21 +10,33 @@ progresses. When a project is finished, move it to the "Archived" section.
 - **Started:** 2026-09-08 (first backup pushed this date; thesis work
   predates this entry)
 - **Last touched:** 2026-09-08
-- **Goal:** User's thesis. Draft + supporting data. Specific topic /
-  field / institution not yet captured.
+- **Goal:** BA in English Language Studies thesis at Pampanga State
+  Agricultural University (PSAU). Topic: hedging devices in
+  undergraduate thesis abstracts across Agriculture, Veterinary
+  Medicine, and Biology. Corpus-assisted discourse analysis, 60
+  abstracts, Hyland (1998) taxonomy.
 - **Stack:** Word (.docx) for proposal draft, Excel (.xlsx) for
-  compiled results.
+  compiled coding results. Manual coding via Google Sheets.
 - **Repo / Links:** Files backed up at `thesis/` in this memory repo.
   Source uploads at `/home/z/my-project/upload/`.
+- **Author:** Chryz Kean F. Manuel (user). Defense target October 2026.
 - **Notes:**
   - First backup pushed 2026-09-08: `003_ThesisProposal (4).docx`
     (~349 KB) and `007_CompiledResult (4).xlsx` (~35 KB).
   - Binaries force-added (`git add -f`) — `.gitignore` blocks `*.docx`
     and `*.xlsx` by default. One-off acceptable; for repeated
-    revisions, consider Git LFS or a separate backup repo to avoid
-    bloating git history.
-  - Next: confirm topic, field, institution, supervisor. Capture in
-    `knowledge.md` once known.
+    revisions, consider Git LFS or a separate backup repo.
+  - Key methodological choices: disproportionate stratified systematic
+    sampling (n=20 per discipline, 10/10 for Agriculture split),
+    intra-rater κ = 0.89 (no inter-rater available), Working Test for
+    hedge identification, three-stage coding (read → type → function).
+  - Headline findings: 60 hedges across 60 abstracts, 46.7% zero-hedge
+    rate, "potential" accounts for 38.9% of lexical hedges, VM has
+    lowest density (0.18/100w) and highest zero-hedge rate (65%).
+  - Author coins "pro forma hedging" — lexical acquisition without
+    epistemic function.
+  - Statistical caveat: Kruskal-Wallis p=.049 (borderline), chi-square
+    on zero-hedge distribution p=.13 (not significant).
 
 <!--
 Project entry template:

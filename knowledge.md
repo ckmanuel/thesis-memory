@@ -3,17 +3,28 @@
 Facts the user shares that don't fit elsewhere. Update in place.
 
 ## Domain & Work Context
-- (to be filled)
+- User is Chryz Kean F. Manuel, BA in English Language Studies student
+  at Pampanga State Agricultural University (PSAU), Magalang,
+  Pampanga, Philippines.
+- Thesis defense target: October 2026.
+- Research interests: corpus linguistics, academic writing, L2 English
+  rhetoric, hedging in scientific discourse.
 
 ## Stack & Tools
-- (to be filled)
+- Word + Excel for thesis drafting and data.
+- Google Sheets for manual coding.
+- OCR (Google Drive, Adobe Scan) for converting photographed thesis
+  abstracts to text.
+- Hyland (1998) hedging taxonomy as primary framework.
 
 ## Team & Organization
-- (to be filled)
+- Institution: Pampanga State Agricultural University (PSAU).
+- Department: English, College of Arts and Sciences.
+- Thesis adviser: name not yet captured.
 
 ## Environment
-- Timezone: (to be confirmed)
-- Primary chat platform: (to be confirmed)
+- Timezone: Asia/Manila (inferred from PSAU location).
+- Primary chat platform: chat.z.ai (web).
 
 ## Notes
 - When the user says "remember this," add the fact here (or to
