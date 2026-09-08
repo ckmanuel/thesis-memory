@@ -69,8 +69,10 @@ CI also warns on push when memory files change without a transcript
 update. Doesn't block, but makes the failure visible.
 
 ## Current Focus
-- Transcript enforcement implemented (pre-commit block, CI warning,
-  begin_exchange.sh). Awaiting user's next task.
+- New Claude mobile-app session started 2026-09-08. User re-pasted the
+  full opening prompt (with literal PAT again — see Open Threads).
+  Repo cloned, existing memory read, session transcript created.
+  Awaiting user's actual task for this session.
 
 ## Open Threads
 - `preferences.md` still has unfilled sections: Tooling & Environment,
@@ -79,13 +81,15 @@ update. Doesn't block, but makes the failure visible.
 - The PAT cannot create new repos (no Administration scope). Not a
   blocker since we're staying in one repo.
 - **Recurring pattern: PAT pasted in plaintext at session start.**
-  Now observed in at least two Claude sessions (claude-app-mobile-9f3a2c
-  and the 2026-09-08 auto-* session). The opening prompt template
-  supports `$GH_PAT` env var reference, but the user keeps pasting the
-  literal token instead. Each occurrence is a live credential exposed
-  in chat logs. Keep flagging it and recommending rotation after the
-  session; consider making the env-var option more prominent in the
-  README opening prompt.
+  Now observed in at least three sessions (claude-app-mobile-9f3a2c,
+  the 2026-09-08 auto-* session, and this 2026-09-08 Claude
+  mobile-app session). The opening prompt template supports `$GH_PAT`
+  env var reference, but the user keeps pasting the literal token
+  instead. Each occurrence is a live credential exposed in chat logs.
+  Told the user this session to rotate the token after use. Consider
+  making the env-var option the only documented path in the README
+  opening prompt, since the plaintext option keeps getting used
+  despite the alternative existing.
 
 ## Recently Completed
 _(Capped at 5 entries. Older items live in `decisions.md` and the
