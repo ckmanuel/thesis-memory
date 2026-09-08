@@ -100,9 +100,12 @@ update. Doesn't block, but makes the failure visible.
 _(Capped at 5 entries. Older items live in `decisions.md` and the
 verbatim transcript at `chat_history/`.)_
 
-- 2026-09-08 — Removed redundant xlsx copies from `thesis/` and
-  `download/`. Push rule tightened: only push files that were
-  actually revised (see `decisions.md`).
+- 2026-09-08 — Restored `007_CompiledResult_Preedit.xlsx` after
+  incorrect removal. Push rule in `decisions.md` corrected:
+  Preedit (original) is always preserved for every uploaded file;
+  only Draft copies are created when a file is actually revised.
+- 2026-09-08 — Removed redundant `007_CompiledResult_Draft_001.xlsx`
+  from `thesis/` (byte-identical to Preedit; no revision made).
 - 2026-09-08 — Renamed thesis files to `_Preedit` / `_Draft_001`
   convention. Versioning scheme logged in `decisions.md`. Updated
   `projects.md` and `context.md`.

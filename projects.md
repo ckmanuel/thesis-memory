@@ -23,10 +23,9 @@ progresses. When a project is finished, move it to the "Archived" section.
   - `003_ThesisProposal_Draft_001.docx` — current revised draft
     (8 critique-driven edits applied 2026-09-08; see
     `decisions.md` for versioning convention).
-  - The xlsx (`007_CompiledResult (4).xlsx`) was backed up in the
-    initial session but is not maintained as a Preedit/Draft pair
-    because it has not been revised. Original remains in git history.
-    If revised later, it will re-enter the working tree as
+  - `007_CompiledResult_Preedit.xlsx` — original uploaded version,
+    preserved unchanged. Not yet revised; no Draft copy exists.
+    When revised, will re-enter the working tree as
     `007_CompiledResult_Draft_001.xlsx`.
   - Source uploads at `/home/z/my-project/upload/`.
 - **Author:** Chryz Kean F. Manuel (user). Defense target October 2026.

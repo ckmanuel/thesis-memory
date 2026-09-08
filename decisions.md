@@ -33,11 +33,32 @@ Entry template:
   from subsequent draft revisions, and that supports future versions
   without colliding with old ones.
 - **Decision:** Two file classes in `thesis/`:
-  1. **Preedit** — the original uploaded file, preserved unchanged:
-     `003_ThesisProposal_Preedit.docx`. Set once, never modified.
-  2. **Draft_###** — the current working revision:
-     `003_ThesisProposal_Draft_001.docx`. Three-digit zero-padded
-     counter.
+  1. **Preedit** — the original uploaded file, preserved unchanged.
+     One Preedit per uploaded file (docx, xlsx, etc.). Set once,
+     never modified, never deleted. Even if the file is not revised
+     in a given session, its Preedit remains in the working tree
+     as the canonical reference for the original upload.
+     Current Preedit files:
+     `003_ThesisProposal_Preedit.docx`,
+     `007_CompiledResult_Preedit.xlsx`.
+  2. **Draft_###** — the current working revision of a file that
+     has actually been revised in this session. Three-digit
+     zero-padded counter. Only files that were touched in a
+     session get a Draft copy. Current Draft files:
+     `003_ThesisProposal_Draft_001.docx`.
+- **Push rule (corrected 2026-09-08 after user feedback):**
+  - Every uploaded file gets a Preedit, always. Preedit is never
+    removed, even if the file is never revised.
+  - Only files that were actually revised get a Draft_NNN copy.
+    If a file was not touched in this session (e.g., the xlsx
+    coding sheet when only the docx was edited), do NOT create a
+    Draft copy of it. Adding a byte-identical "Draft_001" alongside
+    the Preedit is the redundant pattern to avoid.
+  - The first backup push in session 1 already preserved the
+    original uploads in git history under their original
+    `(N)`-suffixed filenames (e.g., `007_CompiledResult (4).xlsx`).
+    The Preedit copies in the working tree are the canonical
+    reference, not the git history artifacts.
 - **Version bump rule:** when a new revision is pushed, the previous
   `Draft_NNN` is removed and replaced by `Draft_(NNN+1)`. We do NOT
   accumulate `Draft_001.docx`, `Draft_002.docx`, etc. in the same
@@ -46,18 +67,11 @@ Entry template:
   - Exception: if the user explicitly asks to keep an old draft,
     preserve it with a date suffix, e.g. `Draft_001_2026-09-15.docx`.
 - **Counter starts at:** 001 (current draft, applied 2026-09-08).
-- **Push rule (revised 2026-09-08 after user feedback):** Only push
-  files that have been revised. If a file was not touched in this
-  session (e.g., the xlsx coding sheet when only the docx was
-  edited), do NOT push a Preedit or Draft copy of it. The original
-  is already preserved in git history from the first session's
-  backup push. Adding byte-identical Preedit + Draft copies to the
-  working tree just bloats the repo without adding signal.
 - **Rationale:** Avoids filename proliferation. Each push has
-  exactly one preedit + one current draft per file that was
-  actually revised. Git history provides the diff trail between
-  drafts and preserves untouched files from the initial backup.
-  Three-digit padding keeps lexical sort correct up to 999 versions.
+  exactly one Preedit per uploaded file (always) plus one current
+  Draft per file that was actually revised (when applicable).
+  Git history provides the diff trail between drafts. Three-digit
+  padding keeps lexical sort correct up to 999 versions.
 - **Status:** active.
 
 ## 2026-09-08 — Thesis binaries backed up via force-add (one-off)
