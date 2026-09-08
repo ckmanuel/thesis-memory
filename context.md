@@ -69,9 +69,10 @@ CI also warns on push when memory files change without a transcript
 update. Doesn't block, but makes the failure visible.
 
 ## Current Focus
-- New session `auto-1788872764-186d49` (Claude on claude.ai, 2026-09-08).
-  Repository pulled, in sync. Same state as the immediately prior
-  session (`auto-1788872698-9bc8ca`) — no changes in between.
+- New session `auto-1788876026-5ea42e` (Grok, 2026-09-08).
+  Repository cloned to /tmp/thesis-memory, remote sanitized (token
+  removed from URL, ephemeral credential helper via $GH_PAT), hooks
+  installed. Prior state unchanged.
 - Thesis revisions still in progress. Current draft: `Draft_001`
   (8 critique-driven edits applied 2026-09-08). Preedit preserved
   separately. See `projects.md` for file inventory, `decisions.md`
@@ -85,16 +86,17 @@ update. Doesn't block, but makes the failure visible.
 - The PAT cannot create new repos (no Administration scope). Not a
   blocker since we're staying in one repo.
 - **Recurring pattern: PAT pasted in plaintext at session start.**
-  Now observed in at least five sessions (claude-app-mobile-9f3a2c,
+  Now observed in at least six sessions (claude-app-mobile-9f3a2c,
   the first 2026-09-08 auto-* session, the 2026-09-08 Claude mobile-app
   session, the 2026-09-08 auto-1788872698-9bc8ca Claude.ai session,
-  and this 2026-09-08 auto-1788872764-186d49 Claude.ai session).
-  The opening prompt template supports `$GH_PAT` env var reference,
-  but the user keeps pasting the literal token instead. Each
-  occurrence is a live credential exposed in chat logs. Recommend
-  rotation after the session. Consider making the env-var option
-  the only documented path in the README opening prompt, since the
-  plaintext option keeps getting used despite the alternative.
+  the 2026-09-08 auto-1788872764-186d49 Claude.ai session, and this
+  2026-09-08 auto-1788876026-5ea42e Grok session). The opening prompt
+  template supports `$GH_PAT` env var reference, but the user keeps
+  pasting the literal token instead. Each occurrence is a live
+  credential exposed in chat logs. Recommend rotation after the
+  session. Consider making the env-var option the only documented
+  path in the README opening prompt, since the plaintext option keeps
+  getting used despite the alternative.
 - **Recommendations section in thesis may need revisiting.** Once
   findings were downgraded to exploratory (Draft_001), the
   discipline-specific revision checklist in Table 6 is built on the
@@ -105,6 +107,10 @@ update. Doesn't block, but makes the failure visible.
 _(Capped at 5 entries. Older items live in `decisions.md` and the
 verbatim transcript at `chat_history/`.)_
 
+- 2026-09-08 — Session `auto-1788876026-5ea42e` (Grok) opened.
+  Repo cloned, token stripped from remote URL, credential helper
+  set via $GH_PAT, hooks installed, transcript started. PAT
+  redaction count incremented to six.
 - 2026-09-08 — Session `auto-1788872764-186d49` opened (immediately
   after `auto-1788872698-9bc8ca`; same state, no work in between).
   PAT redaction count incremented to five.
