@@ -9,7 +9,7 @@ progresses. When a project is finished, move it to the "Archived" section.
 - **Status:** active
 - **Started:** 2026-09-08 (first backup pushed this date; thesis work
   predates this entry)
-- **Last touched:** 2026-09-08
+- **Last touched:** 2026-09-10
 - **Goal:** BA in English Language Studies thesis at Pampanga State
   Agricultural University (PSAU). Topic: hedging devices in
   undergraduate thesis abstracts across Agriculture, Veterinary
@@ -20,9 +20,12 @@ progresses. When a project is finished, move it to the "Archived" section.
 - **Repo / Links:** Files at `thesis/` in this memory repo.
   - `003_ThesisProposal_Preedit.docx` — original uploaded version,
     preserved unchanged.
-  - `003_ThesisProposal_Draft_001.docx` — current revised draft
-    (8 critique-driven edits applied 2026-09-08; see
-    `decisions.md` for versioning convention).
+  - `003_ThesisProposal_Draft_001.docx` — previous revised draft
+    (8 critique-driven edits applied 2026-09-08). Kept in working
+    tree per user instruction (do not delete older version).
+  - `003_ThesisProposal_Draft_002.docx` — current revised draft
+    (claim-consistency + Table 6 / Recommendations softening applied
+    2026-09-08; see `decisions.md`).
   - `007_CompiledResult_Preedit.xlsx` — original uploaded version,
     preserved unchanged. Not yet revised; no Draft copy exists.
     When revised, will re-enter the working tree as

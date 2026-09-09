@@ -69,15 +69,13 @@ CI also warns on push when memory files change without a transcript
 update. Doesn't block, but makes the failure visible.
 
 ## Current Focus
-- New session `auto-1788876026-5ea42e` (Grok, 2026-09-08).
-  Repository cloned to /tmp/thesis-memory, remote sanitized (token
-  removed from URL, ephemeral credential helper via $GH_PAT), hooks
-  installed. Prior state unchanged.
-- Thesis revisions still in progress. Current draft: `Draft_001`
-  (8 critique-driven edits applied 2026-09-08). Preedit preserved
-  separately. See `projects.md` for file inventory, `decisions.md`
-  for versioning convention.
-- Awaiting user's next instruction (further edits? push? new task?).
+- Session `auto-1788876026-5ea42e` (Grok) continued 2026-09-10.
+- Thesis: `Draft_002` created and pushed (claim-consistency + Table 6 /
+  Recommendations softening). `Draft_001` retained in working tree
+  per explicit user instruction (do not delete older version).
+  Preedit originals preserved.
+- See `projects.md` for file inventory, `decisions.md` for
+  versioning convention.
 
 ## Open Threads
 - `preferences.md` still has unfilled sections: Tooling & Environment,
@@ -97,16 +95,14 @@ update. Doesn't block, but makes the failure visible.
   session. Consider making the env-var option the only documented
   path in the README opening prompt, since the plaintext option keeps
   getting used despite the alternative.
-- **Recommendations section in thesis may need revisiting.** Once
-  findings were downgraded to exploratory (Draft_001), the
-  discipline-specific revision checklist in Table 6 is built on the
-  typology that was just softened. Flag for user; revise in Draft_002
-  if user requests.
 
 ## Recently Completed
 _(Capped at 5 entries. Older items live in `decisions.md` and the
 verbatim transcript at `chat_history/`.)_
 
+- 2026-09-10 — Pushed `003_ThesisProposal_Draft_002.docx` (claim
+  consistency + Table 6 / Recommendations softening). Draft_001 kept
+  in working tree per user request.
 - 2026-09-08 — Synced preferences.md from ai-mem2 repo. Four edits
   applied; ai-mem2 designated canonical source for preferences.md.
   See `decisions.md`.

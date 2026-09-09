@@ -52,6 +52,26 @@ Entry template:
   canonical source because that's where the user actively edits it.
 - **Status:** active.
 
+## 2026-09-10 — Draft_002 claim consistency + Table 6 softening (keep Draft_001)
+- **Context:** User requested the necessary adjustments for submission
+  readiness (claim consistency, Table 6 / Recommendations alignment
+  with exploratory framing), then authorized push with explicit
+  instruction: do not delete the older version in git.
+- **Decision:** Created and pushed `003_ThesisProposal_Draft_002.docx`
+  with targeted edits only:
+  1. “valid and significant indicator” → “valid indicator”
+  2. Recommendations lead-in softened
+  3. Table 6 intro rewritten as provisional / exploratory guidance
+  4. Table headers: Common Issue → Observed Pattern; Revision Target
+     → Possible Focus
+  5. Cell language softened
+  `Draft_001` retained in the working tree alongside `Draft_002`
+  (overrides the normal “remove previous Draft on push” rule for
+  this instance only, per user instruction).
+- **Rationale:** Keeps exploratory baseline stance consistent.
+  User override on version retention honored.
+- **Status:** active
+
 ## 2026-09-08 — Thesis file versioning convention
 - **Context:** Thesis revisions will accumulate over time. Need a
   naming convention that distinguishes the original pre-edit version
