@@ -23,9 +23,11 @@ progresses. When a project is finished, move it to the "Archived" section.
   - `003_ThesisProposal_Draft_001.docx` — previous revised draft
     (8 critique-driven edits applied 2026-09-08). Kept in working
     tree per user instruction (do not delete older version).
-  - `003_ThesisProposal_Draft_002.docx` — current revised draft
-    (claim-consistency + Table 6 / Recommendations softening applied
-    2026-09-08; see `decisions.md`).
+  - `003_ThesisProposal_Draft_002.docx` — previous revised draft
+    (claim-consistency + Table 6 / Recommendations softening).
+  - `003_ThesisProposal_Draft_003.docx` — current revised draft
+    (writing-voice pass per preferences.md: tighter, more direct
+    prose in Background and Conclusions; applied 2026-09-10).
   - `007_CompiledResult_Preedit.xlsx` — original uploaded version,
     preserved unchanged. Not yet revised; no Draft copy exists.
     When revised, will re-enter the working tree as

@@ -52,6 +52,20 @@ Entry template:
   canonical source because that's where the user actively edits it.
 - **Status:** active.
 
+## 2026-09-10 — Draft_003 writing-voice revision per preferences.md
+- **Context:** User requested: apply preference and revise the thesis
+  accordingly, then push as a new draft.
+- **Decision:** Created and pushed `003_ThesisProposal_Draft_003.docx`.
+  Targeted voice pass on Background of the Study and Conclusions
+  (and a few literature-review transitions): shorter sentences, more
+  active constructions, cut decorative or stacked phrasing, kept
+  meaning and citations intact. Prior drafts (001, 002) retained in
+  working tree.
+- **Rationale:** Align authorial prose with the preferred voice
+  (clear, direct, varied, no AI-polish) while remaining appropriate
+  for a BA thesis.
+- **Status:** active
+
 ## 2026-09-10 — Draft_002 claim consistency + Table 6 softening (keep Draft_001)
 - **Context:** User requested the necessary adjustments for submission
   readiness (claim consistency, Table 6 / Recommendations alignment

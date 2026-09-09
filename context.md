@@ -70,10 +70,9 @@ update. Doesn't block, but makes the failure visible.
 
 ## Current Focus
 - Session `auto-1788876026-5ea42e` (Grok) continued 2026-09-10.
-- Thesis: `Draft_002` created and pushed (claim-consistency + Table 6 /
-  Recommendations softening). `Draft_001` retained in working tree
-  per explicit user instruction (do not delete older version).
-  Preedit originals preserved.
+- Thesis: `Draft_003` created and pushed (writing-voice revision per
+  preferences.md). Draft_001 and Draft_002 retained. Preedit originals
+  preserved.
 - See `projects.md` for file inventory, `decisions.md` for
   versioning convention.
 
@@ -100,6 +99,9 @@ update. Doesn't block, but makes the failure visible.
 _(Capped at 5 entries. Older items live in `decisions.md` and the
 verbatim transcript at `chat_history/`.)_
 
+- 2026-09-10 — Pushed `003_ThesisProposal_Draft_003.docx` (writing-
+  voice pass per preferences.md: tighter, more direct prose in
+  Background and Conclusions). Prior drafts retained.
 - 2026-09-10 — Pushed `003_ThesisProposal_Draft_002.docx` (claim
   consistency + Table 6 / Recommendations softening). Draft_001 kept
   in working tree per user request.
