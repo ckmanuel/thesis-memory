@@ -27,6 +27,31 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-09-08 — Sync preferences.md from ai-mem2 repo
+- **Context:** User maintains preferences.md in two repos:
+  `ckmanuel/ai-mem2` (the canonical source) and `ckmanuel/thesis-memory`
+  (this repo, where it's used for thesis-session context). User made
+  revisions to ai-mem2's preferences.md in three commits:
+  - 309683b — Add "don't be more specific than the question warrants"
+  - 5df3df9 — Broaden to cover constructed content too
+  - 6ff6d63 — Replace with lean updated directive (final form)
+- **Decision:** Mirror ai-mem2 preferences.md in thesis-memory.
+  ai-mem2 is canonical for preferences.md. When the user revises
+  preferences in ai-mem2, sync the changes here.
+- **Changes synced:** Four discrete edits:
+  1. "Clear, common language." → "Use clear, common language."
+  2. "Favor active voice; allow passive..." → "Favor active voice but
+     allow passive..." (semicolon → "but")
+  3. New bullet in "Things to watch" on excessive, unearned
+     specificity (covers both answering questions and writing content)
+  4. New bullet in "What the Assistant Should Avoid" on same theme;
+     reformatted "what's next?" bullet (removed bold lead-in)
+- **Rationale:** User has multiple memory repos (ai-mem2 for general
+  context, thesis-memory for thesis-specific work). preferences.md
+  should be identical across both to avoid drift. ai-mem2 is the
+  canonical source because that's where the user actively edits it.
+- **Status:** active.
+
 ## 2026-09-08 — Thesis file versioning convention
 - **Context:** Thesis revisions will accumulate over time. Need a
   naming convention that distinguishes the original pre-edit version
