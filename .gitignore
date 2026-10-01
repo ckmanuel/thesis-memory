@@ -52,7 +52,7 @@ Thumbs.db
 *.tar.gz
 *.rar
 
-# Deliverables — these live in /home/z/my-project/download/ outside git.
+# Deliverables live outside git (e.g. your workspace download folder).
 # Memory repo holds text-based files only. Force-add with `git add -f`
 # only when a binary truly needs to be version-controlled here.
 *.pdf
