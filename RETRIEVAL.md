@@ -1,138 +1,42 @@
-# Retrieval Tools — Agent Guide
+# Retrieval Tools: Agent Guide
 
-Read this after `context.md` at session start. It tells you (the
-assistant) when and how to use the three retrieval tools mid-session.
+Read this after `context.md`. It covers when to use each tool to find things
+in past sessions. All commands run from the repo root.
 
-## The three tools
+## Which tool, when
 
-1. **`update_index.py`** — generates `chat_history/INDEX.md`. One-line
-   summary per session. Cheap, no deps. Run after each new session.
-2. **`prune_chat_history.sh`** — moves old transcripts to
-   `archive/chat-history-<date>/`. Run when `chat_history/` crosses 50
-   files. Default threshold: 180 days.
-3. **`embeddings.py`** — semantic search across all transcripts. Run
-   when the user asks "what did I say about X?" and you don't remember.
-   Requires optional dep: `pip install -r scripts/requirements.txt`.
+**`./scripts/search.sh <term>`** is the default. It is literal, case-insensitive
+grep over memory files and transcripts, with no dependencies. Output is capped
+and says how many results are hidden, and a zero result says so plainly. Search
+one distinctive word, not a sentence, and try two or three words separately.
+Lessons are listed first. Reach for the tools below only when this isn't enough.
 
-## When to invoke each tool
+**`python3 scripts/update_index.py`** writes `chat_history/INDEX.md`, one line
+per session. Run it after a session's transcript is committed and pushed, or
+when the index is missing or stale. Don't run it while the only change is the
+in-progress session, or the index will point at an uncommitted file. Commit
+and push the result.
 
-### Run `update_index.py` when:
-- A new session just finished (the transcript file was committed).
-- The user asks "regenerate the index" or "update INDEX.md."
-- You notice `INDEX.md` is missing or stale (file count doesn't match).
+**`python3 scripts/embeddings.py search "query" [-k 10]`** does semantic
+search over all transcripts. Use it when the user asks "what did I say about
+X?", references a past decision you can't place, or you're unsure whether
+something was already settled. It needs a one-time
+`pip install -r scripts/requirements.txt`, and `embeddings.py build` before
+the first search. Run `build` at the end of a session or on request, not
+mid-session, since the first run downloads a model. `embeddings.py status`
+shows what isn't indexed yet.
 
-Command:
-```sh
-python3 scripts/update_index.py
-```
+**`./scripts/prune_chat_history.sh [days]`** moves transcripts older than the
+threshold (default 180) to `archive/chat-history-<date>/`. Consider it when
+`chat_history/` passes about 50 files. Confirm with the user first unless they
+asked for it. Commit and push afterward.
 
-Output: prints how many transcripts were indexed, writes to
-`chat_history/INDEX.md`. Commit and push the result.
+## Using search results
 
-### Run `prune_chat_history.sh` when:
-- `chat_history/` has more than 50 transcript files.
-- The user asks to "clean up old transcripts" or "archive old sessions."
-- The user mentions a date threshold ("delete anything older than a year").
-
-Command:
-```sh
-./scripts/prune_chat_history.sh        # default: 180 days
-./scripts/prune_chat_history.sh 365    # custom threshold
-```
-
-Output: prints which files were archived. Transcripts move to
-`archive/chat-history-<today>/`. After running, commit and push.
-
-### Run `embeddings.py search` when:
-- User asks "what did I say about X?" or "did we discuss Y before?"
-- User references a past decision and you want to find the original
-  conversation.
-- You're uncertain whether something was already decided in a prior
-  session.
-
-Command:
-```sh
-python3 scripts/embeddings.py search "your query here"
-python3 scripts/embeddings.py search "token rotation policy" -k 10
-```
-
-Output: top-K matching exchanges with similarity scores, file paths,
-exchange numbers, and trace_ids. Use the file path + exchange number
-to read the full context:
-
-```sh
-sed -n '<start_line>,<end_line>p' <file_path>
-```
-
-Or just open the file and search for "#### Exchange <N>".
-
-### Run `embeddings.py build` when:
-- First time setting up embeddings on this machine.
-- New transcripts have been added since the last build.
-- `embeddings.py status` shows transcripts as "not yet indexed."
-
-Command:
-```sh
-python3 scripts/embeddings.py build
-python3 scripts/embeddings.py status    # check first
-```
-
-## How to use search results
-
-When `embeddings.py search` returns results:
-
-1. **Read the top match in full.** The preview is 240 chars. Open the
-   file and read the whole exchange for context.
-2. **Cite the source.** When you tell the user what was said, include
-   the trace_id or exchange number so they can verify:
-   > "In session `web-dbcfad74` (2026-09-08), exchange 19, you said
-   > that rotation is damage control and env var is prevention."
-3. **Don't trust the similarity score blindly.** A 0.7 match might
-   be a tangent. Read the actual exchange before quoting it.
-4. **If no good matches, say so.** Don't fabricate. If the user asks
-   "did I ever mention X?" and search returns nothing above 0.5,
-   tell them you couldn't find it.
-
-## When NOT to use these tools
-
-- **Don't run `embeddings.py build` mid-session unless necessary.** It
-  takes time on first run (downloads ~80MB model). Run it at the end
-  of a session or when the user explicitly asks.
-- **Don't run `prune_chat_history.sh` without confirmation.** It
-  moves files, which is reversible but annoying. Confirm with the
-  user first if they didn't explicitly ask.
-- **Don't run `update_index.py` if the only change is the current
-  in-progress session.** Wait until the session transcript is committed
-  and pushed. Otherwise the index will reference an uncommitted file.
-
-## Failure modes
-
-- **`embeddings.py build` fails with "required packages not installed."**
-  Run `pip install -r scripts/requirements.txt` once on this machine.
-  The model downloads to `~/.cache/torch/sentence_transformers/`.
-
-- **`embeddings.py search` returns zero results.** Either the DB is
-  empty (run `build` first) or the query is too specific. Try broader
-  terms.
-
-- **`update_index.py` returns "no transcripts found."** Either
-  `chat_history/` is empty (new repo) or all files match the exclusion
-  list (README.md, INDEX.md). Normal for a fresh fork.
-
-- **`prune_chat_history.sh` returns "no transcripts older than N days."**
-  Either nothing is old enough yet, or the script can't parse commit
-  dates (rare — falls back to file mtime).
-
-## Opening prompt addition
-
-If you're a future assistant reading this at session start, add this
-line to your context after reading `context.md`:
-
-```
-I have read RETRIEVAL.md. I will use embeddings.py search when the
-user asks about past conversations, update_index.py after each new
-session, and prune_chat_history.sh when chat_history/ crosses 50 files.
-```
-
-This makes the convention explicit. The user can grep the transcript
-to verify you actually read it.
+- Open the matched file and read the whole exchange. The preview is only 240
+  characters.
+- A similarity score isn't proof. A 0.7 match can be a tangent. Read it
+  before quoting it.
+- Cite the trace_id or exchange number so the user can verify.
+- If nothing scores above about 0.5, say you couldn't find it. Don't
+  fabricate.

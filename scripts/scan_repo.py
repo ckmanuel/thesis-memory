@@ -70,6 +70,9 @@ def get_tracked_files():
         # describe secrets, not actual secrets).
         if path in ("scripts/pre_commit_scan.py", "scripts/scan_repo.py"):
             continue
+        # Test fixtures hold deliberately fake secrets to exercise the scanner.
+        if path.startswith("tests/"):
+            continue
         try:
             with open(path, "rb") as f:
                 chunk = f.read(1024)

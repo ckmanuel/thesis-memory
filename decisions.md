@@ -27,6 +27,30 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-01: Zero-dependency search ahead of embeddings
+- **Decision:** `scripts/search.sh` is the default retrieval tool: literal,
+  case-insensitive, capped, lessons first, and it states how many results
+  are hidden and says plainly when there are none.
+- **Why:** The embeddings tool needs torch and a model download, which
+  sandboxed web agents often can't run. A search that fails silently is
+  worse than none, so a zero result and a truncated result are both made
+  explicit. Matching is literal because the caller is usually an agent
+  passing free text. Borrowed from create-ai-memory's search design.
+- **Rejected:** Fuzzy matching and regex (wrong answers on free text).
+  Making embeddings the default.
+
+## 2026-10-01: lessons.md, separate from decisions
+- **Decision:** Mistakes and their fixes live in `lessons.md`, one entry each
+  with a "Doesn't apply when" line. Lessons are never archived.
+- **Why:** A decision records a choice. A lesson records a failure and its
+  fix, and it is what you need months later when the same problem returns.
+  Archiving by age would delete exactly those. The "Doesn't apply when" line
+  keeps lessons from hardening into rigid rules. Pattern taken from gitmem
+  and create-ai-memory.
+- **Rejected:** Folding lessons into `decisions.md`, where they'd be archived
+  with it.
+
+
 ## 2026-09-08 — Sync preferences.md from ai-mem2 repo
 - **Context:** User maintains preferences.md in two repos:
   `ckmanuel/ai-mem2` (the canonical source) and `ckmanuel/thesis-memory`

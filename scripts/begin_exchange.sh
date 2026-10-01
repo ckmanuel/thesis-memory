@@ -91,7 +91,7 @@ if [ -z "$USER_MSG" ]; then
 fi
 
 # Indent user message as a blockquote (prefix each line with "> ").
-INDENTED_USER_MSG=$(echo "$USER_MSG" | sed 's/^/> /')
+INDENTED_USER_MSG=$(printf '%s\n' "$USER_MSG" | sed 's/^/> /')
 
 # Append the exchange entry.
 cat >> "$TRANSCRIPT" <<EOF

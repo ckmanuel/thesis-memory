@@ -44,7 +44,6 @@ if [ -z "$TRANSCRIPTS" ]; then
     exit 0
 fi
 
-PRUNED=0
 echo "Checking transcripts older than $DAYS days (by commit date)..."
 echo "Archive destination: $ARCHIVE_DIR"
 echo ""
@@ -82,7 +81,6 @@ echo "$TRANSCRIPTS" | while IFS= read -r file; do
             mv "$file" "$dest"
         fi
         echo "  archived: $file -> $dest (last commit: $commit_date)"
-        PRUNED=$((PRUNED + 1))
     fi
 done
 

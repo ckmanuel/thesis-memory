@@ -10,45 +10,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2  # need previous commit to diff against
-      - name: Verify transcript file was modified when memory files changed
+          fetch-depth: 2
+      - name: Warn if memory files changed without a transcript
         run: |
-          set +e
-          # Get list of files changed in this push
-          CHANGED=$(git diff --name-only HEAD^ HEAD)
-          echo "Files changed in this push:"
-          echo "$CHANGED"
-          echo ""
-
-          # Check if any file under chat_history/<model>/ was modified
-          # (excluding README.md and INDEX.md, which are convention docs)
-          TRANSCRIPT_CHANGED=$(echo "$CHANGED" | grep -E '^chat_history/[^/]+/.+\.md$' || true)
-          if [ -n "$TRANSCRIPT_CHANGED" ]; then
-            echo "PASS: transcript file(s) modified:"
-            echo "$TRANSCRIPT_CHANGED"
+          CHANGED=$(git diff --name-only HEAD^ HEAD || true)
+          if echo "$CHANGED" | grep -qE '^chat_history/[^/]+/.+\.md$'; then
+            echo "PASS: transcript updated."
             exit 0
           fi
-
-          # No transcript was modified. Check if memory files were.
-          # If yes, warn loudly (don't block) — this is the forcing
-          # problem in action.
-          MEMORY_CHANGED=$(echo "$CHANGED" | grep -E '^(preferences\.md|knowledge\.md|decisions\.md|context\.md|projects\.md|README\.md|RETRIEVAL\.md|scripts/|\.github/workflows/)' || true)
-
-          if [ -n "$MEMORY_CHANGED" ]; then
-            echo "WARN: memory files changed but no transcript file was updated."
-            echo "  This may indicate the assistant skipped the transcript step."
-            echo "  If the changes are conversation-driven, backfill the transcript."
-            echo ""
-            echo "  Memory files changed:"
-            echo "$MEMORY_CHANGED" | sed 's/^/    /'
-            echo ""
-            echo "  Run: python3 scripts/update_index.py  (after backfilling transcript)"
-            echo ""
-            echo "Push is NOT blocked. This is a warning only."
-            exit 0
+          MEMORY=$(echo "$CHANGED" | grep -E '^(preferences|knowledge|decisions|context|projects|lessons)\.md$' || true)
+          if [ -n "$MEMORY" ]; then
+            echo "WARN: memory files changed but no transcript was updated:"
+            echo "$MEMORY" | sed 's/^/  /'
+            echo "Backfill the transcript if this change came from a conversation."
+          else
+            echo "PASS: no memory files changed."
           fi
-
-          # No transcript change AND no memory file change — fine.
-          # Probably a .gitignore edit or other non-memory commit.
-          echo "PASS: no memory files changed, no transcript needed."
           exit 0

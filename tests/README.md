@@ -1,4 +1,7 @@
-# Tests for pre_commit_scan.py
+# Tests
+
+`test_pre_commit_scan.py` covers the secret scanner. `test_search.py` covers
+`scripts/search.sh`.
 
 Run with:
 
@@ -10,6 +13,7 @@ Or without pytest:
 
 ```sh
 python3 tests/test_pre_commit_scan.py
+python3 tests/test_search.py
 ```
 
 ## Fixtures
