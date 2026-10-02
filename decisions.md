@@ -27,6 +27,38 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-02 — Apply BAELS table format per Thesis Companion p.25
+- **Context:** User uploaded `001_ThesisCompanion.pdf` (the BAELS
+  Thesis Companion formatting guide by Andrea Mae S. Baltazar) and
+  asked to apply appropriate formatting to Draft_011 per the guide.
+  Inspection found all other formatting (page setup, margins, fonts,
+  heading hierarchy, pagination, double-spacing, section breaks)
+  already correct. Only the table format was wrong: all 14 tables
+  used `TableGrid` style (¼pt borders everywhere).
+- **Decision:** Apply BAELS-prescribed table format to all 14 tables:
+  - Top border: 2¼pt (sz=18 in 1/8 pt units)
+  - Bottom border: 2¼pt
+  - Header divider (inside, below first row): ¼pt
+  - No vertical borders (left, right, insideV)
+  - No other horizontal borders (insideH)
+  Per Thesis Companion p.25: "The top and bottom border lines of the
+  table have 2 ¼ pts. The only inside line found at the header part
+  is ¼ pt."
+- **Saved as:** `003_ThesisProposal_Draft_012.docx` (new file, per
+  user's prior instruction not to overwrite old versions).
+- **What was NOT touched:** Title page "A Thesis" text — the
+  companion guide p.14 shows "A Thesis [Proposal]" with a side note
+  that "Proposal" should be removed at final defense. The brackets
+  are ambiguous (could be instructional or could be literal text).
+  User is at proposal stage (defense Oct 2026 per projects.md), so
+  strictly it may need "A Thesis Proposal" — but this is content,
+  not pure formatting, and the spec is ambiguous. Flagged in main
+  reply; not changed unilaterally.
+- **Companion guide preservation:** `001_ThesisCompanion.pdf` copied
+  to `thesis/` directory and committed to repo. Future sessions now
+  have it without needing re-upload.
+- **Status:** active.
+
 ## 2026-10-02: Draft_007, narrative rewrite from Draft_005
 - **Context:** User asked for a full rewrite applying preferences.md, keeping only the title, research questions and corpus verbatim, with redundancies fixed, as a new draft based on Draft_005.
 - **Decision:** Draft_007 keeps verbatim the title page, RQ1 to RQ4, and the whole Research Corpus section (text, Table 1, inclusion, exclusion, ethics). Everything from Introduction to Recommendations is rewritten. Data tables, references, appendices and the coded corpus are untouched. Sampling detail now lives only under Research Corpus, and the coding stages only under Research Framework.
