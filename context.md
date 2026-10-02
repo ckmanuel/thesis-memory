@@ -107,11 +107,8 @@ copies already made.
 - The PAT cannot create new repos (no Administration scope). Not a
   blocker since we're staying in one repo.
 - **Recurring pattern: PAT pasted in plaintext at session start.**
-  Now observed in at least six sessions (claude-app-mobile-9f3a2c,
-  the first 2026-09-08 auto-* session, the 2026-09-08 Claude mobile-app
-  session, the 2026-09-08 auto-1788872698-9bc8ca Claude.ai session,
-  the 2026-09-08 auto-1788872764-186d49 Claude.ai session, and this
-  2026-09-08 auto-1788876026-5ea42e Grok session). The opening prompt
+  Now observed in at least seven sessions (prior six plus this
+  2026-10-02 auto-1790903296-02e608 Grok session). The opening prompt
   template supports `$GH_PAT` env var reference, but the user keeps
   pasting the literal token instead. Each occurrence is a live
   credential exposed in chat logs. Recommend rotation after the
@@ -123,6 +120,9 @@ copies already made.
 _(Capped at 5 entries. Older items live in `decisions.md` and the
 verbatim transcript at `chat_history/`.)_
 
+- 2026-10-02 — Session `auto-1790903296-02e608` (Grok) opened.
+  Repo cloned, token stripped from remote URL, hooks installed,
+  transcript started. PAT redaction count incremented to seven.
 - 2026-09-10 — Pushed `003_ThesisProposal_Draft_003.docx` (writing-
   voice pass per preferences.md: tighter, more direct prose in
   Background and Conclusions). Prior drafts retained.
@@ -136,17 +136,6 @@ verbatim transcript at `chat_history/`.)_
   Repo cloned, token stripped from remote URL, credential helper
   set via $GH_PAT, hooks installed, transcript started. PAT
   redaction count incremented to six.
-- 2026-09-08 — Session `auto-1788872764-186d49` opened (immediately
-  after `auto-1788872698-9bc8ca`; same state, no work in between).
-  PAT redaction count incremented to five.
-- 2026-09-08 — Session `auto-1788872698-9bc8ca` opened. Token stripped
-  from `.git/config`; ephemeral credential helper installed (reads
-  from `$GH_PAT` env var). Pre-commit hook reinstalled on fresh clone.
-  Context and Open Threads updated.
-- 2026-09-08 — Restored `007_CompiledResult_Preedit.xlsx` after
-  incorrect removal. Push rule in `decisions.md` corrected:
-  Preedit (original) is always preserved for every uploaded file;
-  only Draft copies are created when a file is actually revised.
 
 ## Blockers
 _None._
