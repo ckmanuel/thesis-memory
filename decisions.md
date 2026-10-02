@@ -273,3 +273,9 @@ Entry template:
   - Body references to “Appendix A” for decision rules remain valid (now point at the merged codebook).
 - **Rationale:** Removes redundancy, keeps the operational codebook as the single source of truth, applies voice preference consistently to the methodological appendices.
 - **Status:** active
+
+
+## 2026-10-02 — Draft_009 appendix merge reverted (format restore)
+- **Context:** Appendix A+C merge + voice rewrite destroyed Georgia formatting, centered titles, and codebook tables. User flagged the result as butchered.
+- **Decision:** Draft_009 reset to Draft_008 content (accuracy + tense fixes preserved; original appendix formatting restored). Physical merge of A+C deferred until it can be done without stripping styles/tables.
+- **Status:** active
