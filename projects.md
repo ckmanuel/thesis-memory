@@ -28,11 +28,17 @@ progresses. When a project is finished, move it to the "Archived" section.
   - `003_ThesisProposal_Draft_003.docx` — previous revised draft
     (writing-voice pass per preferences.md: tighter, more direct
     prose in Background and Conclusions; applied 2026-09-10).
-  - `003_ThesisProposal_Draft_004.docx` — current revised draft
+  - `003_ThesisProposal_Draft_004.docx` — previous revised draft
     (verb-tense fixes per Verb Tense Matrix Final column:
     occurs→occurred; chapter described→describes; data-retention
     will be→are; Research Context institutional facts was/tended
     →is/tend; applied 2026-10-02).
+  - `003_ThesisProposal_Draft_005.docx` — current revised draft
+    (Appendix E separated out into standalone file; applied
+    2026-10-02).
+  - `009_Appendix_E.docx` — Appendix E (Second Coding Sample)
+    extracted from Draft_004/005 as standalone document
+    (2026-10-02).
   - `007_CompiledResult_Preedit.xlsx` — original uploaded version,
     preserved unchanged. Not yet revised; no Draft copy exists.
     When revised, will re-enter the working tree as
