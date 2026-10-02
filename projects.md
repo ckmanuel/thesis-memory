@@ -34,9 +34,13 @@ progresses. When a project is finished, move it to the "Archived" section.
     will be→are; Research Context institutional facts was/tended
     →is/tend; applied 2026-10-02).
   - `003_ThesisProposal_Draft_011.docx` — previous revised draft (Ch.3–4 redundancy cut; stats/potential/EC/implication told once; 2026-10-02).
-  - `003_ThesisProposal_Draft_012.docx` — current revised draft. Two rounds of edits applied in place (no Draft_013 created):
-    (1) BAELS table format per Thesis Companion p.25 — 2¼pt top/bottom borders, ¼pt header divider, no verticals (14 tables).
-    (2) Blank-page removal (30 consecutive empty paragraphs deleted) + table split prevention (cantSplit on all 64 rows, tableHeader on all 14 first rows for header repeat on split).
+  - `003_ThesisProposal_Draft_012.docx` — current revised draft. Multiple rounds of edits applied in place (no Draft_013 created):
+    (1) BAELS table format per Thesis Companion p.25 (2¼pt top/bottom borders, ¼pt header divider, no verticals) — 14 tables.
+    (2) Blank-page removal + table split prevention (cantSplit on all rows, tableHeader on first rows).
+    (3) Matched Draft_005 spacing pattern (4 empties before major headings, 3 before sub-headings) — 26 spacing changes verified.
+    (4) Re-applied BAELS borders + fixed table layout (prevents autofit shrinking that causes mid-word breaks) + wordWrap=0 on all cell paragraphs (don't split midword) + reduced 11pt cell content to 10pt for breathing room.
+    (5) Removed 17 leading empties after section breaks (section break already creates page break; empties were creating top-of-page blank space).
+    (6) Reduced title page top empties from 8 to 2 (title was being pushed 2.7 inches down from top margin).
     Applied 2026-10-02.
   - `001_ThesisCompanion.pdf` — formatting guide (saved 2026-10-02 so future sessions have it).
   - `003_ThesisProposal_Draft_010.docx` — previous revised draft (Table 6 removed; adviser guidance reframed away from hedge quotas; 2026-10-02).

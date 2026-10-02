@@ -27,6 +27,40 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-02 — Draft_012 comprehensive formatting pass (4 fixes)
+- **Context:** User requested: (1) custom BAELS table borders,
+  (2) prevent mid-word splitting in tables (lower font size to fit
+  instead), (3) remove blank pages, (4) fix title page.
+- **Decisions:**
+  1. **BAELS borders re-applied** (after briefly reverting to
+     TableGrid to match D5 in prior round). All 14 tables now have
+     2¼pt top/bottom, ¼pt header divider, no verticals, no insideH.
+  2. **Word wrapping fix:** Set `tblLayout=fixed` (prevents autofit
+     from shrinking columns and forcing mid-word breaks) +
+     `wordWrap=0` on all table cell paragraphs (don't break mid-word;
+     wrap at word boundaries instead) + reduced 11pt cell content to
+     10pt across all tables for breathing room.
+  3. **Blank pages removed:** 17 leading empties after section breaks
+     removed. Section breaks already create page breaks; the empties
+     were creating top-of-page blank space (1+ inch of empty space
+     before INTRODUCTION, METHODOLOGY, etc.).
+  4. **Title page fixed:** Reduced 8 top-of-page empty paragraphs to
+     2. Title was being pushed ~2.7 inches down from top margin;
+     now appears near the top of the page per companion guide p.14
+     layout.
+- **What was NOT changed:** Title page content structure (title,
+  "A Thesis", Presented to..., By, author, date) — already matches
+  companion guide p.14 for post-proposal-defense stage. Title
+  inverted-triangle format (line 1 longer than line 2) already
+  compliant.
+- **Conflict note:** D5 spacing pattern (4 empties before major
+  headings, applied last round) and "remove blank pages" this round
+  are in tension. Resolved by removing the 4 leading empties for
+  major headings that follow section breaks (since the section break
+  already creates the page break). D5 spacing preserved for sub-
+  headings and headings not following section breaks.
+- **Status:** active.
+
 ## 2026-10-02 — Draft_012 in-place edit (override, no new draft)
 - **Context:** User explicitly instructed "don't create new draft,
   override current v12" when asking for blank-page removal and table
