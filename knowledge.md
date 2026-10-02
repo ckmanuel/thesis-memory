@@ -6,7 +6,9 @@ Facts the user shares that don't fit elsewhere. Update in place.
 - User is Chryz Kean F. Manuel, BA in English Language Studies student
   at Pampanga State Agricultural University (PSAU), Magalang,
   Pampanga, Philippines.
-- Thesis defense target: October 2026.
+- Thesis stage: post-proposal-defense (proposal approved, working
+  toward final defense). Title page reads "A Thesis" (no "Proposal").
+- Final defense target: November 2026 (per companion guide timeline).
 - Research interests: corpus linguistics, academic writing, L2 English
   rhetoric, hedging in scientific discourse.
 

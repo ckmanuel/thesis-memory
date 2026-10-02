@@ -57,7 +57,14 @@ progresses. When a project is finished, move it to the "Archived" section.
     When revised, will re-enter the working tree as
     `007_CompiledResult_Draft_001.xlsx`.
   - Source uploads at `/home/z/my-project/upload/`.
-- **Author:** Chryz Kean F. Manuel (user). Defense target October 2026.
+- **Author:** Chryz Kean F. Manuel (user). Proposal defense already
+  approved (2026-10-02 is the post-defense state). Current work is
+  toward final defense (target November 2026 per companion guide
+  timeline, with final manuscript submission October 2026).
+- **Stage:** Post-proposal-defense. Document now includes Chapters 3
+  (Results, Analysis, and Discussion) and 4 (Conclusions and
+  Recommendations). Title page reads "A Thesis" (no "Proposal") per
+  companion guide p.14, since proposal has been approved.
 - **Notes:**
   - First backup pushed 2026-09-08. Files renamed 2026-09-08 to
     `_Preedit` / `_Draft_001` convention (see `decisions.md`).
