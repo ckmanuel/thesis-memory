@@ -29,9 +29,10 @@ progresses. When a project is finished, move it to the "Archived" section.
     (writing-voice pass per preferences.md: tighter, more direct
     prose in Background and Conclusions; applied 2026-09-10).
   - `003_ThesisProposal_Draft_004.docx` — current revised draft
-    (three verb-tense fixes per Verb Tense Matrix Final column:
+    (verb-tense fixes per Verb Tense Matrix Final column:
     occurs→occurred; chapter described→describes; data-retention
-    will be→are; applied 2026-10-02).
+    will be→are; Research Context institutional facts was/tended
+    →is/tend; applied 2026-10-02).
   - `007_CompiledResult_Preedit.xlsx` — original uploaded version,
     preserved unchanged. Not yet revised; no Draft copy exists.
     When revised, will re-enter the working tree as

@@ -120,10 +120,10 @@ copies already made.
 _(Capped at 5 entries. Older items live in `decisions.md` and the
 verbatim transcript at `chat_history/`.)_
 
-- 2026-10-02 — Pushed `003_ThesisProposal_Draft_004.docx` (three
-  verb-tense fixes per Verb Tense Matrix Final column: occurs→
-  occurred; chapter described→describes; data-retention will be→
-  are). Prior drafts retained.
+- 2026-10-02 — Pushed `003_ThesisProposal_Draft_004.docx` (verb-
+  tense fixes per Verb Tense Matrix Final column: occurs→occurred;
+  chapter described→describes; data-retention will be→are; Research
+  Context was/tended→is/tend). Prior drafts retained.
 - 2026-10-02 — Session `auto-1790903296-02e608` (Grok) opened.
   Repo cloned, token stripped from remote URL, hooks installed,
   transcript started. PAT redaction count incremented to seven.
