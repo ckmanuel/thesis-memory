@@ -107,8 +107,8 @@ copies already made.
 - The PAT cannot create new repos (no Administration scope). Not a
   blocker since we're staying in one repo.
 - **Recurring pattern: PAT pasted in plaintext at session start.**
-  Now observed in at least seven sessions (prior six plus this
-  2026-10-02 auto-1790903296-02e608 Grok session). The opening prompt
+  Now observed in at least eight sessions (prior seven plus the
+  2026-10-02 auto-1790912622-eb658c Claude session). The opening prompt
   template supports `$GH_PAT` env var reference, but the user keeps
   pasting the literal token instead. Each occurrence is a live
   credential exposed in chat logs. Recommend rotation after the
@@ -130,6 +130,10 @@ verbatim transcript at `chat_history/`.)_
   tense fixes per Verb Tense Matrix Final column: occurs→occurred;
   chapter described→describes; data-retention will be→are; Research
   Context was/tended→is/tend). Prior drafts retained.
+- 2026-10-02 — Session `auto-1790912622-eb658c` (Claude) opened: repo
+  cloned via one-shot credential helper, remote URL clean, hooks
+  installed, doctor.sh passing. PAT pasted in plaintext again (redacted
+  in transcript); rotation recommended.
 - 2026-10-02 — Session `auto-1790903296-02e608` (Grok) opened.
   Repo cloned, token stripped from remote URL, hooks installed,
   transcript started. PAT redaction count incremented to seven.
