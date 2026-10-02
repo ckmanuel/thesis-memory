@@ -120,9 +120,9 @@ copies already made.
 _(Capped at 5 entries. Older items live in `decisions.md` and the
 verbatim transcript at `chat_history/`.)_
 
-- 2026-10-02 — Separated Appendix E: `003_ThesisProposal_Draft_005.docx`
-  (thesis without App E) + `009_Appendix_E.docx` (standalone). Prior
-  drafts retained.
+- 2026-10-02 — Overwrote Draft_005: APA ref fixes (Rahayu & Suhartono
+  → Ningrum et al.; Petchkij pages 95–113) + prior Appendix E split.
+  Prior drafts retained.
 - 2026-10-02 — Pushed `003_ThesisProposal_Draft_004.docx` (verb-
   tense fixes per Verb Tense Matrix Final column: occurs→occurred;
   chapter described→describes; data-retention will be→are; Research
