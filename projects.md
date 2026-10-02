@@ -34,9 +34,9 @@ progresses. When a project is finished, move it to the "Archived" section.
     will be→are; Research Context institutional facts was/tended
     →is/tend; applied 2026-10-02).
   - `003_ThesisProposal_Draft_005.docx` — current revised draft
-    (Appendix E separated; APA ref fixes; claim accuracy softener
-    for Escalona major-field contrast; Khunasathitchai 1.47;
-    applied 2026-10-02).
+    (Appendix E separated; APA/claim accuracy fixes; Escalona
+    softener; Khunasathitchai 1.47; Afshar n=180; majority→nearly
+    half; Biology non-epistemic wording; applied 2026-10-02).
   - `009_Appendix_E.docx` — Appendix E (Second Coding Sample)
     extracted from Draft_004/005 as standalone document
     (2026-10-02).

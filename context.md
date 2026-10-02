@@ -120,9 +120,9 @@ copies already made.
 _(Capped at 5 entries. Older items live in `decisions.md` and the
 verbatim transcript at `chat_history/`.)_
 
-- 2026-10-02 — Overwrote Draft_005: Escalona claim softened
-  (descriptive, not significant); Khunasathitchai 1.47; prior
-  APA/App E fixes retained. Prior drafts retained.
+- 2026-10-02 — Overwrote Draft_005: accuracy fixes (Afshar n=180;
+  majority→nearly half; Biology non-epistemic wording); prior
+  Escalona/Khunasathitchai/APA/App E fixes retained.
 - 2026-10-02 — Pushed `003_ThesisProposal_Draft_004.docx` (verb-
   tense fixes per Verb Tense Matrix Final column: occurs→occurred;
   chapter described→describes; data-retention will be→are; Research
