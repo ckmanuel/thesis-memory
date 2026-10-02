@@ -34,7 +34,10 @@ progresses. When a project is finished, move it to the "Archived" section.
     will be→are; Research Context institutional facts was/tended
     →is/tend; applied 2026-10-02).
   - `003_ThesisProposal_Draft_011.docx` — previous revised draft (Ch.3–4 redundancy cut; stats/potential/EC/implication told once; 2026-10-02).
-  - `003_ThesisProposal_Draft_012.docx` — current revised draft (BAELS table format applied per Thesis Companion p.25: 2¼pt top/bottom borders, ¼pt header divider, no verticals; 14 tables reformatted; 2026-10-02).
+  - `003_ThesisProposal_Draft_012.docx` — current revised draft. Two rounds of edits applied in place (no Draft_013 created):
+    (1) BAELS table format per Thesis Companion p.25 — 2¼pt top/bottom borders, ¼pt header divider, no verticals (14 tables).
+    (2) Blank-page removal (30 consecutive empty paragraphs deleted) + table split prevention (cantSplit on all 64 rows, tableHeader on all 14 first rows for header repeat on split).
+    Applied 2026-10-02.
   - `001_ThesisCompanion.pdf` — formatting guide (saved 2026-10-02 so future sessions have it).
   - `003_ThesisProposal_Draft_010.docx` — previous revised draft (Table 6 removed; adviser guidance reframed away from hedge quotas; 2026-10-02).
   - `003_ThesisProposal_Draft_009.docx` — current revised draft (D8 body + D5 appendices; A+C merged with quick-ref; B reframed; corpus = C; 2026-10-02).

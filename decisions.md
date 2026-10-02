@@ -27,6 +27,29 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-02 — Draft_012 in-place edit (override, no new draft)
+- **Context:** User explicitly instructed "don't create new draft,
+  override current v12" when asking for blank-page removal and table
+  split prevention.
+- **Decision:** Override the prior "don't touch old versions" rule
+  for Draft_012 specifically. Draft_012 is now treated as the live
+  working file — further formatting fixes go into it in place, not as
+  Draft_013+.
+- **Rationale:** User's call. Drafts 001–011 are still preserved
+  (those represent content revisions the user may want to revert to).
+  Draft_012 is the formatting-cleanup draft, distinct from the content
+  drafts. Treating it as live for formatting iterations keeps the
+  draft count from inflating for purely cosmetic changes.
+- **Edits applied in this round:**
+  1. Removed 30 consecutive empty paragraphs that caused blank pages.
+  2. Set `cantSplit=True` on all 64 table rows (prevents row splitting
+     across pages).
+  3. Set `tableHeader=True` on all 14 first rows (repeats header if a
+     table does split across pages).
+- **Status:** active. Override rule applies to Draft_012 only. If user
+  asks for content changes (not just formatting), revert to creating
+  Draft_013+.
+
 ## 2026-10-02 — Apply BAELS table format per Thesis Companion p.25
 - **Context:** User uploaded `001_ThesisCompanion.pdf` (the BAELS
   Thesis Companion formatting guide by Andrea Mae S. Baltazar) and
