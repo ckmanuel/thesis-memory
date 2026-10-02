@@ -33,7 +33,8 @@ progresses. When a project is finished, move it to the "Archived" section.
     occurs→occurred; chapter described→describes; data-retention
     will be→are; Research Context institutional facts was/tended
     →is/tend; applied 2026-10-02).
-  - `003_ThesisProposal_Draft_008.docx` — current revised draft (Draft_006 base + accuracy fixes + Verb Tense Matrix alignment: zero-hedge “less than a third” → 40%/35%; booster avg ~3.1; Scope reconciled; Landis & Koch 1977 added; pilot →4; timeline 5.5 months; tense cleanups (timeline “estimated” removed, ethical retention → future, classification rule → past); 2026-10-02).
+  - `003_ThesisProposal_Draft_009.docx` — current revised draft (appendices merged & rewritten: A+C → single Appendix A with quick-ref + full codebook; Pilot rewritten as B; Coded Corpus renumbered to C; preferred voice applied to non-corpus appendices; 2026-10-02).
+  - `003_ThesisProposal_Draft_008.docx` — previous revised draft (Draft_006 base + accuracy fixes + Verb Tense Matrix alignment: zero-hedge “less than a third” → 40%/35%; booster avg ~3.1; Scope reconciled; Landis & Koch 1977 added; pilot →4; timeline 5.5 months; tense cleanups (timeline “estimated” removed, ethical retention → future, classification rule → past); 2026-10-02).
   - `003_ThesisProposal_Draft_007.docx` — previous revised draft (full narrative rewrite
     from Draft_005 per preferences.md; only title, RQs and Research Corpus
     section kept verbatim; redundancies cut across Intro, Scope, Methods,

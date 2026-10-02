@@ -263,3 +263,13 @@ Entry template:
   Draft_008 remains the current version. No residual proposal-stage “will” in author methodology.
 - **Rationale:** User preference for in-place override rather than a new draft number for small tense polish.
 - **Status:** active
+
+## 2026-10-02 — Draft_009: merge Appendices A+C, rewrite non-corpus appendices
+- **Context:** User chose option 2 (latter): put one-page quick-reference at top of the full codebook and treat the whole as one appendix. Also requested rewrite of appendices (excluding the coded corpus) in preferred voice, as new draft (not override).
+- **Decision:** Created `003_ThesisProposal_Draft_009.docx`:
+  - Old A (short coding key) + old C (full codebook) merged into **Appendix A: Hedging Codebook**, opening with a one-page Quick-Reference then the full protocol, rewritten in preferred voice.
+  - Old B (Pilot) rewritten framing/observation; four sample abstracts and counts retained as data → still **Appendix B**.
+  - Old D (Coded Corpus with Highlights) renumbered to **Appendix C**; content left intact.
+  - Body references to “Appendix A” for decision rules remain valid (now point at the merged codebook).
+- **Rationale:** Removes redundancy, keeps the operational codebook as the single source of truth, applies voice preference consistently to the methodological appendices.
+- **Status:** active
