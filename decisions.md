@@ -27,6 +27,12 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-02: Draft_007, narrative rewrite from Draft_005
+- **Context:** User asked for a full rewrite applying preferences.md, keeping only the title, research questions and corpus verbatim, with redundancies fixed, as a new draft based on Draft_005.
+- **Decision:** Draft_007 keeps verbatim the title page, RQ1 to RQ4, and the whole Research Corpus section (text, Table 1, inclusion, exclusion, ethics). Everything from Introduction to Recommendations is rewritten. Data tables, references, appendices and the coded corpus are untouched. Sampling detail now lives only under Research Corpus, and the coding stages only under Research Framework.
+- **Why:** The verbatim corpus section made it the single home for sampling details, so Scope, Research Process and Definitions point to it instead of repeating it.
+- **Status:** active. Draft_006 and earlier retained.
+
 ## 2026-10-02: Script verdicts over model claims
 - **Decision:** `doctor.sh` reports health through its exit code, run at
   session start and before the final push. Scanner reports show only 4

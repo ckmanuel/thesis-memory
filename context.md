@@ -120,6 +120,12 @@ copies already made.
 _(Capped at 5 entries. Older items live in `decisions.md` and the
 verbatim transcript at `chat_history/`.)_
 
+- 2026-10-02 — Created Draft_007 (from Draft_005): full narrative rewrite;
+  title, RQs, Research Corpus section verbatim; redundancies cut. Fixed in
+  passing: VM zero-hedge comparison (was "less than a third" for 40%/35%),
+  booster average dropped (88/28 = 3.1, not 3.4), Scope no longer says boosters
+  are not examined, timeline 24 weeks. Open: Landis & Koch (1977) cited but
+  missing from References; Appendix A and C overlap.
 - 2026-10-02 — Created Draft_006: full narrative rewrite (Intro–Recommendations)
   cutting redundancies; all verified citation claims retained; Refs +
   Appendix text included (color highlights remain in Draft_005 App D).

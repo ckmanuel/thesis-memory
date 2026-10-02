@@ -33,8 +33,12 @@ progresses. When a project is finished, move it to the "Archived" section.
     occurs→occurred; chapter described→describes; data-retention
     will be→are; Research Context institutional facts was/tended
     →is/tend; applied 2026-10-02).
-  - `003_ThesisProposal_Draft_006.docx` — current revised draft (full narrative rewrite;
-    redundancies cut; verified claims preserved; 2026-10-02).
+  - `003_ThesisProposal_Draft_007.docx` — current revised draft (full narrative rewrite
+    from Draft_005 per preferences.md; only title, RQs and Research Corpus
+    section kept verbatim; redundancies cut across Intro, Scope, Methods,
+    Results, Conclusions; 2026-10-02).
+  - `003_ThesisProposal_Draft_006.docx` — previous revised draft (full narrative
+    rewrite; redundancies cut; verified claims preserved; 2026-10-02).
   - `003_ThesisProposal_Draft_005.docx` — previous revised draft
     (Appendix E separated; APA/claim accuracy fixes; Escalona
     softener; Khunasathitchai 1.47; Afshar n=180; majority→nearly
