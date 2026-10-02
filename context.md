@@ -120,6 +120,10 @@ copies already made.
 _(Capped at 5 entries. Older items live in `decisions.md` and the
 verbatim transcript at `chat_history/`.)_
 
+- 2026-10-02 — Pushed `003_ThesisProposal_Draft_004.docx` (three
+  verb-tense fixes per Verb Tense Matrix Final column: occurs→
+  occurred; chapter described→describes; data-retention will be→
+  are). Prior drafts retained.
 - 2026-10-02 — Session `auto-1790903296-02e608` (Grok) opened.
   Repo cloned, token stripped from remote URL, hooks installed,
   transcript started. PAT redaction count incremented to seven.
@@ -132,10 +136,6 @@ verbatim transcript at `chat_history/`.)_
 - 2026-09-08 — Synced preferences.md from ai-mem2 repo. Four edits
   applied; ai-mem2 designated canonical source for preferences.md.
   See `decisions.md`.
-- 2026-09-08 — Session `auto-1788876026-5ea42e` (Grok) opened.
-  Repo cloned, token stripped from remote URL, credential helper
-  set via $GH_PAT, hooks installed, transcript started. PAT
-  redaction count incremented to six.
 
 ## Blockers
 _None._
