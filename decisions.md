@@ -300,3 +300,9 @@ Entry template:
 - **Context:** Table 6 told Vet Med students to insert 1–2 hedges, contradicting the thesis's account of binary results and encouraging pro forma hedging.
 - **Decision:** Removed Table 6 in Draft_010. Reframed recommendations: feedback targets overclaiming in implications, not hedge quotas; binary/measured results may need no hedge.
 - **Status:** active
+
+
+## 2026-10-02 — Cut Chapter 3–4 redundancies (Draft_011)
+- **Context:** User confirmed repeated interpretation across Results Parts II–IV and Conclusions.
+- **Decision:** Draft_011 keeps counts/tests in Parts I–II, EC and result/implication in Part III, discipline labels in Part IV with pointers back, shortened Conclusions. Potential concordance and pro forma notes tightened. ~19% fewer words in Results+Conclusions block.
+- **Status:** active
