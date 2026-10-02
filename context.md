@@ -107,8 +107,8 @@ copies already made.
 - The PAT cannot create new repos (no Administration scope). Not a
   blocker since we're staying in one repo.
 - **Recurring pattern: PAT pasted in plaintext at session start.**
-  Now observed in at least eight sessions (prior seven plus the
-  2026-10-02 auto-1790912622-eb658c Claude session). The opening prompt
+  Now observed in at least nine sessions (prior eight plus the
+  2026-10-02 auto-1790954075-b54f1a Claude session). The opening prompt
   template supports `$GH_PAT` env var reference, but the user keeps
   pasting the literal token instead. Each occurrence is a live
   credential exposed in chat logs. Recommend rotation after the
@@ -116,10 +116,24 @@ copies already made.
   path in the README opening prompt, since the plaintext option keeps
   getting used despite the alternative.
 
+- **Draft_013 review (2026-10-02, Claude) — unresolved, no new draft made.**
+  Missing from References: Lopez et al. (2025), cited twice. Participant
+  codes typed `Acs1–A10`/`Aas1–A10` (should be Acs1–Acs10/Aas1–Aas10).
+  Khunasathitchai ref: rEFLections vs IJRISS DOI mismatch, unverified.
+  Sampling start "random" vs "around the middle". Scope: dangling pilot
+  75% sentence. Kappa rests on 6 abstracts. 100% EC is partly built into
+  the Working Test. Conclusions state Agri > Bio order without the Acs2
+  caveat. Booster count includes "highest"/"observed". Sampling design
+  repeated 3x; Recommendations repeat. Stats recomputed OK.
+
 ## Recently Completed
 _(Capped at 5 entries. Older items live in `decisions.md` and the
 verbatim transcript at `chat_history/`.)_
 
+- 2026-10-02 — Session `auto-1790954075-b54f1a` (Claude) opened: repo
+  cloned via one-shot credential helper, remote clean, doctor passing.
+  Reviewed Draft_013 (findings under Open Threads). PAT pasted in
+  plaintext again (redacted); rotation recommended.
 - 2026-10-02 — Created Draft_007 (from Draft_005): full narrative rewrite;
   title, RQs, Research Corpus section verbatim; redundancies cut. Fixed in
   passing: VM zero-hedge comparison (was "less than a third" for 40%/35%),
