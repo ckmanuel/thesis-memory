@@ -120,6 +120,9 @@ copies already made.
 _(Capped at 5 entries. Older items live in `decisions.md` and the
 verbatim transcript at `chat_history/`.)_
 
+- 2026-10-02 — Created Draft_006: full narrative rewrite (Intro–Recommendations)
+  cutting redundancies; all verified citation claims retained; Refs +
+  Appendix text included (color highlights remain in Draft_005 App D).
 - 2026-10-02 — Overwrote Draft_005: accuracy fixes (Afshar n=180;
   majority→nearly half; Biology non-epistemic wording); prior
   Escalona/Khunasathitchai/APA/App E fixes retained.
