@@ -240,3 +240,16 @@ Entry template:
   transformers requires torch which exceeds workspace disk). Script
   handles missing dependency with clear install instructions.
 
+
+## 2026-10-02 — Draft_008 accuracy fixes on Draft_006 base (ignore Draft_007)
+- **Context:** User confirmed Draft_006 and Draft_007 are parallel rewrites from Draft_005. Requested fixes from the accuracy-flag list be applied to Draft_006 (not Draft_007) and pushed as Draft_008.
+- **Decision:** Created `003_ThesisProposal_Draft_008.docx` from Draft_006 with five confirmed corrections + soft timeline adjustment:
+  1. Zero-hedge comparison: “less than a third” → “40% in Agriculture and 35% in Biology”
+  2. Booster average: 3.4 → approximately 3.1 (88÷28)
+  3. Scope statement reconciled to allow the limited booster count on the 28 zero-hedge abstracts while stating full booster analysis was not undertaken
+  4. Landis & Koch (1977) added to References (was cited for κ interpretation but missing)
+  5. Pilot sample size prose aligned to table: “3 to 5” / “3–5” → “4”
+  6. Timeline: “approximately 5 months” → “approximately 5.5 months (24 weeks)”
+  Appendix A vs C overlap left unchanged (editorial, not factual error). Draft_007 retained as parallel rewrite.
+- **Rationale:** User explicitly designated Draft_006 as the reference base. All five hard flags were verified against Draft_005 numbers and accepted.
+- **Status:** active
