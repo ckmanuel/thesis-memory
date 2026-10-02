@@ -16,6 +16,7 @@ start of a session and updates them as you work.
 | `lessons.md` | Mistakes and fixes. Never archived. |
 | `chat_history/` | Verbatim transcripts, per model per session. |
 | `thesis/` | Thesis drafts and working files. |
+| `AGENTS.md`, `CLAUDE.md` | Front doors that point desktop agents at `context.md`. |
 | `RETRIEVAL.md` | Agent guide for the search tools. |
 | `TRANSCRIPT_REMINDER.md` | Failsafe reminder to log each message. |
 | `scripts/` | Secret scanners, hook installer, session and retrieval tools. |
@@ -62,6 +63,20 @@ at session start. For semantic search, run `pip install -r
 scripts/requirements.txt` once. The embeddings DB lives at
 `~/.cache/ai-memory-embeddings.db`, outside the repo, and can be deleted and
 rebuilt. The first build downloads a model of about 80MB.
+
+## No sandbox? Paste a pack
+
+Some chats can't reach your repo. On a computer, run `./scripts/paste_pack.sh`
+and paste the output into the chat. It bundles preferences, current focus,
+lessons, knowledge, and decision titles under a size cap
+(`MEM_PACK_LIMIT`, default 12000 bytes) and names anything it had to leave
+out. Update the repo later from a session that can reach it.
+
+## Health check
+
+`./scripts/doctor.sh` checks for stored credentials, secrets in tracked
+files, the pre-commit hook, unpushed work, today's transcript, and file
+sizes. Any FAIL makes it exit 1. Warnings are advice only.
 
 ## Token handling
 

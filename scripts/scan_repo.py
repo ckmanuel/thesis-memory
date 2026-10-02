@@ -30,6 +30,7 @@ from pre_commit_scan import (
     PATH_LIKE_RE,
     shannon_entropy,
     is_false_positive,
+    redact,
 )
 
 
@@ -108,8 +109,7 @@ def main():
     print("CI SCAN: possible secrets detected in tracked files:")
     print("=" * 60)
     for path, desc, line_no, matched in hits:
-        preview = matched[:24] + "..." if len(matched) > 24 else matched
-        print(f"  {path}:{line_no}  {desc}  matched: {preview}")
+        print(f"  {path}:{line_no}  {desc}  matched: {redact(matched)}")
     print("")
     print("The commit is already in remote history. Rotate any real secrets immediately.")
     print("To suppress false positives, extend FALSE_POSITIVES in scripts/pre_commit_scan.py.")

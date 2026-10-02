@@ -27,6 +27,35 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-02: Script verdicts over model claims
+- **Decision:** `doctor.sh` reports health through its exit code, run at
+  session start and before the final push. Scanner reports show only 4
+  characters of a match plus its length.
+- **Why:** An agent saying "all clean" proves nothing, and the protocol
+  already admits an LLM can skip steps. A script can't be talked out of a
+  FAIL. CI logs on a public repo are public, so a 24-character prefix of a
+  real token was too much to print.
+
+## 2026-10-02: Front-door files and a paste pack
+- **Decision:** `AGENTS.md` and `CLAUDE.md` point desktop agents at
+  `context.md`. `paste_pack.sh` makes a size-capped bundle for chats with no
+  sandbox and names what it omitted.
+- **Why:** Desktop agents look for these file names on their own, so nobody
+  has to paste the opening prompt. The pack covers the case where the repo
+  can't be reached. The two front-door files are identical copies because I
+  couldn't confirm that every tool follows an include from one to the other.
+- **Rejected:** One file importing the other.
+
+## 2026-10-02: Session end, duplicate check, forgetting
+- **Decision:** `context.md` gains an end-of-session checklist, a
+  search-before-save rule, an `applied lesson:` notice, and a forgetting
+  rule.
+- **Why:** The protocol covered starting and working but not ending, so
+  durable items stayed buried in transcripts. Searching first keeps one entry
+  per fact. The notice makes lessons auditable. Deletion in git never erases
+  history, so the user should hear that before they rely on it.
+
+
 ## 2026-10-01: Zero-dependency search ahead of embeddings
 - **Decision:** `scripts/search.sh` is the default retrieval tool: literal,
   case-insensitive, capped, lessons first, and it states how many results

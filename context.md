@@ -11,9 +11,11 @@ Read this file first after cloning.
 All args optional. Creates `chat_history/<model>/<session_id>-<date>.md`
 with the right header. Don't proceed until this is done.
 
-If your session was idle and another session may have committed, run
-`GH_PAT=$GH_PAT ./scripts/sync_before_work.sh` first to pull and see
-what changed.
+Then run `./scripts/doctor.sh` and fix any FAIL line before going on. Then
+read `preferences.md` and `decisions.md`. Skim `knowledge.md` and
+`projects.md` if the task touches them. If the session has been idle and
+another session may have committed, run `GH_PAT=$GH_PAT ./scripts/sync_before_work.sh`
+before editing.
 
 ## CRITICAL: Append user message to transcript IMMEDIATELY
 
@@ -67,6 +69,28 @@ independent commits (README typos, script refactors, CI updates).
 
 CI also warns on push when memory files change without a transcript
 update. Doesn't block, but makes the failure visible.
+
+Before adding a lesson, fact, or decision, run `./scripts/search.sh <one
+distinctive word>` and update the existing entry if there is one. Run it
+also before solving a problem that feels familiar. When you use a saved
+lesson, say so in your reply: `applied lesson: <title>`. Other retrieval
+tools are described in `RETRIEVAL.md`.
+
+## At session end
+
+1. Promote anything durable from this session: mistakes and fixes to
+   `lessons.md`, choices to `decisions.md`, facts to `knowledge.md`.
+2. Refresh Current focus and Open threads below. Include what was tried and
+   failed, so the next session doesn't repeat it.
+3. Run `./scripts/doctor.sh`, fix any FAIL, then commit and push.
+
+## Forgetting
+
+To forget something, edit or delete the entry (or the transcript file) and
+commit. Be clear with the user that git history still holds the old text,
+and so does any fork or clone made earlier. If the text was a secret, revoke
+or rotate it first. Rewriting history is a last resort and doesn't reach
+copies already made.
 
 ## Current Focus
 - Session `auto-1788876026-5ea42e` (Grok) continued 2026-09-10.

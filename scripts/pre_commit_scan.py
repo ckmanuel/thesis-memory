@@ -149,6 +149,12 @@ def get_staged_files():
     return files
 
 
+def redact(matched):
+    """Report a match without reproducing it. Reports can end up in public CI
+    logs, so show a short fragment and the length, never a usable prefix."""
+    return f"{matched[:4]}... ({len(matched)} chars)"
+
+
 def main():
     files = get_staged_files()
     if not files:
@@ -166,8 +172,7 @@ def main():
     print("PRE-COMMIT: blocked commit, possible secrets detected:", file=sys.stderr)
     print("=" * 60, file=sys.stderr)
     for path, desc, line_no, matched in hits:
-        preview = matched[:24] + "..." if len(matched) > 24 else matched
-        print(f"  {path}:{line_no}  {desc}  matched: {preview}", file=sys.stderr)
+        print(f"  {path}:{line_no}  {desc}  matched: {redact(matched)}", file=sys.stderr)
     print("", file=sys.stderr)
     print("If real secret: remove it, rotate it, re-commit.", file=sys.stderr)
     print("If false positive: git commit --no-verify to bypass.",

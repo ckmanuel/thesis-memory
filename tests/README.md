@@ -1,7 +1,8 @@
 # Tests
 
 `test_pre_commit_scan.py` covers the secret scanner. `test_search.py` covers
-`scripts/search.sh`.
+`scripts/search.sh`. `test_tools.py` covers `redact()`, `paste_pack.sh`, and
+`doctor.sh`.
 
 Run with:
 
@@ -14,6 +15,7 @@ Or without pytest:
 ```sh
 python3 tests/test_pre_commit_scan.py
 python3 tests/test_search.py
+python3 tests/test_tools.py
 ```
 
 ## Fixtures
