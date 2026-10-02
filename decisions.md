@@ -279,3 +279,8 @@ Entry template:
 - **Context:** Appendix A+C merge + voice rewrite destroyed Georgia formatting, centered titles, and codebook tables. User flagged the result as butchered.
 - **Decision:** Draft_009 reset to Draft_008 content (accuracy + tense fixes preserved; original appendix formatting restored). Physical merge of A+C deferred until it can be done without stripping styles/tables.
 - **Status:** active
+
+## 2026-10-02 — Draft_009: D8 body + D5 appendices
+- **Context:** User rejected butchered appendix rewrite. Requested Draft_005 appendices (original formatting) combined with Draft_008 main body (accuracy + tense fixes).
+- **Decision:** Built Draft_009 by splicing Draft_008 body (everything before appendices) with Draft_005 appendix block (APPENDICES through end). Georgia titles, codebook tables, and corpus highlights restored from D5. Body retains D8 fixes (zero-hedge rates, booster avg, scope wording, Landis ref, pilot n=4, timeline 5.5 months, tense cleanups).
+- **Status:** active
