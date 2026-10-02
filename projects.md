@@ -34,14 +34,8 @@ progresses. When a project is finished, move it to the "Archived" section.
     will be→are; Research Context institutional facts was/tended
     →is/tend; applied 2026-10-02).
   - `003_ThesisProposal_Draft_011.docx` — previous revised draft (Ch.3–4 redundancy cut; stats/potential/EC/implication told once; 2026-10-02).
-  - `003_ThesisProposal_Draft_012.docx` — current revised draft. Multiple rounds of edits applied in place (no Draft_013 created):
-    (1) BAELS table format per Thesis Companion p.25 (2¼pt top/bottom borders, ¼pt header divider, no verticals) — 14 tables.
-    (2) Blank-page removal + table split prevention (cantSplit on all rows, tableHeader on first rows).
-    (3) Matched Draft_005 spacing pattern (4 empties before major headings, 3 before sub-headings) — 26 spacing changes verified.
-    (4) Re-applied BAELS borders + fixed table layout (prevents autofit shrinking that causes mid-word breaks) + wordWrap=0 on all cell paragraphs (don't split midword) + reduced 11pt cell content to 10pt for breathing room.
-    (5) Removed 17 leading empties after section breaks (section break already creates page break; empties were creating top-of-page blank space).
-    (6) Reduced title page top empties from 8 to 2 (title was being pushed 2.7 inches down from top margin).
-    Applied 2026-10-02.
+  - `003_ThesisProposal_Draft_012.docx` — previous draft. Formatting cleanup draft (BAELS borders, wordWrap=0, 10pt cells, cantSplit, tableHeader, 3-3/1-0 spacing, pageBreakBefore fix, blank pages eliminated). 113 pages, 0 blank.
+  - `003_ThesisProposal_Draft_013.docx` — current draft. User's manual edits on top of Draft_012. Changes: Tables 3 and 4 reformatted (user did this manually — proper column widths, no mid-word breaks); "institutions and cohorts" → "institutions and groups" (Future Research); codebook paragraph simplified (removed "Highlights are background colors..." sentence); Combined Example paragraph simplified (removed "Not a highlight..." and "Blue and red highlights mark type"); trailing period removed in two places. 112 pages, 0 blank.
   - `001_ThesisCompanion.pdf` — formatting guide (saved 2026-10-02 so future sessions have it).
   - `003_ThesisProposal_Draft_010.docx` — previous revised draft (Table 6 removed; adviser guidance reframed away from hedge quotas; 2026-10-02).
   - `003_ThesisProposal_Draft_009.docx` — current revised draft (D8 body + D5 appendices; A+C merged with quick-ref; B reframed; corpus = C; 2026-10-02).
