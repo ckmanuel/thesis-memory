@@ -27,6 +27,25 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-02 — Draft_013 labeled as FINAL
+- **Context:** User uploaded manually-edited version of Draft_012
+  ("My Thesis Final - Draft.docx") with minor changes: Tables 3
+  and 4 reformatted, "institutions and cohorts" → "institutions
+  and groups", codebook and Combined Example paragraphs simplified,
+  trailing period removed in two places (one was a typo). Saved as
+  Draft_013. User then instructed to fix the "producti" typo
+  (restore "production.") and label the result as the finalized
+  edit in the repository.
+- **Decision:** Draft_013 is the FINAL draft. Git tag
+  `final-draft-013` created. `projects.md` Stage field updated to
+  reference Draft_013 as the final manuscript draft. Future
+  revisions (if any) should create Draft_014+, not overwrite
+  Draft_013.
+- **Edits applied to Draft_013:**
+  1. User's manual edits (Tables 3&4 reformatted, text simplifications)
+  2. Typo fix: "producti" → "production." in Appendix C paragraph 510
+- **Status:** active. Draft_013 = FINAL.
+
 ## 2026-10-02 — Draft_012 comprehensive formatting pass (4 fixes)
 - **Context:** User requested: (1) custom BAELS table borders,
   (2) prevent mid-word splitting in tables (lower font size to fit
