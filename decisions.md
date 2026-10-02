@@ -253,3 +253,13 @@ Entry template:
   Appendix A vs C overlap left unchanged (editorial, not factual error). Draft_007 retained as parallel rewrite.
 - **Rationale:** User explicitly designated Draft_006 as the reference base. All five hard flags were verified against Draft_005 numbers and accepted.
 - **Status:** active
+
+## 2026-10-02 — Draft_009 Verb Tense Matrix alignment on Draft_008
+- **Context:** User supplied Verb Tense Matrix (Proposal → Final) and asked for tense check/correction of Draft_008.
+- **Decision:** Draft_008 was already largely correct for final-defense tenses (methodology past, results past, recommendations present+should, table pointers present). Three minor cleanups applied and pushed as Draft_009:
+  1. Timeline: “Total estimated timeframe” → “Total timeframe”
+  2. Ethical retention: “are retained / are permanently deleted” → “will be retained / will be permanently deleted” (past for storage action already present; future for retention plan)
+  3. Disciplinary classification rule: “follows” → “followed” (two places)
+  No leftover proposal “will” in author methodology; corpus examples left intact.
+- **Rationale:** Matrix final-defense column. Standing institutional facts remain present; procedure steps past; retention policy future.
+- **Status:** active
