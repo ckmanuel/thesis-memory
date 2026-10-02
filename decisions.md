@@ -294,3 +294,9 @@ Entry template:
   - **Appendix C: Coded Corpus** — old D, content/highlights untouched.
   - Main body still D8 (accuracy + tense fixes).
 - **Status:** active
+
+
+## 2026-10-02 — Remove Table 6 (adviser checklist)
+- **Context:** Table 6 told Vet Med students to insert 1–2 hedges, contradicting the thesis's account of binary results and encouraging pro forma hedging.
+- **Decision:** Removed Table 6 in Draft_010. Reframed recommendations: feedback targets overclaiming in implications, not hedge quotas; binary/measured results may need no hedge.
+- **Status:** active
