@@ -284,3 +284,13 @@ Entry template:
 - **Context:** User rejected butchered appendix rewrite. Requested Draft_005 appendices (original formatting) combined with Draft_008 main body (accuracy + tense fixes).
 - **Decision:** Built Draft_009 by splicing Draft_008 body (everything before appendices) with Draft_005 appendix block (APPENDICES through end). Georgia titles, codebook tables, and corpus highlights restored from D5. Body retains D8 fixes (zero-hedge rates, booster avg, scope wording, Landis ref, pilot n=4, timeline 5.5 months, tense cleanups).
 - **Status:** active
+
+
+## 2026-10-02 — Draft_009 appendix changes applied (merge A+C, rewrite framing)
+- **Context:** User asked to apply appendix changes on the D8-body + D5-appendices base.
+- **Decision:** Draft_009 now has:
+  - **Appendix A: Hedging Codebook** — one-page Quick-Reference (preferred voice) + full codebook from D5 (tables/Georgia preserved; PURPOSE opening rewritten).
+  - **Appendix B: Pilot** — intro and closing observation rewritten; four samples kept as data.
+  - **Appendix C: Coded Corpus** — old D, content/highlights untouched.
+  - Main body still D8 (accuracy + tense fixes).
+- **Status:** active
