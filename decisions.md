@@ -27,6 +27,12 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-04 — Draft_036: remove empty paragraphs before Part III pointer
+- **Context:** User reported empty space before “As noted in Part III, an informal reading…”.
+- **Decision:** Draft_036 from Draft_035. Removed three consecutive empty paragraphs left between the Outcome Type discussion and the Part III pointer (leftover from earlier limitation consolidation).
+- **Also:** Generated and pushed Draft_035.pdf + Draft_036.pdf.
+- **Status:** active. Working draft = Draft_036.
+
 ## 2026-10-04 — Draft_035: framing polish after Null/NS elevation
 - **Context:** Ripple check after Draft_034 found light framing lags (not factual errors).
 - **Decision:** Draft_035 from Draft_034.

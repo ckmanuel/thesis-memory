@@ -127,6 +127,7 @@ copies already made.
   repeated 3x; Recommendations repeat. Stats recomputed OK.
 
 ## Recently Completed
+- 2026-10-04 — Draft_036: removed 3 empty paragraphs causing gap before “As noted in Part III…”; PDF generated.
 - 2026-10-04 — Draft_035: framing polish (Part IV opening, Future Research lead, Methods Acs2 trim) after Null/NS elevation.
 - 2026-10-04 — Draft_034: elevated Null/NS (14/21) + Acs2 rescue-hedging as lead finding in Part IV/Conclusions; consolidated Part IV limitation; KW stats caveats (counts vs rates, no posthoc); L3 → Unhedged sites; curricula claim softened.
 - 2026-10-04 — Draft_033: Table 6 thick top/bottom borders (sz=18) matched to other Results tables.
