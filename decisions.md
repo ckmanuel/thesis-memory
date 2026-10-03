@@ -27,6 +27,16 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-03 — Draft_020: consistency pass (VM label, cross-refs, potential, Part IV heading)
+- **Context:** Critique: Part IV still called VM “assertive reporting”; Scope cross-refs wrong (pilot → Results, Crop/Animal “counts” in sampling table); “learned formula” on potential; Part IV heading overpromised.
+- **Decision:** Draft_020 from Draft_019.
+- **Edits:**
+  1. Part IV heading → “CROSS-DISCIPLINARY CONTRASTS”
+  2. VM section → “lower density, cause unknown”; not a measured assertive profile
+  3. Scope: pilot comparison → Appendix B; Table 1 = sample sizes not hedge counts
+  4. Part I potential: dropped “learned formula”; boundary judgment under Working Test, open to alternative readings
+- **Status:** active. Working draft = Draft_020.
+
 ## 2026-10-03 — Draft_019: RQ3 question restored to approved wording
 - **Context:** User clarified only the RQ3 *discussion* should be reframed, not the question text (approved version stands).
 - **Decision:** RQ3 question restored to “Among the hedging devices identified, what rhetorical functions do they serve?” Framework/Part III discussion still treats the 100% EC result as a finding about the scheme under the Working Test.
