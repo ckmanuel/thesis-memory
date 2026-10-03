@@ -27,6 +27,13 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-03 — Draft_029: Verb-tense pass against final-defense matrix
+- **Context:** User supplied Verb Tense Matrix (proposal → final). Asked to check and correct mistakes.
+- **Decision:** Draft_029 from Draft_028. Only one residual procedure-style future found.
+- **Edits:** Ethics data-retention clause: “will be retained / will be permanently deleted” → “are retained / are permanently deleted” (standing practice, present tense).
+- **Scan result:** Methodology already past-tense throughout (design, sampling, extraction, coding, ethics steps taken). Objectives/RQs present (allowed). Results use past for findings + present for table pointers (allowed). Conclusions mix past findings / present general claims (allowed). Recommendations use should / Future research should (allowed). No “proposed study” / proposal-stage future in main body. Appendix coded examples contain “will” only as source-text tokens.
+- **Status:** active. Working draft = Draft_029.
+
 ## 2026-10-03 — Draft_028: Soften disciplinary-variation claims in Part I/II
 - **Context:** User: the claim of disciplinary variation rests on Vet Med versus the other two; no clear Agriculture–Biology difference. Part I/II still said “varies meaningfully” and “substantial variation”; Conclusions already said limited evidence, mainly VM, Ag edge outlier-sensitive.
 - **Decision:** Draft_028 from Draft_027.
