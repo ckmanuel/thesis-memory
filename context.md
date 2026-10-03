@@ -127,6 +127,9 @@ copies already made.
   repeated 3x; Recommendations repeat. Stats recomputed OK.
 
 ## Recently Completed
+- 2026-10-03 — Session Grok: Confirmed Combined Example vs Pilot/main-corpus inconsistency was isolated to the illustrative example only. Applied silent corrections in Draft_015: Combined Example now marks conclusion-position “potential” as EC (aligned with final rule, Pilot Sample 2, and all 14 main-corpus decisions); discipline codes Acs1–Acs10 / Aas1–Aas10 fixed. Excel versioned as 007_CompiledResult_Draft_001.xlsx (no numeric change). No mention of the corrections in the paper text.
+
+
 _(Capped at 5 entries. Older items live in `decisions.md` and the
 verbatim transcript at `chat_history/`.)_
 

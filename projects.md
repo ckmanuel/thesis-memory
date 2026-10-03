@@ -9,7 +9,7 @@ progresses. When a project is finished, move it to the "Archived" section.
 - **Status:** active
 - **Started:** 2026-09-08 (first backup pushed this date; thesis work
   predates this entry)
-- **Last touched:** 2026-10-02
+- **Last touched:** 2026-10-03
 - **Goal:** BA in English Language Studies thesis at Pampanga State
   Agricultural University (PSAU). Topic: hedging devices in
   undergraduate thesis abstracts across Agriculture, Veterinary
@@ -36,6 +36,9 @@ progresses. When a project is finished, move it to the "Archived" section.
   - `003_ThesisProposal_Draft_011.docx` — previous revised draft (Ch.3–4 redundancy cut; stats/potential/EC/implication told once; 2026-10-02).
   - `003_ThesisProposal_Draft_012.docx` — previous draft. Formatting cleanup draft (BAELS borders, wordWrap=0, 10pt cells, cantSplit, tableHeader, 3-3/1-0 spacing, pageBreakBefore fix, blank pages eliminated). 113 pages, 0 blank.
   - `003_ThesisProposal_Draft_013.docx` — **FINAL** draft (labeled 2026-10-02). User's manual edits on top of Draft_012, plus typo fix (restored "producti" → "production." in Appendix C, paragraph 510). Changes from Draft_012: Tables 3 and 4 reformatted (user did this manually — proper column widths, no mid-word breaks); "institutions and cohorts" → "institutions and groups" (Future Research); codebook paragraph simplified (removed "Highlights are background colors..." sentence); Combined Example paragraph simplified (removed "Not a highlight..." and "Blue and red highlights mark type" → "Red highlights mark type"); trailing period removed in two places (one was a typo, now fixed). 112 pages, 0 blank. Git tag: `final-draft-013`.
+  - `003_ThesisProposal_Draft_014.docx` — Appendix A layout pass (from earlier 2026-10-03 session).
+  - `003_ThesisProposal_Draft_015.docx` — Silent composition-period corrections (2026-10-03): Combined Example in Appendix A aligned with final structural-position rule (conclusion-position “potential” marked EC, consistent with Pilot Sample 2 and main-corpus coding); discipline code notation fixed (Acs1–Acs10 / Aas1–Aas10). No change to findings, counts, or framing.
+  - `007_CompiledResult_Draft_001.xlsx` — Versioned copy of compiled coding results (no numeric change; coding already consistent with final rule).
   - `001_ThesisCompanion.pdf` — formatting guide (saved 2026-10-02 so future sessions have it).
   - `003_ThesisProposal_Draft_010.docx` — previous revised draft (Table 6 removed; adviser guidance reframed away from hedge quotas; 2026-10-02).
   - `003_ThesisProposal_Draft_009.docx` — current revised draft (D8 body + D5 appendices; A+C merged with quick-ref; B reframed; corpus = C; 2026-10-02).
@@ -55,14 +58,13 @@ progresses. When a project is finished, move it to the "Archived" section.
     (2026-10-02).
   - `007_CompiledResult_Preedit.xlsx` — original uploaded version,
     preserved unchanged. Not yet revised; no Draft copy exists.
-    When revised, will re-enter the working tree as
-    `007_CompiledResult_Draft_001.xlsx`.
+    Draft_001 created 2026-10-03 (no numeric change from Preedit; coding already consistent with final rule).
   - Source uploads at `/home/z/my-project/upload/`.
 - **Author:** Chryz Kean F. Manuel (user). Proposal defense already
   approved (2026-10-02 is the post-defense state). Current work is
   toward final defense (target November 2026 per companion guide
   timeline, with final manuscript submission October 2026).
-- **Stage:** Post-proposal-defense. Final manuscript draft = `Draft_013` (labeled FINAL 2026-10-02). Working toward final oral defense (target November 2026). Title page reads "A Thesis" (no "Proposal") per companion guide p.14, since proposal has been approved.
+- **Stage:** Post-proposal-defense. Working draft = `Draft_015` (from Draft_014/013). Draft_013 remains the labeled FINAL baseline. Working toward final oral defense (target November 2026). Title page reads "A Thesis" (no "Proposal") per companion guide p.14, since proposal has been approved.
 - **Notes:**
   - First backup pushed 2026-09-08. Files renamed 2026-09-08 to
     `_Preedit` / `_Draft_001` convention (see `decisions.md`).
