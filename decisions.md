@@ -27,6 +27,11 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-04 — Draft_039: restore Significance lead-in bold pattern
+- **Context:** User: only the first Significance body paragraph was wrongly fully bold; other paragraphs intentionally bold the first clause.
+- **Decision:** Overwrite Draft_039. All four Significance body paragraphs now use bold lead-in + normal rest (including the first: “For writing instructors and thesis advisers at PSAU,” bold, remainder regular).
+- **Status:** active. Working draft = Draft_039.
+
 ## 2026-10-04 — Draft_039: unbold Significance body + Inclusion/Exclusion Criteria
 - **Context:** User: fix bolded text in Significance of the Study and Inclusion Criteria.
 - **Decision:** Overwrite Draft_039. Set w:b val=0 on Significance body paragraphs (heading stays bold). Unbolded Inclusion Criteria and Exclusion Criteria paragraphs (were fully bold).
