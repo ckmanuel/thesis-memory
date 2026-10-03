@@ -27,6 +27,17 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-04 — Draft_034: elevate Null/NS+Acs2, consolidate limitations, fix stats/L3/curricula
+- **Context:** User feedback: limitations over-repeated (Scope/Part II/IV/Conclusions); most interesting finding (Agri 14/21 Null/NS + Acs2 rescue-hedging) buried; KW on raw counts not rates; nested in advisers; no posthoc; L3 sites before Layer 3 defined; curricula claim uncited.
+- **Decision:** Single-pass Draft_034 from Draft_033.
+- **Edits:**
+  - Elevated Null/NS concentration + Acs2 rescue as lead observation in Part IV and sharpened in Conclusions (links to intro overclaiming).
+  - Consolidated Part IV limitation paragraph to one short Scope pointer.
+  - Stats: noted KW on counts not rates, length variation, no posthoc/planned VM contrast.
+  - Renamed Table 4 "L3 Sites" → "Unhedged sites"; updated prose reference.
+  - Softened curricula claim: "rarely treated as a distinct rhetorical skill in many Philippine undergraduate writing courses" (no absolute "most universities").
+- **Status:** active. Working draft = Draft_034.
+
 ## 2026-10-04 — Draft_033: Table 6 thick top/bottom borders (sz=18)
 - **Context:** User: thick line isn’t there on Table 6. Remote Draft_032 lacked tblBorders.
 - **Decision:** Draft_033 from remote Draft_032. Apply table-level borders matching Tables 2–5.

@@ -127,6 +127,7 @@ copies already made.
   repeated 3x; Recommendations repeat. Stats recomputed OK.
 
 ## Recently Completed
+- 2026-10-04 — Draft_034: elevated Null/NS (14/21) + Acs2 rescue-hedging as lead finding in Part IV/Conclusions; consolidated Part IV limitation; KW stats caveats (counts vs rates, no posthoc); L3 → Unhedged sites; curricula claim softened.
 - 2026-10-04 — Draft_033: Table 6 thick top/bottom borders (sz=18) matched to other Results tables.
 - 2026-10-03 — Draft_027 + Excel Draft_005: “Scope notes” fixed; clause-level rarity claim softened (no uncited convention claim); Summary sheet FP-Gen 38→33.
 - 2026-10-03 — Draft_026: Part I clause-level paragraph rewritten (genre + supervision, not syntactic sophistication); Hyland & Milton retained only for restricted range.
