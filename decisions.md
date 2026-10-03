@@ -27,6 +27,18 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-03 — Draft_018: critique fixes (stats language, Recommendations dupe, catalog-year inclusion, B2 note, pro-forma softener)
+- **Context:** External comment flagged approximate-p sensitivity language, duplicated Recommendations paragraph, undefined “completion” vs B2 2018–2019 conduct date, and over-weight of “pro forma” label. Confirmed present in Draft_017.
+- **Decision:** Create Draft_018 from Draft_017 with five targeted edits only. No new analysis or count changes.
+- **Edits:**
+  1. Sensitivity check: removed “(approximately p ≈ .025)”; now states directional pattern only.
+  2. Recommendations: deleted the second, near-verbatim “Instruction should also distinguish topic-naming potential…” sentence.
+  3. Scope + Inclusion/Exclusion + pilot: inclusion window defined as hard-bound submission year in PSAU library catalog (not research-conduct year); irregular-student lag explained.
+  4. B2 abstract: coder note “[Conducted 2018–2019; bound and catalogued 2023 per library records]”.
+  5. Pro forma: “learned lexical shell” → “formulaic—a limited set of frames and one function”.
+  6. Cosmetic: remaining “p ≈ .033” → “p = .033”.
+- **Status:** active. Working draft = Draft_018.
+
 ## 2026-10-02 — Draft_013 labeled as FINAL
 - **Context:** User uploaded manually-edited version of Draft_012
   ("My Thesis Final - Draft.docx") with minor changes: Tables 3
