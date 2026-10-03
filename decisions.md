@@ -27,6 +27,11 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-04 — Draft_039: pull back Null/NS claim (Acs2-driven)
+- **Context:** User arithmetic: Agri Null/NS without Acs2 averages 1.0, same as non-Null Agri; elevation is Acs2; no hedge-rate-by-outcome test; Agri has zero Binary (discipline × design entangled).
+- **Decision:** Overwrite Draft_039. Part IV no longer calls Null/NS more central than density ranking; states elevation is carried by Acs2 (8 of 21 Null/NS hedges in Agri); remaining 13 average 1.0. Acs2 retained as single-case rescue-hedging example linked to intro. Notes Agri has zero Binary; formal outcome-type comparison not reported. Conclusions and Future Research aligned.
+- **Status:** active. Working draft = Draft_039.
+
 ## 2026-10-04 — Draft_039: remove blank page before FULL CODEBOOK
 - **Context:** User asked to check for blank pages and fix.
 - **Decision:** Overwrite Draft_039 (per versioning policy). Removed empty paragraph that held a page-break `<w:br w:type="page"/>` immediately before FULL CODEBOOK, which already had `pageBreakBefore` — double break produced a fully blank page (was p.46). Document 111→110 pages. Title page and final page remain sparse by design.
