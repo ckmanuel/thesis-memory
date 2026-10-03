@@ -27,6 +27,11 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-04 — Draft_039: alphabetize Definition of Terms + match bold structure
+- **Context:** User: added defs were fully bolded and not alphabetized.
+- **Decision:** Draft_039 from Draft_038. Removed misplaced entries; re-inserted Chi-Square (after Claim), Cohen’s Kappa (after Clause-Level), Kruskal-Wallis (after Hedging) with the same two-run bold structure as existing terms (term name bold + body bold, matching Abstract/Normalized Frequency house style).
+- **Status:** active. Working draft = Draft_039.
+
 ## 2026-10-04 — Draft_038: add Chi-Square, Cohen’s Kappa, Kruskal-Wallis to Definition of Terms
 - **Context:** User asked to define stats terms with computation formulas, matching the Normalized Frequency style.
 - **Decision:** Draft_038 from Draft_037. Added three entries after Normalized Frequency:
