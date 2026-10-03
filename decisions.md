@@ -27,6 +27,15 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-04 — Draft_037: KW on rates + subtler caveats
+- **Context:** User asked to apply per-100w rates (better than raw counts) and state caveats more subtly.
+- **Decision:** Draft_037 from Draft_036.
+- **Edits:**
+  - Re-ran Kruskal-Wallis on per-abstract hedge rates (per 100 words): H ≈ 7.39, p = .025 (was H ≈ 6.84, p = .033 on counts). Rates preferred because VM abstracts average longer (~253 vs ~215–225 words).
+  - Softened Part II caveat block: removed explicit “raw counts vs rates would be preferable,” “no post-hoc,” “p-values are fragile,” “not confirmatory evidence of a field-level difference.” Kept adviser clustering, spread, small/zero-inflated sample, exploratory framing.
+  - Updated Part IV and Conclusions p-value references to rates version; Conclusions caveat shortened.
+- **Status:** active. Working draft = Draft_037.
+
 ## 2026-10-04 — Draft_036: remove empty paragraphs before Part III pointer
 - **Context:** User reported empty space before “As noted in Part III, an informal reading…”.
 - **Decision:** Draft_036 from Draft_035. Removed three consecutive empty paragraphs left between the Outcome Type discussion and the Part III pointer (leftover from earlier limitation consolidation).
