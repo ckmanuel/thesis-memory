@@ -139,6 +139,7 @@ verbatim transcript at `chat_history/`.)_
   Quick-Reference and Legend side-by-side in 2-col table; Coding Sheet
   + Combined Example moved before Full Codebook; Full Codebook forced
   to new page; intro text updated; fonts tightened in quick block.
+- 2026-10-03 — Draft_014 revised: left original QR alone; Legend + Coding Sheet + Combined Example on their own new page (fitted); Full Codebook on following new page.
 - 2026-10-02 — Session `auto-1790954075-b54f1a` (Claude) opened: repo
   cloned via one-shot credential helper, remote clean, doctor passing.
   Reviewed Draft_013 (findings under Open Threads). PAT pasted in
