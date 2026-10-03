@@ -36,3 +36,9 @@ Facts the user shares that don't fit elsewhere. Update in place.
 - First-pass coding refined boundary decision rules as ambiguities appeared.
 - After the codebook was finalized, the **full corpus was re-coded** under the final rule set.
 - Intra-rater reliability (second pass on 6 abstracts) used that same final codebook.
+## Outcome type coding (2026-10-03)
+- Categories: Binary, Continuous, Mixed, Null/NS, Other — coded from abstract results language for all 60.
+- VM Binary: 8/20 abstracts, mean 0.38 hedges (partial support for binary-outcome hypothesis).
+- Bio Binary mean hedges higher than VM Binary.
+- Agri has many Null/NS (including Acs2 rescue-hedging outlier with 8 hedges).
+- Stored in thesis/007_CompiledResult_Draft_003.xlsx sheet "Outcome Type".

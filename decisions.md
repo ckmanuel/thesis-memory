@@ -27,6 +27,17 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-03 — Draft_022 + Excel Draft_003: Acs2 rescue-hedging; outcome-type coding; Ethics/Aas9; clustering
+- **Context:** Critique: Acs2 dismissed as noise; VM binary hypothesis untested; adviser clustering under KW; Aas9 title not anonymized.
+- **Decision:** Draft_022 from Draft_021; CompiledResult Draft_003 with Outcome Type sheet.
+- **Edits (thesis):**
+  1. Acs2: named as null-result rescue hedging (overclaiming risk), not only formulaic density inflation.
+  2. Outcome type coded for all 60 (Binary/Continuous/Mixed/Null/NS/Other); VM Binary 8/20, mean 0.38 hedges; partial support only.
+  3. Kruskal-Wallis: independence/clustering caveat next to the p-value.
+  4. Ethics: names anonymized; titles in source text redacted where identifying; Aas9 title → [TITLE REDACTED].
+- **Excel:** New sheet Outcome Type + cross-tabs.
+- **Status:** active. Working draft = Draft_022.
+
 ## 2026-10-03 — Draft_021 Methods: full re-code after codebook finalized
 - **Context:** User corrected prior assumption. After first-pass coding and rule refinement, the full corpus was re-coded under the final codebook; intra-rater second pass used that same codebook.
 - **Decision:** Methods text updated. knowledge.md records the fact.

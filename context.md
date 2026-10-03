@@ -127,6 +127,7 @@ copies already made.
   repeated 3x; Recommendations repeat. Stats recomputed OK.
 
 ## Recently Completed
+- 2026-10-03 — Draft_022 + Excel Draft_003: Acs2 rescue-hedging; outcome-type coding (60 abstracts); KW clustering caveat; Aas9 title redacted; Ethics fixed.
 - 2026-10-03 — Draft_021: removed duplicate “Limited evidence of differentiation” from Part IV (kept in Conclusions only).
 - 2026-10-03 — Draft_021 Methods corrected: full corpus re-coded after codebook finalized; intra-rater used final codebook.
 - 2026-10-03 — Created Draft_021: Part IV unified (no Ag/Bio/VM profile labels); differentiation claim softened; Methods states earlier abstracts not systematically re-checked against final rules.
