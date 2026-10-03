@@ -27,6 +27,17 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-03 — Draft_018 override: RQ3 discussion + RQ4/pro-forma framing
+- **Context:** External critique: RQ3 100% EC is near-tautological under Working Test; RQ4 still framed around individual researchers while Limitations concede adviser/institutional effects; pro forma leans on zero-hedge abstracts.
+- **Decision:** Override Draft_018 (no Draft_019). Keep RQ3 wording; reframe how 100% EC is discussed. Lightly reframe RQ4 and related passages to “ratified abstracts … at PSAU.” Keep pro forma label; tighten so it does not treat zero-hedge abstracts as evidence of non-calibration.
+- **Edits:**
+  1. Part III opening: “Under the Working Test… As a direct consequence… all 65 retained tokens were coded EC.”
+  2. Conclusions: same Working-Test consequence note for 100% EC.
+  3. RQ4: “…in the ratified abstracts of developing researchers at PSAU.”
+  4. Part IV intro + Significance + Conclusions disciplinary claim aligned to ratified-abstracts framing.
+  5. Pro forma: observation (2) now “under the Working Test”; explicit clause that zero-hedge abstracts do not themselves demonstrate non-calibration.
+- **Status:** active. Draft_018 (overridden) is current working draft.
+
 ## 2026-10-03 — Draft_018: critique fixes (stats language, Recommendations dupe, catalog-year inclusion, B2 note, pro-forma softener)
 - **Context:** External comment flagged approximate-p sensitivity language, duplicated Recommendations paragraph, undefined “completion” vs B2 2018–2019 conduct date, and over-weight of “pro forma” label. Confirmed present in Draft_017.
 - **Decision:** Create Draft_018 from Draft_017 with five targeted edits only. No new analysis or count changes.

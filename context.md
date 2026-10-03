@@ -127,6 +127,7 @@ copies already made.
   repeated 3x; Recommendations repeat. Stats recomputed OK.
 
 ## Recently Completed
+- 2026-10-03 — Draft_018 overridden (Grok): RQ3 100% EC reframed as Working Test consequence (Part III + Conclusions); RQ4 and related passages shifted to “ratified abstracts … at PSAU”; pro forma kept but tightened (zero-hedge abstracts not evidence of non-calibration). PDF regenerated.
 - 2026-10-03 — Created Draft_018 from Draft_017 (Grok session). Fixes from external critique: (1) dropped approximate-p claim in sensitivity check (now reports directional pattern only); (2) removed duplicated “distinguish topic-naming potential…” sentence in Recommendations; (3) operationalized inclusion window as hard-bound / library-catalog year in Scope, Inclusion Criteria, Exclusion Criteria, and pilot note; (4) added coder note on B2 “[Conducted 2018–2019; bound and catalogued 2023 per library records]”; (5) softened pro-forma “learned lexical shell” phrasing. Standardized remaining p ≈ .033 to p = .033.
 - 2026-10-03 — Session Grok: Confirmed Combined Example vs Pilot/main-corpus inconsistency was isolated to the illustrative example only. Applied silent corrections in Draft_015: Combined Example now marks conclusion-position “potential” as EC (aligned with final rule, Pilot Sample 2, and all 14 main-corpus decisions); discipline codes Acs1–Acs10 / Aas1–Aas10 fixed. Excel versioned as 007_CompiledResult_Draft_001.xlsx (no numeric change). No mention of the corrections in the paper text.
 
