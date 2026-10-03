@@ -27,6 +27,14 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-04 — Draft_038: add Chi-Square, Cohen’s Kappa, Kruskal-Wallis to Definition of Terms
+- **Context:** User asked to define stats terms with computation formulas, matching the Normalized Frequency style.
+- **Decision:** Draft_038 from Draft_037. Added three entries after Normalized Frequency:
+  - Chi-Square Test of Independence: χ² = Σ [(Oᵢ − Eᵢ)² / Eᵢ]; reported χ² = 5.07, df = 2, p = .079.
+  - Cohen’s Kappa: κ = (Pₒ − Pₑ) / (1 − Pₑ); Landis & Koch bands; reported κ = 0.89.
+  - Kruskal-Wallis Test: H = [12 / (N(N+1))] × Σ (Rⱼ² / nⱼ) − 3(N+1); reported H ≈ 7.39, p = .025 (on rates).
+- **Status:** active. Working draft = Draft_038.
+
 ## 2026-10-04 — Draft_037: KW on rates + subtler caveats
 - **Context:** User asked to apply per-100w rates (better than raw counts) and state caveats more subtly.
 - **Decision:** Draft_037 from Draft_036.

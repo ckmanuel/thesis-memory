@@ -127,6 +127,7 @@ copies already made.
   repeated 3x; Recommendations repeat. Stats recomputed OK.
 
 ## Recently Completed
+- 2026-10-04 — Draft_038: Chi-Square, Cohen’s Kappa, Kruskal-Wallis formulas added to Definition of Terms.
 - 2026-10-04 — Draft_037: KW re-run on rates (H≈7.39, p=.025); caveats softened.
 - 2026-10-04 — Draft_036: removed 3 empty paragraphs causing gap before “As noted in Part III…”; PDF generated.
 - 2026-10-04 — Draft_035: framing polish (Part IV opening, Future Research lead, Methods Acs2 trim) after Null/NS elevation.
