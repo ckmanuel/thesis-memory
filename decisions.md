@@ -27,6 +27,14 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-03 — Draft_031: Table 6 exact format match (captions + cells)
+- **Context:** User: copy other tables’ formatting to the dot — font size, line spacing, no exceptions.
+- **Decision:** Draft_031 from Draft_030.
+- **Edits (Table 6 only):**
+  - Captions: Georgia 12pt; number bold; spacing before=720/after=0/line=480 (number), before=0/after=60/line=480 (title); centered — matches Tables 4–5.
+  - Cells: Georgia 9pt (sz=18); paragraph spacing before=0 after=0 line=240; header bold + bottom border only; body no borders; Total row not bold (matches reference Tables).
+- **Status:** active. Working draft = Draft_031.
+
 ## 2026-10-03 — Draft_030: Table 6 formatting matched to other Results tables
 - **Context:** User: only Table 6 differed from the rest.
 - **Decision:** Draft_030 from Draft_029. Restyle Table 6 to match Tables 2–5.
