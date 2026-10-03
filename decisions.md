@@ -27,6 +27,15 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-03 — Draft_025: Outcome Type cross-tab added as Table 6
+- **Context:** User noted the Outcome Type cross-tab lived only in the spreadsheet; the thesis gave it one paragraph and no table. If it carries the new argument, it belongs in Results.
+- **Decision:** Draft_025 from Draft_024. Add Table 6 (Outcome Type by Discipline) in Part IV; revise the Outcome Type paragraph to point to the table.
+- **Edits:**
+  1. Inserted Table 6 (counts: Outcome Type × Discipline, with totals) after the Part IV intro paragraph.
+  2. Rewrote the Outcome Type paragraph to refer to Table 6; kept the key contrasts (VM Binary 0.38 vs Bio Binary 1.57; Agri Null/NS 14/20) and the rejection of the binary-outcome account of VM density.
+  3. Full per-abstract coding remains in the coding spreadsheet; table presents the aggregate cross-tab only.
+- **Status:** active. Working draft = Draft_025.
+
 ## 2026-10-03 — Draft_024: Part II/IV consistency; outcome coding method; voice
 - **Context:** Part II still explained VM density by binary outcomes while Part IV rejected that; future research still tied advisers to binary-outcome interpretation; outcome paragraph read like external feedback; no method for outcome coding.
 - **Decision:** Draft_024 from Draft_023.

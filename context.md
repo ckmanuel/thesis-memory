@@ -127,6 +127,7 @@ copies already made.
   repeated 3x; Recommendations repeat. Stats recomputed OK.
 
 ## Recently Completed
+- 2026-10-03 — Draft_025: Outcome Type cross-tab promoted to Table 6 in Part IV; paragraph revised to point to table.
 - 2026-10-03 — Draft_024: “Compiled Results Draft_004” → “the coding spreadsheet.”
 - 2026-10-03 — Draft_024: Part II/IV consistent on binary account; outcome coding method in Methods; future research retargeted; outcome prose in own voice.
 - 2026-10-03 — Draft_023 + Excel Draft_004: binary-outcome hypothesis rejected; Null/NS share as clearer lead; no process language in Excel.
