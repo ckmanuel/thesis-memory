@@ -27,6 +27,13 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-04 — Repo cleanup + draft versioning policy
+- **Context:** User: repo cluttered with past drafts; only keep 2 latest; from now on overwrite current draft for small changes; new Draft_0xx only for major revisions.
+- **Decision:**
+  1. Removed all 003_ThesisProposal_Draft_001–037 (docx/pdf) and Preedit; removed 007_CompiledResult_Draft_001–004 and Preedit. Kept Draft_038, Draft_039, and CompiledResult_Draft_005.
+  2. **Versioning policy (going forward):** Small/iterative edits overwrite the current working draft (and its PDF) in place. A new numbered Draft_0xx is created only for major revisions (structural rewrites, chapter-level changes, or when the user explicitly requests a new version). Keep at most the current + one previous numbered draft in the repo.
+- **Status:** active. Working draft = Draft_039.
+
 ## 2026-10-04 — Draft_039: alphabetize Definition of Terms + match bold structure
 - **Context:** User: added defs were fully bolded and not alphabetized.
 - **Decision:** Draft_039 from Draft_038. Removed misplaced entries; re-inserted Chi-Square (after Claim), Cohen’s Kappa (after Clause-Level), Kruskal-Wallis (after Hedging) with the same two-run bold structure as existing terms (term name bold + body bold, matching Abstract/Normalized Frequency house style).

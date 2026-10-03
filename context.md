@@ -127,6 +127,7 @@ copies already made.
   repeated 3x; Recommendations repeat. Stats recomputed OK.
 
 ## Recently Completed
+- 2026-10-04 — Repo cleanup: kept only Draft_038 + Draft_039 (and Excel 005). New policy: overwrite current draft for small changes; new numbered draft only for major revisions.
 - 2026-10-04 — Draft_039: Definition of Terms alphabetized; bold structure matched to existing entries.
 - 2026-10-04 — Draft_038: Chi-Square, Cohen’s Kappa, Kruskal-Wallis formulas added to Definition of Terms.
 - 2026-10-04 — Draft_037: KW re-run on rates (H≈7.39, p=.025); caveats softened.
