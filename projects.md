@@ -64,7 +64,8 @@ progresses. When a project is finished, move it to the "Archived" section.
   approved (2026-10-02 is the post-defense state). Current work is
   toward final defense (target November 2026 per companion guide
   timeline, with final manuscript submission October 2026).
-- **Stage:** Post-proposal-defense. Working draft = `Draft_029` (from Draft_028); spreadsheet = `007_CompiledResult_Draft_005`. Draft_013 remains the labeled FINAL baseline. Working toward final oral defense (target November 2026). Title page reads "A Thesis" (no "Proposal") per companion guide p.14, since proposal has been approved.
+- **Stage:** Post-proposal-defense. Working draft = `Draft_029`
+  - Reference: `thesis/Thesis_Verb_Tense_Matrix.pdf` (proposal→final tense guide; added 2026-10-03). (from Draft_028); spreadsheet = `007_CompiledResult_Draft_005`. Draft_013 remains the labeled FINAL baseline. Working toward final oral defense (target November 2026). Title page reads "A Thesis" (no "Proposal") per companion guide p.14, since proposal has been approved.
   - 2026-10-03 Draft_029: Verb-tense pass (Ethics retention → present standing practice).
   - 2026-10-03 Draft_028: Soften disciplinary-variation claims in Part I/II (mainly VM).
   - 2026-10-03 Draft_027 + Excel Draft_005: Part I wording fix + FP-Gen 38→33.
