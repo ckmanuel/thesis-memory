@@ -27,6 +27,15 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-04 — Draft_035: framing polish after Null/NS elevation
+- **Context:** Ripple check after Draft_034 found light framing lags (not factual errors).
+- **Decision:** Draft_035 from Draft_034.
+- **Edits:**
+  - Part IV opening: “three observable patterns” → “map frequency, function, and cross-disciplinary density”; contrasts framed as exploratory.
+  - First Future Research paragraph: leads with Null/NS concentration + rescue-hedging + VM density instead of generic “disciplinary patterns.”
+  - Methods Acs2: trimmed interpretive weight; points forward to Part IV for the full rescue/overclaiming reading.
+- **Status:** active. Working draft = Draft_035.
+
 ## 2026-10-04 — Draft_034: elevate Null/NS+Acs2, consolidate limitations, fix stats/L3/curricula
 - **Context:** User feedback: limitations over-repeated (Scope/Part II/IV/Conclusions); most interesting finding (Agri 14/21 Null/NS + Acs2 rescue-hedging) buried; KW on raw counts not rates; nested in advisers; no posthoc; L3 sites before Layer 3 defined; curricula claim uncited.
 - **Decision:** Single-pass Draft_034 from Draft_033.
