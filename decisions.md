@@ -27,6 +27,12 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-03 — Draft_024: Part II/IV consistency; outcome coding method; voice
+- **Context:** Part II still explained VM density by binary outcomes while Part IV rejected that; future research still tied advisers to binary-outcome interpretation; outcome paragraph read like external feedback; no method for outcome coding.
+- **Decision:** Draft_024 from Draft_023.
+- **Edits:** Part II aligned with Part IV (binary account not supported). Future research → supervisory practice + Null/NS share. Outcome paragraph rewritten in plainer voice; Acs2 illustrates, does not prove. Methods: separate pass for outcome type from results language.
+- **Status:** active. Working draft = Draft_024.
+
 ## 2026-10-03 — Draft_023 + Excel Draft_004: binary hypothesis rejected; Null/NS lead
 - **Context:** Critique: binary-outcome account not supported (VM Binary 0.38 vs Bio Binary 1.57); “partially compatible” too kind; Agri Null/NS 14/20 is the better lead.
 - **Decision:** Draft_023; Excel Draft_004 (notes cleaned; no process language).

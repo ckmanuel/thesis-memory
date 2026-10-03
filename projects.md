@@ -64,7 +64,7 @@ progresses. When a project is finished, move it to the "Archived" section.
   approved (2026-10-02 is the post-defense state). Current work is
   toward final defense (target November 2026 per companion guide
   timeline, with final manuscript submission October 2026).
-- **Stage:** Post-proposal-defense. Working draft = `Draft_023` (from Draft_022). Draft_013 remains the labeled FINAL baseline. Working toward final oral defense (target November 2026). Title page reads "A Thesis" (no "Proposal") per companion guide p.14, since proposal has been approved.
+- **Stage:** Post-proposal-defense. Working draft = `Draft_024` (from Draft_023). Draft_013 remains the labeled FINAL baseline. Working toward final oral defense (target November 2026). Title page reads "A Thesis" (no "Proposal") per companion guide p.14, since proposal has been approved.
   - 2026-10-03 Draft_023 + 007_CompiledResult_Draft_004.
   - 2026-10-03 Draft_022 + 007_CompiledResult_Draft_003 (outcome type).
   - 2026-10-03 Draft_021: Part IV unified; differentiation softened; re-coding admission.
