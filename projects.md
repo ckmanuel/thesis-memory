@@ -64,7 +64,8 @@ progresses. When a project is finished, move it to the "Archived" section.
   approved (2026-10-02 is the post-defense state). Current work is
   toward final defense (target November 2026 per companion guide
   timeline, with final manuscript submission October 2026).
-- **Stage:** Post-proposal-defense. Working draft = `Draft_018` (from Draft_017). Draft_013 remains the labeled FINAL baseline. Working toward final oral defense (target November 2026). Title page reads "A Thesis" (no "Proposal") per companion guide p.14, since proposal has been approved.
+- **Stage:** Post-proposal-defense. Working draft = `Draft_019` (from Draft_018). Draft_013 remains the labeled FINAL baseline. Working toward final oral defense (target November 2026). Title page reads "A Thesis" (no "Proposal") per companion guide p.14, since proposal has been approved.
+  - 2026-10-03 Draft_019: RQ3→scheme finding; pro forma dropped; Part IV shrunk; Scope cleaned; codebook refinement noted.
   - 2026-10-03 Draft_018 (override): RQ3 100% EC reframed as Working Test consequence; RQ4 → ratified abstracts at PSAU; pro forma kept, zero-hedge non-calibration claim removed.
   - 2026-10-03 Draft_018: fixed approximate-p language in sensitivity check; removed duplicated Recommendations paragraph; operationalized inclusion window as library catalog / hard-bound submission year (Scope + Inclusion/Exclusion + pilot note); added coder note on B2 (2018–2019 conduct, 2023 catalog); softened "learned lexical shell" phrasing on pro forma.
 - **Notes:**

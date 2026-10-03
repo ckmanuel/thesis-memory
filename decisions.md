@@ -27,6 +27,20 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-03 — Draft_019: panel-critique revisions (RQ3 scheme, pro forma dropped, Part IV shrunk, Scope cleaned)
+- **Context:** External “honest opinion” critique. User instructions: (1) single-coder keep as is; (2) acknowledge codebook refined on main corpus, no need to narrate every correction in paper/excel; (3) RQ3 as finding about the scheme; (4) shrink theoretical claims; (5) drop pro forma; (6) soften baseline, finish assertive note, Crop/Animal note; (7) remove results numbers from Scope.
+- **Decision:** New Draft_019 from Draft_018.
+- **Edits:**
+  1. RQ3 reframed: “How does the adapted function scheme classify the retained hedges… under the Working Test?” Framework text aligned.
+  2. Methods: pilot established overall scheme; boundary decision rules refined during main-corpus coding and logged.
+  3. Pro forma: removed from Definition of Terms; removed three-observation paragraph from Part IV; Conclusions no longer uses “formulaic potential” as construct language. Term count = 0.
+  4. Part IV + Conclusions: defensible claim = “VM abstracts in this corpus hedge less; the cause remains unknown.” Rival explanations named, not resolved.
+  5. “Sharp departure from expert norms” softened (no matched expert-abstract baseline).
+  6. Assertive-forms count clarified as zero-hedge subset only; no comparison claim.
+  7. Crop/Animal: “documented separately” replaced with sampling-table note; no separate inferential comparison.
+  8. Scope: removed 65 / 41.7% / pilot 75% results leakage; points to Results chapter.
+- **Status:** active. Working draft = Draft_019.
+
 ## 2026-10-03 — Draft_018 override: RQ3 discussion + RQ4/pro-forma framing
 - **Context:** External critique: RQ3 100% EC is near-tautological under Working Test; RQ4 still framed around individual researchers while Limitations concede adviser/institutional effects; pro forma leans on zero-hedge abstracts.
 - **Decision:** Override Draft_018 (no Draft_019). Keep RQ3 wording; reframe how 100% EC is discussed. Lightly reframe RQ4 and related passages to “ratified abstracts … at PSAU.” Keep pro forma label; tighten so it does not treat zero-hedge abstracts as evidence of non-calibration.
