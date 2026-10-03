@@ -127,6 +127,7 @@ copies already made.
   repeated 3x; Recommendations repeat. Stats recomputed OK.
 
 ## Recently Completed
+- 2026-10-04 — Draft_033: Table 6 thick top/bottom borders (sz=18) matched to other Results tables.
 - 2026-10-03 — Draft_027 + Excel Draft_005: “Scope notes” fixed; clause-level rarity claim softened (no uncited convention claim); Summary sheet FP-Gen 38→33.
 - 2026-10-03 — Draft_026: Part I clause-level paragraph rewritten (genre + supervision, not syntactic sophistication); Hyland & Milton retained only for restricted range.
 - 2026-10-03 — Draft_025: Outcome Type cross-tab promoted to Table 6 in Part IV; paragraph revised to point to table.

@@ -27,6 +27,12 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-04 — Draft_033: Table 6 thick top/bottom borders (sz=18)
+- **Context:** User: thick line isn’t there on Table 6. Remote Draft_032 lacked tblBorders.
+- **Decision:** Draft_033 from remote Draft_032. Apply table-level borders matching Tables 2–5.
+- **Edits:** tblBorders top+bottom single sz=18; sides/inside nil; tblStyle Table4; header cell bottom sz=4 only.
+- **Status:** active. Working draft = Draft_033.
+
 ## 2026-10-03 — Draft_031: Table 6 exact format match (captions + cells)
 - **Context:** User: copy other tables’ formatting to the dot — font size, line spacing, no exceptions.
 - **Decision:** Draft_031 from Draft_030.
