@@ -135,6 +135,10 @@ verbatim transcript at `chat_history/`.)_
   remote, hooks installed, doctor passing. Transcript started. PAT
   pasted in plaintext again (redacted); rotation recommended. User
   asked for help finalizing thesis; Draft_013 is current FINAL.
+- 2026-10-03 — Created Draft_014 from Draft_013: Appendix A layout —
+  Quick-Reference and Legend side-by-side in 2-col table; Coding Sheet
+  + Combined Example moved before Full Codebook; Full Codebook forced
+  to new page; intro text updated; fonts tightened in quick block.
 - 2026-10-02 — Session `auto-1790954075-b54f1a` (Claude) opened: repo
   cloned via one-shot credential helper, remote clean, doctor passing.
   Reviewed Draft_013 (findings under Open Threads). PAT pasted in
