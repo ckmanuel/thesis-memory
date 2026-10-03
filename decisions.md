@@ -27,6 +27,16 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-03 — Draft_026: Part I clause-level paragraph — genre + supervision, not sophistication
+- **Context:** Part I read zero clause-level hedges as lack of syntactic sophistication (citing Hyland & Milton 1997). Codebook examples include “I think” / “in our view,” which science abstracts avoid by convention. Scope already attributes patterns to genre compression and adviser supervision.
+- **Decision:** Draft_026 from Draft_025. Rewrite the Part I clause-level paragraph; light consistency pass on the Part III restricted-range sentence.
+- **Edits:**
+  1. Zero clause-level count now framed as consistent with abstract conventions and supervised products, not writer deficit.
+  2. Explicitly notes that first-person / overt-stance variants are rare by genre convention.
+  3. Hyland & Milton retained only for restricted range; institutional/genre setting is the more proximate explanation.
+  4. Part III sentence aligned: restricted range cited, but genre + supervision remain proximate.
+- **Status:** active. Working draft = Draft_026.
+
 ## 2026-10-03 — Draft_025: Outcome Type cross-tab added as Table 6
 - **Context:** User noted the Outcome Type cross-tab lived only in the spreadsheet; the thesis gave it one paragraph and no table. If it carries the new argument, it belongs in Results.
 - **Decision:** Draft_025 from Draft_024. Add Table 6 (Outcome Type by Discipline) in Part IV; revise the Outcome Type paragraph to point to the table.
