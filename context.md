@@ -127,6 +127,7 @@ copies already made.
   repeated 3x; Recommendations repeat. Stats recomputed OK.
 
 ## Recently Completed
+- 2026-10-03 — Draft_024: “Compiled Results Draft_004” → “the coding spreadsheet.”
 - 2026-10-03 — Draft_024: Part II/IV consistent on binary account; outcome coding method in Methods; future research retargeted; outcome prose in own voice.
 - 2026-10-03 — Draft_023 + Excel Draft_004: binary-outcome hypothesis rejected; Null/NS share as clearer lead; no process language in Excel.
 - 2026-10-03 — Draft_022 + Excel Draft_003: Acs2 rescue-hedging; outcome-type coding (60 abstracts); KW clustering caveat; Aas9 title redacted; Ethics fixed.
