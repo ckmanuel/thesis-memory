@@ -27,6 +27,14 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-04 — Draft_039: tighten Scope/Results repetition
+- **Context:** Reviewer comment: sampling, limitations, and coding restated across Scope, Methodology/Corpus, Results, Appendix A.
+- **Decision:** Overwrite Draft_039.
+  - Scope: cut full stratified-sampling write-up; point to Research Corpus for design, intervals, inclusion/exclusion; shortened sample-size justification (comps pointed to Research Corpus).
+  - Part III: shortened function paragraph (result first; less process restatement).
+  - Appendix A left intact; Research Corpus remains sole full sampling home; Part IV still uses short Scope pointer only.
+- **Status:** active. Working draft = Draft_039.
+
 ## 2026-10-04 — Draft_039: restore Significance lead-in bold pattern
 - **Context:** User: only the first Significance body paragraph was wrongly fully bold; other paragraphs intentionally bold the first clause.
 - **Decision:** Overwrite Draft_039. All four Significance body paragraphs now use bold lead-in + normal rest (including the first: “For writing instructors and thesis advisers at PSAU,” bold, remainder regular).
