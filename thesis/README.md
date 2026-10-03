@@ -8,7 +8,7 @@ Previous retained: Draft_038
 
 ## Versioning policy
 
-- Small or iterative edits **overwrite** the current working draft (and its PDF) in place.
+- Small or iterative edits **overwrite** the current working draft (and its PDF) in place. This includes stylistic and format changes (fonts, spacing, borders, table styling, heading tweaks, etc.).
 - A new numbered `Draft_0xx` is created **only** for major revisions (structural rewrites, chapter-level changes, or when explicitly requested).
 - Keep at most the current draft + one previous numbered draft in this folder.
 
@@ -21,4 +21,4 @@ Previous retained: Draft_038
 | `009_Appendix_E.docx` | Appendix E |
 | `Thesis_Verb_Tense_Matrix.pdf` | Verb-tense reference |
 
-Policy set 2026-10-04.
+Policy set 2026-10-04; stylistic/format override clarified same day.

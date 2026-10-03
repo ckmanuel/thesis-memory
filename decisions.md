@@ -28,10 +28,10 @@ Entry template:
 -->
 
 ## 2026-10-04 — Repo cleanup + draft versioning policy
-- **Context:** User: repo cluttered with past drafts; only keep 2 latest; from now on overwrite current draft for small changes; new Draft_0xx only for major revisions.
+- **Context:** User: repo cluttered with past drafts; only keep 2 latest; from now on overwrite current draft for small changes; new Draft_0xx only for major revisions. Later: include stylistic/format changes as overwrite.
 - **Decision:**
   1. Removed all 003_ThesisProposal_Draft_001–037 (docx/pdf) and Preedit; removed 007_CompiledResult_Draft_001–004 and Preedit. Kept Draft_038, Draft_039, and CompiledResult_Draft_005.
-  2. **Versioning policy (going forward):** Small/iterative edits overwrite the current working draft (and its PDF) in place. A new numbered Draft_0xx is created only for major revisions (structural rewrites, chapter-level changes, or when the user explicitly requests a new version). Keep at most the current + one previous numbered draft in the repo.
+  2. **Versioning policy (going forward):** Small/iterative edits — including stylistic and format changes (fonts, spacing, borders, table styling, heading tweaks) — overwrite the current working draft (and its PDF) in place. A new numbered Draft_0xx is created only for major revisions (structural rewrites, chapter-level changes, or when the user explicitly requests a new version). Keep at most the current + one previous numbered draft in the repo. Documented in `thesis/README.md`.
 - **Status:** active. Working draft = Draft_039.
 
 ## 2026-10-04 — Draft_039: alphabetize Definition of Terms + match bold structure
