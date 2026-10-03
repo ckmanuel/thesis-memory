@@ -62,3 +62,12 @@ Entry template:
 - **Fix:** After editing `pPr`, **reorder children** to the known sequence (keepNext → pageBreakBefore → spacing → jc → … → sectPr). Prefer not adding optional elements (like `wordWrap`) unless required and ordered correctly. Always confirm pack validation PASSED before trusting the PDF.
 - **Doesn't apply when:** Editing only run-level `rPr` (fonts/sizes) with no `pPr` changes.
 
+## Trailing blank page at end of document
+- **Problem:** PDF ended with an empty (or near-empty) final page after the last real content (e.g. after Appendix C).
+- **Root cause:** Not the same as the mid-doc “heading after section break” bug. An **extra** section break and/or empty paragraphs sat **after the last content**, so Word/LibreOffice emitted one more page. A single body-level `w:sectPr` at the end of `w:body` is normal and required; a *second* section boundary or leftover empties after content is what creates the trailing blank.
+- **Fix:**
+  1. Remove empty paragraphs after the last content paragraph.
+  2. Remove any redundant trailing section break so only the standard final body `sectPr` remains.
+  3. Re-export PDF and confirm the last page still has text.
+- **Doesn't apply when:** You intentionally want a blank back page. Also different from mid-document blanks caused by `pageBreakBefore` + section break before a major heading (see that lesson).
+
