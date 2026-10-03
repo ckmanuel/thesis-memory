@@ -27,6 +27,16 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-03 — Draft_027 + Excel Draft_005: Part I wording + FP-Gen fix
+- **Context:** (1) “Scope notes” read as if Scope were a person. (2) “First-person or overtly stance-marking variants are rare by convention” was uncited and only partly covered the clause-level category (“it seems that” is not first-person). (3) Summary sheet listed FP-Gen = 38 (would total 63 FPs); Rejected Candidates and Coding Summary have FP-Gen = 33 / total 58.
+- **Decision:** Draft_027 from Draft_026; CompiledResult Draft_005 from Draft_004.
+- **Edits:**
+  1. “Scope notes” → “The Scope and Limitations section notes.”
+  2. Softened the rarity claim: science abstracts favor impersonal compact reporting; clause-level stance frames (first-person and impersonal) are uncommon in that register — no new citation required.
+  3. Summary sheet FP-Gen 38 → 33 so it matches the 58 total elsewhere.
+- **Note:** User also observed that “disciplinary variation” rests mainly on VM vs the other two, with no clear Ag–Bio difference (consistent with the Acs2 sensitivity check and the Conclusions’ “limited evidence… mainly Veterinary Medicine”). Not rewritten in this pass.
+- **Status:** active. Working draft = Draft_027; spreadsheet = Draft_005.
+
 ## 2026-10-03 — Draft_026: Part I clause-level paragraph — genre + supervision, not sophistication
 - **Context:** Part I read zero clause-level hedges as lack of syntactic sophistication (citing Hyland & Milton 1997). Codebook examples include “I think” / “in our view,” which science abstracts avoid by convention. Scope already attributes patterns to genre compression and adviser supervision.
 - **Decision:** Draft_026 from Draft_025. Rewrite the Part I clause-level paragraph; light consistency pass on the Part III restricted-range sentence.
