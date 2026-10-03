@@ -27,6 +27,12 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-03 — Draft_030: Table 6 formatting matched to other Results tables
+- **Context:** User: only Table 6 differed from the rest.
+- **Decision:** Draft_030 from Draft_029. Restyle Table 6 to match Tables 2–5.
+- **Edits:** Georgia 9pt (was Times New Roman 10pt); header bold + bottom border only; body cells no borders; no shading; Total row bold. Content unchanged.
+- **Status:** active. Working draft = Draft_030.
+
 ## 2026-10-03 — Draft_029: Verb-tense pass against final-defense matrix
 - **Context:** User supplied Verb Tense Matrix (proposal → final). Asked to check and correct mistakes.
 - **Decision:** Draft_029 from Draft_028. Only one residual procedure-style future found.
