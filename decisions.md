@@ -27,6 +27,15 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-03 — Draft_028: Soften disciplinary-variation claims in Part I/II
+- **Context:** User: the claim of disciplinary variation rests on Vet Med versus the other two; no clear Agriculture–Biology difference. Part I/II still said “varies meaningfully” and “substantial variation”; Conclusions already said limited evidence, mainly VM, Ag edge outlier-sensitive.
+- **Decision:** Draft_028 from Draft_027.
+- **Edits:**
+  1. P131: “varies meaningfully” → differences most clearly in VM’s small total and low modal share.
+  2. P134: Dropped “rhetorical style” speculation; type-mix contrast stated descriptively; Ag–Bio density difference flagged as marginal and outlier-sensitive; shared narrow repertoire emphasized.
+  3. P140: “substantial variation” → differences driven mainly by VM’s lower rate.
+- **Status:** active. Working draft = Draft_028.
+
 ## 2026-10-03 — Draft_027 + Excel Draft_005: Part I wording + FP-Gen fix
 - **Context:** (1) “Scope notes” read as if Scope were a person. (2) “First-person or overtly stance-marking variants are rare by convention” was uncited and only partly covered the clause-level category (“it seems that” is not first-person). (3) Summary sheet listed FP-Gen = 38 (would total 63 FPs); Rejected Candidates and Coding Summary have FP-Gen = 33 / total 58.
 - **Decision:** Draft_027 from Draft_026; CompiledResult Draft_005 from Draft_004.
