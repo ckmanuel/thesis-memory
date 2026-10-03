@@ -27,6 +27,11 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-04 — Draft_039: unbold Significance body + Inclusion/Exclusion Criteria
+- **Context:** User: fix bolded text in Significance of the Study and Inclusion Criteria.
+- **Decision:** Overwrite Draft_039. Set w:b val=0 on Significance body paragraphs (heading stays bold). Unbolded Inclusion Criteria and Exclusion Criteria paragraphs (were fully bold).
+- **Status:** active. Working draft = Draft_039.
+
 ## 2026-10-04 — Draft_039: pull back Null/NS claim (Acs2-driven)
 - **Context:** User arithmetic: Agri Null/NS without Acs2 averages 1.0, same as non-Null Agri; elevation is Acs2; no hedge-rate-by-outcome test; Agri has zero Binary (discipline × design entangled).
 - **Decision:** Overwrite Draft_039. Part IV no longer calls Null/NS more central than density ranking; states elevation is carried by Acs2 (8 of 21 Null/NS hedges in Agri); remaining 13 average 1.0. Acs2 retained as single-case rescue-hedging example linked to intro. Notes Agri has zero Binary; formal outcome-type comparison not reported. Conclusions and Future Research aligned.
