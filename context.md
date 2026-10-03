@@ -107,8 +107,8 @@ copies already made.
 - The PAT cannot create new repos (no Administration scope). Not a
   blocker since we're staying in one repo.
 - **Recurring pattern: PAT pasted in plaintext at session start.**
-  Now observed in at least nine sessions (prior eight plus the
-  2026-10-02 auto-1790954075-b54f1a Claude session). The opening prompt
+  Now observed in at least ten sessions (prior nine plus the
+  2026-10-03 auto-1791000856-bb7588 Grok session). The opening prompt
   template supports `$GH_PAT` env var reference, but the user keeps
   pasting the literal token instead. Each occurrence is a live
   credential exposed in chat logs. Recommend rotation after the
@@ -130,6 +130,11 @@ copies already made.
 _(Capped at 5 entries. Older items live in `decisions.md` and the
 verbatim transcript at `chat_history/`.)_
 
+- 2026-10-03 — Session `auto-1791000856-bb7588` (Grok) opened: repo
+  cloned to /tmp (fuse issues on artifacts path), token stripped from
+  remote, hooks installed, doctor passing. Transcript started. PAT
+  pasted in plaintext again (redacted); rotation recommended. User
+  asked for help finalizing thesis; Draft_013 is current FINAL.
 - 2026-10-02 — Session `auto-1790954075-b54f1a` (Claude) opened: repo
   cloned via one-shot credential helper, remote clean, doctor passing.
   Reviewed Draft_013 (findings under Open Threads). PAT pasted in
@@ -146,10 +151,6 @@ verbatim transcript at `chat_history/`.)_
 - 2026-10-02 — Overwrote Draft_005: accuracy fixes (Afshar n=180;
   majority→nearly half; Biology non-epistemic wording); prior
   Escalona/Khunasathitchai/APA/App E fixes retained.
-- 2026-10-02 — Pushed `003_ThesisProposal_Draft_004.docx` (verb-
-  tense fixes per Verb Tense Matrix Final column: occurs→occurred;
-  chapter described→describes; data-retention will be→are; Research
-  Context was/tended→is/tend). Prior drafts retained.
 - 2026-10-02 — Session `auto-1790912622-eb658c` (Claude) opened: repo
   cloned via one-shot credential helper, remote URL clean, hooks
   installed, doctor.sh passing. PAT pasted in plaintext again (redacted
