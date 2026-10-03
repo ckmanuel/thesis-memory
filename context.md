@@ -127,6 +127,7 @@ copies already made.
   repeated 3x; Recommendations repeat. Stats recomputed OK.
 
 ## Recently Completed
+- 2026-10-03 — Draft_021: removed duplicate “Limited evidence of differentiation” from Part IV (kept in Conclusions only).
 - 2026-10-03 — Draft_021 Methods corrected: full corpus re-coded after codebook finalized; intra-rater used final codebook.
 - 2026-10-03 — Created Draft_021: Part IV unified (no Ag/Bio/VM profile labels); differentiation claim softened; Methods states earlier abstracts not systematically re-checked against final rules.
 - 2026-10-03 — Created Draft_020: Part IV → Cross-Disciplinary Contrasts; VM “assertive” softened; Scope cross-refs fixed; “learned formula” dropped.
