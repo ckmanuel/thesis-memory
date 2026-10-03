@@ -27,6 +27,14 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-04 — Excel: style Outcome Type + P/DO tabs to match other sheets
+- **Context:** User: last 2 added tabs are bare bones; match design of other tabs.
+- **Decision:** Overwrite `007_CompiledResult_Draft_005.xlsx`.
+  - Outcome Type + P and DO Functions restyled like Hedges/Unhedged/Rejected: col A spacer, title B2 (14pt bold navy), subtitle B3, dark header row (1B2A4A / white), alternating F7F7F5 rows, thin borders, freeze B6, Calibri 11.
+  - Outcome Type: deduped to 60 abstracts (removed junk “Binary” / note rows).
+  - P/DO: note rows highlighted (FFF2CC).
+- **Status:** active.
+
 ## 2026-10-04 — Draft_039: tighten Scope/Results repetition
 - **Context:** Reviewer comment: sampling, limitations, and coding restated across Scope, Methodology/Corpus, Results, Appendix A.
 - **Decision:** Overwrite Draft_039.
