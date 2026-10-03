@@ -27,6 +27,12 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-03 — Draft_023 + Excel Draft_004: binary hypothesis rejected; Null/NS lead
+- **Context:** Critique: binary-outcome account not supported (VM Binary 0.38 vs Bio Binary 1.57); “partially compatible” too kind; Agri Null/NS 14/20 is the better lead.
+- **Decision:** Draft_023; Excel Draft_004 (notes cleaned; no process language).
+- **Edits:** Binary account of VM density stated as not supported; VM low rate = VM pattern. Null/NS share (Agri 14/20 vs VM 2/20) and Acs2 null-rescue named as clearer suggestive lead. Excel notes match.
+- **Status:** active. Working draft = Draft_023.
+
 ## 2026-10-03 — Draft_022 + Excel Draft_003: Acs2 rescue-hedging; outcome-type coding; Ethics/Aas9; clustering
 - **Context:** Critique: Acs2 dismissed as noise; VM binary hypothesis untested; adviser clustering under KW; Aas9 title not anonymized.
 - **Decision:** Draft_022 from Draft_021; CompiledResult Draft_003 with Outcome Type sheet.

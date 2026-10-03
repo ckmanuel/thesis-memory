@@ -38,7 +38,8 @@ Facts the user shares that don't fit elsewhere. Update in place.
 - Intra-rater reliability (second pass on 6 abstracts) used that same final codebook.
 ## Outcome type coding (2026-10-03)
 - Categories: Binary, Continuous, Mixed, Null/NS, Other — coded from abstract results language for all 60.
-- VM Binary: 8/20 abstracts, mean 0.38 hedges (partial support for binary-outcome hypothesis).
+- VM Binary: 8/20, mean 0.38 hedges; Biology Binary: 7/20, mean 1.57 — binary-outcome account of VM density NOT supported.
+- Agri Null/NS: 14/20 vs VM 2/20; Agri Null/NS mean ~1.5 hedges; clearer suggestive lead for Ag–VM gap.
 - Bio Binary mean hedges higher than VM Binary.
 - Agri has many Null/NS (including Acs2 rescue-hedging outlier with 8 hedges).
 - Stored in thesis/007_CompiledResult_Draft_003.xlsx sheet "Outcome Type".
