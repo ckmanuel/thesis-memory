@@ -27,6 +27,11 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-03 — Draft_021 Methods: full re-code after codebook finalized
+- **Context:** User corrected prior assumption. After first-pass coding and rule refinement, the full corpus was re-coded under the final codebook; intra-rater second pass used that same codebook.
+- **Decision:** Methods text updated. knowledge.md records the fact.
+- **Status:** active.
+
 ## 2026-10-03 — Draft_021: Part IV unified; differentiation claim; re-coding admission
 - **Context:** Critique: VM paragraph half-converted; Ag/Bio still labeled as profiles; “Disciplinary differentiation is present” too strong; rule-refinement hole (re-checked or not?).
 - **Decision:** Draft_021 from Draft_020.

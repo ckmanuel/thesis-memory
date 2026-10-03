@@ -31,3 +31,8 @@ Facts the user shares that don't fit elsewhere. Update in place.
 ## Notes
 - When the user says "remember this," add the fact here (or to
   `preferences.md` if it's a preference, `decisions.md` if a decision).
+
+## Coding process (confirmed 2026-10-03)
+- First-pass coding refined boundary decision rules as ambiguities appeared.
+- After the codebook was finalized, the **full corpus was re-coded** under the final rule set.
+- Intra-rater reliability (second pass on 6 abstracts) used that same final codebook.
