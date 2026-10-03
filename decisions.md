@@ -27,6 +27,16 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-03 — Draft_021: Part IV unified; differentiation claim; re-coding admission
+- **Context:** Critique: VM paragraph half-converted; Ag/Bio still labeled as profiles; “Disciplinary differentiation is present” too strong; rule-refinement hole (re-checked or not?).
+- **Decision:** Draft_021 from Draft_020.
+- **Edits:**
+  1. Part IV: Ag/Bio/VM profile blocks folded into one short paragraph; VM factive-verb claim moved to labeled hypothesis only.
+  2. Conclusions + Part IV summary: “Limited evidence of differentiation, mainly Veterinary Medicine.”
+  3. Methods: refinements applied to subsequent coding; earlier abstracts not systematically re-checked against final rules.
+- **Note:** If earlier abstracts *were* re-coded, Methods sentence must be corrected.
+- **Status:** active. Working draft = Draft_021.
+
 ## 2026-10-03 — Draft_020: consistency pass (VM label, cross-refs, potential, Part IV heading)
 - **Context:** Critique: Part IV still called VM “assertive reporting”; Scope cross-refs wrong (pilot → Results, Crop/Animal “counts” in sampling table); “learned formula” on potential; Part IV heading overpromised.
 - **Decision:** Draft_020 from Draft_019.
