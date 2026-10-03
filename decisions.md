@@ -27,6 +27,11 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-03 — Draft_019: RQ3 question restored to approved wording
+- **Context:** User clarified only the RQ3 *discussion* should be reframed, not the question text (approved version stands).
+- **Decision:** RQ3 question restored to “Among the hedging devices identified, what rhetorical functions do they serve?” Framework/Part III discussion still treats the 100% EC result as a finding about the scheme under the Working Test.
+- **Status:** active.
+
 ## 2026-10-03 — Draft_019: panel-critique revisions (RQ3 scheme, pro forma dropped, Part IV shrunk, Scope cleaned)
 - **Context:** External “honest opinion” critique. User instructions: (1) single-coder keep as is; (2) acknowledge codebook refined on main corpus, no need to narrate every correction in paper/excel; (3) RQ3 as finding about the scheme; (4) shrink theoretical claims; (5) drop pro forma; (6) soften baseline, finish assertive note, Crop/Animal note; (7) remove results numbers from Scope.
 - **Decision:** New Draft_019 from Draft_018.

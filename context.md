@@ -127,6 +127,7 @@ copies already made.
   repeated 3x; Recommendations repeat. Stats recomputed OK.
 
 ## Recently Completed
+- 2026-10-03 — Draft_019: reverted RQ3 question to approved wording; discussion remains scheme-framed.
 - 2026-10-03 — Created Draft_019 from Draft_018: RQ3 reframed as scheme finding; pro forma dropped entirely; Part IV/Conclusions shrunk to “VM hedges less, cause unknown”; Scope cleaned of results numbers; codebook refinement acknowledged; expert-norm and assertive-forms claims softened; Crop/Animal promise fixed.
 - 2026-10-03 — Draft_018: stripped leftover teal color from “(DO)” in Appendix C opening paragraph (explanatory prose only; abstract coding marks unchanged).
 - 2026-10-03 — Draft_018: stripped leftover blue text color from DO row in Table 5 (function distribution); all rows now plain black.
