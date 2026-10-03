@@ -27,6 +27,11 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-04 — Draft_039: remove blank page before FULL CODEBOOK
+- **Context:** User asked to check for blank pages and fix.
+- **Decision:** Overwrite Draft_039 (per versioning policy). Removed empty paragraph that held a page-break `<w:br w:type="page"/>` immediately before FULL CODEBOOK, which already had `pageBreakBefore` — double break produced a fully blank page (was p.46). Document 111→110 pages. Title page and final page remain sparse by design.
+- **Status:** active. Working draft = Draft_039.
+
 ## 2026-10-04 — Repo cleanup + draft versioning policy
 - **Context:** User: repo cluttered with past drafts; only keep 2 latest; from now on overwrite current draft for small changes; new Draft_0xx only for major revisions. Later: include stylistic/format changes as overwrite.
 - **Decision:**
