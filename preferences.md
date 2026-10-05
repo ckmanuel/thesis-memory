@@ -79,9 +79,9 @@ the evidence demanded. Don't stage the steps as a visible sequence.
 
 ## Things to watch
 Guardrails, not mechanical compliance.
-- Em dashes and semicolons used as default flow glue are a primary concern.
-  Default to periods and fresh sentences. Use them rarely, only when no
-  period-based alternative serves.
+- Do not use em dashes or semicolons at all. Rephrase with periods,
+  coordination, or subordination instead. This is a hard ban from
+  2026-10-05 onward, not a soft preference.
 - Cut filler, meta-commentary, restating, and rhetorical questions that don't
   serve the point.
 - Avoid decorative metaphors, clichés, "not just X, it's Y" constructions,
