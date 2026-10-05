@@ -2,9 +2,9 @@
 
 ## Current working draft
 
-**003_ThesisProposal_Draft_039.docx** (PDF alongside)
+**003_ThesisProposal_Draft_040.docx** (PDF alongside)
 
-Previous retained: Draft_038
+Previous retained: Draft_039
 
 ## Versioning policy
 
@@ -22,3 +22,4 @@ Previous retained: Draft_038
 | `Thesis_Verb_Tense_Matrix.pdf` | Verb-tense reference |
 
 Policy set 2026-10-04; stylistic/format override clarified same day.
+Draft_040 (2026-10-05): em-dash removal with rephrasing. En dashes and hyphens preserved.

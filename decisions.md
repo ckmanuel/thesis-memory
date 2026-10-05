@@ -660,3 +660,8 @@ Entry template:
 - **Context:** User confirmed repeated interpretation across Results Parts II–IV and Conclusions.
 - **Decision:** Draft_011 keeps counts/tests in Parts I–II, EC and result/implication in Part III, discipline labels in Part IV with pointers back, shortened Conclusions. Potential concordance and pro forma notes tightened. ~19% fewer words in Results+Conclusions block.
 - **Status:** active
+
+## 2026-10-05 — Draft_040: remove em dashes, keep en dashes and hyphens
+- **Context:** User asked for a new draft with no em dashes. Also reported words that looked joined after en dashes were removed.
+- **Decision:** Created Draft_040 from Draft_039. All em dashes (U+2014) rephrased with periods, commas, or parentheses. En dashes (U+2013) for ranges (Acs1–Acs10, 2023–2025, page spans) and hyphens in compounds (Kruskal-Wallis, chi-square, adviser-enforced) left intact. No fused-word damage found between Draft_038 and Draft_039. Draft_038 removed under keep-2 policy. Working draft = Draft_040.
+- **Status:** active. Working draft = Draft_040.
