@@ -2,9 +2,9 @@
 
 ## Current working draft
 
-**003_ThesisProposal_Draft_040.docx** (PDF alongside)
+**003_ThesisProposal_Draft_041.docx** (PDF alongside)
 
-Previous retained: Draft_039
+Previous retained: Draft_040
 
 ## Versioning policy
 
@@ -21,5 +21,4 @@ Previous retained: Draft_039
 | `009_Appendix_E.docx` | Appendix E |
 | `Thesis_Verb_Tense_Matrix.pdf` | Verb-tense reference |
 
-Policy set 2026-10-04; stylistic/format override clarified same day.
-Draft_040 (2026-10-05): em-dash removal with rephrasing. En dashes and hyphens preserved.
+Draft_041 (2026-10-06): added Table 3 Hedge Token Inventory by Form. Former Tables 3–6 renumbered 4–7.

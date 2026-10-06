@@ -670,3 +670,8 @@ Entry template:
 - **Context:** User asked why suggest/suggests/suggesting were listed separately in the Results tally and requested root-compiled presentation.
 - **Decision:** Overwrite Draft_040. Part I frequency sentence now groups lexical forms by root: suggest/suggests/suggesting (13), imply/implies/implying (3), indicating (2). Potential stays at 19 (lexical only). Potentially remains under adverbial hedges (3) and is not merged with potential. Modal verbs stay separate roots (can, could, may, might). Part III wording aligned to suggest/suggests/suggesting. Coding sheet unchanged (still one row per surface token).
 - **Status:** active. Working draft = Draft_040.
+
+## 2026-10-06 — Draft_041: Table 3 Hedge Token Inventory by Form
+- **Context:** User asked to list all hedges in the tally (discussion or table) so form counts can be checked. Requested a new draft if a table is added.
+- **Decision:** Draft_041 from Draft_040. New **Table 3: Hedge Token Inventory by Form** after the Part I frequency paragraph. Lists every surface form with Layer 1 type, count, and % of 65. Former Tables 3–6 renumbered to 4–7 (captions and body refs). Coding sheet unchanged. Draft_039 removed under keep-two policy (040 previous, 041 current).
+- **Status:** active. Working draft = Draft_041.
