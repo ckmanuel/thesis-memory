@@ -2,15 +2,15 @@
 
 ## Current working draft
 
-**003_ThesisProposal_Draft_042.docx** (PDF alongside)
+**003_ThesisProposal_Draft_043.docx** (PDF alongside)
 
-Previous retained: Draft_041 (and earlier drafts kept on request, 2026-10-06)
+Previous drafts retained on request (2026-10-06): including Draft_040–042.
 
 ## Versioning policy
 
-- Small or iterative edits **overwrite** the current working draft (and its PDF) in place. This includes stylistic and format changes (fonts, spacing, borders, table styling, heading tweaks, etc.).
-- A new numbered `Draft_0xx` is created **only** for major revisions (structural rewrites, chapter-level changes, or when explicitly requested).
-- Keep at most the current draft + one previous numbered draft in this folder (suspended temporarily on user request 2026-10-06: do not delete older drafts for now).
+- Small or iterative edits **overwrite** the current working draft (and its PDF) in place.
+- A new numbered `Draft_0xx` is created for major revisions or when explicitly requested.
+- Keep-two deletion policy suspended while user asked not to delete older drafts.
 
 ## Other files
 
@@ -21,4 +21,4 @@ Previous retained: Draft_041 (and earlier drafts kept on request, 2026-10-06)
 | `009_Appendix_E.docx` | Appendix E |
 | `Thesis_Verb_Tense_Matrix.pdf` | Verb-tense reference |
 
-Draft_042 (2026-10-06): expanded Part IV outcome-type definitions for Binary, Continuous, Mixed, Null/NS, and Other.
+Draft_043 (2026-10-06): exploratory Mann-Whitney post hoc, Layer 3 defense, Table 5 unhedged cross-ref fix, methods tense.

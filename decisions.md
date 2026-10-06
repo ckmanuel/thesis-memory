@@ -700,3 +700,8 @@ Entry template:
 - **Context:** User asked to add “that table” to the Excel after the Part IV outcome-type explanation work.
 - **Decision:** Overwrite `007_CompiledResult_Draft_005.xlsx`. Added Outcome Type by Discipline (Table 7) and Outcome Type Definitions (plain meanings + counts) on both Summary and Outcome Type sheets. Counts verified against coding rows (60 abstracts).
 - **Status:** active.
+
+## 2026-10-06 — Draft_043: Mann-Whitney post hoc, Layer 3 defense, cross-ref fix
+- **Context:** Reviewer-style feedback: pairwise Mann-Whitney story is stronger; Layer 3 orphaned; Table 4 vs Table 5 unhedged cross-ref; tense slips; keep old drafts.
+- **Decision:** Draft_043 from Draft_042. (1) Mann-Whitney post hoc on rates is applicable after significant Kruskal-Wallis: VM vs Bio p=.011, VM vs Ag p=.034, Ag vs Bio p=.72. Bonferroni α=.017 leaves only Bio–VM significant. Added as exploratory post hoc in Part II, Part IV, and conclusions. (2) Layer 3 paragraph now states it is a descriptive inventory without a comparison group, not a claim of underuse. (3) “Table 4’s Unhedged sites column” corrected to Table 5. (4) Methods: “uses/employs” → “used/employed” for completed corpus construction. Older drafts not deleted.
+- **Status:** active. Working draft = Draft_043.
