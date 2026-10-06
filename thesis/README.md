@@ -2,15 +2,12 @@
 
 ## Current working draft
 
-**003_ThesisProposal_Draft_043.docx** (PDF alongside)
-
-Previous drafts retained on request (2026-10-06): including Draft_040–042.
+**003_ThesisProposal_Draft_050.docx** (PDF alongside)
 
 ## Versioning policy
 
-- Small or iterative edits **overwrite** the current working draft (and its PDF) in place.
-- A new numbered `Draft_0xx` is created for major revisions or when explicitly requested.
-- Keep-two deletion policy suspended while user asked not to delete older drafts.
+- Small or iterative edits **overwrite** the current working draft (and its PDF) in place. This includes stylistic and format changes.
+- A new numbered `Draft_0xx` is created **only** for major revisions or when explicitly requested.
 
 ## Other files
 
@@ -21,4 +18,4 @@ Previous drafts retained on request (2026-10-06): including Draft_040–042.
 | `009_Appendix_E.docx` | Appendix E |
 | `Thesis_Verb_Tense_Matrix.pdf` | Verb-tense reference |
 
-Draft_043 (2026-10-06): exploratory Mann-Whitney post hoc, Layer 3 defense, Table 5 unhedged cross-ref fix, methods tense.
+Draft_050 (2026-10-07): final-defense tense pass (Methodology corpus verbs); Research Process step e structure; bold spill check.

@@ -27,6 +27,13 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-07 — Draft_050: final-defense tense + bold spill check
+- **Context:** User: pull latest; apply verb tenses from Thesis_Verb_Tense_Matrix; check bold spill; keep current draft version; overwrite.
+- **Decision:** Overwrite Draft_050.
+  - Tense (final-defense Methodology): corpus *consists* → *consisted* (Scope + Research Corpus); sampling rate *varies* → *varied*; sample *is equally split* → *was equally split*; study *treats findings* → *treated findings*. Introduction “This study examines…” kept (statement of problem stays present per matrix).
+  - Bold: Research Process step e matched a–d run structure (label + body). No other body-paragraph bold spill; Definition of Terms (e.g. Epistemic Stance) remain bold by house style.
+- **Status:** active. Working draft = Draft_050.
+
 ## 2026-10-04 — Excel: style Outcome Type + P/DO tabs to match other sheets
 - **Context:** User: last 2 added tabs are bare bones; match design of other tabs.
 - **Decision:** Overwrite `007_CompiledResult_Draft_005.xlsx`.
