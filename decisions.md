@@ -27,6 +27,17 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-07 — Draft_053 overwrite: broader Stage 1 (force/directness/imposition)
+- **Context:** User: implement Stage 1 inclusive of P/DO/EC; Working Test not sole gate; overwrite current draft not new number.
+- **Decision:** Overwrite Draft_053.
+  - Stage 1: retain if removing expression makes claim/positioning more categorical, direct, or imposing.
+  - Stage 2: EC / P / DO (co-occurrence allowed).
+  - Working Test: EC diagnostic only, not sole membership test.
+  - Codebook examples updated (P-only can pass Stage 1; framing DO can pass; pure sequence still out).
+  - Methods, defs (Epistemic Weight, Softening), RQ3, Part III, conclusions, future research aligned.
+  - Token counts unchanged (65 still EC; no P in corpus; sequence DO not counted).
+- **Status:** active. Working draft = Draft_053.
+
 ## 2026-10-07 — Draft_053: RQ3 reframing (Working Test kept)
 - **Context:** User: is reframing possible without recode? Should Working Test be removed? New draft; keep old.
 - **Decision:** Draft_053 from Draft_052. Working Test **retained** as hedge identification criterion (not removed). No recode. Claim-level reframing only:
