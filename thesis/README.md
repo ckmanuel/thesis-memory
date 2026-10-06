@@ -2,15 +2,15 @@
 
 ## Current working draft
 
-**003_ThesisProposal_Draft_041.docx** (PDF alongside)
+**003_ThesisProposal_Draft_042.docx** (PDF alongside)
 
-Previous retained: Draft_040
+Previous retained: Draft_041 (and earlier drafts kept on request, 2026-10-06)
 
 ## Versioning policy
 
 - Small or iterative edits **overwrite** the current working draft (and its PDF) in place. This includes stylistic and format changes (fonts, spacing, borders, table styling, heading tweaks, etc.).
 - A new numbered `Draft_0xx` is created **only** for major revisions (structural rewrites, chapter-level changes, or when explicitly requested).
-- Keep at most the current draft + one previous numbered draft in this folder.
+- Keep at most the current draft + one previous numbered draft in this folder (suspended temporarily on user request 2026-10-06: do not delete older drafts for now).
 
 ## Other files
 
@@ -21,4 +21,4 @@ Previous retained: Draft_040
 | `009_Appendix_E.docx` | Appendix E |
 | `Thesis_Verb_Tense_Matrix.pdf` | Verb-tense reference |
 
-Draft_041 (2026-10-06): added Table 3 Hedge Token Inventory by Form. Former Tables 3–6 renumbered 4–7.
+Draft_042 (2026-10-06): expanded Part IV outcome-type definitions for Binary, Continuous, Mixed, Null/NS, and Other.

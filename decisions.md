@@ -685,3 +685,8 @@ Entry template:
 - **Context:** User reported only one table had label/heading separated from the table body across pages.
 - **Decision:** Overwrite Draft_041. Page break before Table 3 caption. Keep-with-next on caption and title. Inventory table rows cantSplit + header repeat.
 - **Status:** active. Working draft = Draft_041.
+
+## 2026-10-06 — Draft_042: expand outcome-type definitions in Part IV
+- **Context:** User asked whether Table 7 categories were unexplained or ambiguous in the discussion, requested the fuller explanation in text, a new draft, and no deletion of older drafts for now.
+- **Decision:** Draft_042 from Draft_041. Part IV paragraph at Table 7 now defines each category in plain sentences (Binary, Continuous, Mixed, Null/NS, Other), states coding is from the abstract’s results language, and lists Table 7 totals. Analytic claims on VM Binary vs Biology Binary and Agriculture Null/NS/Acs2 retained. Keep-two deletion policy suspended for this stretch. Working draft = Draft_042.
+- **Status:** active. Working draft = Draft_042.
