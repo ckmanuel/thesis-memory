@@ -27,6 +27,11 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-07 — Draft_053: ripple-fix Stage 1 language
+- **Context:** User asked if all ripple effects of Stage 1 change were fixed.
+- **Decision:** Overwrite Draft_053. Fixed residuals: Crompton “identification screen”; Scope “epistemically screened set” / Working Test filter; Part III “built into the Working Test”; FP log “rejected after Working Test”; potential rule secondary check; quick-ref “pass the Working Test”; codebook heading STAGE 1, STAGE 2, AND WORKING TEST; reliability “epistemic-only filter”.
+- **Status:** active. Working draft = Draft_053.
+
 ## 2026-10-07 — Draft_053 overwrite: broader Stage 1 (force/directness/imposition)
 - **Context:** User: implement Stage 1 inclusive of P/DO/EC; Working Test not sole gate; overwrite current draft not new number.
 - **Decision:** Overwrite Draft_053.
