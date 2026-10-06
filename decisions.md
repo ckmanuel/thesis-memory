@@ -665,3 +665,8 @@ Entry template:
 - **Context:** User asked for a new draft with no em dashes. Also reported words that looked joined after en dashes were removed.
 - **Decision:** Created Draft_040 from Draft_039. All em dashes (U+2014) rephrased with periods, commas, or parentheses. En dashes (U+2013) for ranges (Acs1–Acs10, 2023–2025, page spans) and hyphens in compounds (Kruskal-Wallis, chi-square, adviser-enforced) left intact. No fused-word damage found between Draft_038 and Draft_039. Draft_038 removed under keep-2 policy. Working draft = Draft_040.
 - **Status:** active. Working draft = Draft_040.
+
+## 2026-10-06 — Draft_040: root-grouped frequency tallies
+- **Context:** User asked why suggest/suggests/suggesting were listed separately in the Results tally and requested root-compiled presentation.
+- **Decision:** Overwrite Draft_040. Part I frequency sentence now groups lexical forms by root: suggest/suggests/suggesting (13), imply/implies/implying (3), indicating (2). Potential stays at 19 (lexical only). Potentially remains under adverbial hedges (3) and is not merged with potential. Modal verbs stay separate roots (can, could, may, might). Part III wording aligned to suggest/suggests/suggesting. Coding sheet unchanged (still one row per surface token).
+- **Status:** active. Working draft = Draft_040.
