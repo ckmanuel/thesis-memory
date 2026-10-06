@@ -695,3 +695,8 @@ Entry template:
 - **Context:** User found the Draft_042 thesis wording harder than the chat explanation and asked to keep the chat-style clarity.
 - **Decision:** Overwrite Draft_042. Part IV defines each Table 7 category with counts and concrete examples in short sentences matching the chat explanation. Analytic claims retained.
 - **Status:** active. Working draft = Draft_042.
+
+## 2026-10-06 — Excel: add Table 7 cross-tab and outcome-type definitions
+- **Context:** User asked to add “that table” to the Excel after the Part IV outcome-type explanation work.
+- **Decision:** Overwrite `007_CompiledResult_Draft_005.xlsx`. Added Outcome Type by Discipline (Table 7) and Outcome Type Definitions (plain meanings + counts) on both Summary and Outcome Type sheets. Counts verified against coding rows (60 abstracts).
+- **Status:** active.
