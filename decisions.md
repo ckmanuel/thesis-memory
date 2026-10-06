@@ -27,6 +27,11 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-07 — Draft_051: Appendix A Working Examples (EC/P/DO pass and fail)
+- **Context:** User asked for codebook examples of when P/DO/EC count as hedges and when they do not; new draft; keep old drafts.
+- **Decision:** Draft_051 from Draft_050. Added “WORKING EXAMPLES: EC, P, AND DO UNDER THE WORKING TEST” after the Working Test coding-order block in Appendix A: EC pass; capability fail; P without epistemic change (fail); politeness-related form that passes as EC; DO without epistemic change (fail); DO frame + separate hedge; summary rule. Quick-reference points to the examples. Old drafts retained.
+- **Status:** active. Working draft = Draft_051.
+
 ## 2026-10-07 — Draft_050: add Rescue-Hedging to Definition of Terms
 - **Context:** User: term recurs; add short definition without Acs2 illustration.
 - **Decision:** Overwrite Draft_050. Entry after Normalized Frequency: Rescue-Hedging (Rescue Framing) — hedges after explicit non-significant result so a treatment/finding is still presented as potentially beneficial; descriptive label only.

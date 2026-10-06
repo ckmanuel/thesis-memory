@@ -2,12 +2,15 @@
 
 ## Current working draft
 
-**003_ThesisProposal_Draft_050.docx** (PDF alongside)
+**003_ThesisProposal_Draft_051.docx** (PDF alongside)
+
+Previous: Draft_050 (and earlier drafts retained).
 
 ## Versioning policy
 
-- Small or iterative edits **overwrite** the current working draft (and its PDF) in place. This includes stylistic and format changes.
-- A new numbered `Draft_0xx` is created **only** for major revisions or when explicitly requested.
+- Small or iterative edits **overwrite** the current working draft (and its PDF) in place, including stylistic and format changes.
+- A new numbered `Draft_0xx` is created for major revisions or when explicitly requested.
+- Older drafts are kept when the user asks not to delete them.
 
 ## Other files
 
@@ -18,4 +21,4 @@
 | `009_Appendix_E.docx` | Appendix E |
 | `Thesis_Verb_Tense_Matrix.pdf` | Verb-tense reference |
 
-Draft_050 (2026-10-07): final-defense tense pass (Methodology corpus verbs); Research Process step e structure; bold spill check.
+Draft_051 (2026-10-07): Appendix A Working Examples for EC/P/DO pass and fail under the Working Test.
