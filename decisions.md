@@ -27,6 +27,11 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-07 — Draft_050: add Rescue-Hedging to Definition of Terms
+- **Context:** User: term recurs; add short definition without Acs2 illustration.
+- **Decision:** Overwrite Draft_050. Entry after Normalized Frequency: Rescue-Hedging (Rescue Framing) — hedges after explicit non-significant result so a treatment/finding is still presented as potentially beneficial; descriptive label only.
+- **Status:** active. Working draft = Draft_050.
+
 ## 2026-10-07 — Draft_050: final-defense tense + bold spill check
 - **Context:** User: pull latest; apply verb tenses from Thesis_Verb_Tense_Matrix; check bold spill; keep current draft version; overwrite.
 - **Decision:** Overwrite Draft_050.
