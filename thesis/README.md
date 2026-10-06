@@ -2,15 +2,15 @@
 
 ## Current working draft
 
-**003_ThesisProposal_Draft_051.docx** (PDF alongside)
+**003_ThesisProposal_Draft_052.docx** (PDF alongside)
 
-Previous: Draft_050 (and earlier drafts retained).
+Previous: Draft_051 (and earlier drafts retained).
 
 ## Versioning policy
 
-- Small or iterative edits **overwrite** the current working draft (and its PDF) in place, including stylistic and format changes.
-- A new numbered `Draft_0xx` is created for major revisions or when explicitly requested.
-- Older drafts are kept when the user asks not to delete them.
+- Small or iterative edits overwrite the current working draft in place.
+- A new numbered Draft_0xx is created for major revisions or when explicitly requested.
+- Older drafts kept when requested.
 
 ## Other files
 
@@ -21,4 +21,4 @@ Previous: Draft_050 (and earlier drafts retained).
 | `009_Appendix_E.docx` | Appendix E |
 | `Thesis_Verb_Tense_Matrix.pdf` | Verb-tense reference |
 
-Draft_051 (2026-10-07): Appendix A Working Examples for EC/P/DO pass and fail under the Working Test.
+Draft_052: Epistemic Weight and Softening defined; Appendix A Working Test distinction paragraph.

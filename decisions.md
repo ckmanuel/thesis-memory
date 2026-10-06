@@ -27,6 +27,13 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-07 — Draft_052: Epistemic Weight vs Softening
+- **Context:** User asked to define the distinction for this paper; add them.
+- **Decision:** Draft_052 from Draft_051.
+  - Definition of Terms: Epistemic Weight (after Epistemic Stance); Softening (after Rescue-Hedging).
+  - Appendix A Working Test: paragraph that softening is broader than epistemic qualification; only change in epistemic weight counts as a hedge; P-only/DO-only softening without certainty change is not coded as a hedge.
+- **Status:** active. Working draft = Draft_052. Prior drafts retained.
+
 ## 2026-10-07 — Draft_051: Appendix A Working Examples (EC/P/DO pass and fail)
 - **Context:** User asked for codebook examples of when P/DO/EC count as hedges and when they do not; new draft; keep old drafts.
 - **Decision:** Draft_051 from Draft_050. Added “WORKING EXAMPLES: EC, P, AND DO UNDER THE WORKING TEST” after the Working Test coding-order block in Appendix A: EC pass; capability fail; P without epistemic change (fail); politeness-related form that passes as EC; DO without epistemic change (fail); DO frame + separate hedge; summary rule. Quick-reference points to the examples. Old drafts retained.
