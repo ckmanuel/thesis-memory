@@ -690,3 +690,8 @@ Entry template:
 - **Context:** User asked whether Table 7 categories were unexplained or ambiguous in the discussion, requested the fuller explanation in text, a new draft, and no deletion of older drafts for now.
 - **Decision:** Draft_042 from Draft_041. Part IV paragraph at Table 7 now defines each category in plain sentences (Binary, Continuous, Mixed, Null/NS, Other), states coding is from the abstract’s results language, and lists Table 7 totals. Analytic claims on VM Binary vs Biology Binary and Agriculture Null/NS/Acs2 retained. Keep-two deletion policy suspended for this stretch. Working draft = Draft_042.
 - **Status:** active. Working draft = Draft_042.
+
+## 2026-10-06 — Draft_042: plain-style outcome-type definitions
+- **Context:** User found the Draft_042 thesis wording harder than the chat explanation and asked to keep the chat-style clarity.
+- **Decision:** Overwrite Draft_042. Part IV defines each Table 7 category with counts and concrete examples in short sentences matching the chat explanation. Analytic claims retained.
+- **Status:** active. Working draft = Draft_042.
