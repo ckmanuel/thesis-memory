@@ -675,3 +675,8 @@ Entry template:
 - **Context:** User asked to list all hedges in the tally (discussion or table) so form counts can be checked. Requested a new draft if a table is added.
 - **Decision:** Draft_041 from Draft_040. New **Table 3: Hedge Token Inventory by Form** after the Part I frequency paragraph. Lists every surface form with Layer 1 type, count, and % of 65. Former Tables 3–6 renumbered to 4–7 (captions and body refs). Coding sheet unchanged. Draft_039 removed under keep-two policy (040 previous, 041 current).
 - **Status:** active. Working draft = Draft_041.
+
+## 2026-10-06 — Draft_041: fix Research Process step b bold spill
+- **Context:** User reported step b under Research Process spilled bold across the whole paragraph.
+- **Decision:** Overwrite Draft_041. Step b label only is bold ("b. Corpus Construction. "). Body unbolded to match steps a, c, d, e. Scanned Methods for other full-paragraph bold body runs. None found outside intentional appendix headers and Significance lead-ins.
+- **Status:** active. Working draft = Draft_041.
