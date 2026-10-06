@@ -680,3 +680,8 @@ Entry template:
 - **Context:** User reported step b under Research Process spilled bold across the whole paragraph.
 - **Decision:** Overwrite Draft_041. Step b label only is bold ("b. Corpus Construction. "). Body unbolded to match steps a, c, d, e. Scanned Methods for other full-paragraph bold body runs. None found outside intentional appendix headers and Significance lead-ins.
 - **Status:** active. Working draft = Draft_041.
+
+## 2026-10-06 — Draft_041: keep Table 3 caption with table body
+- **Context:** User reported only one table had label/heading separated from the table body across pages.
+- **Decision:** Overwrite Draft_041. Page break before Table 3 caption. Keep-with-next on caption and title. Inventory table rows cantSplit + header repeat.
+- **Status:** active. Working draft = Draft_041.
