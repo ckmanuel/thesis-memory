@@ -27,6 +27,11 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-07 — Draft_052: explicit P+EC Working Example in Appendix A
+- **Context:** User: Appendix example was mainly EC with vague “P may co-occur”; need explicit both-P-and-EC example parallel to P-only.
+- **Decision:** Overwrite Draft_052. Replaced “Politeness-related form…” with explicit Both P and EC example: “We would suggest that the treatment may be less effective than earlier reports claimed.” Contrast pointed to P-only example above.
+- **Status:** active. Working draft = Draft_052.
+
 ## 2026-10-07 — Draft_052: Epistemic Weight vs Softening
 - **Context:** User asked to define the distinction for this paper; add them.
 - **Decision:** Draft_052 from Draft_051.
