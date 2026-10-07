@@ -27,6 +27,16 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-07 — Draft_053: full Stage 1 corpus pass + RQ3 restore + knowledge-claim gate
+- **Context:** User ordered full corpus pass/recode, all ripple fixes, restore RQ3 verbatim, judgment fixes.
+- **Decision:** Overwrite Draft_053 + Excel.
+  - **Full pass outcome:** Under Stage 1 restricted to knowledge claims (not directives), no tokens promoted from FP-Rec/Cap/Proc/Gen, pure sequence DO, Overall/framing adverbs, or “could unveil” future-research frames. No P forms in corpus. **n=65, all EC, tables/calculations unchanged.**
+  - RQ3 restored to approved: “Among the hedging devices identified, what rhetorical functions do they serve?”
+  - Stage 1 wording: knowledge-claim categorical/direct; imposition only on how claims are put forward; deontic carve-out explicit.
+  - Codebook summary documents full-pass checklist.
+  - Excel subtitles (Hedges, Rejected, P/DO, Coding Summary) updated to Stage 1 language.
+- **Status:** active. Working draft = Draft_053.
+
 ## 2026-10-07 — Draft_053: ripple-fix Stage 1 language
 - **Context:** User asked if all ripple effects of Stage 1 change were fixed.
 - **Decision:** Overwrite Draft_053. Fixed residuals: Crompton “identification screen”; Scope “epistemically screened set” / Working Test filter; Part III “built into the Working Test”; FP log “rejected after Working Test”; potential rule secondary check; quick-ref “pass the Working Test”; codebook heading STAGE 1, STAGE 2, AND WORKING TEST; reliability “epistemic-only filter”.
