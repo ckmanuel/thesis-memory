@@ -2,13 +2,13 @@
 
 ## Current working draft
 
-**003_ThesisProposal_Draft_053.docx** (PDF alongside)
+**003_ThesisProposal_Draft_055.docx** (PDF alongside)
 
-Previous drafts retained (including Draft_052).
+Previous drafts retained (including Draft_054).
 
 ## Versioning policy
 
 - Small edits overwrite current draft; new Draft_0xx for major revisions or when requested.
 - Older drafts kept when requested.
 
-Draft_053: RQ3 reframing — 100% EC as profile of Working Test set; Working Test retained.
+Draft_055: Appendix C unhedged grey marks assertive core only; full clause stays in Excel.
