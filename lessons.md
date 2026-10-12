@@ -146,6 +146,12 @@ Entry template (nest under an ## Umbrella heading):
 - **Fix:** When the user says follow an older draft for **formatting** (spacing, fonts, borders, cantSplit, tblHeader), copy **those rules only**. Do **not** change section order unless the user explicitly asks to rearrange. Latest draft order is intentional when it differs from older drafts.
 - **Doesn't apply when:** User explicitly says to restore an older draft’s structure or merge layouts section-for-section.
 
+
+### Major chapter page breaks stripped during appendix edits
+- **Problem:** CONCLUSIONS AND RECOMMENDATIONS and REFERENCES no longer started on a new page after appendix-focused OOXML edits. Body chapters that use section breaks (INTRODUCTION, METHODOLOGY, RESULTS) were fine; chapters that used an empty paragraph with `w:br type=page` lost that break when empty paras were bulk-removed.
+- **Fix:** Restore empty page-break paragraphs before CONCLUSIONS AND RECOMMENDATIONS and REFERENCES (v81 pattern). Do **not** bulk-delete empty paragraphs that contain `w:br type="page"`. Before deleting empties, skip any with a page break. Full pass vs a known-good draft (e.g. v81) for major heading page starts after any body-wide cleanup.
+- **Doesn't apply when:** Institution requires continuous chapter flow with no page break before conclusion/references.
+
 ## Title page
 
 ### Double spacing pushes name/date to page 2
