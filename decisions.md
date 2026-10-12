@@ -27,6 +27,11 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-12 — Draft_080: DO color teal→brown; G/C marker placement
+- **Context:** User: DO teal too close to Modal blue for physical coding; change L2 DO color. Also G/C should sit right after highlighted unhedged verbs.
+- **Decision:** Overwrite Draft_080. Appendix C legend: DO = brown (not teal). Fixed placements: was [C] due to…; were [G] sensitive to…; Sulfuric was [G] second….
+- **Status:** active. Working draft = Draft_080.
+
 ## 2026-10-12 — Draft_080: fold tightened Recommendations
 - **Context:** User approved expanded recommendations with rewords: drop “surface markers of tentativeness” for “cautious wording for its own sake”; “project” → “thesis”.
 - **Decision:** Overwrite Draft_080. Three-paragraph Recommendations (bridge, teaching, research). Removed repetitive future-research stack and codebook restatement.
