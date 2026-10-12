@@ -20,6 +20,12 @@ No parallel summary files. They drift.
 <!--
 Entry template:
 
+## 2026-10-13 — Draft_092 + Excel Draft_014: DO out of Step 3
+- **Context:** User: not only pure DO — remove DO from Step 3 because there is no multifunctional DO.
+- **Decision:** Step 3 = EC and/or P only (co-occurrence = EC+P). DO is Step 2 log + Appendix C visibility only, never a Step 3 function label.
+- **Edits:** Methods, Definition of Softening, Part III, Appendix A Steps 1–3 and working examples. Excel Hedges/P-DO headers updated.
+- **Status:** active. Working draft = Draft_092. Coding spreadsheet = Draft_014.
+
 ## 2026-10-13 — Excel Draft_013: co-label schema + same-sentence DO notes
 - **Context:** Critique: Function column single-value so hybrids could not be recorded; P/DO Ambiguous=Y next to retained hedges (e.g. B7).
 - **Decision:** 007_CompiledResult_Draft_013.xlsx. Function permits EC, P, DO, EC+P, EC+DO. Re-screened all 65 retained tokens for one-token hybrids: **0 co-labels**. Same-sentence DO connectors remain Hedge?=N on P/DO log; paired hedges stay EC with notes ("Not a co-label: two tokens"). B7 reasoning expanded for defense.

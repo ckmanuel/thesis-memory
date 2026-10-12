@@ -105,3 +105,43 @@ token" rule overrides "verbatim").
 **Assistant:**
 
 > Excel Draft_013: Function schema allows co-labels; re-screened 65 tokens → 0 hybrids; same-sentence DO+hedge pairs documented in notes (still EC + separate P/DO log); B7 and Ambiguous=Y reasons tightened.
+
+#### Exchange 9 — trace 1791842950-176
+
+**User:**
+
+> should it be one token or one clause/sentence? since a single token that functions as both DO+EC or DO+P is non existent.
+
+**Assistant:**
+
+> Answer: keep token as unit for retained-hedge counts; one-token DO+EC is expected to be near zero. Clause-level hybrid is a different construct. Codebook already encodes DO frame + separate hedge.
+
+#### Exchange 10 — trace 1791843065-177
+
+**User:**
+
+> but that label is basically null?
+
+**Assistant:**
+
+> Yes: token-level EC+DO is effectively a null category in this corpus/genre. P+EC is theoretically open but also empty here. Defense: scheme allows co-occurrence; abstract hedging almost never packs both into one token; zero is informative, not a failed search.
+
+#### Exchange 11 — trace 1791843277-178
+
+**User:**
+
+> but isn't that an issue in itself? should ae remove DO co-occurence in Step 3 only P or EC? since step 2 already labels DO
+
+**Assistant:**
+
+> Agree: DO at Step 3 co-occurrence is redundant and creates a null label. Recommend Step 3 = EC and/or P only; pure DO stays Step 2 log only. Await apply if user wants.
+
+#### Exchange 12 — trace 1791843345-178
+
+**User:**
+
+> not pure DO. only DO. since there is no multifunctional DO.
+
+**Assistant:**
+
+> Draft_092 + Excel Draft_014: DO removed from Step 3 entirely. Step 3 = EC and/or P only. DO = Step 2 log only (no multifunctional DO).
