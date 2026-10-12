@@ -20,6 +20,11 @@ No parallel summary files. They drift.
 <!--
 Entry template:
 
+## 2026-10-13 — Draft_094 + Excel Draft_016: Step 2 = Working Test + Reader Test
+- **Context:** User: no 2a/2b split; Step 2 identifies function via paired removal checks.
+- **Decision:** Step 2 = Working Test (truth-commitment changes → EC) + Reader Test (commitment same but claim more imposing/unattributed/confrontational toward readers or prior work → P). Neither → FP (not a function). Step 3 = grammatical type on retained P/EC only.
+- **Status:** active. Working draft = Draft_094. Coding spreadsheet = Draft_016.
+
 ## 2026-10-13 — Draft_093 + Excel Draft_015: full coding pipeline overhaul
 - **Context:** User: full overhaul; Figure 1 placeholder for later swap; FP not a function (only P/EC); pure P skips Working Test; WT for EC ambiguity only.
 - **Decision:** Pipeline = Step 1 wide net → Step 2a (P / EC candidate / FP) → Step 2b Working Test (EC path only) → Step 3 grammatical type on retained P and EC. Functions = P and EC only. FP = reject record. DO removed as function category from Methods/codebook steps.

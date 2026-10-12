@@ -275,3 +275,19 @@ token" rule overrides "verbatim").
 **Assistant:**
 
 > Draft_093 + Excel Draft_015 full pipeline overhaul: Step 1 → 2a (P/EC/FP) → 2b WT for EC only → 3 type. Functions = P/EC only. FP not a function. Figure 1 left as placeholder.
+
+#### Exchange 22 — trace 1791845944-183
+
+**User:**
+
+> Step 2 can be a working test instead that identify function doesn't have to be separated as 2a/2b just this.
+> 
+> A confirming check to pair with the Working Test
+> Call it the Reader Test. Remove the device and ask what changes:
+> Commitment to the truth changes: EC, run the Working Test.
+> Commitment stays the same, but the claim becomes more imposing, unattributed, or confrontational toward readers or prior work: P.
+> Neither changes: not a hedge. Log it as FP as before.
+
+**Assistant:**
+
+> Draft_094 + Excel 016: Step 2 unified as Working Test + Reader Test (no 2a/2b). EC / P / FP from paired removal checks. Step 3 = type only.
