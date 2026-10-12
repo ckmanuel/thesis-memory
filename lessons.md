@@ -158,6 +158,12 @@ Entry template (nest under an ## Umbrella heading):
 - **Fix:** Execute the stated request only. No added notes, no unrequested rearrangement, no opportunistic formatting elsewhere. Match reference drafts for the property named (e.g. marks on example sentence only), not for optional extras.
 - **Doesn't apply when:** User explicitly says to do a full pass, audit, or “fix everything related.”
 
+
+### Do not strip formats outside the named section
+- **Problem:** A stylistic request (e.g. fix bold in QR, restore Combined Example marks) is treated as a document-wide format pass. Highlights, strikes, page breaks, or spacing elsewhere get removed or normalized, then hours go to re-debugging.
+- **Fix:** Scope = only the section(s) named in the user message. Never remove formats universally unless asked. If scope is unclear, ask before editing.
+- **Doesn't apply when:** User explicitly requests a full-document or universal format change.
+
 ## Title page
 
 ### Double spacing pushes name/date to page 2

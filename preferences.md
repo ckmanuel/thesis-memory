@@ -113,6 +113,12 @@ Guardrails, not mechanical compliance.
 - Unnecessary additions create new bugs and waste debugging time. When in doubt, do less.
 - Format reference ≠ license to change structure, content, or arrangement (see also lessons.md).
 
+### Stylistic / format-sensitive edits (thesis docx)
+- Apply the task **only to the section(s) named**. Do **not** apply a format change “universally” across the whole document unless the user explicitly says so (e.g. “all tables,” “entire Appendix A”).
+- **Do not remove formats** (highlights, strikes, colors, bold, spacing schemes, borders, page breaks) outside the named target. Global strip/normalize passes are forbidden unless requested.
+- If the instruction is ambiguous about **where** or **how far** to edit, **ask a follow-up question before editing**. Be as specific as needed (which heading, which table, which paragraph). Do not guess and burn tokens on a wrong-scope fix.
+- This file is stylistically and format-sensitive. Prefer under-editing to over-editing.
+
 ## Appendix A / docx pagination (agent checklist)
 Before changing Appendix A layout or “fixing blank pages”:
 1. Search `lessons.md` for keepNext, tblHeader, cantSplit, half-empty, MARKING.
