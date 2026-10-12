@@ -20,6 +20,11 @@ No parallel summary files. They drift.
 <!--
 Entry template:
 
+## 2026-10-13 — Draft_098: keep old Research Process method wording
+- **Context:** User: keep old method in research process.
+- **Decision:** Restored Pilot Testing and Reliability Checking to: full corpus re-coded under final rule set; intra-rater on 6 abstracts used that same final codebook. Removed Reader Test re-screen / κ-scope narrative from Methods.
+- **Status:** active. Working draft = Draft_098.
+
 ## 2026-10-13 — Draft_097 + Excel Draft_018: scheme consistency pass
 - **Context:** Panel diff vs 091: Methods mismatch on Reader Test/κ; FP inventory conflation; Table 6 labels; App C connector sentence; App A "typically fail."
 - **Decision:** Methods states Reader Test = post-panel re-screen; κ covers earlier Step 2/type only. FP 58 = Rejected Candidates only; framing rows on Non-retained inventory sheet. Table 6 labels cleaned. App A: category FP rules before removal checks. Excel sheet renamed; no DO in function values.

@@ -341,3 +341,13 @@ token" rule overrides "verbatim").
 **Assistant:**
 
 > Draft_097 + Excel 018: consistency fixes — Part III Step 2; App C intro; FP count honesty; Table 6 labels; Methods Reader Test vs kappa; App A category-first FP; sheet rename.
+
+#### Exchange 28 — trace 1791847831-193
+
+**User:**
+
+> keep old method in research process.
+
+**Assistant:**
+
+> Draft_098: restored original Research Process reliability wording (no Reader Test re-screen narrative).
