@@ -353,3 +353,28 @@ token" rule overrides "verbatim").
 > - No balloon comments in the file (only those tracked changes)
 >
 > PDF updated. Repo tip remains Draft_088.
+
+#### Exchange 16 — trace font-uniform-georgia-001
+
+**User:**
+
+> Italics dapat. also can you check the font and font size. it seems that it has multiple different fonts and font size used keep it uniform according to the companion in repo. keep the table size as is just make sure font of all text is Georgia.
+
+**Assistant:**
+
+> Done (Draft_088 overwrite).
+>
+> **Companion rules used** (`001_ThesisCompanion.pdf`)
+> - Font: **Georgia** throughout
+> - Body: size 11 · Sub-Heading 1: size 12 bold · Sub-Heading 2: size 12 *italics* · Chapter headings: size 14
+>
+> **What was wrong**
+> - **79 runs in Times New Roman** (mainly References + one body stretch)
+> - Other runs inherited mixed defaults
+>
+> **What I changed**
+> - Forced **Georgia** on every text run and in `styles.xml`
+> - **Did not change table cell sizes** (left as-is)
+> - Sub-Heading 2 literature topics were already *italics*, size 12 — left them
+>
+> **Verified:** no non-Georgia fonts remain in the docx. PDF updated.
