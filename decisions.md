@@ -20,6 +20,11 @@ No parallel summary files. They drift.
 <!--
 Entry template:
 
+## 2026-10-13 — Draft_099: P=0 defense as genre null
+- **Context:** Feedback: "built in"/Step 2 exclusion too strong; lead with Non-retained P-scan; fix framework 100% EC sentence; "defaulting to Working Test."
+- **Decision:** 100% EC = empirical pattern, not design exclusion of P. P=0 = genre null + Non-retained inventory support. Category rules before Working Test or Reader Test (not "defaulting").
+- **Status:** active. Working draft = Draft_099.
+
 ## 2026-10-13 — Draft_098: keep old Research Process method wording
 - **Context:** User: keep old method in research process.
 - **Decision:** Restored Pilot Testing and Reliability Checking to: full corpus re-coded under final rule set; intra-rater on 6 abstracts used that same final codebook. Removed Reader Test re-screen / κ-scope narrative from Methods.

@@ -351,3 +351,13 @@ token" rule overrides "verbatim").
 **Assistant:**
 
 > Draft_098: restored original Research Process reliability wording (no Reader Test re-screen narrative).
+
+#### Exchange 29 — trace 1791848570-196
+
+**User:**
+
+> A token that passes either test is retained... [P=0 defense feedback]
+
+**Assistant:**
+
+> Draft_099: P=0 as genre null + Non-retained inventory; removed Step 2 exclusion wording; fixed defaulting to Working Test.
