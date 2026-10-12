@@ -301,3 +301,13 @@ token" rule overrides "verbatim").
 **Assistant:**
 
 > Draft_095 + Excel 017: full residual pass. Table 6 = EC 65 / P 0 / FP 58. All (DO) tags stripped. DO function language removed. FP visible in body + table.
+
+#### Exchange 24 — trace 1791846797-214
+
+**User:**
+
+> here is the updated Figure 1
+
+**Assistant:**
+
+> Figure 1 replaced with user-supplied conceptual framework diagram. Placeholder language removed. Draft_095 updated.

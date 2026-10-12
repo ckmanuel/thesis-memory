@@ -20,6 +20,7 @@ No parallel summary files. They drift.
 <!--
 Entry template:
 
+## 2026-10-13 — Draft_095: Figure 1 image replaced with user diagram.
 ## 2026-10-13 — Draft_095 + Excel Draft_017: FP visibility + DO residual purge
 - **Context:** User: FP more visible (EC/FP comparison, P null); remove all residual DO tags; full residual pass.
 - **Decision:** Table 6 rewritten as Step 2 outcomes EC=65 / P=0 / FP=58. Body text states the comparison. All (DO) tags stripped from Appendix C. DO-as-function language removed from Methods/Results/legends. Excel Draft_017 notes aligned.
