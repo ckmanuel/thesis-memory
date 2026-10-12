@@ -2,7 +2,7 @@
 
 ## Current working draft
 
-**003_ThesisProposal_Draft_079.docx** (PDF alongside)
+**003_ThesisProposal_Draft_080.docx** (PDF alongside)
 
 Previous drafts retained.
 
@@ -11,5 +11,4 @@ Previous drafts retained.
 - Small edits overwrite current draft; new Draft_0xx for major revisions or when requested.
 - Older drafts kept when requested.
 
-Draft_079: Background RRL rewritten as synthesis-led prose (less list-like study stacking). Themes and sources retained.
-Draft_078: literature expansion + grammar/tense fixes.
+Draft_080: drop meta self-assessment on potential + noun rule; plain consequence wording.

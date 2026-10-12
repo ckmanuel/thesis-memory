@@ -27,6 +27,11 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-12 — Draft_080: drop meta self-assessment on coding rule
+- **Context:** User: “methodologically interesting feature of the coding scheme” reads out of place / uncanny.
+- **Decision:** Overwrite Draft_080. Replace with: “Without that position-based rule, keyword matching alone would have counted many topic-naming uses of potential as hedges and inflated the total.”
+- **Status:** active. Working draft = Draft_080.
+
 ## 2026-10-07 — Draft_053: full Stage 1 corpus pass + RQ3 restore + knowledge-claim gate
 - **Context:** User ordered full corpus pass/recode, all ripple fixes, restore RQ3 verbatim, judgment fixes.
 - **Decision:** Overwrite Draft_053 + Excel.
