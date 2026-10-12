@@ -140,6 +140,12 @@ Entry template (nest under an ## Umbrella heading):
   4. After any Appendix A edit: export PDF and check (a) no page with ≪500 extractable chars mid-appendix, (b) MARKING not alone after a half-empty Decision page, (c) tables break only between rows.
 - **Doesn't apply when:** User explicitly asks for a different appendix structure (e.g. each FP code on its own page).
 
+
+### Format reference ≠ section arrangement
+- **Problem:** Using an older draft (e.g. v81) as a formatting reference, the agent also **reordered** Appendix A sections (e.g. moved CODING SHEET before Full Codebook) because that older draft had a different intentional structure.
+- **Fix:** When the user says follow an older draft for **formatting** (spacing, fonts, borders, cantSplit, tblHeader), copy **those rules only**. Do **not** change section order unless the user explicitly asks to rearrange. Latest draft order is intentional when it differs from older drafts.
+- **Doesn't apply when:** User explicitly says to restore an older draft’s structure or merge layouts section-for-section.
+
 ## Title page
 
 ### Double spacing pushes name/date to page 2
