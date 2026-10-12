@@ -27,6 +27,11 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-12 — Draft_080: fold tightened Recommendations
+- **Context:** User approved expanded recommendations with rewords: drop “surface markers of tentativeness” for “cautious wording for its own sake”; “project” → “thesis”.
+- **Decision:** Overwrite Draft_080. Three-paragraph Recommendations (bridge, teaching, research). Removed repetitive future-research stack and codebook restatement.
+- **Status:** active. Working draft = Draft_080.
+
 ## 2026-10-12 — Draft_080: fold Conclusions C2 (deeper synthesis)
 - **Context:** User approved expanded Variation C2 (genre, supervised ratification, baseline for instruction/research).
 - **Decision:** Overwrite Draft_080 CONCLUSIONS with three paragraphs from C2. No em dashes or semicolons.
