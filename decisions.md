@@ -27,6 +27,11 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-12 — Style: no em dashes or semicolons
+- **Context:** User: from this point on avoid em dashes and semicolons. Rephrase. Apply to recent revisions too.
+- **Decision:** Preference recorded. Part IV opener and CONCLUSIONS (two paras) rewritten without — or ;. Going forward, rephrase rather than use those marks in thesis prose.
+- **Status:** active.
+
 ## 2026-10-12 — Draft_080: Part IV opening rewrite (no stats replay)
 - **Context:** User: Part IV first paragraph restates results; rewrite opener only; preview tightened later paras in chat without applying.
 - **Decision:** Overwrite Draft_080 first Part IV paragraph only. Bridge to outcome-type discussion without KW/pairwise/chi-square replay.
