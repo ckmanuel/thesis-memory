@@ -321,3 +321,23 @@ token" rule overrides "verbatim").
 **Assistant:**
 
 > Draft_096: cleaned definition residuals (Hedge Function=P/EC only; Epistemic Weight=Step 2 WT+RT; fixed orphan DO sentence).
+
+#### Exchange 26 — trace 1791847308-188
+
+**User:**
+
+> push pdf version too.
+
+**Assistant:**
+
+> Draft_096.pdf already in last commit and pushed to origin/main.
+
+#### Exchange 27 — trace 1791847532-200
+
+**User:**
+
+> Draft 096 carries the restructure... [full critique on consistency]
+
+**Assistant:**
+
+> Draft_097 + Excel 018: consistency fixes — Part III Step 2; App C intro; FP count honesty; Table 6 labels; Methods Reader Test vs kappa; App A category-first FP; sheet rename.

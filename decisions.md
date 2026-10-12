@@ -20,6 +20,11 @@ No parallel summary files. They drift.
 <!--
 Entry template:
 
+## 2026-10-13 — Draft_097 + Excel Draft_018: scheme consistency pass
+- **Context:** Panel diff vs 091: Methods mismatch on Reader Test/κ; FP inventory conflation; Table 6 labels; App C connector sentence; App A "typically fail."
+- **Decision:** Methods states Reader Test = post-panel re-screen; κ covers earlier Step 2/type only. FP 58 = Rejected Candidates only; framing rows on Non-retained inventory sheet. Table 6 labels cleaned. App A: category FP rules before removal checks. Excel sheet renamed; no DO in function values.
+- **Status:** active. Working draft = Draft_097. Coding spreadsheet = Draft_018.
+
 ## 2026-10-13 — Draft_096: definition residual cleanup
 - **Context:** User: clean it up (Hedge Function three-category + text-organizing framing; Epistemic Weight Step 3; orphan DO sentence).
 - **Decision:** Hedge Function = EC and P only; FP not a function. Epistemic Weight → Working Test at Step 2 + Reader Test. Framework para fixed. Crompton → Working Test for EC at Step 2.
