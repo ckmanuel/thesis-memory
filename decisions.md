@@ -20,6 +20,11 @@ No parallel summary files. They drift.
 <!--
 Entry template:
 
+## 2026-10-13 — Excel Draft_013: co-label schema + same-sentence DO notes
+- **Context:** Critique: Function column single-value so hybrids could not be recorded; P/DO Ambiguous=Y next to retained hedges (e.g. B7).
+- **Decision:** 007_CompiledResult_Draft_013.xlsx. Function permits EC, P, DO, EC+P, EC+DO. Re-screened all 65 retained tokens for one-token hybrids: **0 co-labels**. Same-sentence DO connectors remain Hedge?=N on P/DO log; paired hedges stay EC with notes ("Not a co-label: two tokens"). B7 reasoning expanded for defense.
+- **Status:** active. Coding spreadsheet = Draft_013. Thesis Draft_091 unchanged (Table 6 still 100% EC — matches data).
+
 ## 2026-10-13 — Draft_091: format uniformity (no right-align)
 - **Context:** User: apply audit fixes except right alignment (not Arabic).
 - **Decision:** Draft_091 from Draft_090. Sub-Heading 2 (lit topics) → italics 12pt left. APPENDIX B/C titles → center 14pt. Sub-H1 stays left 12pt bold. Stray italics removed from Sub-H1/APPENDIX titles. Appendix A untouched.

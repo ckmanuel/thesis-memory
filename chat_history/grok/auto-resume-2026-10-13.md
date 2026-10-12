@@ -62,3 +62,46 @@ token" rule overrides "verbatim").
 **Assistant:**
 
 > Draft_091: applied format fixes except right-alignment. Sub-H2 italics; APPENDIX B/C centered; stray italics stripped from Sub-H1; left alignment kept for sub-heads.
+
+#### Exchange 6 — trace 1791841072-184
+
+**User:**
+
+> why does it look liked there was no 3-before space on major headers? only margin was there, or was I imagining it?
+
+**Assistant:**
+
+> Not imagining it visually, but XML does have 3-before (720 twips) on body majors. On new-page section starts that space sits under the top margin so it looks like “only margin.” Explain companion vs geometry.
+
+#### Exchange 7 — trace 1791842382-183
+
+**User:**
+
+> can you check?
+> 
+> Yes, by your own rules a hybrid could have passed, but only through one door.
+> 
+> A token has to clear Step 2 as claim mitigation first. If it does, Step 3 lets it carry EC plus P or DO together. The codebook says so directly: "P + EC: Step 2 retains as a hedge and Working Test also passes," and co-occurrence is allowed. What can't pass is anything that is only DO. A connector like *Thus* or *In conclusion* that sequences a claim without changing its commitment fails Step 2 and goes to the scan log.
+> 
+> The catch is the "DO frame + separate hedge" rule. In "It should be noted that the results may indicate growth," the frame is DO and *may* is the hedge. You count *may* as EC and the frame as nothing. So the DO part never gets credited as a co-label on the hedge, because it's a separate token. A true one-token hybrid would be a single word that both softens the claim and organizes the text, and that's rare in abstracts. That's probably why none showed up, but it's also a product of how you split tokens.
+> 
+> Two things to check before the defense:
+> 
+> 1. **Your sheet may not allow co-labels.** Table 6 reports one function per token and the percentages sum to 100%. If the Function column holds a single value, hybrids couldn't be recorded even if you saw them. Look at the Hedges sheet and see whether any Coder Notes mention dual labels.
+> 2. **The P and DO scan log marks most connectors as Ambiguous = Y.** Entries like B7's "Hence... thus making a remarkable choice" sit right next to retained hedges. That's where a panelist will argue a hybrid was there and got rejected. Have a one-line answer ready: the connector sequences the claim, the hedge changes its weight, and they're counted separately.
+> 
+> The honest limit is that the zero for P and DO among retained hedges tells you about one coder's application of these rules, not about the corpus in general. Your Scope section already says that, so lean on it.
+
+**Assistant:**
+
+> Checked Hedges + P/DO sheets in Draft_012 Excel. Function column is single-value EC only (n=65); no dual labels in notes. P/DO log: 17/21 Ambiguous=Y including B7 Hence/thus next to retained may. Report findings for defense.
+
+#### Exchange 8 — trace 1791842622-179
+
+**User:**
+
+> fix the coding.
+
+**Assistant:**
+
+> Excel Draft_013: Function schema allows co-labels; re-screened 65 tokens → 0 hybrids; same-sentence DO+hedge pairs documented in notes (still EC + separate P/DO log); B7 and Ambiguous=Y reasons tightened.
