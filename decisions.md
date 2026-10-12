@@ -20,6 +20,11 @@ No parallel summary files. They drift.
 <!--
 Entry template:
 
+## 2026-10-13 — Draft_095 + Excel Draft_017: FP visibility + DO residual purge
+- **Context:** User: FP more visible (EC/FP comparison, P null); remove all residual DO tags; full residual pass.
+- **Decision:** Table 6 rewritten as Step 2 outcomes EC=65 / P=0 / FP=58. Body text states the comparison. All (DO) tags stripped from Appendix C. DO-as-function language removed from Methods/Results/legends. Excel Draft_017 notes aligned.
+- **Status:** active. Working draft = Draft_095. Coding spreadsheet = Draft_017.
+
 ## 2026-10-13 — Draft_094 + Excel Draft_016: Step 2 = Working Test + Reader Test
 - **Context:** User: no 2a/2b split; Step 2 identifies function via paired removal checks.
 - **Decision:** Step 2 = Working Test (truth-commitment changes → EC) + Reader Test (commitment same but claim more imposing/unattributed/confrontational toward readers or prior work → P). Neither → FP (not a function). Step 3 = grammatical type on retained P/EC only.

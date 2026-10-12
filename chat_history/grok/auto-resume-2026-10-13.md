@@ -291,3 +291,13 @@ token" rule overrides "verbatim").
 **Assistant:**
 
 > Draft_094 + Excel 016: Step 2 unified as Working Test + Reader Test (no 2a/2b). EC / P / FP from paired removal checks. Step 3 = type only.
+
+#### Exchange 23 — trace 1791846304-177
+
+**User:**
+
+> FP should be more visible now in the thesis either in the body or on the tables. since there should be direct comparison for EC/FP being P is Null. also remove all residual DO tags. did you overhaul the main thesis? make a full pass make sure everything that was affected by revision ripple effect should be visited and revised. Make sure there is no residuals.
+
+**Assistant:**
+
+> Draft_095 + Excel 017: full residual pass. Table 6 = EC 65 / P 0 / FP 58. All (DO) tags stripped. DO function language removed. FP visible in body + table.
