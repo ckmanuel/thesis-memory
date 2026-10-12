@@ -27,6 +27,11 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-12 — Draft_080: restore Appendix C (DO) tags; DO color brown
+- **Context:** User: DO tags were removed from Appendix C; color still looked teal (font 00B0F0).
+- **Decision:** Overwrite Draft_080. Restored (DO) on sequence connectors from the P/DO scan log (Hence/Thus/Therefore/In conclusion). Changed DO font color from cyan/teal 00B0F0 to brown 8B4513. Legend text already DO = brown.
+- **Status:** active. Working draft = Draft_080.
+
 ## 2026-10-12 — Draft_080: DO color teal→brown; G/C marker placement
 - **Context:** User: DO teal too close to Modal blue for physical coding; change L2 DO color. Also G/C should sit right after highlighted unhedged verbs.
 - **Decision:** Overwrite Draft_080. Appendix C legend: DO = brown (not teal). Fixed placements: was [C] due to…; were [G] sensitive to…; Sulfuric was [G] second….
