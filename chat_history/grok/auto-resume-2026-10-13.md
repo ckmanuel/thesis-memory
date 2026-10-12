@@ -42,3 +42,23 @@ token" rule overrides "verbatim").
 **Assistant:**
 
 > Fixed Appendix C page number. Root cause: final section properties come from body sectPr, which had titlePg=False. Set titlePg + PAGE/first headers on body sectPr. LO PDF: all major header pages HIDDEN; continuation pages still show numbers.
+
+#### Exchange 4 — trace 1791840077-179
+
+**User:**
+
+> can you check format is uniformly aligned (Appendix A exception) check companion. see if font size is uniformly applied to all (exception applies)
+
+**Assistant:**
+
+> Format audit vs companion (Appendix A excluded). Majors and body mostly OK. Sub-Heading 1/2 alignment is left, companion requires right. Report only; no edits unless requested.
+
+#### Exchange 5 — trace 1791840400-191
+
+**User:**
+
+> apply all changes except any right alignment. we're not arabic to start right aligned.
+
+**Assistant:**
+
+> Draft_091: applied format fixes except right-alignment. Sub-H2 italics; APPENDIX B/C centered; stray italics stripped from Sub-H1; left alignment kept for sub-heads.

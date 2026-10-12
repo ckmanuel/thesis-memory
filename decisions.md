@@ -20,6 +20,11 @@ No parallel summary files. They drift.
 <!--
 Entry template:
 
+## 2026-10-13 — Draft_091: format uniformity (no right-align)
+- **Context:** User: apply audit fixes except right alignment (not Arabic).
+- **Decision:** Draft_091 from Draft_090. Sub-Heading 2 (lit topics) → italics 12pt left. APPENDIX B/C titles → center 14pt. Sub-H1 stays left 12pt bold. Stray italics removed from Sub-H1/APPENDIX titles. Appendix A untouched.
+- **Status:** active. Working draft = Draft_091.
+
 ## 2026-10-13 — Draft_090: Appendix C page number fixed (body sectPr titlePg)
 - **Context:** User: page number still shows (Appendix C).
 - **Root cause:** Section properties apply to the section *ended* by sectPr. Appendix C is the final section, governed by body sectPr, which had titlePg=False and no headers.
