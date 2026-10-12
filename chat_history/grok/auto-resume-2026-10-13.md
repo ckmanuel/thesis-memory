@@ -145,3 +145,133 @@ token" rule overrides "verbatim").
 **Assistant:**
 
 > Draft_092 + Excel Draft_014: DO removed from Step 3 entirely. Step 3 = EC and/or P only. DO = Step 2 log only (no multifunctional DO).
+
+#### Exchange 13 — trace 1791843666-190
+
+**User:**
+
+> Question, could politeness tokens alone carry epistemic weight?
+
+**Assistant:**
+
+> Answer: Politeness can soften how a claim is put forward (Step 2 retain as P) without changing truth-commitment (EC Working Test fails). Epistemic weight in the strict Crompton/Working Test sense is EC-only. Some P forms can co-implicate tentativeness, but that is dual EC+P, not P alone carrying EC.
+
+#### Exchange 14 — trace 1791843758-194
+
+**User:**
+
+> wrong question. could P function as a hedge?
+
+**Assistant:**
+
+> Yes: under this scheme P can be a hedge (Step 2 retains interpersonal softening of a claim). P is a Step 3 function on retained hedges. None found in this corpus; that is empirical, not definitional exclusion.
+
+#### Exchange 15 — trace 1791844232-183
+
+**User:**
+
+> could P alone function as a hedge?
+
+**Assistant:**
+
+> Yes: P alone can be a hedge if Step 2 retains for interpersonal softening of a claim and Working Test fails (no EC). Codebook example: P without EC. None found in corpus.
+
+#### Exchange 16 — trace 1791844314-176
+
+**User:**
+
+> is P alone epistemic or deontic in a general sense?
+
+**Assistant:**
+
+> Neither purely: P alone is interpersonal (reader-oriented). Not epistemic (truth-commitment) and not deontic (obligation/permission). Deontic advice is FP-Rec in their scheme.
+
+#### Exchange 17 — trace 1791844479-180
+
+**User:**
+
+> then the labeling should be like this.
+> 
+> (DO should have been left and not included in the thesis)
+> 
+> 1. holistically read and mark all possible hedges
+> 
+> 2a. identify function (interpersonal (P) /epistemic (EC) /deontic (FP))
+> 
+> 2b. working test (identify if a hedge is EC/P)
+> 
+> how it should have been reported. a comparison between P/EC/FP count.
+> 
+> this should have been it. was this better instead?
+
+**Assistant:**
+
+> Comparative judgment: proposed pipeline is cleaner for RQ3 (P/EC/FP) and drops DO from the thesis. Tradeoff: collapses type+function story and needs clear FP vs retained boundary. Not necessarily rewrite now; good defense framing of what the study actually did vs a leaner alternative.
+
+#### Exchange 18 — trace 1791844976-168
+
+**User:**
+
+> then the labeling should be like this.
+> 
+> (DO should have been left and not included in the thesis)
+> 
+> 1. holistically read and mark all possible hedges
+> 
+> 2. Identify Hedge Type (modal, lexical, etc)
+> 
+> 3a. identify function (interpersonal (P) /epistemic (EC) /False Positives)
+> 
+> 3b. working test (identify if a hedge is EC/FP) - to codify ambiguity.
+> 
+> how it should have been reported. a comparison between P/EC/FP count.
+> 
+> this should have been it. was this better instead?
+
+**Assistant:**
+
+> Honest comparison: proposed pipeline is cleaner than DO-in-Step-3; close to what they already do. Tradeoffs vs current scheme and RQ3. DO-out is right. Not worth full restructure mid-defense unless panel forces it.
+
+#### Exchange 19 — trace 1791845069-182
+
+**User:**
+
+> then the labeling should be like this.
+> 
+> (DO should have been left and not included in the thesis)
+> 
+> 1. holistically read and mark all possible hedges
+> 
+> 2a. identify function (interpersonal (P) /epistemic (EC) /False Positives)
+> 
+> 2b. working test (identify if a hedge is EC/FP) - to codify ambiguity.
+> 
+> 3. Identify Hedge Type (modal, lexical, etc)
+> 
+> how it should have been reported. a comparison between P/EC/FP count.
+> 
+> this should have been it. was this better instead?
+
+**Assistant:**
+
+> Honest comparison: proposed pipeline is cleaner (no DO, function before type, report P/EC/FP). Current scheme is defensible if framed as retained-hedge profile. Neither is wrong; proposed is simpler for defense. Not rewriting unless asked.
+
+#### Exchange 20 — trace 1791845244-178
+
+**User:**
+
+> P and EC have different criterion. only those that is ambiguous (EC which is hardest to identify would have to pass 2b working test) pure P automatically passes 2 straight to 3 without having to pass 2b.
+
+**Assistant:**
+
+> Affirm: P and EC different criteria; Working Test is EC disambiguation tool, not a gate for pure P. Pure P: interpersonal criterion at 2a → type at 3. Ambiguous/EC-candidates: 2b Working Test → EC or FP.
+
+#### Exchange 21 — trace 1791845467-187
+
+**User:**
+
+> can you make a full overhaul revision? I'll redo Figure 1 later myself. keep it as is as a placeholder for a later image swap. also FP should not be identified as a function only P/EC. FP records those that don't qualify as EC only but not a separate function.
+
+**Assistant:**
+
+> Draft_093 + Excel Draft_015 full pipeline overhaul: Step 1 → 2a (P/EC/FP) → 2b WT for EC only → 3 type. Functions = P/EC only. FP not a function. Figure 1 left as placeholder.

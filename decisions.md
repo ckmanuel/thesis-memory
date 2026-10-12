@@ -20,6 +20,12 @@ No parallel summary files. They drift.
 <!--
 Entry template:
 
+## 2026-10-13 — Draft_093 + Excel Draft_015: full coding pipeline overhaul
+- **Context:** User: full overhaul; Figure 1 placeholder for later swap; FP not a function (only P/EC); pure P skips Working Test; WT for EC ambiguity only.
+- **Decision:** Pipeline = Step 1 wide net → Step 2a (P / EC candidate / FP) → Step 2b Working Test (EC path only) → Step 3 grammatical type on retained P and EC. Functions = P and EC only. FP = reject record. DO removed as function category from Methods/codebook steps.
+- **Figure 1:** Left in place as placeholder for user image swap.
+- **Status:** active. Working draft = Draft_093. Coding spreadsheet = Draft_015.
+
 ## 2026-10-13 — Draft_092 + Excel Draft_014: DO out of Step 3
 - **Context:** User: not only pure DO — remove DO from Step 3 because there is no multifunctional DO.
 - **Decision:** Step 3 = EC and/or P only (co-occurrence = EC+P). DO is Step 2 log + Appendix C visibility only, never a Step 3 function label.
