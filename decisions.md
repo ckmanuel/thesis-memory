@@ -20,6 +20,13 @@ No parallel summary files. They drift.
 <!--
 Entry template:
 
+## 2026-10-13 — Draft_090: hide page numbers on major section headers
+- **Context:** User: on major headers, page should be hidden; companion guide; Appendix A exception; new draft.
+- **Companion:** Page numbers in a new section header must be invisible.
+- **Decision:** Draft_090 from Draft_089. titlePg nextPage breaks before CONCLUSIONS, REFERENCES, APPENDICES, APPENDIX B, APPENDIX C. Appendix A body unchanged.
+- **LO PDF check:** Intro through Appendix B OK. Appendix C still shows page number (same as D89 under LO).
+- **Status:** active. Working draft = Draft_090.
+
 ## YYYY-MM-DD — <Short title>
 - **Context:** <what triggered this>
 - **Decision:** <what was decided>
