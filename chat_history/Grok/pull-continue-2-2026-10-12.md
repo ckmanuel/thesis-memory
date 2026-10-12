@@ -132,3 +132,17 @@ token" rule overrides "verbatim").
 > - PDF p. 56: UNHEDGED ASSERTIONS + R/G/C table on the same page
 >
 > PDF updated.
+
+#### Exchange 6 — trace mfp-pagebreak-001
+
+**User:**
+
+> MARKING FALSE POSITIVES table should start in a new page instead of having 1 line split content at the buttom page.
+
+**Assistant:**
+
+> Fixed (Draft_088 overwrite).
+>
+> **MARKING FALSE POSITIVES** now starts on a new page (page break before the heading), so the FP table is not split with a single line left at the bottom of the previous page.
+>
+> PDF updated.
