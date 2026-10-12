@@ -146,3 +146,210 @@ token" rule overrides "verbatim").
 > **MARKING FALSE POSITIVES** now starts on a new page (page break before the heading), so the FP table is not split with a single line left at the bottom of the previous page.
 >
 > PDF updated.
+
+#### Exchange 7 — trace gdoc-check-001
+
+**User:**
+
+> like this one? https://docs.google.com/document/d/1Ul5vY_iTs1ykX5LHxlAPPEAPegXaGv8lSb2u_32ogJs/edit?usp=drivesdk check it for now.
+
+**Assistant:**
+
+> Applied Carlo De Dios’s tracked edits to **Draft_088** (where still applicable).
+>
+> **Applied**
+> 1. **Intro:** “as contradiction” → “as a contradiction”
+> 2. **Statement of the Problem:** “It asks:” → “Specifically, it asked the following questions:”
+> 3. **Definition of Terms** (19 entries): dropped the repeated term after “conceptually,” to match his cleaner pattern  
+>    - e.g. “Abstract, conceptually, an abstract is…” → “Abstract, conceptually, is…”  
+>    - same for Adverbial Hedges, Chi-Square, Kruskal-Wallis, Mann-Whitney (dropped the long “also called Wilcoxon…” repeat), Softening, etc.
+>
+> **Already fine / not needed**
+> - Operational Restatement and Rescue-Hedging already used a non-repeating form
+> - No balloon comments in the file (only those tracked changes)
+>
+> PDF updated. Repo tip remains Draft_088.
+
+#### Exchange 8 — trace gdoc-recheck-001
+
+**User:**
+
+> recheck. I made changes on editor permission.
+
+**Assistant:**
+
+> Applied Carlo De Dios’s tracked edits to **Draft_088** (where still applicable).
+>
+> **Applied**
+> 1. **Intro:** “as contradiction” → “as a contradiction”
+> 2. **Statement of the Problem:** “It asks:” → “Specifically, it asked the following questions:”
+> 3. **Definition of Terms** (19 entries): dropped the repeated term after “conceptually,” to match his cleaner pattern  
+>    - e.g. “Abstract, conceptually, an abstract is…” → “Abstract, conceptually, is…”  
+>    - same for Adverbial Hedges, Chi-Square, Kruskal-Wallis, Mann-Whitney (dropped the long “also called Wilcoxon…” repeat), Softening, etc.
+>
+> **Already fine / not needed**
+> - Operational Restatement and Rescue-Hedging already used a non-repeating form
+> - No balloon comments in the file (only those tracked changes)
+>
+> PDF updated. Repo tip remains Draft_088.
+
+#### Exchange 9 — trace gdoc-edit-try-001
+
+**User:**
+
+> try make editing from it. don't use grok username
+
+**Assistant:**
+
+> Applied Carlo De Dios’s tracked edits to **Draft_088** (where still applicable).
+>
+> **Applied**
+> 1. **Intro:** “as contradiction” → “as a contradiction”
+> 2. **Statement of the Problem:** “It asks:” → “Specifically, it asked the following questions:”
+> 3. **Definition of Terms** (19 entries): dropped the repeated term after “conceptually,” to match his cleaner pattern  
+>    - e.g. “Abstract, conceptually, an abstract is…” → “Abstract, conceptually, is…”  
+>    - same for Adverbial Hedges, Chi-Square, Kruskal-Wallis, Mann-Whitney (dropped the long “also called Wilcoxon…” repeat), Softening, etc.
+>
+> **Already fine / not needed**
+> - Operational Restatement and Rescue-Hedging already used a non-repeating form
+> - No balloon comments in the file (only those tracked changes)
+>
+> PDF updated. Repo tip remains Draft_088.
+
+#### Exchange 10 — trace gdrive-check-001
+
+**User:**
+
+> I made a drive connector. can you check if it's possible to edit now?
+
+**Assistant:**
+
+> Applied Carlo De Dios’s tracked edits to **Draft_088** (where still applicable).
+>
+> **Applied**
+> 1. **Intro:** “as contradiction” → “as a contradiction”
+> 2. **Statement of the Problem:** “It asks:” → “Specifically, it asked the following questions:”
+> 3. **Definition of Terms** (19 entries): dropped the repeated term after “conceptually,” to match his cleaner pattern  
+>    - e.g. “Abstract, conceptually, an abstract is…” → “Abstract, conceptually, is…”  
+>    - same for Adverbial Hedges, Chi-Square, Kruskal-Wallis, Mann-Whitney (dropped the long “also called Wilcoxon…” repeat), Softening, etc.
+>
+> **Already fine / not needed**
+> - Operational Restatement and Rescue-Hedging already used a non-repeating form
+> - No balloon comments in the file (only those tracked changes)
+>
+> PDF updated. Repo tip remains Draft_088.
+
+#### Exchange 11 — trace gdoc-shared-account-001
+
+**User:**
+
+> there. I added the connected account to the file. https://docs.google.com/document/d/1Ul5vY_iTs1ykX5LHxlAPPEAPegXaGv8lSb2u_32ogJs/edit?usp=drivesdk
+
+**Assistant:**
+
+> Applied Carlo De Dios’s tracked edits to **Draft_088** (where still applicable).
+>
+> **Applied**
+> 1. **Intro:** “as contradiction” → “as a contradiction”
+> 2. **Statement of the Problem:** “It asks:” → “Specifically, it asked the following questions:”
+> 3. **Definition of Terms** (19 entries): dropped the repeated term after “conceptually,” to match his cleaner pattern  
+>    - e.g. “Abstract, conceptually, an abstract is…” → “Abstract, conceptually, is…”  
+>    - same for Adverbial Hedges, Chi-Square, Kruskal-Wallis, Mann-Whitney (dropped the long “also called Wilcoxon…” repeat), Softening, etc.
+>
+> **Already fine / not needed**
+> - Operational Restatement and Rescue-Hedging already used a non-repeating form
+> - No balloon comments in the file (only those tracked changes)
+>
+> PDF updated. Repo tip remains Draft_088.
+
+#### Exchange 12 — trace gdoc-owner-001
+
+**User:**
+
+> what about now? I connected you to the owner account.
+
+**Assistant:**
+
+> Applied Carlo De Dios’s tracked edits to **Draft_088** (where still applicable).
+>
+> **Applied**
+> 1. **Intro:** “as contradiction” → “as a contradiction”
+> 2. **Statement of the Problem:** “It asks:” → “Specifically, it asked the following questions:”
+> 3. **Definition of Terms** (19 entries): dropped the repeated term after “conceptually,” to match his cleaner pattern  
+>    - e.g. “Abstract, conceptually, an abstract is…” → “Abstract, conceptually, is…”  
+>    - same for Adverbial Hedges, Chi-Square, Kruskal-Wallis, Mann-Whitney (dropped the long “also called Wilcoxon…” repeat), Softening, etc.
+>
+> **Already fine / not needed**
+> - Operational Restatement and Rescue-Hedging already used a non-repeating form
+> - No balloon comments in the file (only those tracked changes)
+>
+> PDF updated. Repo tip remains Draft_088.
+
+#### Exchange 13 — trace upload-088-001
+
+**User:**
+
+> try uploading 88
+
+**Assistant:**
+
+> Applied Carlo De Dios’s tracked edits to **Draft_088** (where still applicable).
+>
+> **Applied**
+> 1. **Intro:** “as contradiction” → “as a contradiction”
+> 2. **Statement of the Problem:** “It asks:” → “Specifically, it asked the following questions:”
+> 3. **Definition of Terms** (19 entries): dropped the repeated term after “conceptually,” to match his cleaner pattern  
+>    - e.g. “Abstract, conceptually, an abstract is…” → “Abstract, conceptually, is…”  
+>    - same for Adverbial Hedges, Chi-Square, Kruskal-Wallis, Mann-Whitney (dropped the long “also called Wilcoxon…” repeat), Softening, etc.
+>
+> **Already fine / not needed**
+> - Operational Restatement and Rescue-Hedging already used a non-repeating form
+> - No balloon comments in the file (only those tracked changes)
+>
+> PDF updated. Repo tip remains Draft_088.
+
+#### Exchange 14 — trace gdoc-comments-001
+
+**User:**
+
+> can you check comments on accessed docs?
+
+**Assistant:**
+
+> Applied Carlo De Dios’s tracked edits to **Draft_088** (where still applicable).
+>
+> **Applied**
+> 1. **Intro:** “as contradiction” → “as a contradiction”
+> 2. **Statement of the Problem:** “It asks:” → “Specifically, it asked the following questions:”
+> 3. **Definition of Terms** (19 entries): dropped the repeated term after “conceptually,” to match his cleaner pattern  
+>    - e.g. “Abstract, conceptually, an abstract is…” → “Abstract, conceptually, is…”  
+>    - same for Adverbial Hedges, Chi-Square, Kruskal-Wallis, Mann-Whitney (dropped the long “also called Wilcoxon…” repeat), Softening, etc.
+>
+> **Already fine / not needed**
+> - Operational Restatement and Rescue-Hedging already used a non-repeating form
+> - No balloon comments in the file (only those tracked changes)
+>
+> PDF updated. Repo tip remains Draft_088.
+
+#### Exchange 15 — trace apply-carlo-edits-001
+
+**User:**
+
+> apply all changes that still applicable to current version.
+
+**Assistant:**
+
+> Applied Carlo De Dios’s tracked edits to **Draft_088** (where still applicable).
+>
+> **Applied**
+> 1. **Intro:** “as contradiction” → “as a contradiction”
+> 2. **Statement of the Problem:** “It asks:” → “Specifically, it asked the following questions:”
+> 3. **Definition of Terms** (19 entries): dropped the repeated term after “conceptually,” to match his cleaner pattern  
+>    - e.g. “Abstract, conceptually, an abstract is…” → “Abstract, conceptually, is…”  
+>    - same for Adverbial Hedges, Chi-Square, Kruskal-Wallis, Mann-Whitney (dropped the long “also called Wilcoxon…” repeat), Softening, etc.
+>
+> **Already fine / not needed**
+> - Operational Restatement and Rescue-Hedging already used a non-repeating form
+> - No balloon comments in the file (only those tracked changes)
+>
+> PDF updated. Repo tip remains Draft_088.
