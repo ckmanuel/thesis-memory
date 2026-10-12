@@ -110,3 +110,25 @@ token" rule overrides "verbatim").
 > 2. CODING SHEET COLUMNS — column templates + notes (last section before Appendix B)
 >
 > PDF updated.
+
+#### Exchange 5 — trace appA-pagebreak-flow-001
+
+**User:**
+
+> in appendix a hedge type table, consequent paragraph.. Exclusions (capability...) is again separated to a new page instead of continuing below the remaining space after the table. same to the unhedge assertion table in appendix a. it starts a new page instead of filling the remaining space in the page
+
+**Assistant:**
+
+> Fixed (Draft_088 overwrite).
+>
+> **Cause:** Appendix A tables had `cantSplit` on every row, and many headings/paragraphs had `keepNext`. Word kept each table as one unbreakable block with the following text, so if the remainder of a page was too short the whole block jumped to the next page.
+>
+> **Change (Appendix A only)**
+> - Removed `cantSplit` from table rows (tables may split / start mid-page)
+> - Removed cascading `keepNext` on those section headings and following paragraphs
+>
+> **Check**
+> - PDF p. 54: HEDGE TYPE table + “Exclusions…” on the same page
+> - PDF p. 56: UNHEDGED ASSERTIONS + R/G/C table on the same page
+>
+> PDF updated.
