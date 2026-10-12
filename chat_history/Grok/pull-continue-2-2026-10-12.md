@@ -72,3 +72,23 @@ token" rule overrides "verbatim").
 > - Slightly tighter line spacing on the lookup block so both fit one page
 >
 > PDF updated.
+
+#### Exchange 3 — trace appA-align-001
+
+**User:**
+
+> Appendix A minor headings alignment aren't uniform. some are left aligned some are indented.
+
+**Assistant:**
+
+> Fixed (Draft_088 overwrite).
+>
+> Appendix A minor headings were mixed: some had a first-line indent (720 twips / 0.5"), others were flush left.
+>
+> **Normalized to left, no first-line indent:**
+> - QUICK-REFERENCE, Types, Functions, Core rules, Steps 1–3
+> - QUICK-REFERENCE LEGEND, COMBINED EXAMPLE
+> - FULL CODEBOOK, PURPOSE, STEP 1–3…, WORKING EXAMPLES…
+> - HEDGE TYPE, MARKING FALSE POSITIVES, UNHEDGED ASSERTIONS, CODING SHEET COLUMNS
+>
+> Table cell labels left as-is. PDF updated.
