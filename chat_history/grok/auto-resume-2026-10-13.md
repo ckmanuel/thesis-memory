@@ -311,3 +311,13 @@ token" rule overrides "verbatim").
 **Assistant:**
 
 > Figure 1 replaced with user-supplied conceptual framework diagram. Placeholder language removed. Draft_095 updated.
+
+#### Exchange 25 — trace 1791847139-189
+
+**User:**
+
+> clean it up.
+
+**Assistant:**
+
+> Draft_096: cleaned definition residuals (Hedge Function=P/EC only; Epistemic Weight=Step 2 WT+RT; fixed orphan DO sentence).

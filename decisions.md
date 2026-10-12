@@ -20,6 +20,11 @@ No parallel summary files. They drift.
 <!--
 Entry template:
 
+## 2026-10-13 — Draft_096: definition residual cleanup
+- **Context:** User: clean it up (Hedge Function three-category + text-organizing framing; Epistemic Weight Step 3; orphan DO sentence).
+- **Decision:** Hedge Function = EC and P only; FP not a function. Epistemic Weight → Working Test at Step 2 + Reader Test. Framework para fixed. Crompton → Working Test for EC at Step 2.
+- **Status:** active. Working draft = Draft_096.
+
 ## 2026-10-13 — Draft_095: Figure 1 image replaced with user diagram.
 ## 2026-10-13 — Draft_095 + Excel Draft_017: FP visibility + DO residual purge
 - **Context:** User: FP more visible (EC/FP comparison, P null); remove all residual DO tags; full residual pass.
