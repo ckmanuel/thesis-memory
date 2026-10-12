@@ -27,6 +27,32 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-12 — Georgia font not installed — PDF renders use wrong substitute
+- **Context:** Draft_090 was created from Draft_089 with minor changes.
+  When rendered to PDF, it showed spillover in Appendix A that D89's PDF
+  did not. After extensive investigation (XML comparison, spacing checks,
+  section structure comparison), the root cause was found: **Georgia font
+  is not installed on this system**. LibreOffice substitutes a different
+  font, and different LibreOffice versions substitute different fonts:
+  - LO 24.2 (rendered D89 PDF) → substituted **Merriweather-Light**
+    (narrower, closer to Georgia metrics) → 117 pages, no spillover
+  - LO 25.2 (rendered D90 PDF) → substituted **DejaVuSerif** (wider
+    letter spacing) → 114 pages, spillover in Appendix A
+- **Impact:** Any PDF rendered on this system will use a substitute font,
+  not Georgia. This means:
+  1. PDF page counts will differ from Word renders
+  2. Pagination will differ from Word renders
+  3. Spillover/overflow may appear that doesn't exist in Word
+  4. Comparing PDFs rendered by different LibreOffice versions is
+     unreliable — they may use different substitute fonts
+- **Lesson for future sessions:** Before making ANY formatting changes
+  based on PDF rendering, check `pdffonts <pdf>` to see what fonts are
+  actually embedded. If Georgia is not listed, the PDF is using a
+  substitute and pagination is unreliable. Do NOT make formatting changes
+  to fix spillover that only exists due to font substitution. The docx
+  may be correct — verify with the actual font before touching anything.
+- **Status:** active. D89 remains current draft. D90 was removed.
+
 ## 2026-10-12 — Draft_080: restore Appendix C (DO) tags; DO color brown
 - **Context:** User: DO tags were removed from Appendix C; color still looked teal (font 00B0F0).
 - **Decision:** Overwrite Draft_080. Restored (DO) on sequence connectors from the P/DO scan log (Hence/Thus/Therefore/In conclusion). Changed DO font color from cyan/teal 00B0F0 to brown 8B4513. Legend text already DO = brown.
