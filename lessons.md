@@ -51,6 +51,33 @@ Entry template (nest under an ## Umbrella heading):
   3. Re-export PDF and confirm the last page still has text.
 - **Doesn't apply when:** You intentionally want a blank back page. Also different from mid-document blanks caused by `pageBreakBefore` + section break before a major heading (see sibling entry under this umbrella).
 
+
+### Half-empty page — next section will not fill remaining space
+- **Problem:** A page ends after a table or short paragraph with a large empty lower half; the next section heading (e.g. MARKING FALSE POSITIVES, UNHEDGED ASSERTIONS) starts alone at the top of the **next** page. User sees “wasted space” and thinks a page-break flag is set.
+- **Root cause (geometry, not a hidden break):** The next **block** (heading + intro + full table, or heading + long keepNext chain) is **taller than the free space** left on the current page. Word/LibreOffice will not leave a section title at the bottom with almost no table under it, so the **whole block** moves to the next page. Char-count of extracted PDF text understates table height; a “half-empty” page may have only ~30–40% of a page free while the next block needs ~70–100%.
+- **Fix:**
+  1. **Diagnose first:** Measure free space vs height of the *entire* next block (heading + following paras + table). If block > free space, a shared page is impossible without shortening content.
+  2. Prefer **v81 row-wise table splits**: `cantSplit` on each row so rows stay intact, but the **table may continue** on the next page with later rows; the **following section can start mid-page** after the previous table’s last rows if room remains.
+  3. Avoid `keepNext` chains that glue heading + *all* bullets + *entire* table into one unbreakable unit when the table is multi-row and tall.
+  4. Shorten overlong intro lines under the heading (e.g. Strike-through FP instruction) if they block the table from starting mid-page.
+  5. Reference layout that worked: **Draft_081** / restored block in **Draft_091** (DECISION + MARKING + FP rows shared one page).
+- **Doesn't apply when:** The next block truly fits in the residual space but still won’t move — then check `pageBreakBefore`, empty paragraphs, or section breaks (true blank-page bugs above).
+
+### keepNext chain forces blank lower half / section on new page
+- **Problem:** Clearing nothing still leaves MARKING FALSE POSITIVES, UNHEDGED ASSERTIONS, or FULL CODEBOOK starting a new page while the previous page looks underfilled.
+- **Root cause:** Long `w:keepNext` chains (heading → bullets → table → next heading) make Word/LO try to keep the **whole chain** together. If it doesn’t fit, the chain jumps, leaving empty space. Stacked with `before=120` on section heads and `tblHeader` on every row, Appendix A repeatedly “opened new pages.”
+- **Fix:**
+  1. Do **not** keepNext across an entire appendix subsection. Use keepNext only for **heading + first line** (or heading + table start), not heading + six bullets + full table.
+  2. For MARKING / UNHEDGED specifically: allow the section to **start mid-page**; let the FP/Unhedged **table** split by **complete rows** (`cantSplit` per row).
+  3. Cap section-head `before` spacing (e.g. 40–60, not 120) in dense appendix codebooks.
+- **Doesn't apply when:** A single short heading must stay with a small 2-row table that fits; keepNext is fine there.
+
+### Orphan nearly-blank page after a codebook section
+- **Problem:** PDF page with only one short line (e.g. “Optional Rejected Candidates tab…”) or a lone UNHEDGED heading — looks like a blank page.
+- **Root cause:** Empty body paragraph between table and next heading, and/or keepNext + tall table pushing a short trailing paragraph alone onto the next page.
+- **Fix:** Remove empty paragraphs between table and following text. Clear keepNext on trailing one-liners. Ensure the trailing line can stay on the previous page with the table’s last rows.
+- **Doesn't apply when:** Appendix B legitimately starts a new major section (section break) — that is intentional.
+
 ## OOXML pack / validation
 
 ### `pPr` child order / invalid elements fail pack
@@ -85,6 +112,33 @@ Entry template (nest under an ## Umbrella heading):
 - **Problem:** Putting “Table 1: Title | Category” into the first header cell fixed caption orphans but **messed up the whole table** (wrong first-column text, layout).
 - **Fix:** Keep **Table N + title as normal paragraphs above the table**. Restore pure column headers in the first row.
 - **Doesn't apply when:** A template deliberately uses a single-row title band as part of the table design (not this thesis).
+
+
+### tblHeader on every row breaks pagination
+- **Problem:** Codebook tables forced odd page breaks, header-looking repeats, or whole tables jumping; UNHEDGED / Decision tables misbehaved across drafts 074–088.
+- **Root cause:** `w:tblHeader` was set on **every** row (not only the first). Processors treat multiple header rows as repeating header bands and change break behavior.
+- **Fix:** **`tblHeader` only on row 0.** Body rows: no tblHeader. Re-check after any table rewrite or “copy formatting” pass.
+- **Doesn't apply when:** A table is intentionally designed with a multi-row header band that must repeat (rare; not used in this thesis codebook).
+
+### cantSplit = no mid-row break; table may still split between rows (v81 pattern)
+- **Problem:** Confusion between “rows must not split” and “the whole table must stay on one page.” Agents either set cantSplit and then wondered why sections still wouldn’t fill residual space, or removed cantSplit and got mid-cell splits.
+- **Root cause:** `w:cantSplit` on a **row** means that **row** is atomic. The **table can still break between rows**. That is the correct behavior for filling the bottom of a page with as many full rows as fit.
+- **Fix (reference: Draft_081, reapplied Draft_091):**
+  1. Set **`cantSplit` on every data row**.
+  2. Set **`tblHeader` only on the first row**.
+  3. Do **not** require the entire multi-row table to fit before the next section can start.
+  4. Target flow: previous table’s last rows + next section heading + first rows of next table on the **same page** when space allows (e.g. Decision Rules + MARKING FALSE POSITIVES + FP rows on one page).
+- **Doesn't apply when:** A 2–3 row table must stay with its caption and truly fits — then keeping the small table unsplit is fine.
+
+### Appendix A “mess” after incremental spacing edits
+- **Problem:** Repeated drafts (073–090) oscillated on QR/QRL fonts, keepNext, blank pages, and MARKING/Unhedged page breaks; each “fix” regressed another part of Appendix A.
+- **Root cause:** Patching one symptom (gap after HEDGE TYPE, QR font, blank page) without a single **reference draft** for table-split + density. Content length also drifted (e.g. longer Strike-through intro in later drafts made the FP block taller than residual space).
+- **Fix:**
+  1. **Read `lessons.md` (this file) before editing Appendix A pagination.**
+  2. Use **Draft_081** (or Draft_091’s restored HEDGE TYPE→Unhedged block) as the **layout reference** for Decision / MARKING / UNHEDGED table splits.
+  3. Use **Draft_084** as the **QR/QRL font & spacing** reference (sz 22 body / 24 heads; tight after on bullets).
+  4. After any Appendix A edit: export PDF and check (a) no page with ≪500 extractable chars mid-appendix, (b) MARKING not alone after a half-empty Decision page, (c) tables break only between rows.
+- **Doesn't apply when:** User explicitly asks for a different appendix structure (e.g. each FP code on its own page).
 
 ## Title page
 

@@ -103,3 +103,11 @@ Guardrails, not mechanical compliance.
   framing, or structure written for crawlers.
 - Don't end with "what's next?" or similar prompts. End when the substance is
   done.
+
+## Appendix A / docx pagination (agent checklist)
+Before changing Appendix A layout or “fixing blank pages”:
+1. Search `lessons.md` for keepNext, tblHeader, cantSplit, half-empty, MARKING.
+2. Do not invent new spacing systems; match **Draft_084** (QR/QRL) and **Draft_081/091** (Decision–Unhedged table splits).
+3. After edits, PDF-check: no mid-appendix page with only a short orphan line; MARKING should share a page with Decision/FP rows when geometry allows (v81 pattern).
+4. Log the outcome under `decisions.md` only if the user accepted a new policy; always update `lessons.md` if a new failure mode appeared.
+

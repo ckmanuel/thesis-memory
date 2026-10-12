@@ -43,3 +43,10 @@ Facts the user shares that don't fit elsewhere. Update in place.
 - Bio Binary mean hedges higher than VM Binary.
 - Agri has many Null/NS (including Acs2 rescue-hedging outlier with 8 hedges).
 - Stored in thesis/007_CompiledResult_Draft_003.xlsx sheet "Outcome Type".
+
+## Appendix A pagination (recurring — always check lessons.md)
+- **Symptoms that mean “read lessons.md → Blank pages + Tables” first:** half-empty page before MARKING/UNHEDGED; blank/orphan page after a codebook table; QR/QRL spacing drift; tables jumping whole.
+- **Layout reference drafts:** QR/QRL fonts/spacing → **Draft_084**. Decision / MARKING / UNHEDGED row-wise table splits → **Draft_081** (restored in **Draft_091**).
+- **Hard rules:** `tblHeader` only on first row; `cantSplit` on every row (table may still split *between* rows); do not keepNext an entire subsection; residual half-page cannot hold a full multi-row section block — that is geometry, not a missing flag.
+- Full write-up: `lessons.md` (Blank pages + Tables umbrellas).
+

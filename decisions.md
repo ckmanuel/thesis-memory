@@ -814,3 +814,13 @@ Entry template:
 - **Context:** User asked to verify inline table numbers after table changes, and to add Mann-Whitney definition/formula alphabetized in Definition of Terms.
 - **Decision:** Audited all Table 1–7 inline refs against captions. All match. Inserted Mann-Whitney U Test entry after Lexical Hedges, before Modal Verbs, matching Kruskal/Chi-Square format (conceptual, operational, formula, reported results).
 - **Status:** active. Working draft = Draft_043.
+
+## 2026-10-13 — Draft_091: Appendix A table-split policy (v81 pattern)
+- **Context:** Repeated sessions debugging half-empty pages before MARKING FALSE POSITIVES / UNHEDGED ASSERTIONS, orphan blank pages, and QR/QRL spacing. Same bugs reappeared because fixes were not recorded as durable lessons.
+- **Decision:**
+  1. **Table splits:** `cantSplit` on every row (no mid-row/cell break); `tblHeader` **only** on first row; tables **may** continue on the next page by whole rows to fill residual space.
+  2. **Section flow:** Prefer Decision Rules + MARKING + FP rows sharing a page (Draft_081 pattern). Do not force MARKING/UNHEDGED onto a new page solely via keepNext chains.
+  3. **References:** QR/QRL → Draft_084; Decision–Unhedged layout → Draft_081 / Draft_091 restored block.
+  4. **Documentation:** Full failure modes and fixes live permanently in `lessons.md` (Blank pages + Tables) and a pointer in `knowledge.md` / `preferences.md` so agents search before re-debugging.
+- **Status:** active. Working draft = Draft_091.
+
