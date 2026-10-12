@@ -27,6 +27,11 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-12 — Draft_080: fold Conclusions C2 (deeper synthesis)
+- **Context:** User approved expanded Variation C2 (genre, supervised ratification, baseline for instruction/research).
+- **Decision:** Overwrite Draft_080 CONCLUSIONS with three paragraphs from C2. No em dashes or semicolons.
+- **Status:** active. Working draft = Draft_080.
+
 ## 2026-10-12 — Style: no em dashes or semicolons
 - **Context:** User: from this point on avoid em dashes and semicolons. Rephrase. Apply to recent revisions too.
 - **Decision:** Preference recorded. Part IV opener and CONCLUSIONS (two paras) rewritten without — or ;. Going forward, rephrase rather than use those marks in thesis prose.
