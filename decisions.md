@@ -20,6 +20,11 @@ No parallel summary files. They drift.
 <!--
 Entry template:
 
+## 2026-10-13 — Draft_100: Appendix A codebook fixes
+- **Context:** Combined example incomplete; bold spill; QR blank page; category-rule wording; Step 3 redundant sentence; Full Codebook alignment.
+- **Decision:** Combined example shows Lexical/Modal, EC, P, FP-Cap, FP-Rec, framing FP. Step 3 bullet shortened. Category rule: exclude clear FP by category first, then removal checks. QR function/core/steps lines cleaned.
+- **Status:** active. Working draft = Draft_100.
+
 ## 2026-10-13 — Draft_099: P=0 defense as genre null
 - **Context:** Feedback: "built in"/Step 2 exclusion too strong; lead with Non-retained P-scan; fix framework 100% EC sentence; "defaulting to Working Test."
 - **Decision:** 100% EC = empirical pattern, not design exclusion of P. P=0 = genre null + Non-retained inventory support. Category rules before Working Test or Reader Test (not "defaulting").

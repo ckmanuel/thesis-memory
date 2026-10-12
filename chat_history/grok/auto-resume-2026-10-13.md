@@ -361,3 +361,13 @@ token" rule overrides "verbatim").
 **Assistant:**
 
 > Draft_099: P=0 as genre null + Non-retained inventory; removed Step 2 exclusion wording; fixed defaulting to Working Test.
+
+#### Exchange 30 — trace 1791849197-184
+
+**User:**
+
+> fix codebook combined example... [Appendix A format + explain category rule]
+
+**Assistant:**
+
+> Draft_100: combined example covers EC/P/FP types; removed Step 3 redundant sentence; clarified category-first FP; QR lines cleaned; bold strip on body bullets.
