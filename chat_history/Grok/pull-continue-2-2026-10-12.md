@@ -92,3 +92,21 @@ token" rule overrides "verbatim").
 > - HEDGE TYPE, MARKING FALSE POSITIVES, UNHEDGED ASSERTIONS, CODING SHEET COLUMNS
 >
 > Table cell labels left as-is. PDF updated.
+
+#### Exchange 4 — trace coding-sheet-placement-001
+
+**User:**
+
+> coding sheet columns is inserted inside unhedged assertions section.
+
+**Assistant:**
+
+> Fixed (Draft_088 overwrite).
+>
+> **CODING SHEET COLUMNS** was sitting inside **UNHEDGED ASSERTIONS** (right after the bullets, before the G/C subtype table).
+>
+> **New order at end of Appendix A**
+> 1. UNHEDGED ASSERTIONS — bullets + R/G/C subtype table
+> 2. CODING SHEET COLUMNS — column templates + notes (last section before Appendix B)
+>
+> PDF updated.
