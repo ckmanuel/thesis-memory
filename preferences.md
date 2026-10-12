@@ -104,6 +104,15 @@ Guardrails, not mechanical compliance.
 - Don't end with "what's next?" or similar prompts. End when the substance is
   done.
 
+
+
+## Scope of edits (hard rule)
+- **Only what is explicitly asked — nothing more, nothing less.**
+- Do not add explanations, notes, remarks, reformatting, renames, rearrangements, or “helpful” extras that were not requested.
+- Do not expand a narrow fix into a broader cleanup. If asked to restore markings on an example sentence, mark only that sentence.
+- Unnecessary additions create new bugs and waste debugging time. When in doubt, do less.
+- Format reference ≠ license to change structure, content, or arrangement (see also lessons.md).
+
 ## Appendix A / docx pagination (agent checklist)
 Before changing Appendix A layout or “fixing blank pages”:
 1. Search `lessons.md` for keepNext, tblHeader, cantSplit, half-empty, MARKING.

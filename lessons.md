@@ -152,6 +152,12 @@ Entry template (nest under an ## Umbrella heading):
 - **Fix:** Restore empty page-break paragraphs before CONCLUSIONS AND RECOMMENDATIONS and REFERENCES (v81 pattern). Do **not** bulk-delete empty paragraphs that contain `w:br type="page"`. Before deleting empties, skip any with a page break. Full pass vs a known-good draft (e.g. v81) for major heading page starts after any body-wide cleanup.
 - **Doesn't apply when:** Institution requires continuous chapter flow with no page break before conclusion/references.
 
+
+### Only what is explicitly asked — no drive-by extras
+- **Problem:** Agent “helps” beyond the instruction (extra notes under Combined Example with marks, rearranging sections when only formatting was requested, bulk cleanups that strip page breaks). Each extra creates new errors and repeat debugging.
+- **Fix:** Execute the stated request only. No added notes, no unrequested rearrangement, no opportunistic formatting elsewhere. Match reference drafts for the property named (e.g. marks on example sentence only), not for optional extras.
+- **Doesn't apply when:** User explicitly says to do a full pass, audit, or “fix everything related.”
+
 ## Title page
 
 ### Double spacing pushes name/date to page 2
