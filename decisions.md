@@ -27,6 +27,11 @@ Entry template:
 - **Status:** active | superseded by <date>
 -->
 
+## 2026-10-12 — Draft_080: Part IV opening rewrite (no stats replay)
+- **Context:** User: Part IV first paragraph restates results; rewrite opener only; preview tightened later paras in chat without applying.
+- **Decision:** Overwrite Draft_080 first Part IV paragraph only. Bridge to outcome-type discussion without KW/pairwise/chi-square replay.
+- **Status:** active. Working draft = Draft_080.
+
 ## 2026-10-12 — Draft_080: rewrite CONCLUSIONS as synthesis
 - **Context:** User: Conclusions reads like results restatement; asked for rewrite.
 - **Decision:** Overwrite Draft_080. CONCLUSIONS now answers the study in two paragraphs: (1) type/function profile and zero-hedge pattern without replaying tables/tests; (2) limited disciplinary contrast, Acs2 as single case, entangled causes, contribution framed as local baseline. Stats and pairwise detail left in Results/Scope.
