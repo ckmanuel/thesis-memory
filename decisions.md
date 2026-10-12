@@ -20,6 +20,13 @@ No parallel summary files. They drift.
 <!--
 Entry template:
 
+## 2026-10-13 — Draft_090: Appendix C page number fixed (body sectPr titlePg)
+- **Context:** User: page number still shows (Appendix C).
+- **Root cause:** Section properties apply to the section *ended* by sectPr. Appendix C is the final section, governed by body sectPr, which had titlePg=False and no headers.
+- **Fix:** body sectPr → titlePg=True + default PAGE header + empty first header (same pattern as other majors).
+- **Verify:** All major header pages HIDDEN in LO PDF; continuation pages still numbered.
+- **Status:** active. Working draft = Draft_090.
+
 ## 2026-10-13 — Draft_090: hide page numbers on major section headers
 - **Context:** User: on major headers, page should be hidden; companion guide; Appendix A exception; new draft.
 - **Companion:** Page numbers in a new section header must be invisible.

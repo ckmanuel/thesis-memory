@@ -32,3 +32,13 @@ token" rule overrides "verbatim").
 > Draft_090 from Draft_089. Companion rule: page numbers invisible on new section-header pages.
 > Added titlePg nextPage section breaks before CONCLUSIONS, REFERENCES, APPENDICES, APPENDIX B, APPENDIX C.
 > Verified LO PDF: INTRODUCTION–APPENDIX B hide page numbers on header pages. APPENDIX C still shows a number in LO PDF (same as D89; likely LO last-section quirk). Appendix A body formatting unchanged.
+
+#### Exchange 3 — trace 1791839671-186
+
+**User:**
+
+> page number still shows. fix it
+
+**Assistant:**
+
+> Fixed Appendix C page number. Root cause: final section properties come from body sectPr, which had titlePg=False. Set titlePg + PAGE/first headers on body sectPr. LO PDF: all major header pages HIDDEN; continuation pages still show numbers.

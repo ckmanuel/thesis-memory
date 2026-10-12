@@ -202,6 +202,7 @@ verbatim transcript at `chat_history/`.)_
   applied; ai-mem2 designated canonical source for preferences.md.
   See `decisions.md`.
 
+- 2026-10-13 — Draft_090: Appendix C page number fixed via body sectPr titlePg.
 - 2026-10-13 — Draft_090: major-header pages hide page numbers (companion). Appendix A unchanged. Appendix C LO quirk noted.
 
 ## Blockers
