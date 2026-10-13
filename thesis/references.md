@@ -80,6 +80,17 @@ DOI: https://doi.org/10.1093/applin/17.4.433
 
 ---
 
+### Hyland, K. (1996b)
+Talking to the Academy: Forms of hedging in science research articles. *Written Communication, 13*(2), 251–281.  
+DOI: https://doi.org/10.1177/0741088396013002004  
+**Academia (PDF listing):** https://www.academia.edu/7567242/Talking_to_the_Academy_Forms_of_Hedging_in_Science_Research_Articles  
+**Publisher (Sage):** https://journals.sagepub.com/doi/10.1177/0741088396013002004  
+**ResearchGate (request):** https://www.researchgate.net/publication/234671655_Talking_to_the_Academy_Forms_of_Hedging_in_Science_Research_Articles  
+**Related open thesis (same 26-article corpus):** https://espace.library.uq.edu.au/view/UQ:1d271a5  
+Note: Distinct from Hyland (1996) *Writing without conviction?* (*Applied Linguistics*). Use for lexical-majority hedge forms in scientific RAs; verify the ~79% lexical figure on the PDF before citing that number.
+
+---
+
 ### Hyland, K. (1998)
 *Hedging in scientific research articles.* John Benjamins Publishing.  
 **Publisher:** book — https://benjamins.com/catalog/pbns.54  
