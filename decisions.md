@@ -22,6 +22,10 @@ Entry template:
 
 ## 2026-10-13 — Draft_100: Appendix A codebook fixes
 ## 2026-10-13 — Draft_101: Reader Test knowledge-claim scope
+## 2026-10-13 — Draft_102: claim condition formalized in Step 2
+- **Context:** Formalize claim vs non-claim split so category pre-filter is unnecessary.
+- **Decision:** Step 2 opens with claim condition: device is a hedge only if host clause is truth-evaluable (“that’s false?”). Directives, aims, procedures → FP. Working Test: remove device, commitment to claim truth goes up → EC. Reader Test: commitment same, claim blunter to reader or sole ownership vs prior work → P. No required category pre-filter; FP-Rec/Cap/Proc/Gen are residual reason codes. Methods, Softening, Epistemic Weight, Appendix A, Part III aligned. New draft (scheme change).
+- **Status:** active. Working draft = Draft_102.
 - **Context:** FP-Rec vs P tension: Reader Test said "imposing toward readers" without requiring a knowledge claim, so recommendations could look like P if category pre-filter were dropped.
 - **Decision:** Reader Test and Working Test both scoped to knowledge claims (findings, causes, interpretations, what is the case). Advice/recommendations/directives fail Working Test and fall outside Reader Test → FP-Rec without needing category-first filtering. Category codes remain residual reason labels. Softening, Epistemic Weight, Methods Step 2, Appendix A, Part III updated. New draft (scheme change).
 - **Status:** active. Working draft = Draft_101.
