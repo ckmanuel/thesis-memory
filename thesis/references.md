@@ -1,6 +1,6 @@
 # Thesis references — full citations and download links
 
-Working list for **Draft_079** references. Prefer **Open PDF** when present. Links can move; DOI is the stable identifier.
+Working list for **Draft_104** references. Prefer **Open PDF** when present. Links can move; DOI is the stable identifier.
 
 Legend: **Open PDF** = free full text found · **Publisher** = may need library access · **Landing** = abstract / request page
 
@@ -49,6 +49,15 @@ DOI: https://doi.org/10.18485/bells.2022.14.2
 
 ---
 
+### Gillaerts, P., & Van de Velde, F. (2010)
+Interactional metadiscourse in research article abstracts. *Journal of English for Academic Purposes, 9*(2), 128–139.  
+DOI: https://doi.org/10.1016/j.jeap.2010.02.004  
+**Open PDF (KU Leuven author copy):** https://wwwling.arts.kuleuven.be/qlvl/iprints/Gillaerts_VandeVelde_2010final_interactional_metadiscourse_abstracts.pdf  
+**Publisher:** https://www.sciencedirect.com/science/article/abs/pii/S1475158510000160  
+**Academia:** https://www.academia.edu/108696703/Interactional_metadiscourse_in_research_article_abstracts
+
+---
+
 ### Hamidi, H., Najafi Sarem, S., & Lotfi, A. H. (2025)
 Exploring hedging devices in scientific research papers: A content analysis study of the “Medical Journal of the Islamic Republic of Iran.” *Medical Journal of the Islamic Republic of Iran, 39*, Article 125.  
 **Open PDF (PMC):** https://pmc.ncbi.nlm.nih.gov/articles/PMC12584097/
@@ -75,6 +84,14 @@ DOI: https://doi.org/10.1093/applin/17.4.433
 *Hedging in scientific research articles.* John Benjamins Publishing.  
 **Publisher:** book — https://benjamins.com/catalog/pbns.54  
 Library / interlibrary loan
+
+---
+
+### Hyland, K. (1998b)
+Boosting, hedging and the negotiation of academic knowledge. *Text, 18*(3), 349–382.  
+DOI: https://doi.org/10.1515/text.1.1998.18.3.349  
+**Open PDF (Academia):** https://www.academia.edu/22895071/Boosting_hedging_and_the_negotiation_of_academic_knowledge  
+**Publisher:** https://www.degruyterbrill.com/document/doi/10.1515/text.1.1998.18.3.349/html
 
 ---
 
@@ -151,11 +168,26 @@ Explicit teaching of hedges: Bringing hedging in academic writing into the Thai 
 
 ---
 
+### Qiu, X., Wang, Y. (A.), Dartey, E. A., & Kim, M. (2024)
+Interactional metadiscourse in expert and student disciplinary writing: Exploring intrageneric and functional variation. *English for Specific Purposes, 73*, 124–140.  
+DOI: https://doi.org/10.1016/j.esp.2023.10.007  
+**Publisher (may need library access):** https://www.sciencedirect.com/science/article/abs/pii/S0889490623000753  
+No stable open PDF located in public search. Request via institutional library or ResearchGate.
+
+---
+
 ### Salager-Meyer, F. (1994)
 Hedges and textual communicative function in medical English written discourse. *English for Specific Purposes, 13*(2), 149–170.  
 DOI: https://doi.org/10.1016/0889-4906(94)90013-2  
 **Publisher:** ScienceDirect (paywall)  
 Search Google Scholar / ResearchGate for author PDF
+
+---
+
+### Saengsuwan, C., & Suwannatrai, L. (2026)
+Interactional metadiscourse in Thai EFL student essays: A corpus-based study. *Rajapark Journal, 20*(68), 138–154.  
+**Open PDF:** https://so05.tci-thaijo.org/index.php/RJPJ/article/download/290770/191098  
+**Landing:** https://so05.tci-thaijo.org/index.php/RJPJ/article/view/290770
 
 ---
 
