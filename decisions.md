@@ -23,6 +23,10 @@ Entry template:
 ## 2026-10-13 — Draft_100: Appendix A codebook fixes
 ## 2026-10-13 — Draft_101: Reader Test knowledge-claim scope
 ## 2026-10-13 — Draft_102: claim condition formalized in Step 2
+## 2026-10-13 — Draft_103: claim condition polish + residual pre-filter purge
+- **Context:** Old pre-filter language survived in Part II/III, QR, potential rule; claim test too loose ("that's false"); Limitations lacked P=0 scope.
+- **Decision:** FP wording = fails claim condition or both checks. Claim = statement about data/world/prior work that evidence could show wrong; aims/directives/procedure excluded by kind. Potential rule: position is how claim condition applies (aim/methods non-claims), not a pre-filter. Limitations: P=0 = reader-oriented softening of claims; softened directives out of scope. New draft.
+- **Status:** active. Working draft = Draft_103.
 - **Context:** Formalize claim vs non-claim split so category pre-filter is unnecessary.
 - **Decision:** Step 2 opens with claim condition: device is a hedge only if host clause is truth-evaluable (“that’s false?”). Directives, aims, procedures → FP. Working Test: remove device, commitment to claim truth goes up → EC. Reader Test: commitment same, claim blunter to reader or sole ownership vs prior work → P. No required category pre-filter; FP-Rec/Cap/Proc/Gen are residual reason codes. Methods, Softening, Epistemic Weight, Appendix A, Part III aligned. New draft (scheme change).
 - **Status:** active. Working draft = Draft_102.
