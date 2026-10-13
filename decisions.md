@@ -20,6 +20,11 @@ No parallel summary files. They drift.
 <!--
 Entry template:
 
+## 2026-10-13 — Draft_104: fold companion-style Recommendations (expanded A)
+- **Context:** Adviser said Recommendations choppy; companion wants may-statements solving study concerns. User chose expanded Version A with longer-genre line that does not name DO/P as function categories.
+- **Decision:** Overwrite Draft_104 Recommendations with four paragraphs: advisers/judgment; BAELS teaching resource; future researchers baseline + inter-rater/proficiency/expert abstracts; longer genres and interpersonal softening of claims.
+- **Status:** active.
+
 ## 2026-10-13 — Draft_104: apply still-applicable adviser grammar fixes
 - **Context:** User asked to apply grammar revision comments from Carlo De Dios on old `003_ThesisRevised_Draft_comments.docx` to current Draft_104 after thesis overhaul.
 - **Decision:** Overwrite Draft_104. Applied 8 still-relevant tracked grammar fixes: once the outcome; linguistics; Instructions that assume; in terms of appearance; treatment was evaluated; questionnaires composed; antibacterial properties (Bangkok Kalachuchi ×2). Already present or obsolete after overhaul: as a contradiction; Specifically it asked; Definition of Terms lowercase redundancy; curing processes. Content comments (EC theorizing, ELS focus, RAD format, Recommendations template, cite sources, table font) are not pure grammar and were not auto-applied.
