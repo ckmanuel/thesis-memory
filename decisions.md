@@ -20,6 +20,11 @@ No parallel summary files. They drift.
 <!--
 Entry template:
 
+## 2026-10-13 — Draft_104: ELS framing across major sections
+- **Context:** Adviser: focus on hedges as English language use because this is an ELS study; mention in every section. User asked to revise with writing preferences and verb-tense matrix always in mind.
+- **Decision:** Overwrite Draft_104 with short ELS anchors (present for scheme/stakes, past for completed mapping). SOP, Framework, Scope, Research Design, Results opener, Part IV close, Conclusions opener/summary. No em dashes or semicolons. Recommendations already had BAELS teaching frame.
+- **Status:** active.
+
 ## 2026-10-13 — Draft_104: fold companion-style Recommendations (expanded A)
 - **Context:** Adviser said Recommendations choppy; companion wants may-statements solving study concerns. User chose expanded Version A with longer-genre line that does not name DO/P as function categories.
 - **Decision:** Overwrite Draft_104 Recommendations with four paragraphs: advisers/judgment; BAELS teaching resource; future researchers baseline + inter-rater/proficiency/expert abstracts; longer genres and interpersonal softening of claims.

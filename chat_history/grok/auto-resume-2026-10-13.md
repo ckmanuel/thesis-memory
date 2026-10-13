@@ -474,13 +474,56 @@ token" rule overrides "verbatim").
 
 **Assistant:**
 
-> (in progress...)
+> **Done (Draft_104 overwrite).**
+> 
+> ELS anchors added in the priority places, with past tense for completed work and present for ongoing scheme/stakes. No em dashes or semicolons.
+> 
+> | Section | Change |
+> |---------|--------|
+> | **Statement of the Problem** | Uncertainty management **in English** + ELS stake for L2 writers |
+> | **Research Framework** | Coding scheme as an **ELS instrument** for stance in L2 academic English |
+> | **Scope and Limitations** | Proficiency limit framed for **ELS claims about learner English** |
+> | **Research Design** | Design treated hedging as **observable English language use** |
+> | **Results opener** | Patterns as evidence of **how writers used English to manage claim strength** |
+> | **Part IV close** (adviser-marked para) | Opens as an **ELS account of undergraduate academic English** |
+> | **Conclusions** | Mapped **English hedging resources** / caution **in English** |
+> 
+> Recommendations already pointed at BAELS writing instruction. Literature subsections that were already L2/Philippine-framed were left as is.
+> 
+> PDF updated and pushed.
 
 #### Exchange 35 — trace fold-recommendations-vA-2026-10-13
 
 **User:**
 
 > the latter. fold that in.
+
+**Assistant:**
+
+> (in progress...)
+
+#### Exchange 36 — trace check-paragraph-els-comment-2026-10-13
+
+**User:**
+
+> check if this section still in the current draft.
+> 
+> The study cannot separate genuine field norms from adviser-enforced conventions. The findings describe the ratified abstracts, not individual cognition. Read as a local baseline, the corpus supports a limited claim: among these three PSAU programs, the only pairwise density contrast that survives correction is Biology versus Veterinary Medicine, and that contrast is not reducible to outcome type in the Binary cell comparison above. Whether that pattern reflects program practice, adviser feedback, or other institutional factors cannot be decided from abstract text alone; the present study maps the textual result, not its causes.
+> 
+> 
+> adviser feedback is this from the paragraph in question.
+> 
+> We need to focus this research on hedges as part of the use of English language since this is an ELS study. The research may sound technical, but we always have to go back to the idea of English language studies. We have to mention that in every section of the paper.
+
+**Assistant:**
+
+> (in progress...)
+
+#### Exchange 37 — trace audit-els-framing-sections-2026-10-13
+
+**User:**
+
+> can you check all other sections/subsections that this framing is needed?
 
 **Assistant:**
 
