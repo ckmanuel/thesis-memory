@@ -20,6 +20,11 @@ No parallel summary files. They drift.
 <!--
 Entry template:
 
+## 2026-10-13 — Draft_104: Part I related lit (Hyland 1996b lexical emphasis)
+- **Context:** Adviser asked for related study after lexical/potential and Table 4. User uploaded refs; Qiu unavailable. Verified 79% claim is lexical+modal vs strategic, not lexical vs modal.
+- **Decision:** Folded corrected related-study paragraphs after potential inventory and Table 4 lead-in. Added Hyland (1996b) Talking to the Academy to thesis REFERENCES.
+- **Status:** active.
+
 ## 2026-10-13 — Draft_104: fold Part I/II/IV enrichment inserts
 - **Context:** User approved all three preview enrichment paragraphs after Part III fold.
 - **Decision:** Appended short ELS-theorizing inserts to Part I (lexical/potential), Part II (density/VM), Part IV (Acs2 rescue + binary). References already in thesis + references.md.
