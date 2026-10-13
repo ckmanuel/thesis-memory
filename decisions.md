@@ -20,6 +20,11 @@ No parallel summary files. They drift.
 <!--
 Entry template:
 
+## 2026-10-13 — Draft_104: Part III EC discussion + new refs
+- **Context:** Adviser asked why EC dominates; enrich with literature. User approved full Part III revision; also asked audit of other discussion parts.
+- **Decision:** Folded Part III enrichment (Hyland, Salager-Meyer, Gillaerts & Van de Velde 2010, Saengsuwan & Suwannatrai 2026, Qiu et al. 2024). Added three reference entries. Fixed FP typo. Parts I/II/IV audit reported to user before further folds.
+- **Status:** active.
+
 ## 2026-10-13 — Draft_104: ELS framing across major sections
 - **Context:** Adviser: focus on hedges as English language use because this is an ELS study; mention in every section. User asked to revise with writing preferences and verb-tense matrix always in mind.
 - **Decision:** Overwrite Draft_104 with short ELS anchors (present for scheme/stakes, past for completed mapping). SOP, Framework, Scope, Research Design, Results opener, Part IV close, Conclusions opener/summary. No em dashes or semicolons. Recommendations already had BAELS teaching frame.
