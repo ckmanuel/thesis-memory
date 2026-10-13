@@ -24,6 +24,10 @@ Entry template:
 ## 2026-10-13 — Draft_101: Reader Test knowledge-claim scope
 ## 2026-10-13 — Draft_102: claim condition formalized in Step 2
 ## 2026-10-13 — Draft_103: claim condition polish + residual pre-filter purge
+## 2026-10-13 — Draft_104: Part IV ownership + Definition of Terms cleanup
+- **Context:** Part IV read VM low density as "more direct claim ownership" but unhedged counts are VM 4, Bio 4, Ag 6. Definition of Terms reported χ²/H/p values.
+- **Decision:** Part IV: density pattern only; explicitly not higher overclaiming; cite Table 5 unhedged. Definition of Terms: conceptual + operational only; reported statistics stay in Results. New draft.
+- **Status:** active. Working draft = Draft_104.
 - **Context:** Old pre-filter language survived in Part II/III, QR, potential rule; claim test too loose ("that's false"); Limitations lacked P=0 scope.
 - **Decision:** FP wording = fails claim condition or both checks. Claim = statement about data/world/prior work that evidence could show wrong; aims/directives/procedure excluded by kind. Potential rule: position is how claim condition applies (aim/methods non-claims), not a pre-filter. Limitations: P=0 = reader-oriented softening of claims; softened directives out of scope. New draft.
 - **Status:** active. Working draft = Draft_103.
