@@ -21,6 +21,10 @@ No parallel summary files. They drift.
 Entry template:
 
 ## 2026-10-13 — Draft_100: Appendix A codebook fixes
+## 2026-10-13 — Draft_101: Reader Test knowledge-claim scope
+- **Context:** FP-Rec vs P tension: Reader Test said "imposing toward readers" without requiring a knowledge claim, so recommendations could look like P if category pre-filter were dropped.
+- **Decision:** Reader Test and Working Test both scoped to knowledge claims (findings, causes, interpretations, what is the case). Advice/recommendations/directives fail Working Test and fall outside Reader Test → FP-Rec without needing category-first filtering. Category codes remain residual reason labels. Softening, Epistemic Weight, Methods Step 2, Appendix A, Part III updated. New draft (scheme change).
+- **Status:** active. Working draft = Draft_101.
 - **Context:** Combined example incomplete; bold spill; QR blank page; category-rule wording; Step 3 redundant sentence; Full Codebook alignment.
 - **Decision:** Combined example shows Lexical/Modal, EC, P, FP-Cap, FP-Rec, framing FP. Step 3 bullet shortened. Category rule: exclude clear FP by category first, then removal checks. QR function/core/steps lines cleaned.
 - **Status:** active. Working draft = Draft_100.
