@@ -500,7 +500,28 @@ token" rule overrides "verbatim").
 
 **Assistant:**
 
-> (in progress...)
+> **Part III folded** into Draft_104 (with Gillaerts & Van de Velde, 2010; Qiu et al., 2024; Saengsuwan & Suwannatrai, 2026 in References). PDF pushed.
+> 
+> ---
+> 
+> ### Audit: do Parts I, II, and IV need the same kind of theorizing?
+> 
+> **Short answer:** not the same dose. Part III needed theory because the result (all EC) looks like a method artifact unless you explain *why* it fits academic English. The other parts already cite literature in places. What they still need is lighter, result-specific theorizing, not a second literature review.
+> 
+> | Part | Core corpus finding | Already theorized? | Still thin? | Suggested add (if you want it) |
+> |------|---------------------|--------------------|-------------|-------------------------------|
+> | **I Types** | Lexical > modal; *potential* dominates; clause-level = 0 | Partial (Khunasathitchai, Wang, Hyland types). Notes divergence from modal-dominated student writing. | Mild. Why lexical/*potential* in applied-science abstracts is under-explained. | 1 short beat: science abstracts often prefer content-oriented lexical hedges (Hyland 1998). *Potential* as a ready formula for application claims in Ag/Bio. Clause-level absence = genre + repertoire limits. |
+> | **II Frequency** | Density low; VM lowest; Ag/Bio closer; Kruskal-Wallis / post hoc | Some (Hu & Cao density; exploratory stats framed). | Mild–moderate. Low density is reported more than explained as L2/abstract practice. | 1 short beat: low abstract hedging in L2/novice science writing; density as English resource use under supervision, not only “discipline culture.” |
+> | **III Functions** | All EC, P = 0 | **Done** (this fold). | — | — |
+> | **IV Contrasts** | Biology vs VM survives correction; outcome type does not erase VM low density; Acs2 rescue case | Partial (Salager-Meyer, Hyland 2005). | Moderate on *rescue-hedging* and binary-outcome reading. | Optional 1 beat: rescue framing after Null/NS as claim-responsibility problem (Salager-Meyer) in L2 English abstracts; binary results still need stance language (ELS), so VM low rate is not “explained away” by design alone. |
+> 
+> ### Recommendation
+> 
+> 1. **Part III** is the priority. Folded.  
+> 2. **Part I** and **Part II** need only a short theoretical sentence each if the panel asks “so what for English?”  
+> 3. **Part IV** already carries Salager-Meyer/Hyland. Strengthen only if you want the Acs2 / overclaiming line tied more explicitly to claim-responsibility literature.
+> 
+> I can draft short enrichment paragraphs for I, II, and/or IV next, same style as Part III, for you to approve before any further fold.
 
 #### Exchange 36 — trace check-paragraph-els-comment-2026-10-13
 
@@ -517,13 +538,91 @@ token" rule overrides "verbatim").
 
 **Assistant:**
 
-> (in progress...)
+> **References recorded**
+> 
+> - Thesis REFERENCES already has Gillaerts, Qiu, Saengsuwan with DOI/URL.
+> - `thesis/references.md` updated (Draft_104 header) with open PDF / publisher links for those three plus Hyland (1998b) *Text* article.
+> 
+> ---
+> 
+> ### Preview drafts (not folded)
+> 
+> These are **short enrichment inserts**, not full Part rewrites. Say which to fold.
+> 
+> #### Part I (after the lexical/modal distribution + *potential* counts)
+> 
+> This lexical-led profile diverges from studies where developing writers rely mainly on modal verbs (Khunasathitchai et al., 2025; Wang, 2022). In scientific English, content-oriented lexical hedges often carry more of the epistemic load than modals alone (Hyland, 1998). The dominance of *potential* fits that pattern in applied-life-science abstracts. Writers reach for a ready English formula that softens application claims ("has potential as…", "highlight their potential as…") without building longer clause-level stance. The absence of clause-level hedges is consistent with a compressed abstract genre and with a limited L2 repertoire for multi-word epistemic frames. For English Language Studies, the type profile is less a ranking of "best" hedges than a map of which English forms do the work of caution in these ratified summaries.
+> 
+> #### Part II (after density / VM lowest / post hoc note)
+> 
+> The overall density (about 0.47 hedges per 100 words) sits near the lower end of published abstract figures (Hu & Cao, 2011). Low density in undergraduate and L2 academic writing is widely reported and is often read as limited stance control rather than as deliberate categorical style (Hyland, 1998; Qiu et al., 2024). In this PSAU sample, the pairwise contrast that survives correction is Biology versus Veterinary Medicine. That is a local English-language pattern in ratified abstracts, not yet a full account of field culture. Supervised abstracts may absorb program tolerance for soft claims as much as individual rhetorical choice. The exploratory tests flag where density differs. They do not by themselves explain why these writers under-use English hedging resources in one program relative to another.
+> 
+> #### Part IV (after Acs2 / rescue framing paragraph, before the baseline closing)
+> 
+> Acs2 remains a single case, but it is theoretically useful. Under Salager-Meyer’s (1994) claim-responsibility account, the abstract reports non-significance and then redistributes responsibility by hedging residual benefits. In English terms, the writer keeps a treatment sounding viable after the statistical claim has failed. That is the overclaiming risk flagged in the introduction, visible as rescue-hedging rather than as high density alone. Binary outcome type does not erase Veterinary Medicine’s lower rates either. Biology Binary abstracts still average more hedges than VM Binary abstracts. Stance language in English is not made unnecessary by a yes/no result design. The corpus therefore supports a limited ELS claim: in these abstracts, density differences track how programs word caution around findings and implications, not only how study designs package results.
+> 
+> ---
+> 
+> Approve any combination (I / II / IV) and I will fold only those.
 
 #### Exchange 37 — trace audit-els-framing-sections-2026-10-13
 
 **User:**
 
 > can you check all other sections/subsections that this framing is needed?
+
+**Assistant:**
+
+> **Folded all three into Draft_104.** PDF pushed.
+> 
+> | Part | Insert |
+> |------|--------|
+> | **I** | Lexical-led profile, *potential*, clause-level absence, ELS map of English forms |
+> | **II** | Low density, L2/novice stance, Biology–VM as local English pattern |
+> | **IV** | Acs2 as claim-responsibility / rescue-hedging, binary design does not erase VM rates |
+> 
+> References for Gillaerts, Qiu, Saengsuwan remain in the thesis list and in `thesis/references.md` with active links.
+
+#### Exchange 38 — trace ec-dominant-related-lit-2026-10-13
+
+**User:**
+
+> my adviser commented in regards to table 6 all EC outcome is this.
+> 
+> Why do you think EC has the most count?
+> We need to enrich the discussion by citing related literature and do some theoretizing.
+> 
+> and new related lit we can use for this? can you look for scholarly studies that we can use that talks about this particular phenomena in particular.
+
+**Assistant:**
+
+> (in progress...)
+
+#### Exchange 39 — trace fold-part3-audit-discussions-2026-10-13
+
+**User:**
+
+> fold this in but also. can we revisit each discussion section. see if there is a need for the same revision and theorizing to them based on the data gathered from the corpus?
+
+**Assistant:**
+
+> (in progress...)
+
+#### Exchange 40 — trace refs-and-preview-I-II-IV-2026-10-13
+
+**User:**
+
+> ohhh and also. before I forget to mention add new references and active links of them in both the thesis references and the repo reference list for recording. and can I see each revision draft before you fold them in. show me the previews
+
+**Assistant:**
+
+> (in progress...)
+
+#### Exchange 41 — trace fold-part-I-II-IV-enrichment-2026-10-13
+
+**User:**
+
+> fold them all.
 
 **Assistant:**
 

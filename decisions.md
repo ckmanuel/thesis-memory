@@ -20,6 +20,11 @@ No parallel summary files. They drift.
 <!--
 Entry template:
 
+## 2026-10-13 — Draft_104: fold Part I/II/IV enrichment inserts
+- **Context:** User approved all three preview enrichment paragraphs after Part III fold.
+- **Decision:** Appended short ELS-theorizing inserts to Part I (lexical/potential), Part II (density/VM), Part IV (Acs2 rescue + binary). References already in thesis + references.md.
+- **Status:** active.
+
 ## 2026-10-13 — Draft_104: Part III EC discussion + new refs
 - **Context:** Adviser asked why EC dominates; enrich with literature. User approved full Part III revision; also asked audit of other discussion parts.
 - **Decision:** Folded Part III enrichment (Hyland, Salager-Meyer, Gillaerts & Van de Velde 2010, Saengsuwan & Suwannatrai 2026, Qiu et al. 2024). Added three reference entries. Fixed FP typo. Parts I/II/IV audit reported to user before further folds.
