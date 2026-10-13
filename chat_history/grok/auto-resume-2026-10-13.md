@@ -371,3 +371,29 @@ token" rule overrides "verbatim").
 **Assistant:**
 
 > Draft_100: combined example covers EC/P/FP types; removed Step 3 redundant sentence; clarified category-first FP; QR lines cleaned; bold strip on body bullets.
+
+#### Exchange 31 — trace apply-adviser-grammar-comments-2026-10-13
+
+**User:**
+
+> apply all still applicable grammar revision comments of my thesis adviser from this old draft (before complete thesis overhaul) to the current working thesis.
+
+**Assistant:**
+
+> **Applied still-relevant adviser grammar fixes to Draft_104.**
+> 
+> From Carlo De Dios tracked changes on the old comments draft, these were still present and fixed:
+> 
+> 1. `once outcome type` → `once the outcome type`
+> 2. `as much as linguistic` → `as much as linguistics`
+> 3. `Instruction that assumes` → `Instructions that assume`
+> 4. `in terms to appearance` → `in terms of appearance`
+> 5. `The treatment evaluated as` → `The treatment was evaluated as`
+> 6. `questionnaires compromised of` → `questionnaires composed of`
+> 7. `antibacterial property of Bangkok Kalachuchi` → `properties` (two sites)
+> 
+> **Already fixed or obsolete after the overhaul** (not re-applied): *as a contradiction*; *Specifically, it asked*; Definition of Terms lowercase redundancy; *curing processes*.
+> 
+> **Not pure grammar** (left for your call): EC discussion + related literature; ELS focus in every section; RAD format; Recommendations template wording; “cite all sources”; table font size.
+> 
+> PDF regenerated and pushed.

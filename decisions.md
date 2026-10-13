@@ -20,6 +20,11 @@ No parallel summary files. They drift.
 <!--
 Entry template:
 
+## 2026-10-13 — Draft_104: apply still-applicable adviser grammar fixes
+- **Context:** User asked to apply grammar revision comments from Carlo De Dios on old `003_ThesisRevised_Draft_comments.docx` to current Draft_104 after thesis overhaul.
+- **Decision:** Overwrite Draft_104. Applied 8 still-relevant tracked grammar fixes: once the outcome; linguistics; Instructions that assume; in terms of appearance; treatment was evaluated; questionnaires composed; antibacterial properties (Bangkok Kalachuchi ×2). Already present or obsolete after overhaul: as a contradiction; Specifically it asked; Definition of Terms lowercase redundancy; curing processes. Content comments (EC theorizing, ELS focus, RAD format, Recommendations template, cite sources, table font) are not pure grammar and were not auto-applied.
+- **Status:** active. Working draft = Draft_104.
+
 ## 2026-10-13 — Sole working set: Draft_104 + Excel_018
 - **Context:** Author uploaded 003_ThesisRevised_Draft_104.docx/.pdf and 007_CompiledResult_Draft_018.xlsx; requested delete all versions in repo and set these as the only working files.
 - **Decision:** Removed all prior 003_ThesisProposal_Draft_* and 007_CompiledResult_Draft_* files. Installed attachment copies as 003_ThesisProposal_Draft_104 (and parallel 003_ThesisRevised_Draft_104) plus 007_CompiledResult_Draft_018.xlsx. Updated thesis/README.md versioning policy: overwrite 104 for small fixes; new number only for major revisions.
