@@ -20,6 +20,11 @@ No parallel summary files. They drift.
 <!--
 Entry template:
 
+## 2026-10-13 — Sole working set: Draft_104 + Excel_018
+- **Context:** Author uploaded 003_ThesisRevised_Draft_104.docx/.pdf and 007_CompiledResult_Draft_018.xlsx; requested delete all versions in repo and set these as the only working files.
+- **Decision:** Removed all prior 003_ThesisProposal_Draft_* and 007_CompiledResult_Draft_* files. Installed attachment copies as 003_ThesisProposal_Draft_104 (and parallel 003_ThesisRevised_Draft_104) plus 007_CompiledResult_Draft_018.xlsx. Updated thesis/README.md versioning policy: overwrite 104 for small fixes; new number only for major revisions.
+- **Status:** active. Working draft = Draft_104. Coding sheet = Draft_018.
+
 ## 2026-10-13 — Draft_100: Appendix A codebook fixes
 ## 2026-10-13 — Draft_101: Reader Test knowledge-claim scope
 ## 2026-10-13 — Draft_102: claim condition formalized in Step 2
