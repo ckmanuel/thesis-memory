@@ -1,3 +1,8 @@
+## 2026-10-14 — Draft_105: user clean revised draft (no comments)
+- **Context:** User provided Thesis_Revised_Draft_105_clean_no_comments.docx as latest working draft.
+- **Decision:** Upload as 003_ThesisProposal_Draft_105.docx (+ PDF). Do not delete prior drafts. Working draft = Draft_105.
+- **Status:** active.
+
 # Key Decisions
 
 Append-only log. Newest at top. Don't edit past entries — supersede with a new entry.
