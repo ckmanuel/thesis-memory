@@ -1,3 +1,8 @@
+## 2026-10-15 — PostApproved as working Draft_107; purge older drafts
+- **Context:** User uploaded 003_ThesisRevised_PostApproved.docx; remove old drafts; use this as working draft.
+- **Decision:** Replaced thesis/003_ThesisProposal_Draft_107.docx with PostApproved file. Deleted Draft_104, 105, 106 (docx+pdf). Regenerated PDF. Working draft = Draft_107 only.
+- **Status:** active.
+
 ## 2026-10-14 — Full Step 1–3 indicate audit (Draft_107 + Excel 020)
 - **Context:** User requested full wide-net Step 1 on all 60 abstracts; confirm only indicate-variants missed; then Step 2–3; reapply Appendix C markers; ripple stats.
 - **Decision:** Wide-net scan vs Excel 020. Substantive uncoded hedge-like tokens were indicate-family only. False surface hits (month *May*, MPN, treatment “recommended rate”, *needed*) excluded. **Aas3 *indicates*** → retained Lexical EC (inference from significance to performance claim). **Acs2 *indicate*** and **B17 *indicate*** → FP-Gen (factive reporting). Totals now **65 EC / 65 FP**; Ag 27 hedges (0.63/100w); lexical 42. Appendix C markers applied. Tables/prose aligned.
