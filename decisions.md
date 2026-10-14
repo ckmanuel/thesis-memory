@@ -1,3 +1,8 @@
+## 2026-10-14 — Velasquez folder + Chapter 3 Draft_001
+- **Context:** User finalized Manuel thesis; switching to Velasquez CTA thesis. Chapter 3 comments: enrich with related literature, theorize, keep ELS focus.
+- **Decision:** Created `thesis/Velasquez/`. Moved full thesis docx/pdf into folder. Uploaded `Chapter3_Results_Analysis_Discussion_Draft_001.docx` with literature-linked discussion and ELS framing in Parts I–III. Tables 1, 3, 5 embedded as text; Tables 2 and 4 as placeholders to paste from prior draft.
+- **Status:** active for Velasquez Chapter 3 work.
+
 ## 2026-10-14 — Draft_106: RQ3 / P=0 / hedging definition wording
 - **Context:** Exchange on RQ3 circularity and P=0 framing. Method unchanged; wording revised.
 - **Decision:** New draft from Draft_105. (1) Hedging definition: genus = stance change toward a proposition (EC or P). (2) Framework: claim condition as consequence of definition; retention and function assignment one operation by design; RQ3 as distribution under that scope. (3) Limitations and Part III: P=0 as claim-restricted scheme result, not general politeness finding. Working draft = Draft_106; further edits overwrite unless major revision requested.
