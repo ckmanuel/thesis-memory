@@ -1,3 +1,8 @@
+## 2026-10-14 — Draft_106: RQ3 / P=0 / hedging definition wording
+- **Context:** Exchange on RQ3 circularity and P=0 framing. Method unchanged; wording revised.
+- **Decision:** New draft from Draft_105. (1) Hedging definition: genus = stance change toward a proposition (EC or P). (2) Framework: claim condition as consequence of definition; retention and function assignment one operation by design; RQ3 as distribution under that scope. (3) Limitations and Part III: P=0 as claim-restricted scheme result, not general politeness finding. Working draft = Draft_106; further edits overwrite unless major revision requested.
+- **Status:** active.
+
 ## 2026-10-14 — Draft_105: user clean revised draft (no comments)
 - **Context:** User provided Thesis_Revised_Draft_105_clean_no_comments.docx as latest working draft.
 - **Decision:** Upload as 003_ThesisProposal_Draft_105.docx (+ PDF). Do not delete prior drafts. Working draft = Draft_105.

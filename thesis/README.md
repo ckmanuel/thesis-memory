@@ -2,11 +2,12 @@
 
 ## Current working draft
 
-**003_ThesisProposal_Draft_105.docx** (PDF alongside)
+**003_ThesisProposal_Draft_106.docx** (PDF alongside)
 
-Previous drafts retained. User-supplied clean revised draft (no comments) uploaded as Draft_105.
+Draft_105 retained. Draft_106 incorporates RQ3/P=0 definition and Framework wording revisions. Further section edits overwrite Draft_106 unless a major revision is requested.
 
 ## Versioning policy
 
-- Small stylistic edits overwrite current draft; new Draft_0xx for major revisions or when requested.
+- Small stylistic or section edits overwrite the current working draft.
+- New Draft_0xx only for major revisions or when requested.
 - Older drafts kept when requested.
