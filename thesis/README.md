@@ -2,9 +2,9 @@
 
 ## Current working draft
 
-**003_ThesisProposal_Draft_106.docx** (PDF alongside)
+**003_ThesisProposal_Draft_107.docx** (PDF alongside)
 
-Draft_105 retained. Draft_106 incorporates RQ3/P=0 definition and Framework wording revisions. Further section edits overwrite Draft_106 unless a major revision is requested.
+Draft_106 retained for history. **Draft_107** is current (Acs9 can→FP-Cap; full-pass indicate audit: Aas3 indicates retained EC; Acs2/B17 indicate FP-Gen). Totals: 65 EC, 65 FP, Ag density 0.63. Further small edits overwrite Draft_107.
 
 ## Versioning policy
 

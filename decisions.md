@@ -1,3 +1,8 @@
+## 2026-10-14 — Full Step 1–3 indicate audit (Draft_107 + Excel 020)
+- **Context:** User requested full wide-net Step 1 on all 60 abstracts; confirm only indicate-variants missed; then Step 2–3; reapply Appendix C markers; ripple stats.
+- **Decision:** Wide-net scan vs Excel 020. Substantive uncoded hedge-like tokens were indicate-family only. False surface hits (month *May*, MPN, treatment “recommended rate”, *needed*) excluded. **Aas3 *indicates*** → retained Lexical EC (inference from significance to performance claim). **Acs2 *indicate*** and **B17 *indicate*** → FP-Gen (factive reporting). Totals now **65 EC / 65 FP**; Ag 27 hedges (0.63/100w); lexical 42. Appendix C markers applied. Tables/prose aligned.
+- **Status:** active. Working draft = Draft_107; Excel = Draft_020.
+
 ## 2026-10-14 — Velasquez folder + Chapter 3 Draft_001
 - **Context:** User finalized Manuel thesis; switching to Velasquez CTA thesis. Chapter 3 comments: enrich with related literature, theorize, keep ELS focus.
 - **Decision:** Created `thesis/Velasquez/`. Moved full thesis docx/pdf into folder. Uploaded `Chapter3_Results_Analysis_Discussion_Draft_001.docx` with literature-linked discussion and ELS framing in Parts I–III. Tables 1, 3, 5 embedded as text; Tables 2 and 4 as placeholders to paste from prior draft.
