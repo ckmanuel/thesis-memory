@@ -998,3 +998,6 @@ Entry template:
   4. **Documentation:** Full failure modes and fixes live permanently in `lessons.md` (Blank pages + Tables) and a pointer in `knowledge.md` / `preferences.md` so agents search before re-debugging.
 - **Status:** active. Working draft = Draft_091.
 
+
+## 2026-10-15 — Conceptual RRL + search scope + dual-function fix (App C locked)
+- Added conceptual definition passage and search sentence. Fixed EC/P co-occur contradiction (Working Test path + concurrent P). Appendix C markers not modified.
