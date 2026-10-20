@@ -49,6 +49,14 @@ DOI: https://doi.org/10.18485/bells.2022.14.2
 
 ---
 
+---
+
+### Halabisaz, B., Pazhakh, A., & Shakibafar, M. (2014)
+Hedging in thesis abstracts on applied linguistics across Persian and English. *International Review of Social Sciences and Humanities, 7*(1), 211–218.  
+**Open PDF:** https://www.irssh.com/yahoo_site_admin/assets/docs/20_IRSSH-841-V7N1.131231112.pdf  
+(Also listed on Google Scholar / scholar.archive.org)
+
+
 ### Gillaerts, P., & Van de Velde, F. (2010)
 Interactional metadiscourse in research article abstracts. *Journal of English for Academic Purposes, 9*(2), 128–139.  
 DOI: https://doi.org/10.1016/j.jeap.2010.02.004  
