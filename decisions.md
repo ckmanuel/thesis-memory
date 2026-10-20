@@ -1,3 +1,7 @@
+## 2026-10-20 — Draft_109_body: remove percentages
+- **Decision:** Tables and body keep counts / whole numbers only. Removed Percentage columns and all % figures from type, form, and zero-hedge reporting. Density as hedges per 100 words retained (rate, not share %).
+- **Status:** overwrite 109_body.
+
 ## 2026-10-20 — Draft_109_body: remove inferential stats and intra-rater results
 - **Context:** Author directed removal of Chi-square, Cohen’s kappa, Kruskal-Wallis, Mann-Whitney only; no intra-rater results in the thesis.
 - **Decision:** New working body draft `003_ThesisProposal_Draft_109_body.docx`. Deleted Definition of Terms entries for those four tests; removed Landis & Koch (1977) reference; rewrote Scope/Pilot/Data Analysis/Results density paragraphs as descriptive only. Kept inter-rater gap as a limitation/future-work point (not an intra-rater result).
