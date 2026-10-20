@@ -1,3 +1,8 @@
+## 2026-10-20 — Draft_109_body: remove inferential stats and intra-rater results
+- **Context:** Author directed removal of Chi-square, Cohen’s kappa, Kruskal-Wallis, Mann-Whitney only; no intra-rater results in the thesis.
+- **Decision:** New working body draft `003_ThesisProposal_Draft_109_body.docx`. Deleted Definition of Terms entries for those four tests; removed Landis & Koch (1977) reference; rewrote Scope/Pilot/Data Analysis/Results density paragraphs as descriptive only. Kept inter-rater gap as a limitation/future-work point (not an intra-rater result).
+- **Status:** active working body file (overwrite unless new draft requested).
+
 ## 2026-10-20 — Draft_108 body / 009_Appendices split
 - **Context:** Author manually double-checked and recoded appendices; routine draft revisions were altering them.
 - **Decision:** New Draft_108_body = main body only (through References). `009_Appendices.docx` = APPENDICES through end, byte-faithful text from Draft_107 (verified identical). Do not touch appendices on body edits.
