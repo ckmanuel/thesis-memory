@@ -1,3 +1,8 @@
+## 2026-10-20 — Draft_108 body / 009_Appendices split
+- **Context:** Author manually double-checked and recoded appendices; routine draft revisions were altering them.
+- **Decision:** New Draft_108 = main body only (through References). `009_Appendices.docx` = APPENDICES through end, byte-faithful text from Draft_107 (verified identical). Do not touch appendices on body edits.
+- **Status:** active.
+
 ## 2026-10-15 — PostApproved as working Draft_107; purge older drafts
 - **Context:** User uploaded 003_ThesisRevised_PostApproved.docx; remove old drafts; use this as working draft.
 - **Decision:** Replaced thesis/003_ThesisProposal_Draft_107.docx with PostApproved file. Deleted Draft_104, 105, 106 (docx+pdf). Regenerated PDF. Working draft = Draft_107 only.
