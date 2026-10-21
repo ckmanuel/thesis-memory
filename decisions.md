@@ -1020,3 +1020,7 @@ Entry template:
 - **Context:** 5th themed BOTS subsection was thin (Imataki/Xie only). User supplied Al-Zarieni, Demanou, Wahyuningsih PDFs; Mazidah already in repo; Chafidha uploaded.
 - **Decision:** Expanded §5 study-by-study to match earlier BOTS style. Added APA refs for Al-Zarieni, Demanou, Chafidha, Wahyuningsih (Mazidah already present). Appendices untouched.
 - **Status:** active. Working body = Draft_111_body.
+
+## 2026-10-21 — Draft_111: BOTS closing synthesis/conceptual/gap expanded
+- Further expanded closing (no rehash of themed sections). Conceptual trim: drop defensive not-a-claim tail. Six paragraphs replace prior three.
+- Status: active. Working body = Draft_111_body.
