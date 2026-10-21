@@ -33,6 +33,14 @@ Hedging and academic writing: An analysis of lexical hedges. *Journal of Languag
 
 ---
 
+### Doğan, Z. N., & Akbaş, E. (2021)
+An exploratory study of epistemic stance in results and discussion sections of medical research articles. *Atatürk Üniversitesi Sosyal Bilimler Enstitüsü Dergisi, 25*(3), 1132–1150.  
+DOI: https://doi.org/10.53487/ataunisosbil.951126  
+**Open PDF:** https://dergipark.org.tr/en/download/article-file/1819130  
+**Local file:** `thesis/references/Doğan & Akbaş (2021) - An Exploratory Study of Epistemic Stance in Results and Discussion Sections of Medical Research Articles.pdf`
+
+---
+
 ### Escalona, S. L. (2025)
 Hedges and boosters in college essays: A study of linguistic modulation in student writing. *International Journal of English Literature and Social Sciences, 10*(1), 7–17.  
 DOI: https://doi.org/10.22161/ijels.101.2  
@@ -154,6 +162,14 @@ DOI: https://doi.org/10.2307/2529310
 
 ---
 
+### Lingard, L. (2026)
+Rhetorical candour: When and how to say it straight in your academic manuscript. *Perspectives on Medical Education, 15*(1), 251–256.  
+DOI: https://doi.org/10.5334/pme.2269  
+**Open PDF:** https://pmejournal.org/articles/10.5334/pme.2269  
+**Local file:** `thesis/references/Lingard (2026) - Rhetorical Candour When and How to Say It Straight in Your Academic Manuscript.pdf`
+
+---
+
 ### Lopez, R. M. C., Pedida, J. A., Alzate, L. J. A., & Eustaquio, M. T. L. (2025)
 Language of caution and certainty: Writing proficiency in hedges and boosters in student essays. *International Journal of Research and Innovation in Social Science, 9*(11), 6176–6196.  
 DOI: https://doi.org/10.47772/IJRISS.2025.91100485  
@@ -214,6 +230,14 @@ Interactional metadiscourse in Thai EFL student essays: A corpus-based study. *R
 Hedges in biology research articles: What types and frequency do Algerian authors use? *Journal of Human Sciences, 33*(4), 49–59.  
 **Open PDF:** https://revue.umc.edu.dz/h/article/download/4015/4130/7621  
 **Landing:** https://revue.umc.edu.dz/h/article/view/4015
+
+---
+
+### Sepehri, M., Hajijalili, M., & Namaziandost, E. (2019)
+Hedges and boosters in medical and engineering research articles: A comparative corpus-based study. *Global Journal of Foreign Language Teaching, 9*(4), 203–213.  
+DOI: https://doi.org/10.18844/gjflt.v9i4.4342  
+**Open PDF:** https://un-pub.eu/ojs/index.php/GJFLT/article/view/4342  
+**Local file:** `thesis/references/Sepehri, Hajijalili & Namaziandost (2019) - Hedges and Boosters in Medical and Engineering Research Articles.pdf`
 
 ---
 
