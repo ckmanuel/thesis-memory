@@ -252,3 +252,42 @@ DOI: https://doi.org/10.1002/leap.1515
 - Academia.edu and ResearchGate may require a free account.
 - If a link dies, use the DOI at https://doi.org/ and Google Scholar “PDF” filter.
 - This file is a working aid only. Official thesis citations remain those in the References section of the current draft.
+
+---
+
+### Al-Zarieni, M. M., & Alkhresheh, M. M. (2024)
+Hedges and boosters in the abstract sections of master thesis at Yarmouk University. *International Journal of Linguistics, Literature and Translation, 7*(1), 199–207.  
+DOI: https://doi.org/10.32996/ijllt.2024.7.1.18  
+**Open PDF (repo):** `thesis/references/Al-Zarieni & Alkhresheh (2024) - Hedges and Boosters in Abstract Sections of Master Thesis at Yarmouk University.pdf`  
+**Open PDF (publisher):** https://media.neliti.com/media/publications/589540-hedges-and-boosters-in-the-abstract-sect-35a47a09.pdf
+
+---
+
+### Demanou, G., & Tabe, C. A. (2022)
+Disciplinary and move analyses of hedging in abstracts of DIPES II dissertations of the Higher Teachers’ Training College of Maroua. *International Journal of Applied Linguistics and English Literature, 11*(4), 76–86.  
+DOI: https://doi.org/10.7575/aiac.ijalel.v.11n.4p.76  
+**Open PDF (repo):** `thesis/references/Demanou & Tabe (2022) - Disciplinary and Move Analyses of Hedging in Abstracts of DIPES II Dissertations.pdf`
+
+---
+
+### Mazidah, E. N., Cahyani, W. I., & Masruroh, L. (2022)
+Hedges and boosters in undergraduate thesis abstracts of Qomaruddin University students. *Journal of Education, Humaniora and Social Sciences (JEHSS), 4*(3), 1657–1663.  
+DOI: https://doi.org/10.34007/jehss.v4i3.925  
+**Landing / PDF:** https://www.mahesainstitute.web.id/ojs2/index.php/jehss/article/view/925  
+(Open PDF not yet in repo — user to upload if available)
+
+---
+
+### Wahyuningsih, S., & Sofwan, A. (2014)
+Hedges in thesis abstracts of graduate students of Semarang State University. *English Education Journal, 4*(2), 75–81.  
+**Open PDF (repo):** `thesis/references/Wahyuningsih & Sofwan (2014) - Hedges in Thesis Abstracts of Graduate Students of Semarang State University.pdf`  
+**Landing:** https://journal.unnes.ac.id/sju/eej/article/view/6663
+
+
+---
+
+### Chafidha, L. N., & Mujiyanto, J. (2021)
+The comparative study of hedges in theses’ abstracts written by English and Indonesian graduate programs of Universitas Negeri Semarang. *The Journal of Educational Development, 9*(2), 91–100.  
+**Open PDF (repo):** `thesis/references/Chafidha & Mujiyanto (2021) - Comparative Study of Hedges in Theses Abstracts English and Indonesian Graduate Programs.pdf`  
+**Landing:** https://journal.unnes.ac.id/sju/jed/article/view/64412
+

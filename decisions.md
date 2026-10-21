@@ -1015,3 +1015,8 @@ Entry template:
 
 ## 2026-10-15 — Conceptual RRL + search scope + dual-function fix (App C locked)
 - Added conceptual definition passage and search sentence. Fixed EC/P co-occur contradiction (Working Test path + concurrent P). Appendix C markers not modified.
+
+## 2026-10-21 — Draft_111: BOTS §5 expanded (thesis-abstract hedge literature)
+- **Context:** 5th themed BOTS subsection was thin (Imataki/Xie only). User supplied Al-Zarieni, Demanou, Wahyuningsih PDFs; Mazidah already in repo; Chafidha uploaded.
+- **Decision:** Expanded §5 study-by-study to match earlier BOTS style. Added APA refs for Al-Zarieni, Demanou, Chafidha, Wahyuningsih (Mazidah already present). Appendices untouched.
+- **Status:** active. Working body = Draft_111_body.
