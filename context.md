@@ -127,6 +127,7 @@ copies already made.
   repeated 3x; Recommendations repeat. Stats recomputed OK.
 
 ## Recently Completed
+- 2026-10-23 — Draft_117_body: Table 3 forms separated one row each under type.
 - 2026-10-23 — Draft_116_body: Table 3 Hedges column lists forms per type.
 - 2026-10-23 — Draft_115_body: Table 3 = Hedge type | Hedges | B/VM/A; dropped inventory + old type-by-discipline.
 - 2026-10-23 — Draft_114_body: merged overlapping Table 3 (types) + Table 4 (forms) into one inventory table; renumbered 5–8 → 4–7.

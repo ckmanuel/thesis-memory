@@ -1,3 +1,8 @@
+## 2026-10-23 — Draft_117_body: Table 3 one form per row
+- **Context:** User insisted forms be separated (not comma-stacked in one cell).
+- **Decision:** Draft_117_body. Under each hedge type, each form is its own row; type label and B/VM/A counts on the first row of the group only.
+- **Status:** active. Working body = Draft_117_body.
+
 ## 2026-10-23 — Draft_116_body: Table 3 Hedges column = forms per type
 - **Context:** User: Hedges column should identify hedge forms per hedge type (not totals).
 - **Decision:** Draft_116_body from Draft_115_body. Hedges column lists attested forms; B/VM/A stay type counts; Total row blank in forms column.
