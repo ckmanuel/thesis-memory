@@ -1,3 +1,8 @@
+## 2026-10-23 — Draft_120_body: Function table headers + Total border
+- **Context:** User: Table 4 — Replace Function | Frequency | Note; horizontal border above total.
+- **Decision:** Applied to the function/outcomes table (Table 5 in current numbering; Part III). Headers Function | Frequency | Note; title “Function Distribution among Candidate Tokens”; Total row top border sz=4. Density Table 4 left unchanged.
+- **Status:** active. Working body = Draft_120_body.
+
 ## 2026-10-23 — Draft_119_body: Table 3 Total row top border
 - **Context:** User: put horizontal border for the total.
 - **Decision:** Draft_119_body. Top border (sz=4) on all Total row cells.
