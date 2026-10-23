@@ -127,6 +127,7 @@ copies already made.
   repeated 3x; Recommendations repeat. Stats recomputed OK.
 
 ## Recently Completed
+- 2026-10-23 — Draft_118_body: Table 3 form×discipline counts from Excel 021.
 - 2026-10-23 — Draft_117_body: Table 3 forms separated one row each under type.
 - 2026-10-23 — Draft_116_body: Table 3 Hedges column lists forms per type.
 - 2026-10-23 — Draft_115_body: Table 3 = Hedge type | Hedges | B/VM/A; dropped inventory + old type-by-discipline.

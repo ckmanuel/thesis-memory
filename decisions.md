@@ -1,3 +1,8 @@
+## 2026-10-23 — Draft_118_body: Table 3 form×discipline counts filled
+- **Context:** User: fill your count.
+- **Decision:** Draft_118_body. Every form row has Biology / VM / Agriculture counts from Excel Draft_021 Hedges sheet (sums 28 / 10 / 27).
+- **Status:** active. Working body = Draft_118_body.
+
 ## 2026-10-23 — Draft_117_body: Table 3 one form per row
 - **Context:** User insisted forms be separated (not comma-stacked in one cell).
 - **Decision:** Draft_117_body. Under each hedge type, each form is its own row; type label and B/VM/A counts on the first row of the group only.
