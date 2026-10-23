@@ -127,6 +127,7 @@ copies already made.
   repeated 3x; Recommendations repeat. Stats recomputed OK.
 
 ## Recently Completed
+- 2026-10-23 — Draft_123_body overwrite: restore thick bottom borders; Table 4 Measure label.
 - 2026-10-23 — Purged inflated body drafts 113–122; working body = Draft_123_body only (overwrite).
 - 2026-10-23 — Draft_123_body: Table 4 metric rows reordered (size → density → coding tallies).
 - 2026-10-23 — Draft_122_body: Table 4 transposed (disciplines as columns; Total abstracts).

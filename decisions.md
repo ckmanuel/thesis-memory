@@ -1,3 +1,8 @@
+## 2026-10-23 — Draft_123_body overwrite: table borders + labels
+- **Context:** User: fix table labels/format; last row thick bottom missing.
+- **Decision:** Overwrite Draft_123_body (no new number). Cause: last-row cells had bottom=nil, suppressing table bottom. Fix: all tables tblBorders top+bottom sz=18; last-row cell bottom single sz=18; Total rows keep thin top separator where needed. Table 4 corner header “” → “Measure”.
+- **Status:** active. Working body = Draft_123_body.
+
 ## 2026-10-23 — Purge inflated body drafts 113–122
 - **Context:** User: remove inflated versions; fix draft versioning.
 - **Decision:** Deleted `003_ThesisProposal_Draft_113_body` through `_122_body` (routine table/prose churn numbered without request). **Sole working body:** `003_ThesisProposal_Draft_123_body.docx`. Further routine edits overwrite that file. New number only on explicit request. Kept pre-churn milestones 108–112_body and Draft_107 as historical; not part of the inflation sequence.
