@@ -1,3 +1,8 @@
+## 2026-10-23 — Draft_123_body: Table 4 metric row order
+- **Context:** User: rearrange first column in most appropriate order.
+- **Decision:** Draft_123_body. Order: Total abstracts → Words → Hedges → Hedges/100w → Zero-hedge abstracts → False positives → Unhedged claims (corpus size → hedge volume/density → other coding tallies).
+- **Status:** active. Working body = Draft_123_body.
+
 ## 2026-10-23 — Draft_122_body: Table 4 transposed
 - **Context:** User: Total abstracts (not Abstracts); swap so fewer column headers (disciplines as columns, metrics as rows).
 - **Decision:** Draft_122_body. Table 4 transposed: columns Agriculture / Biology / VM / Total; rows Total abstracts, Words, Hedges, False positives, Unhedged claims, Zero-hedge abstracts, Hedges/100w.
