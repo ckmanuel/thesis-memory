@@ -1,3 +1,8 @@
+## 2026-10-23 — Draft_116_body: Table 3 Hedges column = forms per type
+- **Context:** User: Hedges column should identify hedge forms per hedge type (not totals).
+- **Decision:** Draft_116_body from Draft_115_body. Hedges column lists attested forms; B/VM/A stay type counts; Total row blank in forms column.
+- **Status:** active. Working body = Draft_116_body.
+
 ## 2026-10-23 — Draft_115_body: single type table (Hedge type | Hedges | B/VM/A)
 - **Context:** User: merge tables; format Hedge Types | Hedges | Freq/Discipline (B/VM/A); remove residuals of merged tables.
 - **Decision:** Draft_115_body from Draft_114_body.
