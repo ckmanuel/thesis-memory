@@ -124,3 +124,9 @@ Apply on every edit of thesis prose, appendices, companion notes, and related ac
 Prefer neutral wording over informal, pathologizing, or deficit-framed terms. When a common label carries unwanted connotation in context, replace it with a precise neutral alternative. Soften intensifiers that cast people or groups as deficient. Keep technical senses of ordinary words when they name procedures, outcomes, or results rather than people.
 
 Scope: authorial prose and table notes always. Paraphrase of sources should not import stronger deficit language than the source uses. Verbatim quotations stay unchanged.
+
+## Thesis draft versioning
+- Overwrite the current working body file for routine edits.
+- New numbered body draft only on explicit user request.
+- Appendices file is separate; do not modify on body-only passes.
+

@@ -1,3 +1,8 @@
+## 2026-10-23 — Standing rule: do not inflate body draft numbers
+- **Context:** User: stop creating newer and newer drafts without explicit order; override instead.
+- **Decision:** Small/routine body edits **overwrite** the current working body file (`003_ThesisProposal_Draft_123_body.docx` until the user names a new number). Create a new numbered body draft **only** when the user explicitly asks (e.g. “new draft”, “Draft_124”). Appendices remain `009_Appendices.docx` and are not touched on body passes.
+- **Status:** active standing rule.
+
 ## 2026-10-23 — Draft_123_body: Table 4 metric row order
 - **Context:** User: rearrange first column in most appropriate order.
 - **Decision:** Draft_123_body. Order: Total abstracts → Words → Hedges → Hedges/100w → Zero-hedge abstracts → False positives → Unhedged claims (corpus size → hedge volume/density → other coding tallies).
