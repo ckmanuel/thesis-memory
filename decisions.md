@@ -1,3 +1,8 @@
+## 2026-10-23 — Purge inflated body drafts 113–122
+- **Context:** User: remove inflated versions; fix draft versioning.
+- **Decision:** Deleted `003_ThesisProposal_Draft_113_body` through `_122_body` (routine table/prose churn numbered without request). **Sole working body:** `003_ThesisProposal_Draft_123_body.docx`. Further routine edits overwrite that file. New number only on explicit request. Kept pre-churn milestones 108–112_body and Draft_107 as historical; not part of the inflation sequence.
+- **Status:** active.
+
 ## 2026-10-23 — Standing rule: do not inflate body draft numbers
 - **Context:** User: stop creating newer and newer drafts without explicit order; override instead.
 - **Decision:** Small/routine body edits **overwrite** the current working body file (`003_ThesisProposal_Draft_123_body.docx` until the user names a new number). Create a new numbered body draft **only** when the user explicitly asks (e.g. “new draft”, “Draft_124”). Appendices remain `009_Appendices.docx` and are not touched on body passes.
