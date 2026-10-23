@@ -127,6 +127,7 @@ copies already made.
   repeated 3x; Recommendations repeat. Stats recomputed OK.
 
 ## Recently Completed
+- 2026-10-23 — Draft_115_body: Table 3 = Hedge type | Hedges | B/VM/A; dropped inventory + old type-by-discipline.
 - 2026-10-23 — Draft_114_body: merged overlapping Table 3 (types) + Table 4 (forms) into one inventory table; renumbered 5–8 → 4–7.
 - 2026-10-23 — Draft_113_body: forward-ref pass (Scope Table 2; Part I→Table 7; Part II→Part IV).
 - 2026-10-04 — Repo cleanup: kept only Draft_038 + Draft_039 (and Excel 005). New policy: overwrite current draft for small changes; new numbered draft only for major revisions.

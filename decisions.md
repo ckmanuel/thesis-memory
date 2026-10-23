@@ -1,3 +1,9 @@
+## 2026-10-23 — Draft_115_body: single type table (Hedge type | Hedges | B/VM/A)
+- **Context:** User: merge tables; format Hedge Types | Hedges | Freq/Discipline (B/VM/A); remove residuals of merged tables.
+- **Decision:** Draft_115_body from Draft_114_body.
+- **Edits:** Removed form inventory and old type-by-discipline tables. One Table 3: Hedge type | Hedges | Biology | Veterinary Medicine | Agriculture. Prose folded type totals, discipline mix, and potential=19 into one paragraph. Residuals/empty paras removed. Renumbered: Frequency=4, Step2=5, Outcome=6. Sampling Table 2 kept (not a type table).
+- **Status:** active. Working body = Draft_115_body.
+
 ## 2026-10-23 — Draft_114_body: merge Table 3 + Table 4
 - **Context:** User: Table 3 and 4 do the same and overlap; merge them.
 - **Decision:** Draft_114_body from Draft_113_body.
