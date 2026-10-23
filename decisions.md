@@ -1,3 +1,13 @@
+## 2026-10-23 — Draft_113_body: forward-ref pass (tables / later Parts)
+- **Context:** Full body pass for mentions of tables or discussions not yet introduced in that section (appendices excluded).
+- **Decision:** Draft_113_body from Draft_112_body.
+- **Fixes:**
+  1. Scope (P102): removed “Table 2 reports…” (Table 2 now lives in RAD); point to Research Corpus and Results chapter.
+  2. Part I FP paragraph: “Table 7 (Part III) places…” → “Those … totals are set out together in Part III” (no table number before Part III).
+  3. Part II VM density: “Part IV tests…” → “Outcome-type coding later in this chapter tests…” (no numbered Part forward).
+- **Kept:** Same-section “Table N presents…” immediately before caption (standard).
+- **Status:** active. Working body = Draft_113_body. Appendices untouched.
+
 ## 2026-10-20 — Draft_109_body: remove percentages
 - **Decision:** Tables and body keep counts / whole numbers only. Removed Percentage columns and all % figures from type, form, and zero-hedge reporting. Density as hedges per 100 words retained (rate, not share %).
 - **Status:** overwrite 109_body.
