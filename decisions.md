@@ -1,3 +1,8 @@
+## 2026-10-23 — Draft_121_body: Table 4 column labels
+- **Context:** User asked for better term than Unhedged Assertions; add Zero-hedge abstracts.
+- **Decision:** Draft_121_body. Headers: Unhedged claims; Zero-hedge abstracts. Body “unhedged assertions” → “unhedged claims”. Total row top border kept.
+- **Status:** active. Working body = Draft_121_body.
+
 ## 2026-10-23 — Draft_120_body: Function table headers + Total border
 - **Context:** User: Table 4 — Replace Function | Frequency | Note; horizontal border above total.
 - **Decision:** Applied to the function/outcomes table (Table 5 in current numbering; Part III). Headers Function | Frequency | Note; title “Function Distribution among Candidate Tokens”; Total row top border sz=4. Density Table 4 left unchanged.
