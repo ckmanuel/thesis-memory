@@ -1,3 +1,8 @@
+## 2026-10-23 — Draft_119_body: Table 3 Total row top border
+- **Context:** User: put horizontal border for the total.
+- **Decision:** Draft_119_body. Top border (sz=4) on all Total row cells.
+- **Status:** active. Working body = Draft_119_body.
+
 ## 2026-10-23 — Draft_118_body: Table 3 form×discipline counts filled
 - **Context:** User: fill your count.
 - **Decision:** Draft_118_body. Every form row has Biology / VM / Agriculture counts from Excel Draft_021 Hedges sheet (sums 28 / 10 / 27).
