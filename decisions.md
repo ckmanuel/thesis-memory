@@ -1028,3 +1028,7 @@ Entry template:
 ## 2026-10-23 — Standing rule: terminology and stance framing
 - **Decision:** Prefer neutral academic wording over informal, pathologizing, or deficit-framed terms in authorial prose. Soften intensifiers that cast writers as deficient. Keep technical senses of fail/error. Full rule in preferences.md under "Terminology and stance framing" (kept general for broad application).
 - **Status:** active. Apply on every relevant edit.
+
+## 2026-10-23 — Terminology rule: fold user wording as-is
+- **Decision:** Rule body in preferences.md set to the user's exact general wording (neutral wording, common labels, soften intensifiers, keep technical senses).
+- **Status:** active.
