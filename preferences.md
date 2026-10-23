@@ -117,27 +117,10 @@ Guardrails against weak habits. Use judgment, not mechanical compliance.
 - Don't end with "what's next?" or similar prompts. End when the substance is
   done.
 
-## Thesis prose: terminology and stance framing
+## Terminology and stance framing
 
-Apply on every thesis body, appendix, and companion edit.
+Apply on every edit of thesis prose, appendices, companion notes, and related academic text.
 
-### Prefer neutral academic terms
-| Avoid | Prefer |
-|-------|--------|
-| cohort / cohorts | sample, group, writers, students |
-| informants | specialists, respondents, expert readers (match source role) |
-| native / non-native writers | English L1 writers / L2 writers |
-| native speakers | English L1 writers |
-| native–non-native differences | L1–L2 differences |
-| inability to… | difficulty (in) … / difficulty modulating… |
-| severely limited | limited |
+Prefer neutral academic wording over informal, pathologizing, or deficit-framed terms. When a common research label carries unwanted connotation in context, replace it with a precise neutral alternative. Soften intensifiers that cast writers or groups as deficient. Keep technical senses of ordinary words when they name procedures, coding outcomes, or statistical results rather than people.
 
-### Soften deficit framing in authorial voice
-- Do not stack intensifiers that pathologize student writing (`severely`, `failure` as a writer trait, `inability`).
-- Field terms that report published findings may stay when they are the source wording (`underuse`, `overuse`, `under-hedge`), but paraphrase in neutral language when the claim is the thesis author's.
-- Keep technical senses of `fail` / `failed` (coding checks, null statistical claims) and `error` (OCR, transcription).
-
-### Scope
-- Authorial prose and table notes: always apply.
-- Direct paraphrase of a cited study: prefer L1/L2 wording unless the source term is required for fidelity; never import deficit intensifiers the source does not use.
-- Do not apply to verbatim quotations.
+Scope: authorial prose and table notes always. Paraphrase of sources should not import stronger deficit language than the source uses. Verbatim quotations stay unchanged.

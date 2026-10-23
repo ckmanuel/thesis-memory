@@ -1025,6 +1025,6 @@ Entry template:
 - Further expanded closing (no rehash of themed sections). Conceptual trim: drop defensive not-a-claim tail. Six paragraphs replace prior three.
 - Status: active. Working body = Draft_111_body.
 
-## 2026-10-23 — Standing rule: thesis terminology and stance framing
-- **Decision:** Prefer sample/group over cohort; specialists/respondents over informants; English L1 / L2 over native/non-native; difficulty over inability; drop deficit intensifiers (e.g. severely limited) in authorial voice. Technical fail/error senses kept. Full rule in preferences.md under "Thesis prose: terminology and stance framing".
-- **Status:** active. Apply on every thesis edit.
+## 2026-10-23 — Standing rule: terminology and stance framing
+- **Decision:** Prefer neutral academic wording over informal, pathologizing, or deficit-framed terms in authorial prose. Soften intensifiers that cast writers as deficient. Keep technical senses of fail/error. Full rule in preferences.md under "Terminology and stance framing" (kept general for broad application).
+- **Status:** active. Apply on every relevant edit.
