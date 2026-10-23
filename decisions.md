@@ -1,3 +1,8 @@
+## 2026-10-23 — Draft_122_body: Table 4 transposed
+- **Context:** User: Total abstracts (not Abstracts); swap so fewer column headers (disciplines as columns, metrics as rows).
+- **Decision:** Draft_122_body. Table 4 transposed: columns Agriculture / Biology / VM / Total; rows Total abstracts, Words, Hedges, False positives, Unhedged claims, Zero-hedge abstracts, Hedges/100w.
+- **Status:** active. Working body = Draft_122_body.
+
 ## 2026-10-23 — Draft_121_body: Table 4 column labels
 - **Context:** User asked for better term than Unhedged Assertions; add Zero-hedge abstracts.
 - **Decision:** Draft_121_body. Headers: Unhedged claims; Zero-hedge abstracts. Body “unhedged assertions” → “unhedged claims”. Total row top border kept.

@@ -127,6 +127,7 @@ copies already made.
   repeated 3x; Recommendations repeat. Stats recomputed OK.
 
 ## Recently Completed
+- 2026-10-23 — Draft_122_body: Table 4 transposed (disciplines as columns; Total abstracts).
 - 2026-10-23 — Draft_121_body: Table 4 Unhedged claims + Zero-hedge abstracts.
 - 2026-10-23 — Draft_120_body: Function table → Function|Frequency|Note + Total border.
 - 2026-10-23 — Draft_119_body: Table 3 Total row horizontal border.
