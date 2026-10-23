@@ -1,3 +1,9 @@
+## 2026-10-23 — Draft_114_body: merge Table 3 + Table 4
+- **Context:** User: Table 3 and 4 do the same and overlap; merge them.
+- **Decision:** Draft_114_body from Draft_113_body.
+- **Edits:** Dropped type-totals table (old Table 3). Kept form inventory (form / grammatical type / count) as **Table 3**. Merged type-summary prose into one paragraph. Renumbered old 5→4, 6→5, 7→6, 8→7. Removed empty placeholder paragraphs. Appendices untouched.
+- **Status:** active. Working body = Draft_114_body.
+
 ## 2026-10-23 — Draft_113_body: forward-ref pass (tables / later Parts)
 - **Context:** Full body pass for mentions of tables or discussions not yet introduced in that section (appendices excluded).
 - **Decision:** Draft_113_body from Draft_112_body.
