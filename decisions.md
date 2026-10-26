@@ -1,3 +1,8 @@
+## 2026-10-27 — Draft_127_body: caption line spacing 1.5 universal
+- **Context:** User: not all labels got 1.15; prefer 1.5.
+- **Decision:** Overwrite Draft_127_body. Every Table/Figure label + following title (including Figure 1 inside wrapper table) set to line **360** (1.5). Walked all `w:p` in body. formatting.md: 1.5 not 1.15.
+- **Status:** active.
+
 ## 2026-10-27 — Draft_127_body: caption line spacing 1.15
 - **Context:** User: Figure/Table label and captions (not cell text) use 1.15 or 1.5 line spacing.
 - **Decision:** Overwrite Draft_127_body. All Table/Figure labels + caption titles set to line **276** (1.15). Cell text unchanged. Chose 1.15 over 1.5 to avoid excess vertical gap without cutting label text. formatting.md updated.

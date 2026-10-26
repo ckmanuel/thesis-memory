@@ -177,7 +177,7 @@ Caption label + title: keep with next through the image. Do not leave the drawin
 | Cell paragraph spacing | Small equal before/after (e.g. 60); no first-line indent |
 | Row break | **cantSplit** on every row |
 | Label + caption | **Both** lines get `keepNext` so neither isolates above the table |
-| Caption line spacing | **1.15** (`w:line` = **276** auto) on Table/Figure **label and title only** — not on cell text |
+| Caption line spacing | **1.5** (`w:line` = **360** auto) on Table/Figure **label and title only** — not on cell text |
 | Caption (binding, **all** tables) | Same rules for **whole-number** (`Table 1`) and **decimal** (`Table 4.1`, `5.1`, …) IDs. No special case for sub-tables. |
 | Caption — `Table N` line | Georgia **11**, **bold**, **left**, no indent (`firstLine`/`left` = 0). Spacing: before **240**, after **0**, line **480** auto. `keepNext` |
 | Caption — title line | Georgia **11**, **regular** (not bold), **left**, no indent. Spacing: before **0**, after **240**, line **480** auto. `keepNext` |
