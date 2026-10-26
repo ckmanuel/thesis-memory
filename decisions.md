@@ -1,3 +1,8 @@
+## 2026-10-27 — Draft_126_body: gap soften A5 / B2 / C4
+- **Context:** User chose option 5 (Philippine section), 2 (bridge), C4 (conclusions).
+- **Decision:** Overwrite Draft_126_body. A5 descriptive Philippine focus; B2 “this review did not identify”; C4 local gap at PSAU only.
+- **Status:** active.
+
 ## 2026-10-27 — Draft_126_body: remove search-methods gap sentence; soften “no study” claims
 - **Context:** User: remove Google Scholar/ERIC/ScienceDirect search sentence; soften absolute gap claims.
 - **Decision:** Overwrite Draft_126_body. Removed database-search sentence. Softened to “to the best of the researcher’s knowledge / published research as reviewed here has not yet mapped…” in intro/review and conclusions opening.
