@@ -1,3 +1,8 @@
+## 2026-10-27 — Draft_126_body adopted as working body
+- **Context:** User uploaded `003_ThesisRevised_Draft_125_body.docx` and ordered a new Draft_126 as base for continued editing.
+- **Decision:** Saved as `thesis/003_ThesisProposal_Draft_126_body.docx`. Working body = Draft_126_body. Further routine edits overwrite 126 unless user requests a new number. Appendices remain `009_Appendices.docx` (untouched). formatting.md still binding for layout.
+- **Status:** active.
+
 ## 2026-10-27 — formatting.md: binding uniform table captions
 - **Context:** User: apply uniform table-label rules to formatting.md so binding.
 - **Decision:** Tables section in `formatting.md` now states whole-number and decimal captions share the same rules (left, no indent, Table N bold / title regular, spacing, keepNext). Forbidden: body indent, justified, treating decimals as body.

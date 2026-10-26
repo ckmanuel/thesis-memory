@@ -2,7 +2,7 @@
 
 This file is the **binding** layout spec for the working thesis body.
 
-**Working file:** `thesis/003_ThesisProposal_Draft_124_body.docx` (overwrite in place).
+**Working file:** `thesis/003_ThesisProposal_Draft_126_body.docx` (overwrite in place).
 
 If chat instructions and this file conflict, **this file wins** for layout. Do not invent parallel format rules in chat without updating this file first.
 
@@ -13,7 +13,7 @@ Last updated: 2026-10-27
 ## Versioning
 
 - **Do not inflate draft numbers** for format-only or routine edits.
-- Overwrite `Draft_124_body.docx` only.
+- Overwrite `Draft_126_body.docx` only.
 - New draft ID only when the user explicitly asks, or for a major content revision they approve.
 - **No PDF** unless the user asks for one. Docx only by default.
 
@@ -209,7 +209,7 @@ Caption label + title: keep with next through the image. Do not leave the drawin
 8. Tables: open borders, cantSplit, caption keep-next.  
 9. Definition of Terms alphabetical; natural flow.  
 10. References alphabetical + hanging.  
-11. Overwrite `Draft_124_body.docx` only. No PDF unless asked.  
+11. Overwrite `Draft_126_body.docx` only. No PDF unless asked.  
 12. After the pass, **verify** majores: no `pageBreakBefore`, prev has nextPage sectPr, before=720.
 
 ---
