@@ -155,7 +155,8 @@ Caption label + title: keep with next through the image. Do not leave the drawin
 
 | Property | Value |
 |----------|--------|
-| Cell font | Georgia **11**, **center** |
+| Cell font | Georgia **11**, **horizontal center** |
+| Cell vertical align | **Center** (`w:vAlign` = center). Do not leave top-aligned (text forced up). |
 | Row break | **cantSplit** on every row |
 | Label + caption | Keep with next through the table |
 | Caption | Georgia **11**, left; `Table N` bold; title regular |
