@@ -1,3 +1,8 @@
+## 2026-10-27 — Draft_126_body: universal table header/total colors
+- **Context:** User: apply Timeline table colors universally.
+- **Decision:** Overwrite Draft_126_body. All data tables: header fill D9E2F3; Total row fill F2F2F2; body rows unshaded. Figure wrapper table skipped. Recorded in formatting.md.
+- **Status:** active.
+
 ## 2026-10-27 — Draft_126_body: Figure 1 in single-cell table (keep with caption)
 - **Context:** User: keepNext alone did not keep Figure label/caption with image.
 - **Decision:** Overwrite Draft_126_body. Wrapped “Figure 1” + caption + image in a one-row, one-cell borderless table with `cantSplit` on the row so Word treats them as one unit.

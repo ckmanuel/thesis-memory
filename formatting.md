@@ -168,6 +168,9 @@ Caption label + title: keep with next through the image. Do not leave the drawin
 | Caption — forbidden | Body first-line indent; justified (`both`); treating decimal labels as ordinary body paragraphs |
 | Vertical borders | **None** (open-sided) |
 | Header row | Thick top sz **18** + thin bottom sz **4** |
+| Header fill | **D9E2F3** (light blue; same as Timeline table) |
+| Totals row fill | **F2F2F2** (light gray) when the row is a Total/Totals row |
+| Body rows fill | None (no shading) |
 | Middle rows | No cell borders |
 | Last row | Thick bottom sz **18** |
 | Totals row | Thin top sz **4** as well when it is the last row |
