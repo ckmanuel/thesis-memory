@@ -157,3 +157,10 @@ Examples: `Part I:…`–`Part IV:…`, literature-review theme heads, discussio
 - New draft IDs only when the user explicitly asks for a new draft, or for a major content revision they approve.
 - **No PDF** in the default pass. Produce `.docx` only unless the user asks for a PDF.
 
+## Definition of Terms (pagination)
+
+- Do **not** chain `keepNext` across many glossary entries (creates empty space then a multi-term block on the next page).
+- `Softening` only: `keepNext` so **Token** is not left alone before `METHODOLOGY`.
+- All definition entries: `keepLines` on.
+- Format reapply must **re-apply** these pagination flags after body spacing (they are not optional).
+
