@@ -1,3 +1,8 @@
+## 2026-10-27 — Draft_124_body: uniform table labels (whole + decimal)
+- **Context:** User: treat whole-number and decimal table labels the same.
+- **Decision:** Overwrite Draft_124_body. Decimal captions (4.1, 5.1, 5.2, 6.1) had body indent, justified align, zero space-before. All labels now match: left, no indent, `Table N` bold Georgia 11 before=240 after=0; title regular before=0 after=240; keepNext both.
+- **Status:** active. Working body = Draft_124_body.
+
 ## 2026-10-27 — Draft_124_body: table labels keep with table (universal)
 - **Context:** User: table labels isolated from table body; universal fix; rows may break between rows not mid-row.
 - **Decision:** Overwrite Draft_124_body. On every `Table N` + caption-title pair immediately before a table: `w:keepNext`. All table rows already have `w:cantSplit` (confirmed; allows break between rows only). Timeline phase grid has no Table N label — left as-is.
