@@ -1,3 +1,8 @@
+## 2026-10-27 — Draft_126_body: remove search-methods gap sentence; soften “no study” claims
+- **Context:** User: remove Google Scholar/ERIC/ScienceDirect search sentence; soften absolute gap claims.
+- **Decision:** Overwrite Draft_126_body. Removed database-search sentence. Softened to “to the best of the researcher’s knowledge / published research as reviewed here has not yet mapped…” in intro/review and conclusions opening.
+- **Status:** active.
+
 ## 2026-10-27 — Draft_126_body: Recommendations panel revision (baseline + life sciences)
 - **Context:** Panel: state vertical (higher-degree) and horizontal (cross-discipline) baseline uses in Recommendations, not only Conclusions. BAELS teaching paragraph overreaches (corpus = life science abstracts).
 - **Decision:** Overwrite Draft_126_body. (1) Recommendations future-research para adds vertical and horizontal baseline uses. (2) Teaching para refocused to Agriculture, Veterinary Medicine, and Biology instructors/advisers. (3) Conclusions contribution sentence aligned (life-science abstracts; research baseline including higher-degree and other programs).
