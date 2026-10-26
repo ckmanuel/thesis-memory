@@ -1109,3 +1109,7 @@ Entry template:
 ## 2026-10-23 — Terminology rule: fold user wording as-is
 - **Decision:** Rule body in preferences.md set to the user's exact general wording (neutral wording, common labels, soften intensifiers, keep technical senses).
 - **Status:** active.
+
+## 2026-10-26 — Draft_124: Timeline as table
+- **Decision:** Research Process item f. Timeline rewritten as a two-column table (Phase | Duration) for scanability. Paragraph kept as bold label only. Overwrite Draft_124_body.
+- **Status:** active. Working body = Draft_124_body.
