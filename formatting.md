@@ -161,8 +161,11 @@ Caption label + title: keep with next through the image. Do not leave the drawin
 | Cell margins | Equal top/bottom/left/right (`tcMar`) |
 | Cell paragraph spacing | Small equal before/after (e.g. 60); no first-line indent |
 | Row break | **cantSplit** on every row |
-| Label + caption | **Both** lines (`Table N` and title) get `keepNext` so neither isolates above the table |
-| Caption | Georgia **11**, left; `Table N` bold; title regular |
+| Label + caption | **Both** lines get `keepNext` so neither isolates above the table |
+| Caption (binding, **all** tables) | Same rules for **whole-number** (`Table 1`) and **decimal** (`Table 4.1`, `5.1`, …) IDs. No special case for sub-tables. |
+| Caption — `Table N` line | Georgia **11**, **bold**, **left**, no indent (`firstLine`/`left` = 0). Spacing: before **240**, after **0**, line **480** auto. `keepNext` |
+| Caption — title line | Georgia **11**, **regular** (not bold), **left**, no indent. Spacing: before **0**, after **240**, line **480** auto. `keepNext` |
+| Caption — forbidden | Body first-line indent; justified (`both`); treating decimal labels as ordinary body paragraphs |
 | Vertical borders | **None** (open-sided) |
 | Header row | Thick top sz **18** + thin bottom sz **4** |
 | Middle rows | No cell borders |
