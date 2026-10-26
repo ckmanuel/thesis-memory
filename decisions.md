@@ -1,3 +1,8 @@
+## 2026-10-27 — Draft_126_body: Figure 1 label+caption keep with image
+- **Context:** User: Figure label and caption split from body.
+- **Decision:** Overwrite Draft_126_body. `keepNext` on “Figure 1” and “Conceptual Framework of the Study” so they stay with the drawing. Label Georgia 11 bold; caption title regular.
+- **Status:** active.
+
 ## 2026-10-27 — Draft_126_body: normalize font on edited body paragraphs
 - **Context:** User: edited parts must follow proper font size.
 - **Decision:** Overwrite Draft_126_body. Edited gap/recs/conclusion paras set to Georgia **11 pt** (sz=22), regular, matching dominant body. Prior edit pass had left 12 pt and residual bold/italic.
