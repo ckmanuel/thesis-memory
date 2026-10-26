@@ -1,3 +1,8 @@
+## 2026-10-27 — Draft_127_body: strip and reapply appendix formatting
+- **Context:** User: appendix formats redundant after merge; remove all and reapply.
+- **Decision:** Overwrite Draft_127_body from APPENDIX A onward. Cleared pPr (kept sectPr). Reapplied: majors (14 bold center), minor labels (12 bold left keepNext), bullets (hanging indent), body (11 justify first-line), tables (borders/fills/cantSplit/Georgia 11 cells).
+- **Status:** active.
+
 ## 2026-10-27 — Draft_127_body: merge appendices into main body
 - **Context:** User: merge Appendix section back into main body; apply formatting.
 - **Decision:** Overwrite Draft_127_body. Appended `009_Appendices.docx` content after REFERENCES (A/B/C). Copied image + hyperlink rels. APPENDIX headers formatted as majors (Georgia 14 bold, center, before/after 720). Tables: open borders, header/total fills, cantSplit. Next-page section breaks before A (via last refs para), B, and C. Standalone `009_Appendices.docx` retained as source snapshot.
