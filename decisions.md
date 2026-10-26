@@ -1,3 +1,8 @@
+## 2026-10-27 — Draft_126_body: Figure 1 in single-cell table (keep with caption)
+- **Context:** User: keepNext alone did not keep Figure label/caption with image.
+- **Decision:** Overwrite Draft_126_body. Wrapped “Figure 1” + caption + image in a one-row, one-cell borderless table with `cantSplit` on the row so Word treats them as one unit.
+- **Status:** active.
+
 ## 2026-10-27 — Draft_126_body: Figure 1 label+caption keep with image
 - **Context:** User: Figure label and caption split from body.
 - **Decision:** Overwrite Draft_126_body. `keepNext` on “Figure 1” and “Conceptual Framework of the Study” so they stay with the drawing. Label Georgia 11 bold; caption title regular.
