@@ -1,3 +1,8 @@
+## 2026-10-27 — Draft_126_body: normalize font on edited body paragraphs
+- **Context:** User: edited parts must follow proper font size.
+- **Decision:** Overwrite Draft_126_body. Edited gap/recs/conclusion paras set to Georgia **11 pt** (sz=22), regular, matching dominant body. Prior edit pass had left 12 pt and residual bold/italic.
+- **Status:** active.
+
 ## 2026-10-27 — Draft_126_body: gap soften A5 / B2 / C4
 - **Context:** User chose option 5 (Philippine section), 2 (bridge), C4 (conclusions).
 - **Decision:** Overwrite Draft_126_body. A5 descriptive Philippine focus; B2 “this review did not identify”; C4 local gap at PSAU only.
