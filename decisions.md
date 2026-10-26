@@ -1,3 +1,8 @@
+## 2026-10-27 — Draft_126_body: re-apply table fills on raw tc elements
+- **Context:** User: colors don’t work after first universal pass.
+- **Decision:** Overwrite Draft_126_body. Re-applied D9E2F3 header / F2F2F2 total on every `w:tc` in each data table (merge-safe). XML verified present. Awaiting user description of failure mode if still invisible in their viewer.
+- **Status:** active.
+
 ## 2026-10-27 — Draft_126_body: universal table header/total colors
 - **Context:** User: apply Timeline table colors universally.
 - **Decision:** Overwrite Draft_126_body. All data tables: header fill D9E2F3; Total row fill F2F2F2; body rows unshaded. Figure wrapper table skipped. Recorded in formatting.md.
