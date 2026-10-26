@@ -1,3 +1,8 @@
+## 2026-10-27 — Draft_126_body created from Draft_125_body
+- **Context:** User: new working draft 126 from current 125; continue editing from there.
+- **Decision:** `003_ThesisProposal_Draft_126_body.docx` = copy of current Draft_125_body. **Working body = Draft_126_body**. Routine edits overwrite 126. Draft_125 kept as snapshot.
+- **Status:** active.
+
 ## 2026-10-27 — Draft_125_body overridden; Draft_126 removed
 - **Context:** User: override draft 125 with new upload; remove draft 126.
 - **Decision:** Replaced `003_ThesisProposal_Draft_125_body.docx` with `003_Thesis_Draft_125_body.docx` upload. Deleted Draft_126_body. **Working body = Draft_125_body** (overwrite in place). formatting.md working-file pointer updated.
