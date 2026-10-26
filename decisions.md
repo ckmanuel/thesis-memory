@@ -1,3 +1,8 @@
+## 2026-10-27 — Draft_127_body created from Draft_126_body
+- **Context:** User: new working draft 127 from 126; continue editing from there.
+- **Decision:** `003_ThesisProposal_Draft_127_body.docx` = copy of Draft_126_body. **Working body = Draft_127_body**. Routine edits overwrite 127. Draft_126 kept as snapshot.
+- **Status:** active.
+
 ## 2026-10-27 — Draft_126_body: re-apply table fills on raw tc elements
 - **Context:** User: colors don’t work after first universal pass.
 - **Decision:** Overwrite Draft_126_body. Re-applied D9E2F3 header / F2F2F2 total on every `w:tc` in each data table (merge-safe). XML verified present. Awaiting user description of failure mode if still invisible in their viewer.

@@ -133,6 +133,7 @@ copies already made.
   repeated 3x; Recommendations repeat. Stats recomputed OK.
 
 ## Recently Completed
+- 2026-10-27 — New working **Draft_127_body** from Draft_126.
 - 2026-10-27 — New working **Draft_126_body** from Draft_125 snapshot.
 - 2026-10-27 — Overrode Draft_125_body with user upload; removed Draft_126. Working body = Draft_125_body.
 - 2026-10-27 — Adopted user Draft_125 upload as **Draft_126_body** (new working body).
