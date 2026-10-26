@@ -1,3 +1,8 @@
+## 2026-10-27 — Draft_125_body overridden; Draft_126 removed
+- **Context:** User: override draft 125 with new upload; remove draft 126.
+- **Decision:** Replaced `003_ThesisProposal_Draft_125_body.docx` with `003_Thesis_Draft_125_body.docx` upload. Deleted Draft_126_body. **Working body = Draft_125_body** (overwrite in place). formatting.md working-file pointer updated.
+- **Status:** active.
+
 ## 2026-10-27 — Store Draft_125_body in repo
 - **Context:** User: upload draft 125 in the repo.
 - **Decision:** Added `thesis/003_ThesisProposal_Draft_125_body.docx` from user upload (byte copy of Revised Draft_125). Working body remains **Draft_126_body**.

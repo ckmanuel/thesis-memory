@@ -64,7 +64,7 @@ progresses. When a project is finished, move it to the "Archived" section.
   approved (2026-10-02 is the post-defense state). Current work is
   toward final defense (target November 2026 per companion guide
   timeline, with final manuscript submission October 2026).
-- **Stage:** Post-proposal-defense. Working body = `Draft_126_body` (overwrite in place; new number only on request)
+- **Stage:** Post-proposal-defense. Working body = `Draft_125_body` (overwrite in place; new number only on request) (overwrite in place; new number only on request)
   - Reference: `thesis/Thesis_Verb_Tense_Matrix.pdf` (proposal→final tense guide; added 2026-10-03). (from Draft_028); spreadsheet = `007_CompiledResult_Draft_005`. Draft_013 remains the labeled FINAL baseline. Working toward final oral defense (target November 2026). Title page reads "A Thesis" (no "Proposal") per companion guide p.14, since proposal has been approved.
   - 2026-10-03 Draft_031: Table 6 exact format (captions + cell spacing/font).
   - 2026-10-03 Draft_030: Table 6 formatting matched to other Results tables.
