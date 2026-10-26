@@ -114,7 +114,7 @@ Examples: `Part I:…`–`Part IV:…`, literature-review theme heads, discussio
 | Alignment | **Justify** |
 | First-line indent | **0.5 inch** (720 twips) |
 | Space between body paragraphs | **0** |
-| Space before body after a table | **240 twips** (1 line unit) |
+| Space after every table | **240 twips** space-before on the **next paragraph** (body, header, or caption). Apply universally so text does not stick to the table |
 | Line spacing | Double |
 
 ### List-like lines (not body first-line)
