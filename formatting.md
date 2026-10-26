@@ -144,3 +144,13 @@ Examples: `Part I:…`, `Part II:…`, `Part III:…`, `Part IV:…`
 6. Definition of Terms alphabetical.
 7. References alphabetical + hanging indent.
 8. Save new draft number; do not overwrite without a new draft id.
+
+---
+
+## Versioning (binding)
+
+- **Do not inflate draft numbers** for format-only or routine edits.
+- **Working body file:** `thesis/003_ThesisProposal_Draft_124_body.docx` — **overwrite in place**.
+- New draft IDs only when the user explicitly asks for a new draft, or for a major content revision they approve.
+- **No PDF** in the default pass. Produce `.docx` only unless the user asks for a PDF.
+
