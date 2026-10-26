@@ -1,10 +1,21 @@
 # Thesis formatting (binding)
 
-This file is the **binding** format spec for `thesis/003_ThesisProposal_Draft_*_body.docx`.
-Any format pass must follow it. If prose and this file conflict, **this file wins** for layout.
-Do not invent parallel rules in chat without updating this file.
+This file is the **binding** layout spec for the working thesis body.
 
-Last updated: 2026-10-26 (Draft_128 pass)
+**Working file:** `thesis/003_ThesisProposal_Draft_124_body.docx` (overwrite in place).
+
+If chat instructions and this file conflict, **this file wins** for layout. Do not invent parallel format rules in chat without updating this file first.
+
+Last updated: 2026-10-27
+
+---
+
+## Versioning
+
+- **Do not inflate draft numbers** for format-only or routine edits.
+- Overwrite `Draft_124_body.docx` only.
+- New draft ID only when the user explicitly asks, or for a major content revision they approve.
+- **No PDF** unless the user asks for one. Docx only by default.
 
 ---
 
@@ -12,10 +23,10 @@ Last updated: 2026-10-26 (Draft_128 pass)
 
 | Property | Value |
 |----------|--------|
-| Font (all runs) | **Georgia** |
-| Line spacing (body, headers, tables, references) | **Double** (Word line = 480, auto) |
-| Line spacing (title page only) | **1.5** (Word line = 360, auto) |
-| Em dashes / semicolons in thesis prose | **Forbidden** (existing house rule) |
+| Font (every run) | **Georgia** |
+| Body / headers / tables / references line spacing | **Double** (Word `w:line` = 480, `auto`) |
+| Title page line spacing | **1.5** (Word `w:line` = 360, `auto`) |
+| Em dashes and semicolons in thesis prose | **Forbidden** (house rule; rephrase) |
 
 ---
 
@@ -26,7 +37,23 @@ Last updated: 2026-10-26 (Draft_128 pass)
 - All other title-page lines: **12 pt, regular**
 - Line spacing: **1.5**
 - No first-line indent
-- Keep existing vertical rhythm (do not reflow title-page blank structure)
+- Do not reflow title-page blank structure
+- End of title page: **next-page section break** on the last title-page paragraph (e.g. date line). That is what starts INTRODUCTION. Do not also put `pageBreakBefore` on INTRODUCTION.
+
+---
+
+## Breaks and pagination (critical)
+
+**Use only one break type for chapter starts: next-page section break.**
+
+| Rule | Detail |
+|------|--------|
+| Chapter start | Put `w:sectPr` with `w:type val="nextPage"` on the **paragraph immediately before** the major header |
+| Major header itself | **No** `pageBreakBefore`. **No** `sectPr` on the major paragraph |
+| Why | `pageBreakBefore` alone suppresses **space before** at the top of the page in Word. INTRODUCTION looked correct because the title page already used a section break. Other majors must match that pattern |
+| Never | Section break **and** page break on the same chapter boundary |
+| Never | Mid-body section breaks or run-level page breaks inside ordinary body paragraphs (these isolated Token after Softening) |
+| Body flow | Softening, Token, and other sequential glossary/body lines: **no** keepNext chains, **no** keepLines packs, **no** embedded sectPr. Natural flow only |
 
 ---
 
@@ -38,40 +65,44 @@ Examples: `INTRODUCTION`, `METHODOLOGY`, `RESULTS, ANALYSIS, AND DISCUSSION`, `C
 |----------|--------|
 | Font | Georgia **14 bold** |
 | Alignment | **Center** |
-| Space before | **3** line units (720 twips) |
-| Space after | **3** line units (720 twips) |
-| Indent | None |
-| Pagination | **Section break (next page) only** on the paragraph **before** each major header. Do **not** also set `pageBreakBefore` on the major (double breaks suppress or conflict). Space before (720) applies uniformly when chapter starts after a section break, matching INTRODUCTION after the title page. |
+| Space before | **720 twips** (3 line units) |
+| Space after | **720 twips** (3 line units) |
+| Indent | **None** |
+| Break | Section break on **previous** paragraph only (see Breaks) |
+
+Apply these values to **every** major, not only INTRODUCTION.
 
 ---
 
 ## Minor headers
 
+Two kinds. Both are left-aligned, no indent, space after 0, space before 240 (or 0 if they immediately follow a major), **keep with next** so the header cannot sit alone at the bottom of a page without the following paragraph.
+
 ### Subsections (bold)
 
-Examples: Background of the Study, Statement of the Problem, Research Framework, Significance of the Study, Scope and Limitations, Definition of Terms, Research Design, Research Context, Research Process, Research Corpus.
+Examples: Background of the Study, Statement of the Problem, Research Framework, Significance of the Study, Scope and Limitations, Definition of Terms, Research Design, Research Context, Research Process, Research Corpus, Inclusion Criteria, Exclusion Criteria, Conclusions, Recommendations.
 
 | Property | Value |
 |----------|--------|
-| Font | Georgia **12 bold** |
-| Alignment | **Left** |
-| Space before | **1** line unit (240 twips), **or 0** if the previous paragraph was a major header |
-| Space after | **0** |
-| Indent | **None** (no first-line, no left indent) |
-| Keep with next | **Yes** on **all** minor headers (subsection **and** thematic). Header only, not body chains. |
+| Font | Georgia **12 bold** (not italic) |
+| Alignment | Left |
+| Indent | **None** |
+| Keep with next | **Yes** (header only) |
 
 ### Themed sections (italic)
 
-Examples: `Part I:…`–`Part IV:…`, literature-review theme heads, discussion theme heads
-(e.g. Function Profile…, How Programs Word Caution). **Not bold.**
+Examples: `Part I:…`–`Part IV:…`, literature-review theme heads, discussion theme heads (Function Profile…, How Programs Word Caution, Open Readings, etc.).
 
 | Property | Value |
 |----------|--------|
 | Font | Georgia **12 italic** (**not bold**) |
-| Alignment | **Left** |
-| Space before / after / indent / keep-next | Same as subsections |
+| Alignment | Left |
+| Indent | **None** |
+| Keep with next | **Yes** (header only) |
 
 **Do not** bold thematic titles when clearing indent or during format passes.
+
+**Do not** put empty paragraphs between a minor header and its first body paragraph (empty next breaks keep-with-next).
 
 ---
 
@@ -83,19 +114,40 @@ Examples: `Part I:…`–`Part IV:…`, literature-review theme heads, discussio
 | Alignment | **Justify** |
 | First-line indent | **0.5 inch** (720 twips) |
 | Space between body paragraphs | **0** |
-| Space before body paragraph that follows a table | **1** line unit (240 twips) |
+| Space before body after a table | **240 twips** (1 line unit) |
 | Line spacing | Double |
 
-### Intentional bold in body (keep; nothing else)
+### List-like lines (not body first-line)
 
-- Significance stakeholder leads (`For writing instructors…`, etc.)
+Bullets (`• …`) and numbered RQ lines (`1. …`): left indent 0.5 in, hanging 0.25 in. **Not** first-line indent of 0.5 in as if normal body.
+
+### Intentional bold in body (only these)
+
+- Significance stakeholder leads, and **only** these starts: `For writing instructors…`, `For academic writing researchers…`, `For the BAELS program…`, `For future researchers…`
 - Research Process step labels (`a. Requesting Permission.` …)
-- Definition of Terms: **term name** only (text before the first comma)
-- Inclusion / Exclusion / Ethical Criteria labels
-- Table numbers (`Table 1`, `Table 2`, …)
-- Table header row (and totals row label cells as specified under Tables)
+- Definition of Terms: **term name** only (through first comma)
+- Inline `Inclusion Criteria.` / `Exclusion Criteria.` / `Ethical Considerations.` labels when used as lead-in
+- Table numbers on caption lines (`Table 1`, …)
+- Table header row (and totals row labels)
 
-**Bold spill rule:** If an entire long body paragraph is bold, clear it. Never leave full-paragraph bold on ordinary body text.
+**Never** treat a generic `For …,` sentence (e.g. Scope “For a manually coded…”) as a Significance lead.
+
+**Bold spill rule:** If an entire long body paragraph is bold, clear it.
+
+---
+
+## Figure 1
+
+Order under Research Framework:
+
+1. Grounding paragraph  
+2. Overview paragraph (source jobs)  
+3. **Figure 1** label (11 bold, left)  
+4. Caption title (11 regular, left)  
+5. Image (centered)  
+6. Remaining framework body (coding path)
+
+Caption label + title: keep with next through the image. Do not leave the drawing after later body paragraphs.
 
 ---
 
@@ -104,23 +156,24 @@ Examples: `Part I:…`–`Part IV:…`, literature-review theme heads, discussio
 | Property | Value |
 |----------|--------|
 | Cell font | Georgia **11**, **center** |
-| Row break | **cantSplit** on every row (no mid-row page split) |
-| Label + caption | **Keep with next** through to the table (do not isolate `Table N` or the caption title) |
-| Caption font | Georgia **11**, **left**; `Table N` line **bold**; title line regular |
+| Row break | **cantSplit** on every row |
+| Label + caption | Keep with next through the table |
+| Caption | Georgia **11**, left; `Table N` bold; title regular |
 | Vertical borders | **None** (open-sided) |
-| Header row | Thick top **sz 18** + thin bottom **sz 4** |
+| Header row | Thick top sz **18** + thin bottom sz **4** |
 | Middle rows | No cell borders |
-| Last row | Thick bottom **sz 18** |
-| Totals row | **Top** border (thin sz 4) in addition to last-row rule when the totals row is last |
-| Full grid | Removed |
+| Last row | Thick bottom sz **18** |
+| Totals row | Thin top sz **4** as well when it is the last row |
 
 ---
 
 ## Definition of Terms
 
-- Entries in **alphabetical order** by term name
-- Term name **bold**; rest of entry regular
-- Body paragraph rules otherwise apply
+- Alphabetical by term name  
+- Term name **bold**; rest regular  
+- Otherwise normal body paragraphs (first-line indent, double spacing)  
+- **No** keepNext / keepLines packs on glossary entries  
+- **No** section break inside a glossary paragraph  
 
 ---
 
@@ -128,32 +181,40 @@ Examples: `Part I:…`–`Part IV:…`, literature-review theme heads, discussio
 
 | Property | Value |
 |----------|--------|
-| Order | **Alphabetical** by first author surname (APA) |
-| Indent | **Hanging 0.5 inch** |
+| Order | Alphabetical by first author surname (APA) |
+| Indent | Hanging **0.5 inch** |
 | Font | Georgia **11** |
 | Alignment | Justify |
 | Line spacing | Double |
-| APA | Uniform APA 7 (italics on journal/book titles preserved in runs) |
+| APA | Uniform APA 7 (italics on journal/book titles kept in runs) |
 
 ---
 
-## Pass checklist (every format run)
+## Format-pass checklist (required every time)
 
-1. Apply Georgia to every run.
-2. Title page vs body line spacing split.
-3. Classify each paragraph: title / major / minor bold / minor italic / table label / table caption / body / reference / empty.
-4. Bold-spill scan on body.
-5. Table borders + cantSplit + caption keep-next.
-6. Definition of Terms alphabetical.
-7. References alphabetical + hanging indent.
-8. Overwrite working body `Draft_124_body.docx` only (see Versioning). No PDF unless asked.
+1. Georgia on every run.  
+2. Title page 1.5 vs body double.  
+3. Classify: title / major / subsection bold / thematic italic / table label / caption / body / bullet-RQ / reference.  
+4. **Breaks:** next-page section break only on the paragraph before each major; strip `pageBreakBefore` from majors; strip mid-body sectPr and run-level page breaks.  
+5. Major: 14 bold center, before/after 720.  
+6. Minor: no indent; subsection bold 12; thematic italic 12 not bold; keepNext on header only.  
+7. Body bold-spill scan; intentional leads only.  
+8. Tables: open borders, cantSplit, caption keep-next.  
+9. Definition of Terms alphabetical; natural flow.  
+10. References alphabetical + hanging.  
+11. Overwrite `Draft_124_body.docx` only. No PDF unless asked.  
+12. After the pass, **verify** majores: no `pageBreakBefore`, prev has nextPage sectPr, before=720.
 
 ---
 
-## Versioning (binding)
+## Known failure modes (do not repeat)
 
-- **Do not inflate draft numbers** for format-only or routine edits.
-- **Working body file:** `thesis/003_ThesisProposal_Draft_124_body.docx` — **overwrite in place**.
-- New draft IDs only when the user explicitly asks for a new draft, or for a major content revision they approve.
-- **No PDF** in the default pass. Produce `.docx` only unless the user asks for a PDF.
-
+| Mistake | Result |
+|---------|--------|
+| `pageBreakBefore` on majors instead of section break before them | Space before shows on INTRODUCTION only |
+| Section break + page break together | Conflicts / uneven spacing |
+| `sectPr` inside Softening or other body lines | Next line (e.g. Token) starts a new section alone |
+| keepNext on long body chains | Empty space and “new section” look |
+| Bolding all minor heads when fixing indent | Thematic titles wrongly bold |
+| Generic `For …` bold matcher | Scope prose false bold |
+| Inflating Draft_125+ for format | Forbidden; overwrite 124 |
