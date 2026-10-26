@@ -146,7 +146,7 @@ Examples: `Part I:…`–`Part IV:…`, literature-review theme heads, discussio
 5. Table borders + cantSplit + caption keep-next.
 6. Definition of Terms alphabetical.
 7. References alphabetical + hanging indent.
-8. Save new draft number; do not overwrite without a new draft id.
+8. Overwrite working body `Draft_124_body.docx` only (see Versioning). No PDF unless asked.
 
 ---
 
