@@ -1,3 +1,8 @@
+## 2026-10-27 — Draft_126_body: remove keepLines on “Hedge versus False Positive…”
+- **Context:** User: remove any type of break at “Hedge versus False Positive in the Wording”.
+- **Decision:** Overwrite Draft_126_body. No pageBreakBefore or sectPr present. Removed `keepLines` on that thematic heading (left `keepNext` so it stays with Table 5.1).
+- **Status:** active.
+
 ## 2026-10-27 — Draft_126_body adopted as working body
 - **Context:** User uploaded `003_ThesisRevised_Draft_125_body.docx` and ordered a new Draft_126 as base for continued editing.
 - **Decision:** Saved as `thesis/003_ThesisProposal_Draft_126_body.docx`. Working body = Draft_126_body. Further routine edits overwrite 126 unless user requests a new number. Appendices remain `009_Appendices.docx` (untouched). formatting.md still binding for layout.
