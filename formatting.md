@@ -62,13 +62,16 @@ Examples: Background of the Study, Statement of the Problem, Research Framework,
 
 ### Themed sections (italic)
 
-Examples: `Part I:…`, `Part II:…`, `Part III:…`, `Part IV:…`
+Examples: `Part I:…`–`Part IV:…`, literature-review theme heads, discussion theme heads
+(e.g. Function Profile…, How Programs Word Caution). **Not bold.**
 
 | Property | Value |
 |----------|--------|
-| Font | Georgia **12 italic** (not bold) |
+| Font | Georgia **12 italic** (**not bold**) |
 | Alignment | **Left** |
 | Space before / after / indent / keep-next | Same as subsections |
+
+**Do not** bold thematic titles when clearing indent or during format passes.
 
 ---
 
