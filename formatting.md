@@ -114,7 +114,7 @@ Examples: `Part I:…`–`Part IV:…`, literature-review theme heads, discussio
 | Alignment | **Justify** |
 | First-line indent | **0.5 inch** (720 twips) |
 | Space between body paragraphs | **0** |
-| Space after every table | **240 twips** space-before on the **next paragraph** (body, header, or caption). Apply universally so text does not stick to the table |
+| Space after every table | Word often **ignores** space-before on the paragraph after a table. Insert an **empty spacer paragraph** (double line, no text) immediately after every table so a blank line always shows |
 | Line spacing | Double |
 
 ### List-like lines (not body first-line)
