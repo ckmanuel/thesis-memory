@@ -1,3 +1,8 @@
+## 2026-10-27 — Store Draft_125_body in repo
+- **Context:** User: upload draft 125 in the repo.
+- **Decision:** Added `thesis/003_ThesisProposal_Draft_125_body.docx` from user upload (byte copy of Revised Draft_125). Working body remains **Draft_126_body**.
+- **Status:** active archive snapshot.
+
 ## 2026-10-27 — Draft_126_body: remove keepLines on “Hedge versus False Positive…”
 - **Context:** User: remove any type of break at “Hedge versus False Positive in the Wording”.
 - **Decision:** Overwrite Draft_126_body. No pageBreakBefore or sectPr present. Removed `keepLines` on that thematic heading (left `keepNext` so it stays with Table 5.1).
