@@ -1,3 +1,8 @@
+## 2026-10-27 — formatting.md: prefer spacer paragraphs over text spacing
+- **Context:** User: add to formatting rules; prefer empty spacer paragraphs instead of direct spacing on text.
+- **Decision:** Binding section **Vertical spacing** in formatting.md. Content before/after = 0; gaps via empty spacers. Major header space before/after 720 replaced with spacer rule. Appendix section points to the same rule.
+- **Status:** active.
+
 ## 2026-10-27 — Draft_127_body: appendix vertical gaps via spacer paragraphs
 - **Context:** User: spacing via empty spacer paragraphs universally, not space-before/after on text.
 - **Decision:** Overwrite Draft_127_body appendix region. All appendix paras before/after = 0. Empty spacer paragraphs (line 480) before majors/minors, after majors, after tables; consecutive spacers collapsed. Rule added to formatting.md.

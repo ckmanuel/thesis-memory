@@ -57,6 +57,21 @@ Last updated: 2026-10-27
 
 ---
 
+
+## Vertical spacing (binding)
+
+**Prefer empty spacer paragraphs over space-before / space-after on text.**
+
+| Rule | Detail |
+|------|--------|
+| Default | Content paragraphs use **before = 0** and **after = 0** (line spacing still applies: body double `480`, tables single `240`) |
+| Gaps | Insert an **empty spacer paragraph** (no text, line `480` auto, before/after `0`, no indent) where a blank line is needed |
+| Where spacers are used | After tables; before major headers when a gap is required; before minor labels when a gap is required; after majors when a gap is required; other visible gaps that must survive Word’s table/header quirks |
+| Collapse | Consecutive empty spacers → **one** |
+| Avoid | Relying on space-before / space-after on body, caption, or appendix text to create vertical gaps (Word often ignores space-before after tables and can stack unevenly) |
+
+Appendix spacing follows the same rule (see also below if present).
+
 ## Major headers
 
 Examples: `INTRODUCTION`, `METHODOLOGY`, `RESULTS, ANALYSIS, AND DISCUSSION`, `CONCLUSIONS AND RECOMMENDATIONS`, `REFERENCES`, `APPENDIX A…`
@@ -65,8 +80,8 @@ Examples: `INTRODUCTION`, `METHODOLOGY`, `RESULTS, ANALYSIS, AND DISCUSSION`, `C
 |----------|--------|
 | Font | Georgia **14 bold** |
 | Alignment | **Center** |
-| Space before | **720 twips** (3 line units) |
-| Space after | **720 twips** (3 line units) |
+| Space before / after | **0** on the header text itself |
+| Vertical gap | **Empty spacer paragraph(s)** before and/or after the major (see Vertical spacing) |
 | Indent | **None** |
 | Break | Section break on **previous** paragraph only (see Breaks) |
 
@@ -76,7 +91,7 @@ Apply these values to **every** major, not only INTRODUCTION.
 
 ## Minor headers
 
-Two kinds. Both are left-aligned, no indent, space after 0, space before 240 (or 0 if they immediately follow a major), **keep with next** so the header cannot sit alone at the bottom of a page without the following paragraph.
+Two kinds. Both are left-aligned, no indent, space before/after 0; gap via empty spacer before the minor when needed (not if it immediately follows a major with no gap wanted), **keep with next** so the header cannot sit alone at the bottom of a page without the following paragraph.
 
 ### Subsections (bold)
 
@@ -231,7 +246,5 @@ Caption label + title: keep with next through the image. Do not leave the drawin
 
 ## Appendix spacing
 
-- Do **not** use space-before / space-after on appendix text for vertical gaps.
-- Use an **empty spacer paragraph** (double line `480`, before/after `0`, no text) before major/minor labels, after majors, and after tables.
-- Collapse consecutive spacers to one.
+Same as **Vertical spacing (binding)**: spacers only; no space-before/after on appendix text for gaps.
 
