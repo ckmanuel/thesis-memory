@@ -41,7 +41,7 @@ Examples: `INTRODUCTION`, `METHODOLOGY`, `RESULTS, ANALYSIS, AND DISCUSSION`, `C
 | Space before | **3** line units (720 twips) |
 | Space after | **3** line units (720 twips) |
 | Indent | None |
-| Pagination | **Page break before** each major header (chapter opener). Page-number suppression on opener pages requires section breaks in Word if the school template demands hidden pagination. |
+| Pagination | **Section break (next page) only** on the paragraph **before** each major header. Do **not** also set `pageBreakBefore` on the major (double breaks suppress or conflict). Space before (720) applies uniformly when chapter starts after a section break, matching INTRODUCTION after the title page. |
 
 ---
 
