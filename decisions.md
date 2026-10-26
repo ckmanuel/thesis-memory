@@ -1,3 +1,8 @@
+## 2026-10-27 — Draft_127_body: caption line spacing 1.15
+- **Context:** User: Figure/Table label and captions (not cell text) use 1.15 or 1.5 line spacing.
+- **Decision:** Overwrite Draft_127_body. All Table/Figure labels + caption titles set to line **276** (1.15). Cell text unchanged. Chose 1.15 over 1.5 to avoid excess vertical gap without cutting label text. formatting.md updated.
+- **Status:** active.
+
 ## 2026-10-27 — formatting.md: prefer spacer paragraphs over text spacing
 - **Context:** User: add to formatting rules; prefer empty spacer paragraphs instead of direct spacing on text.
 - **Decision:** Binding section **Vertical spacing** in formatting.md. Content before/after = 0; gaps via empty spacers. Major header space before/after 720 replaced with spacer rule. Appendix section points to the same rule.
