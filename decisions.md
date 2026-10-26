@@ -1,3 +1,8 @@
+## 2026-10-27 — Draft_127_body: force-rebuild caption 1.5 line spacing
+- **Context:** User: 1.5 still not applied on figure/table labels.
+- **Decision:** Overwrite Draft_127_body. Rebuilt every caption `pPr` from scratch (label+title, including Figure 1 cell): line 360 / auto (1.5), Georgia 11, keepNext, left. Removed pageBreakBefore on Table 4. File verifies pf=1.5 on all labels.
+- **Status:** active. If viewer still shows otherwise, user may have stale local copy.
+
 ## 2026-10-27 — Draft_127_body: caption line spacing 1.5 universal
 - **Context:** User: not all labels got 1.15; prefer 1.5.
 - **Decision:** Overwrite Draft_127_body. Every Table/Figure label + following title (including Figure 1 inside wrapper table) set to line **360** (1.5). Walked all `w:p` in body. formatting.md: 1.5 not 1.15.
