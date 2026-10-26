@@ -1,3 +1,8 @@
+## 2026-10-27 — Draft_126_body: Recommendations panel revision (baseline + life sciences)
+- **Context:** Panel: state vertical (higher-degree) and horizontal (cross-discipline) baseline uses in Recommendations, not only Conclusions. BAELS teaching paragraph overreaches (corpus = life science abstracts).
+- **Decision:** Overwrite Draft_126_body. (1) Recommendations future-research para adds vertical and horizontal baseline uses. (2) Teaching para refocused to Agriculture, Veterinary Medicine, and Biology instructors/advisers. (3) Conclusions contribution sentence aligned (life-science abstracts; research baseline including higher-degree and other programs).
+- **Status:** active. Working body = Draft_126_body.
+
 ## 2026-10-27 — Draft_126_body created from Draft_125_body
 - **Context:** User: new working draft 126 from current 125; continue editing from there.
 - **Decision:** `003_ThesisProposal_Draft_126_body.docx` = copy of current Draft_125_body. **Working body = Draft_126_body**. Routine edits overwrite 126. Draft_125 kept as snapshot.
