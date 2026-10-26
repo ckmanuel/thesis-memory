@@ -1,3 +1,8 @@
+## 2026-10-27 — Draft_127_body: merge appendices into main body
+- **Context:** User: merge Appendix section back into main body; apply formatting.
+- **Decision:** Overwrite Draft_127_body. Appended `009_Appendices.docx` content after REFERENCES (A/B/C). Copied image + hyperlink rels. APPENDIX headers formatted as majors (Georgia 14 bold, center, before/after 720). Tables: open borders, header/total fills, cantSplit. Next-page section breaks before A (via last refs para), B, and C. Standalone `009_Appendices.docx` retained as source snapshot.
+- **Status:** active. Working body = Draft_127_body (now includes appendices).
+
 ## 2026-10-27 — Draft_127_body created from Draft_126_body
 - **Context:** User: new working draft 127 from 126; continue editing from there.
 - **Decision:** `003_ThesisProposal_Draft_127_body.docx` = copy of Draft_126_body. **Working body = Draft_127_body**. Routine edits overwrite 127. Draft_126 kept as snapshot.
