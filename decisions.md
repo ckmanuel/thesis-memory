@@ -1,3 +1,8 @@
+## 2026-10-27 — Draft_127_body: appendix vertical gaps via spacer paragraphs
+- **Context:** User: spacing via empty spacer paragraphs universally, not space-before/after on text.
+- **Decision:** Overwrite Draft_127_body appendix region. All appendix paras before/after = 0. Empty spacer paragraphs (line 480) before majors/minors, after majors, after tables; consecutive spacers collapsed. Rule added to formatting.md.
+- **Status:** active.
+
 ## 2026-10-27 — Draft_127_body: strip and reapply appendix formatting
 - **Context:** User: appendix formats redundant after merge; remove all and reapply.
 - **Decision:** Overwrite Draft_127_body from APPENDIX A onward. Cleared pPr (kept sectPr). Reapplied: majors (14 bold center), minor labels (12 bold left keepNext), bullets (hanging indent), body (11 justify first-line), tables (borders/fills/cantSplit/Georgia 11 cells).

@@ -228,3 +228,10 @@ Caption label + title: keep with next through the image. Do not leave the drawin
 | Bolding all minor heads when fixing indent | Thematic titles wrongly bold |
 | Generic `For …` bold matcher | Scope prose false bold |
 | Inflating Draft_125+ for format | Forbidden; overwrite 124 |
+
+## Appendix spacing
+
+- Do **not** use space-before / space-after on appendix text for vertical gaps.
+- Use an **empty spacer paragraph** (double line `480`, before/after `0`, no text) before major/minor labels, after majors, and after tables.
+- Collapse consecutive spacers to one.
+
