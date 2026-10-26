@@ -161,7 +161,7 @@ Caption label + title: keep with next through the image. Do not leave the drawin
 | Cell margins | Equal top/bottom/left/right (`tcMar`) |
 | Cell paragraph spacing | Small equal before/after (e.g. 60); no first-line indent |
 | Row break | **cantSplit** on every row |
-| Label + caption | Keep with next through the table |
+| Label + caption | **Both** lines (`Table N` and title) get `keepNext` so neither isolates above the table |
 | Caption | Georgia **11**, left; `Table N` bold; title regular |
 | Vertical borders | **None** (open-sided) |
 | Header row | Thick top sz **18** + thin bottom sz **4** |

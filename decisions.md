@@ -1,3 +1,8 @@
+## 2026-10-27 — Draft_124_body: table labels keep with table (universal)
+- **Context:** User: table labels isolated from table body; universal fix; rows may break between rows not mid-row.
+- **Decision:** Overwrite Draft_124_body. On every `Table N` + caption-title pair immediately before a table: `w:keepNext`. All table rows already have `w:cantSplit` (confirmed; allows break between rows only). Timeline phase grid has no Table N label — left as-is.
+- **Status:** active. Working body = Draft_124_body.
+
 ## 2026-10-23 — Draft_123_body overwrite: table borders + labels
 - **Context:** User: fix table labels/format; last row thick bottom missing.
 - **Decision:** Overwrite Draft_123_body (no new number). Cause: last-row cells had bottom=nil, suppressing table bottom. Fix: all tables tblBorders top+bottom sz=18; last-row cell bottom single sz=18; Total rows keep thin top separator where needed. Table 4 corner header “” → “Measure”.
