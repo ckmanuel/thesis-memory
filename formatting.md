@@ -58,7 +58,7 @@ Examples: Background of the Study, Statement of the Problem, Research Framework,
 | Space before | **1** line unit (240 twips), **or 0** if the previous paragraph was a major header |
 | Space after | **0** |
 | Indent | **None** (no first-line, no left indent) |
-| Keep with next | **Yes** (do not leave header alone at page bottom) |
+| Keep with next | **Yes** on **all** minor headers (subsection **and** thematic). Header only, not body chains. |
 
 ### Themed sections (italic)
 
