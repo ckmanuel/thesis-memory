@@ -3,6 +3,11 @@
 - **Decision:** Overwrite Draft_127_body. Rebuilt every caption `pPr` from scratch (label+title, including Figure 1 cell): line 360 / auto (1.5), Georgia 11, keepNext, left. Removed pageBreakBefore on Table 4. File verifies pf=1.5 on all labels.
 - **Status:** active. If viewer still shows otherwise, user may have stale local copy.
 
+## 2026-10-27 — Draft_127_body: restore major spacers + appendix header format
+- **Context:** User: empty spacers on majors missing; appendices not following format; more issues.
+- **Decision:** Overwrite Draft_127_body. All majors: Georgia 14 bold center, 0/0 spacing, one empty spacer after, nextPage sectPr on previous para (including App B). Removed 5 residual page breaks. Collapsed stacked empties. App A body spacing zeroed only (highlights untouched).
+- **Status:** active. Working body = Draft_127_body only. Further format gaps still possible (minor headers, table spacing).
+
 ## 2026-10-27 — Draft_127_body: Appendix A exact copy from 009
 - **Context:** User: copy as is; prior pass rebuilt QRL and ruined Appendix A.
 - **Decision:** Overwrite Draft_127_body. Appendix A is an exact deep-copy of nodes from `009_Appendices.docx` (header through pre-App B). No table rebuild, no color relabel, no legend rewrite.
