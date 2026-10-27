@@ -42,6 +42,17 @@ Last updated: 2026-10-27 (blank-slate pass)
 
 ---
 
+
+## Page numbers
+
+| Property | Value |
+|----------|--------|
+| Position | **Header**, **upper right** (right-aligned) |
+| Field | `PAGE` |
+| First page of each section | **Hidden** (`titlePg` + empty first-page header) |
+| Title page | No visible number |
+| Font | Georgia 11 |
+
 ## Breaks
 
 - Chapter starts: `w:sectPr` `nextPage` + `titlePg` (hidden page numbers on first page of section)
