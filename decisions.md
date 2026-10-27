@@ -3,6 +3,11 @@
 - **Decision:** Overwrite Draft_127_body. Rebuilt every caption `pPr` from scratch (label+title, including Figure 1 cell): line 360 / auto (1.5), Georgia 11, keepNext, left. Removed pageBreakBefore on Table 4. File verifies pf=1.5 on all labels.
 - **Status:** active. If viewer still shows otherwise, user may have stale local copy.
 
+## 2026-10-27 — Draft_127_body: Appendix A exact copy from 009
+- **Context:** User: copy as is; prior pass rebuilt QRL and ruined Appendix A.
+- **Decision:** Overwrite Draft_127_body. Appendix A is an exact deep-copy of nodes from `009_Appendices.docx` (header through pre-App B). No table rebuild, no color relabel, no legend rewrite.
+- **Status:** active. Working body = Draft_127_body only.
+
 ## 2026-10-27 — Draft_127_body: full Appendix A aligned to 009_Appendices
 - **Context:** User: copy color presentation from Appendices doc; full App A pass; fix spill/missing colors.
 - **Decision:** Overwrite Draft_127_body. Appendix A body replaced from `009_Appendices.docx` (Primary Colors fills, example highlights, Combined Example, FP tables). QRL rebuilt as clean 6-row table using same fills (#00B0F0/#FF0000/#FFFF00/#00B050) — cell fill only, no run-highlight spill. Color column labeled Blue/Red/Yellow/Green. Hedge Function EC/P/FP text colors from 009.
