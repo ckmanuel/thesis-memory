@@ -93,9 +93,7 @@ or rotate it first. Rewriting history is a last resort and doesn't reach
 copies already made.
 
 ## Current Focus
-- 2026-10-26 — Working body: Draft_124_body.docx only (overwrite). Purged 125–128 format drafts + PDFs. formatting.md binding. No PDF unless asked.
-- 2026-10-26 — **Working body only:** `Draft_124_body.docx` (overwrite). Purged inflated format drafts 125–128 and their PDFs.
-- 2026-10-26 — Binding layout: `formatting.md`. No PDF unless asked. No draft inflation for format passes.
+- 2026-10-27 — Working body: `Draft_128_body.docx`. Universal nextPage section breaks before all majors; no run-level page breaks. formatting.md binding. No PDF unless asked.
 
 ## Current Focus (archive starts below)
 

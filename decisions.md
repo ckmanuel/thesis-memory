@@ -3,6 +3,11 @@
 - **Decision:** Overwrite Draft_127_body. Rebuilt every caption `pPr` from scratch (label+title, including Figure 1 cell): line 360 / auto (1.5), Georgia 11, keepNext, left. Removed pageBreakBefore on Table 4. File verifies pf=1.5 on all labels.
 - **Status:** active. If viewer still shows otherwise, user may have stale local copy.
 
+## 2026-10-27 — Draft_128_body: universal nextPage section breaks
+- **Context:** User: apply breaks consistently; replace page breaks with section breaks; remove redundant breaks causing blank pages.
+- **Decision:** Overwrite pattern from Draft_127. Removed 6 run-level `w:br type=page`. All majors (INTRODUCTION through APPENDIX C) get `nextPage`+`titlePg` sectPr only on the last non-empty paragraph before the header. Cleared empty-para sectPr (blank page before APPENDIX C). No `pageBreakBefore`. Applied formatting.md break rules.
+- **Status:** active. Working body = Draft_128_body.
+
 ## 2026-10-27 — Draft_127_body: caption line spacing 1.5 universal
 - **Context:** User: not all labels got 1.15; prefer 1.5.
 - **Decision:** Overwrite Draft_127_body. Every Table/Figure label + following title (including Figure 1 inside wrapper table) set to line **360** (1.5). Walked all `w:p` in body. formatting.md: 1.5 not 1.15.
