@@ -3,6 +3,11 @@
 - **Decision:** Overwrite Draft_127_body. Rebuilt every caption `pPr` from scratch (label+title, including Figure 1 cell): line 360 / auto (1.5), Georgia 11, keepNext, left. Removed pageBreakBefore on Table 4. File verifies pf=1.5 on all labels.
 - **Status:** active. If viewer still shows otherwise, user may have stale local copy.
 
+## 2026-10-27 — Draft_129_body: appendix major spacing via spacer only
+- **Context:** User: remove overlapping space; remove text space for Appendices major header; swap with empty spacer paragraph.
+- **Decision:** Appendix A/B/C headers before/after = 0. Removed stacked empty paras before appendix majors (including residual before=720/after=40 on empties). One clean spacer (before=0 after=0 line=480) after each appendix major. All majors zeroed to before/after 0. Section breaks preserved.
+- **Status:** active. Working body = Draft_129_body.
+
 ## 2026-10-27 — Draft_128_body: universal nextPage section breaks
 - **Context:** User: apply breaks consistently; replace page breaks with section breaks; remove redundant breaks causing blank pages.
 - **Decision:** Overwrite pattern from Draft_127. Removed 6 run-level `w:br type=page`. All majors (INTRODUCTION through APPENDIX C) get `nextPage`+`titlePg` sectPr only on the last non-empty paragraph before the header. Cleared empty-para sectPr (blank page before APPENDIX C). No `pageBreakBefore`. Applied formatting.md break rules.
