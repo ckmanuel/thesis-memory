@@ -78,6 +78,8 @@ Background of the Study, Statement of the Problem, Research Framework, Significa
 | Indent | None |
 | Spacers before | **1** (skip if already follows major’s after-spacers) |
 | Spacers after | **0** |
+| Consecutive minors | If a minor is **immediately followed by another minor**, **omit** the spacer between them. Keep only the **1 spacer before the first** minor in the run. |
+| Minor then table | Same: no extra spacer between consecutive minors when the run ends at a table; **1 spacer before the table label** still applies after the last minor’s body (or after the minor if no body). |
 | keepNext | **Yes** |
 
 ### Thematic (italic)
@@ -103,7 +105,7 @@ Part I–IV titles, discussion theme heads
 | Alignment | **Justify** |
 | First-line indent | **0.5 in** (720 twips) |
 | Empty spacers between body paragraphs | **0** |
-| Empty spacers before/after each table | **1** each |
+| Empty spacers around tables | **1 before the table label** (e.g. `Table N` / `Figure N`), and **1 after the table** (after the last table row). Not an extra spacer between label and table. |
 | Line spacing | Double |
 
 Bullets: left 0.5 in, hanging 0.25 in — not body first-line.
