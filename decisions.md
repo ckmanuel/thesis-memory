@@ -3,6 +3,11 @@
 - **Decision:** Overwrite Draft_127_body. Rebuilt every caption `pPr` from scratch (label+title, including Figure 1 cell): line 360 / auto (1.5), Georgia 11, keepNext, left. Removed pageBreakBefore on Table 4. File verifies pf=1.5 on all labels.
 - **Status:** active. If viewer still shows otherwise, user may have stale local copy.
 
+## 2026-10-27 — Draft_127_body: strict spacing per formatting.md
+- **Context:** User furious: Softening/Token spacing; follow formatting rules to the letter; do not remove appendix colors.
+- **Decision:** Overwrite Draft_127_body only. Content paras outside tables: before=0 after=0 line=480. Empty spacers 0/0/480. Softening/Token: no keepNext/keepLines. Majors: center 14pt + one spacer after. Table cells: 60/60 line 240. Zero page breaks. Did not modify highlight/shd/color/strike.
+- **Status:** active. Working body = Draft_127_body only.
+
 ## 2026-10-27 — Draft_127_body: restore major spacers + appendix header format
 - **Context:** User: empty spacers on majors missing; appendices not following format; more issues.
 - **Decision:** Overwrite Draft_127_body. All majors: Georgia 14 bold center, 0/0 spacing, one empty spacer after, nextPage sectPr on previous para (including App B). Removed 5 residual page breaks. Collapsed stacked empties. App A body spacing zeroed only (highlights untouched).
