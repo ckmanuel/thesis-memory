@@ -1302,3 +1302,8 @@ Entry template:
 ## 2026-10-26 — Draft_124: L2 scope, Figure 1 order, criteria bullets, caption align, CAR bridge, Appendix headers
 - **Decision:** (1) Omit L2 outside thematic L2/EFL section; Philippine context not Philippine L2 context. Reference titles restored verbatim. (2) Figure 1 description before image. (3) Inclusion/Exclusion as bullets under Research Corpus. (4) Figure/table labels and captions left-aligned; table cell text centered. (5) Remove APPENDICES umbrella header; APPENDIX A/B/C as Heading 1 major sections. (6) Remove CAR connecting sentence before Conclusions.
 - **Status:** active. Working body = Draft_124_body. Appendices updated.
+
+## 2026-10-27 — Draft_128_body: user full draft + page numbers
+- **Context:** User uploaded `003_ThesisRevised_FullDraft_v128.docx` as latest base; missing page numbers; prior "ledger" wording.
+- **Decision:** Saved as `thesis/003_ThesisProposal_Draft_128_body.docx`. Working body = Draft_128. PAGE fields in section headers; titlePg + empty first-page header (major/open pages hidden); continuous numbering from section 1. "ledger" → "Table 4 counts" / "summary". formatting.md points to Draft_128.
+- **Status:** active. Working body = Draft_128_body only.

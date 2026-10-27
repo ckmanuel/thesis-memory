@@ -2,7 +2,7 @@
 
 This file is the **binding** layout spec for the working thesis body.
 
-**Working file:** `thesis/003_ThesisProposal_Draft_127_body.docx` (overwrite in place).
+**Working file:** `thesis/003_ThesisProposal_Draft_128_body.docx` (overwrite in place).
 
 If chat instructions and this file conflict, **this file wins** for layout.
 
@@ -13,7 +13,7 @@ Last updated: 2026-10-27 (blank-slate pass)
 ## Versioning
 
 - **Do not inflate draft numbers** for format-only or routine edits.
-- Overwrite `Draft_127_body.docx` only.
+- Overwrite `Draft_128_body.docx` only.
 - New draft ID only when the user explicitly asks.
 - **No PDF** unless the user asks.
 
