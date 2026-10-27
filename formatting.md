@@ -59,7 +59,7 @@ Examples: INTRODUCTION, METHODOLOGY, RESULTS…, CONCLUSIONS…, REFERENCES, APP
 | Font | Georgia **14 bold** |
 | Alignment | **Center** |
 | Text spacing | before/after **0** |
-| Empty spacers **before** | **3** (sectPr on the last of these) |
+| Empty spacers **before** | **3 plain on the new page** above the major. Section break is a **separate** empty spacer *before* those three (ends previous section). Order: `[break spacer]` → `[plain]` ×3 → major |
 | Empty spacers **after** | **3** |
 | Pagination | Hidden on section first page (`titlePg`) |
 
