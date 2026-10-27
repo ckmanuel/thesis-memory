@@ -3,6 +3,11 @@
 - **Decision:** Overwrite Draft_127_body. Rebuilt every caption `pPr` from scratch (label+title, including Figure 1 cell): line 360 / auto (1.5), Georgia 11, keepNext, left. Removed pageBreakBefore on Table 4. File verifies pf=1.5 on all labels.
 - **Status:** active. If viewer still shows otherwise, user may have stale local copy.
 
+## 2026-10-27 — Draft_127_body: blank-slate format pass
+- **Context:** User: remove formatting/spacing; blank slate; full pass; uniform spacing; title page keep 1.5; bold spills; detailed major/minor/body/table/appendix rules.
+- **Decision:** Overwrite Draft_127_body. Majors: 3 spacers before (sectPr on last) + 3 after, 14 bold center. Minors: 1 before (if needed), 0 after, keepNext. Body: 11 justify, first-line 720, no mid-body empties. Tables: 1 spacer before/after, cell 1.15, open borders, keep fills. Appendix highlights untouched. Updated formatting.md to match.
+- **Status:** active. Working body = Draft_127_body only.
+
 ## 2026-10-27 — Draft_127_body: section break off Token (spacing isolation fix)
 - **Context:** User: FIX THE SPACING. Token isolated after Softening.
 - **Decision:** Root cause: `nextPage` sectPr lived ON the Token paragraph (and other body endings). Moved every chapter sectPr onto an **empty spacer** immediately before the major. Softening + Token: body 0/0/480, firstLine 720, no keepNext, no sectPr. Colors untouched.
