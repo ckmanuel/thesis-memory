@@ -3,6 +3,11 @@
 - **Decision:** Overwrite Draft_127_body. Rebuilt every caption `pPr` from scratch (label+title, including Figure 1 cell): line 360 / auto (1.5), Georgia 11, keepNext, left. Removed pageBreakBefore on Table 4. File verifies pf=1.5 on all labels.
 - **Status:** active. If viewer still shows otherwise, user may have stale local copy.
 
+## 2026-10-27 — Draft_127_body: restore color legends
+- **Context:** User: color legends missing; restore.
+- **Decision:** Overwrite Draft_127_body. Primary Colors table Color column: Blue/Red/Yellow/Green with fills. Function labels EC orange, P purple, FP grey. QR legend bullet + Appendix C intro key restored. Unhedged Color column = Grey.
+- **Status:** active. Working body = Draft_127_body only.
+
 ## 2026-10-27 — Working body = Draft_127_body only (overwrite)
 - **Context:** User: stop inflating drafts; override Draft 127.
 - **Decision:** `Draft_127_body.docx` is the sole working body. Section-break + appendix spacer fixes applied by overwrite. Do not create 128/129/… for format passes unless user asks. Draft_128/129 on disk are superseded inflation.
