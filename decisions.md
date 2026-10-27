@@ -3,6 +3,11 @@
 - **Decision:** Overwrite Draft_127_body. Rebuilt every caption `pPr` from scratch (label+title, including Figure 1 cell): line 360 / auto (1.5), Georgia 11, keepNext, left. Removed pageBreakBefore on Table 4. File verifies pf=1.5 on all labels.
 - **Status:** active. If viewer still shows otherwise, user may have stale local copy.
 
+## 2026-10-27 — Draft_127_body: section break off Token (spacing isolation fix)
+- **Context:** User: FIX THE SPACING. Token isolated after Softening.
+- **Decision:** Root cause: `nextPage` sectPr lived ON the Token paragraph (and other body endings). Moved every chapter sectPr onto an **empty spacer** immediately before the major. Softening + Token: body 0/0/480, firstLine 720, no keepNext, no sectPr. Colors untouched.
+- **Status:** active. Working body = Draft_127_body only.
+
 ## 2026-10-27 — Draft_127_body: strict spacing per formatting.md
 - **Context:** User furious: Softening/Token spacing; follow formatting rules to the letter; do not remove appendix colors.
 - **Decision:** Overwrite Draft_127_body only. Content paras outside tables: before=0 after=0 line=480. Empty spacers 0/0/480. Softening/Token: no keepNext/keepLines. Majors: center 14pt + one spacer after. Table cells: 60/60 line 240. Zero page breaks. Did not modify highlight/shd/color/strike.
