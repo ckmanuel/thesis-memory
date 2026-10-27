@@ -3,6 +3,11 @@
 - **Decision:** Overwrite Draft_127_body. Rebuilt every caption `pPr` from scratch (label+title, including Figure 1 cell): line 360 / auto (1.5), Georgia 11, keepNext, left. Removed pageBreakBefore on Table 4. File verifies pf=1.5 on all labels.
 - **Status:** active. If viewer still shows otherwise, user may have stale local copy.
 
+## 2026-10-27 — Draft_127_body: QRL + Hedge Function color fix
+- **Context:** Missing colors and spill on QRL / Hedge Function tables.
+- **Decision:** Overwrite Draft_127_body. QRL uses solid cell fills only (cyan/red/yellow/green) — no run-level highlight on multi-word cells (stops spill). Clause function cell = em dash. Hedge Function: label fills + colored (EC)/(P); example tokens marked; FP example struck.
+- **Status:** active. Working body = Draft_127_body only.
+
 ## 2026-10-27 — Draft_127_body: fix QRL table
 - **Context:** User: fix QRL table (types/functions crammed into single cells).
 - **Decision:** Overwrite Draft_127_body. Rebuilt Quick-Reference Legend as 6-row 2-col table: header; Modal/Lexical/Adverbial/Clause with 009 highlight styles; Unhedged | FP footer row.
